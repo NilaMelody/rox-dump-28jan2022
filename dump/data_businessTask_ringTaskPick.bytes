@@ -1,0 +1,43 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Id"]= 2,
+  ["ringNum"]= 2
+},
+[3] = {
+  ["Id"]= 3,
+  ["ringNum"]= 3
+},
+[4] = {
+  ["Id"]= 4,
+  ["ringNum"]= 4
+},
+[5] = {
+  ["Id"]= 5,
+  ["ringNum"]= 5
+},
+[6] = {
+  ["1"]= 2,
+  ["3"]= 3,
+  ["Id"]= 6,
+  ["ringNum"]= 6
+},
+[7] = {
+  ["1"]= 2,
+  ["3"]= 3,
+  ["Id"]= 7,
+  ["ringNum"]= 7
+}
+}
+local baseTable={
+  ["1"]= 3,
+  ["2"]= 2,
+  ["3"]= 2,
+  ["4"]= 3,
+  ["Id"]= 1,
+  ["ringNum"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

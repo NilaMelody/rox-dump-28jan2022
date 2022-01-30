@@ -1,0 +1,547 @@
+local table= {
+[1] = {
+  ["Name"]= "DEC19",
+  ["ServerId"]= 2110
+},
+[2] = {
+  ["Content"]= "tetap semangat dan jaga kesehatan semuanya",
+  ["Id"]= 2,
+  ["Name"]= "Stella Fleuret",
+  ["ServerId"]= 2045
+},
+[3] = {
+  ["Content"]= "สวัสดีปีใหม่",
+  ["Id"]= 3,
+  ["Name"]= "Azul",
+  ["ServerId"]= 2033
+},
+[4] = {
+  ["Content"]= "lets keep RoX-ing!",
+  ["Id"]= 4,
+  ["ServerId"]= 2025
+},
+[5] = {
+  ["Content"]= "i love you Chyn by nYek",
+  ["Id"]= 5,
+  ["Name"]= "nYek",
+  ["ServerId"]= 2010
+},
+[6] = {
+  ["Content"]= "i hope i can make my weapon to +5 refine",
+  ["Id"]= 6,
+  ["Name"]= "Ingkongbukol"
+},
+[7] = {
+  ["Content"]= "Life is Short Find me Derel",
+  ["Id"]= 7,
+  ["Name"]= "Snaptrax",
+  ["ServerId"]= 2015
+},
+[8] = {
+  ["Content"]= "Aldebaran patch, coming soon!",
+  ["Id"]= 8,
+  ["Name"]= "Zylo019",
+  ["ServerId"]= 2044
+},
+[9] = {
+  ["Content"]= "have you seen wilson?",
+  ["Id"]= 9,
+  ["Name"]= "Jamprus"
+},
+[10] = {
+  ["Content"]= "ขอให้ทุกคนมีความสุขคร้าบบบบบบ",
+  ["Id"]= 10,
+  ["Name"]= "GSE",
+  ["ServerId"]= 2035
+},
+[11] = {
+  ["Content"]= "ขอได้ของขวัญดีๆในปีใหม่นี้ด้วย",
+  ["Id"]= 11,
+  ["Name"]= "ดำอึ่งจี่",
+  ["ServerId"]= 2073
+},
+[12] = {
+  ["Content"]= "hai orang baik",
+  ["Id"]= 12,
+  ["Name"]= "Bak Mandi",
+  ["ServerId"]= 2072
+},
+[13] = {
+  ["Content"]= "Tôi yêu bạn",
+  ["Id"]= 13,
+  ["Name"]= "Nagumo-san",
+  ["ServerId"]= 2100
+},
+[14] = {
+  ["Content"]= "ปีใหม่นี้ขอให้มีความสุขทุกคนคับ",
+  ["Id"]= 14,
+  ["Name"]= "Thailand 39",
+  ["ServerId"]= 2031
+},
+[15] = {
+  ["Content"]= "อย่างน้อยๆก็ขอให้ชาว ROX มีชีวิตที่ราบรื่น จากใจจริง",
+  ["Id"]= 15,
+  ["Name"]= "JikiJiki",
+  ["ServerId"]= 2044
+},
+[16] = {
+  ["Content"]= "bismillah +7",
+  ["Id"]= 16,
+  ["Name"]= "Mr. Brightside",
+  ["ServerId"]= 2084
+},
+[17] = {
+  ["Content"]= "semoga kalian semua sukses selalu",
+  ["Id"]= 17,
+  ["Name"]= "Stella Fleuret",
+  ["ServerId"]= 2045
+},
+[18] = {
+  ["Content"]= "yuk bisa +8 all equip",
+  ["Id"]= 18,
+  ["Name"]= "CleanPaper",
+  ["ServerId"]= 2090
+},
+[19] = {
+  ["Content"]= "semoga shoes saya bisa naik +7 Amin",
+  ["Id"]= 19,
+  ["Name"]= "NaikinRateNya",
+  ["ServerId"]= 2015
+},
+[20] = {
+  ["Content"]= "Aku cinta ROX selamanya!!! Amin",
+  ["Id"]= 20,
+  ["Name"]= "Ndy",
+  ["ServerId"]= 2064
+},
+[21] = {
+  ["Content"]= "什么时候能来个金装，我打王从早到晚",
+  ["Id"]= 21,
+  ["Name"]= "-熊熊-",
+  ["ServerId"]= 2045
+},
+[22] = {
+  ["Content"]= "refine berhasillll plsss",
+  ["Id"]= 22,
+  ["Name"]= "Telur Ayam",
+  ["ServerId"]= 2015
+},
+[23] = {
+  ["Content"]= "uda makan belom?",
+  ["Id"]= 23,
+  ["Name"]= "Chan Seyma",
+  ["ServerId"]= 2011
+},
+[24] = {
+  ["Content"]= "moga naik +5 ke +6 weaponku",
+  ["Id"]= 24,
+  ["Name"]= "Chesee17",
+  ["ServerId"]= 2042
+},
+[25] = {
+  ["Content"]= "drop card yok",
+  ["Id"]= 25,
+  ["Name"]= "Minn.__.ju",
+  ["ServerId"]= 2083
+},
+[26] = {
+  ["Content"]= "ขอมีเพื่อนดีๆๆตลอดไป",
+  ["Id"]= 26,
+  ["Name"]= "Elmariashi",
+  ["ServerId"]= 2021
+},
+[27] = {
+  ["Content"]= "I hope you stay single forever.XD",
+  ["Id"]= 27,
+  ["Name"]= "Y S M A E L",
+  ["ServerId"]= 2016
+},
+[28] = {
+  ["Content"]= "xoxo! wish me stay healthy, I am sick right now.",
+  ["Id"]= 28,
+  ["ServerId"]= 2025
+},
+[29] = {
+  ["Content"]= "Good Luck!",
+  ["Id"]= 29,
+  ["Name"]= "Clary",
+  ["ServerId"]= 2060
+},
+[30] = {
+  ["Content"]= "I will always love ROX!dwwdwdwdwdw",
+  ["Id"]= 30,
+  ["Name"]= "김유진",
+  ["ServerId"]= 2082
+},
+[31] = {
+  ["Content"]= "I hope one day i get Ash Toad Statue",
+  ["Id"]= 31,
+  ["Name"]= "ラマクン",
+  ["ServerId"]= 2021
+},
+[32] = {
+  ["Content"]= "I love u mey",
+  ["Id"]= 32,
+  ["Name"]= "BigButtKiller",
+  ["ServerId"]= 2023
+},
+[33] = {
+  ["Content"]= "Rox, Love me again. A moonlit card pls",
+  ["Id"]= 33,
+  ["Name"]= "ᜋᜃᜒᜊᜒ",
+  ["ServerId"]= 2060
+},
+[34] = {
+  ["Content"]= "Hope my upgrading goes mentok",
+  ["Id"]= 34,
+  ["Name"]= "Zhao Zi Long",
+  ["ServerId"]= 2012
+},
+[35] = {
+  ["Content"]= "Card drops for us all!",
+  ["Id"]= 35,
+  ["Name"]= "★MysticFlame★",
+  ["ServerId"]= 2044
+},
+[36] = {
+  ["Content"]= "ฉันชอบ ROX เสมอ!!!ี",
+  ["Id"]= 36,
+  ["Name"]= "เຢอะเเຢะ",
+  ["ServerId"]= 2045
+},
+[37] = {
+  ["Content"]= "ขอให้โชคจงอยู่กับคุณ",
+  ["Id"]= 37,
+  ["Name"]= "Minli",
+  ["ServerId"]= 2062
+},
+[38] = {
+  ["Content"]= "ขอการ์ดหน่อยนะครับจีเอ็ม",
+  ["Id"]= 38,
+  ["Name"]= "ᴘʀᴏᴍᴇᴛʜᴀᴢɪɴᴇツ",
+  ["ServerId"]= 2012
+},
+[39] = {
+  ["Content"]= "ขอให้เป็นปีที่ดีกว่าที่ปีที่ผ่านมา ขอบคุณที่ฉันยังสู้ต่อไป",
+  ["Id"]= 39,
+  ["Name"]= "Jommie34",
+  ["ServerId"]= 2043
+},
+[40] = {
+  ["Content"]= "อย่าท้อนะครับ ;)) จาก player คนนึงในเกม rox",
+  ["Id"]= 40,
+  ["Name"]= "PP OK",
+  ["ServerId"]= 2053
+},
+[41] = {
+  ["Content"]= "รักษาสุขภาพกันด้วยนะ",
+  ["Id"]= 41,
+  ["Name"]= "อะไรนะ",
+  ["ServerId"]= 2033
+},
+[42] = {
+  ["Content"]= "I JUST WANT TO SAY THANK YOU",
+  ["Id"]= 42,
+  ["Name"]= "么. MÀLDÍTÂH",
+  ["ServerId"]= 2082
+},
+[43] = {
+  ["Content"]= "i wish to get good rates refine upgrade n enchant",
+  ["Id"]= 43,
+  ["Name"]= "Yucari",
+  ["ServerId"]= 2062
+},
+[44] = {
+  ["Content"]= "Can odin help increase card drop rate for me?",
+  ["Id"]= 44,
+  ["Name"]= "Howard Mark",
+  ["ServerId"]= 2012
+},
+[45] = {
+  ["Content"]= "To protect the world from devastation!",
+  ["Id"]= 45,
+  ["Name"]= "utotsabaytae",
+  ["ServerId"]= 2040
+},
+[46] = {
+  ["Content"]= "Hope i get gold Katar soon without spending diamonds",
+  ["Id"]= 46,
+  ["Name"]= "Lugh",
+  ["ServerId"]= 2030
+},
+[47] = {
+  ["Content"]= "Stay happy even life being unfair to us.",
+  ["Id"]= 47,
+  ["Name"]= "♨ColdBrewツ",
+  ["ServerId"]= 2074
+},
+[48] = {
+  ["Content"]= "吸金裝啊～ 很久沒吸到了",
+  ["Id"]= 48,
+  ["Name"]= "親兒子在此",
+  ["ServerId"]= 2072
+},
+[49] = {
+  ["Content"]= "SELAMAT",
+  ["Id"]= 49,
+  ["Name"]= "Salim",
+  ["ServerId"]= 2090
+},
+[50] = {
+  ["Content"]= "เย็นนี้ดรอปการ์ดมูนไลท์ด้วยเถิด",
+  ["Id"]= 50,
+  ["Name"]= "LΔDY KWΔNG '",
+  ["ServerId"]= 2084
+},
+[51] = {
+  ["Content"]= "ขอบคุณนะที่คอยช่วยเหลือมาตลอด",
+  ["Id"]= 51,
+  ["Name"]= "คุ ณ ภ า ร ะ〄",
+  ["ServerId"]= 2091
+},
+[52] = {
+  ["Content"]= "Sắp phải thi rồi, dòng máu Odin sẽ phù hộ card",
+  ["Id"]= 52,
+  ["Name"]= "Ly`せんぱい",
+  ["ServerId"]= 2110
+},
+[53] = {
+  ["Content"]= "Gửi thời thanh xuân cùng RO",
+  ["Id"]= 53,
+  ["Name"]= "AE-Choé",
+  ["ServerId"]= 2016
+},
+[54] = {
+  ["Content"]= "Không biết ai sẽ nhặt được chai của",
+  ["Id"]= 54,
+  ["Name"]= "DིKིི༄Sniperʲᴿ",
+  ["ServerId"]= 2016
+},
+[55] = {
+  ["Content"]= "Chúc tôi thi được 10 điểm",
+  ["Id"]= 55,
+  ["Name"]= "Nagumo-san",
+  ["ServerId"]= 2100
+},
+[56] = {
+  ["Content"]= "Nhớ người yêu cũ",
+  ["Id"]= 56,
+  ["Name"]= "thuansai@",
+  ["ServerId"]= 2101
+},
+[57] = {
+  ["Content"]= "Mãi mãi yêu mến ROX! !!mdkdnd",
+  ["Id"]= 57,
+  ["Name"]= "Jona Tran",
+  ["ServerId"]= 2101
+},
+[58] = {
+  ["Content"]= "permudah refine ke +7 plisss GM!!!!",
+  ["Id"]= 58,
+  ["Name"]= "obys",
+  ["ServerId"]= 2010
+},
+[59] = {
+  ["Content"]= "Aku cinta sama kamu tapi kok kamu nya nggak?",
+  ["Id"]= 59,
+  ["Name"]= "-ARDAN-",
+  ["ServerId"]= 2011
+},
+[60] = {
+  ["Content"]= "semoga drop card obeaune",
+  ["Id"]= 60,
+  ["Name"]= "gold dragon",
+  ["ServerId"]= 2016
+},
+[61] = {
+  ["Content"]= "labyu!",
+  ["Id"]= 61,
+  ["Name"]= "aoikitsune",
+  ["ServerId"]= 2050
+},
+[62] = {
+  ["Content"]= "Siap, Engineer!",
+  ["Id"]= 62,
+  ["Name"]= "Tups",
+  ["ServerId"]= 2072
+},
+[63] = {
+  ["Content"]= "Enak",
+  ["Id"]= 63,
+  ["Name"]= "Kareen",
+  ["ServerId"]= 2061
+},
+[64] = {
+  ["Content"]= "明年不知是否能够和如今一样。但我会珍惜现在",
+  ["Id"]= 64,
+  ["Name"]= "⚠ 得天独厚 ⚠",
+  ["ServerId"]= 2023
+},
+[65] = {
+  ["Content"]= "You are my sunshine, my only sunshine",
+  ["Id"]= 65,
+  ["Name"]= "utotsabaytae",
+  ["ServerId"]= 2040
+},
+[66] = {
+  ["Content"]= "You are here, this is my favorite place.",
+  ["Id"]= 66,
+  ["Name"]= "Poda",
+  ["ServerId"]= 2074
+},
+[67] = {
+  ["Content"]= "i hope youll be mine",
+  ["Id"]= 67,
+  ["Name"]= "N A Y ♪",
+  ["ServerId"]= 2010
+},
+[68] = {
+  ["Content"]= "Cheer up babe",
+  ["Id"]= 68,
+  ["Name"]= "Sange°",
+  ["ServerId"]= 2071
+},
+[69] = {
+  ["Content"]= "welcome 2022...",
+  ["Id"]= 69,
+  ["Name"]= "+AxaberryZ+",
+  ["ServerId"]= 2033
+},
+[70] = {
+  ["Content"]= "yok gas refineeeeeee",
+  ["Id"]= 70,
+  ["Name"]= "Mr. Brightside",
+  ["ServerId"]= 2084
+},
+[71] = {
+  ["Content"]= "hai hai hai",
+  ["Id"]= 71,
+  ["Name"]= "※K※ Lancelot",
+  ["ServerId"]= 2010
+},
+[72] = {
+  ["Content"]= "Wish new year will be giving lots of good news to us all.",
+  ["Id"]= 72,
+  ["ServerId"]= 2025
+},
+[73] = {
+  ["Content"]= "Please be my friend! I'm M a p l e - from Hidden Wood Ruins!",
+  ["Id"]= 73,
+  ["Name"]= "M a p l e -",
+  ["ServerId"]= 2064
+},
+[74] = {
+  ["Content"]= "I wish i become a whale",
+  ["Id"]= 74,
+  ["Name"]= "Panda 妹妹",
+  ["ServerId"]= 2035
+},
+[75] = {
+  ["Content"]= "Let's see each other on the top",
+  ["Id"]= 75,
+  ["Name"]= "asdfghjaeinkl",
+  ["ServerId"]= 2041
+},
+[76] = {
+  ["Content"]= "Bless me with easy refine and drop pls",
+  ["Id"]= 76,
+  ["Name"]= "Pisang Keju"
+},
+[77] = {
+  ["Content"]= "happy new year -nackz",
+  ["Id"]= 77,
+  ["Name"]= "NaCKz",
+  ["ServerId"]= 2034
+},
+[78] = {
+  ["Content"]= "Loving yourself is not selfish at all. - B U N N Y",
+  ["Id"]= 78,
+  ["Name"]= "么.B U N N Y",
+  ["ServerId"]= 2082
+},
+[79] = {
+  ["Content"]= "card....card...card....",
+  ["Id"]= 79,
+  ["Name"]= "Flo's"
+},
+[80] = {
+  ["Content"]= "Float away with the sea, tears bottle full of dreams",
+  ["Id"]= 80,
+  ["Name"]= "Sirkez",
+  ["ServerId"]= 2030
+},
+[81] = {
+  ["Content"]= "Hopefully you get what you want in this game. fighting!",
+  ["Id"]= 81,
+  ["Name"]= "ᜋᜃᜒᜊᜒ",
+  ["ServerId"]= 2060
+},
+[82] = {
+  ["Content"]= "GIVE ME A GIRLFRIEND",
+  ["Id"]= 82,
+  ["Name"]= "VerGs",
+  ["ServerId"]= 2071
+},
+[83] = {
+  ["Content"]= "+5 weapon for refine",
+  ["Id"]= 83,
+  ["Name"]= "Ingkongbukol"
+},
+[84] = {
+  ["Content"]= "Tidak ada yg tidak mungkin, begitulah cinta",
+  ["Id"]= 84,
+  ["Name"]= "TOLONG!!",
+  ["ServerId"]= 2025
+},
+[85] = {
+  ["Content"]= "GM drop card ya....",
+  ["Id"]= 85,
+  ["Name"]= "Komrija",
+  ["ServerId"]= 2072
+},
+[86] = {
+  ["Content"]= "JIKA AKU MENANG AK BERJANJI TOP UP 100JT RUPIAH!!!.",
+  ["Id"]= 86,
+  ["Name"]= "【闇】Garruk",
+  ["ServerId"]= 2025
+},
+[87] = {
+  ["Content"]= "Aku merindukan drop card... rox jaya",
+  ["Id"]= 87,
+  ["Name"]= "Xtreme”2000",
+  ["ServerId"]= 2072
+},
+[88] = {
+  ["Content"]= "Tolong yg terima ini jgn lupa berdoa dan berbuat baik",
+  ["Id"]= 88,
+  ["Name"]= "Kokoh Budi"
+},
+[89] = {
+  ["Content"]= "haii kamu, iyaa kamu .. jangan lupa bahagia :)",
+  ["Id"]= 89,
+  ["Name"]= "Jeeslyn",
+  ["ServerId"]= 2013
+},
+[90] = {
+  ["Content"]= "semoga hari kalian selalu bahagia..!!",
+  ["Id"]= 90,
+  ["Name"]= "ao umi",
+  ["ServerId"]= 2042
+},
+[91] = {
+  ["Content"]= "yuk bisa yuk +7",
+  ["Id"]= 91,
+  ["Name"]= "Elevated",
+  ["ServerId"]= 2084
+}
+}
+local baseTable={
+  ["Content"]= "รักคนอ่าน",
+  ["Id"]= 1,
+  ["Name"]= "Aιɾαȥԋαɳɠ",
+  ["ServerId"]= 2014
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

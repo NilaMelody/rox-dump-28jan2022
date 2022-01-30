@@ -1,0 +1,41 @@
+local table= {
+[1] = {},
+[2] = {
+  ["ActivityId"]= 18,
+  ["AwardPerRound"]= 10219046,
+  ["EndGrid"]= 46,
+  ["Id"]= 2,
+  ["ItemCostId"]= 10202148,
+  ["StartGrid"]= 24
+}
+}
+local baseTable={
+  ["ActivityId"]= 15,
+  ["AwardPerRound"]= 10219023,
+  ["AwardPerRoundNum"]= 1,
+  ["EndGrid"]= 23,
+  ["Id"]= 1,
+  ["ItemCostId"]= 10202132,
+  ["ItemCostNum"]= 1,
+  ["MileStoneAward"]= {
+    1105011095,
+    1105011096,
+    1105011097,
+    1105011098
+  },
+  ["MileStoneRound"]= {
+    10,
+    20,
+    40,
+    80
+  },
+  ["MoneyCostNum"]= 3600,
+  ["MoneyCostTime"]= 20,
+  ["MoneyCostType"]= 3,
+  ["StartGrid"]= 1,
+  ["VIPDiscount"]= 80
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

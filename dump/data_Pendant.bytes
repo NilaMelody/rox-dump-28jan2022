@@ -1,0 +1,59 @@
+local table= {
+[83001] = {
+  ["iconId"]= 5000002,
+  ["jobLimit"]= {
+    1510,
+    1511,
+    1512
+  },
+  ["skillLimit"]= {
+    1510122
+  },
+  ["type"]= 0
+},
+[83010] = {
+  ["HideWhenMount"]= 1,
+  ["iconId"]= 5000010,
+  ["id"]= 83010,
+  ["Name"]= "PendantType83010"
+},
+[83011] = {
+  ["HideWhenMount"]= 1,
+  ["id"]= 83011,
+  ["Name"]= "PendantType83011"
+},
+[83060] = {
+  ["id"]= 83060,
+  ["Name"]= "PendantType83060"
+},
+[83063] = {
+  ["id"]= 83063,
+  ["Name"]= "PendantType83063"
+}
+}
+local baseTable={
+  ["attr"]= {},
+  ["HideWhenMount"]= 0,
+  ["iconId"]= 5000011,
+  ["id"]= 83001,
+  ["jobLevelLimit"]= 0,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611,
+    1612
+  },
+  ["Name"]= "PendantType0",
+  ["skillId"]= {},
+  ["skillLimit"]= {
+    1600004
+  },
+  ["skillLvLimit"]= {
+    1
+  },
+  ["type"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

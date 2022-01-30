@@ -1,0 +1,37 @@
+local table= {
+[1] = {}
+}
+local baseTable={
+  ["ActivityType"]= 20,
+  ["AnnouncementId"]= 48,
+  ["BuyNum"]= {
+    0,
+    20,
+    100,
+    200,
+    1000
+  },
+  ["BuyType"]= 2,
+  ["CurrencyNum"]= {
+    53000,
+    26000,
+    15300,
+    10000,
+    5000
+  },
+  ["CurrencyType"]= 2,
+  ["DropId"]= 10001,
+  ["Id"]= 1,
+  ["MailId"]= 14013,
+  ["RechargeId"]= {
+    600,
+    601,
+    602,
+    603,
+    604
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

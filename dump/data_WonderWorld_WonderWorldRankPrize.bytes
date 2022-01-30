@@ -1,0 +1,26 @@
+local table= {
+[1] = {},
+[2] = {
+  ["dropId"]= 20122,
+  ["id"]= 2,
+  ["lowerRank"]= 2,
+  ["upperRank"]= 10
+},
+[3] = {
+  ["dropId"]= 20123,
+  ["id"]= 3,
+  ["lowerRank"]= 11,
+  ["upperRank"]= 100
+}
+}
+local baseTable={
+  ["dropId"]= 20121,
+  ["id"]= 1,
+  ["lowerRank"]= 1,
+  ["mailId"]= 14014,
+  ["upperRank"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

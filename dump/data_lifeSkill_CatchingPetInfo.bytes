@@ -1,0 +1,120 @@
+local table= {
+[82001] = {
+  ["Monster"]= 10001,
+  ["NeedCatchLevel"]= 1,
+  ["Tool"]= 10407001
+},
+[82002] = {
+  ["Order"]= 10,
+  ["PetId"]= 82002
+},
+[82003] = {
+  ["Monster"]= 10004,
+  ["NeedCatchLevel"]= 1,
+  ["Order"]= 2,
+  ["PetId"]= 82003,
+  ["Tool"]= 10407002
+},
+[82004] = {
+  ["Order"]= 11,
+  ["PetId"]= 82004
+},
+[82005] = {
+  ["Monster"]= 10027,
+  ["NeedCatchLevel"]= 1,
+  ["Order"]= 3,
+  ["PetId"]= 82005,
+  ["Tool"]= 10407011
+},
+[82006] = {
+  ["Order"]= 12,
+  ["PetId"]= 82006
+},
+[82007] = {
+  ["Monster"]= 10010,
+  ["NeedCatchLevel"]= 1,
+  ["Order"]= 4,
+  ["PetId"]= 82007,
+  ["Tool"]= 10407011
+},
+[82008] = {
+  ["Order"]= 13,
+  ["PetId"]= 82008
+},
+[82009] = {
+  ["Monster"]= 10044,
+  ["NeedCatchLevel"]= 1,
+  ["Order"]= 5,
+  ["PetId"]= 82009,
+  ["Tool"]= 10407004
+},
+[82010] = {
+  ["Order"]= 14,
+  ["PetId"]= 82010
+},
+[82011] = {
+  ["Monster"]= 10016,
+  ["NeedCatchLevel"]= 1,
+  ["Order"]= 6,
+  ["PetId"]= 82011,
+  ["Tool"]= 10407004
+},
+[82012] = {
+  ["Order"]= 15,
+  ["PetId"]= 82012
+},
+[82013] = {
+  ["Order"]= 16,
+  ["PetId"]= 82013
+},
+[82014] = {
+  ["Monster"]= 10060,
+  ["NeedCatchLevel"]= 2,
+  ["Order"]= 7,
+  ["PetId"]= 82014,
+  ["Tool"]= 10407010
+},
+[82015] = {
+  ["Monster"]= 10085,
+  ["NeedCatchLevel"]= 2,
+  ["Order"]= 8,
+  ["PetId"]= 82015,
+  ["Tool"]= 10407027
+},
+[82016] = {
+  ["Monster"]= 10094,
+  ["NeedCatchLevel"]= 2,
+  ["Order"]= 9,
+  ["PetId"]= 82016,
+  ["Tool"]= 10407014
+},
+[82017] = {
+  ["Order"]= 17,
+  ["PetId"]= 82017
+},
+[82018] = {
+  ["Order"]= 18,
+  ["PetId"]= 82018,
+  ["SceneId"]= {}
+}
+}
+local baseTable={
+  ["Bodily"]= 0,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 0,
+  ["NeedCatchLevel"]= 0,
+  ["Order"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82001,
+  ["PetTalentDesc"]= 0,
+  ["Property"]= 0,
+  ["Race"]= 0,
+  ["SceneId"]= {
+    0
+  },
+  ["Tool"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

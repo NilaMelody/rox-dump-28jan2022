@@ -1,0 +1,155 @@
+local table= {
+[1] = {
+  ["type"]= 1
+},
+[2] = {
+  ["beginTime"]= 432000,
+  ["endTime"]= 923400,
+  ["id"]= 2,
+  ["type"]= 2
+},
+[3] = {
+  ["beginTime"]= 923400,
+  ["endTime"]= 1008000,
+  ["id"]= 3,
+  ["type"]= 4
+},
+[4] = {
+  ["beginTime"]= 1008000,
+  ["endTime"]= 1009800,
+  ["id"]= 4,
+  ["name"]= "ui_CrossRegionKVM_069",
+  ["obScheduleText"]= "KvmInterface_1009",
+  ["type"]= 3
+},
+[5] = {
+  ["beginTime"]= 1009800,
+  ["endTime"]= 1094400,
+  ["id"]= 5,
+  ["type"]= 4
+},
+[6] = {
+  ["beginTime"]= 1094400,
+  ["endTime"]= 1096200,
+  ["id"]= 6,
+  ["name"]= "ui_CrossRegionKVM_070",
+  ["obScheduleText"]= "KvmInterface_1010",
+  ["type"]= 3
+},
+[7] = {
+  ["beginTime"]= 1096200,
+  ["endTime"]= 1180800,
+  ["id"]= 7,
+  ["type"]= 4
+},
+[8] = {
+  ["beginTime"]= 1180800,
+  ["endTime"]= 1182600,
+  ["id"]= 8,
+  ["name"]= "ui_CrossRegionKVM_071",
+  ["obScheduleText"]= "KvmInterface_1011",
+  ["type"]= 3
+},
+[9] = {
+  ["beginTime"]= 1182600,
+  ["endTime"]= 1269000,
+  ["id"]= 9,
+  ["type"]= 8
+},
+[10] = {
+  ["beginTime"]= 1269000,
+  ["endTime"]= 1353600,
+  ["id"]= 10
+},
+[11] = {
+  ["beginTime"]= 1353600,
+  ["endTime"]= 1355400,
+  ["id"]= 11,
+  ["name"]= "ui_CrossRegionKVM_072",
+  ["obScheduleText"]= "KvmInterface_1012",
+  ["type"]= 5
+},
+[12] = {
+  ["beginTime"]= 1355400,
+  ["endTime"]= 1440000,
+  ["id"]= 12
+},
+[13] = {
+  ["beginTime"]= 1440000,
+  ["endTime"]= 1441800,
+  ["id"]= 13,
+  ["name"]= "ui_CrossRegionKVM_073",
+  ["obScheduleText"]= "KvmInterface_1013",
+  ["type"]= 5
+},
+[14] = {
+  ["beginTime"]= 1441800,
+  ["endTime"]= 1526400,
+  ["id"]= 14
+},
+[15] = {
+  ["beginTime"]= 1526400,
+  ["endTime"]= 1528200,
+  ["id"]= 15,
+  ["name"]= "ui_CrossRegionKVM_074",
+  ["obScheduleText"]= "KvmInterface_1014",
+  ["type"]= 5
+},
+[16] = {
+  ["beginTime"]= 1528200,
+  ["endTime"]= 1612800,
+  ["id"]= 16
+},
+[17] = {
+  ["beginTime"]= 1612800,
+  ["endTime"]= 1614600,
+  ["id"]= 17,
+  ["name"]= "ui_CrossRegionKVM_075",
+  ["obScheduleText"]= "KvmInterface_1015",
+  ["type"]= 5
+},
+[18] = {
+  ["beginTime"]= 1614600,
+  ["endTime"]= 1699200,
+  ["id"]= 18
+},
+[19] = {
+  ["beginTime"]= 1699200,
+  ["endTime"]= 1701000,
+  ["id"]= 19,
+  ["name"]= "ui_CrossRegionKVM_076",
+  ["obScheduleText"]= "KvmInterface_1016",
+  ["type"]= 5
+},
+[20] = {
+  ["beginTime"]= 1701000,
+  ["endTime"]= 1785600,
+  ["id"]= 20
+},
+[21] = {
+  ["beginTime"]= 1785600,
+  ["endTime"]= 1787400,
+  ["id"]= 21,
+  ["name"]= "ui_CrossRegionKVM_077",
+  ["obScheduleText"]= "KvmInterface_1017",
+  ["type"]= 5
+},
+[22] = {
+  ["beginTime"]= 1787400,
+  ["endTime"]= 2592000,
+  ["id"]= 22,
+  ["type"]= 7
+}
+}
+local baseTable={
+  ["beginTime"]= 0,
+  ["endTime"]= 432000,
+  ["id"]= 1,
+  ["name"]= "",
+  ["obScheduleText"]= "",
+  ["type"]= 6
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,30 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Quality"]= 2
+},
+[3] = {
+  ["Quality"]= 3
+},
+[4] = {
+  ["Quality"]= 4
+}
+}
+local baseTable={
+  ["PotentialitySum"]= {
+    24,
+    48,
+    72,
+    108,
+    144,
+    192,
+    240,
+    300,
+    360
+  },
+  ["Quality"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

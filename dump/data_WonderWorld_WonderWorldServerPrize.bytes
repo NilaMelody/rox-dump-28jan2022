@@ -1,0 +1,48 @@
+local table= {
+[1] = {},
+[2] = {
+  ["DropId"]= 10002,
+  ["Id"]= 2,
+  ["PlayersNum"]= 50
+},
+[3] = {
+  ["DropId"]= 10003,
+  ["Id"]= 3,
+  ["PlayersNum"]= 100
+},
+[4] = {
+  ["DropId"]= 10004,
+  ["Id"]= 4,
+  ["PlayersNum"]= 150
+},
+[5] = {
+  ["DropId"]= 10005,
+  ["Id"]= 5,
+  ["PlayersNum"]= 200
+},
+[6] = {
+  ["DropId"]= 10006,
+  ["Id"]= 6,
+  ["PlayersNum"]= 250
+},
+[7] = {
+  ["DropId"]= 10007,
+  ["Id"]= 7,
+  ["PlayersNum"]= 300
+},
+[8] = {
+  ["DropId"]= 10008,
+  ["Id"]= 8,
+  ["PlayersNum"]= 500
+}
+}
+local baseTable={
+  ["DropId"]= 10001,
+  ["Id"]= 1,
+  ["PlayersNum"]= 1,
+  ["TurnsNum"]= 300
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

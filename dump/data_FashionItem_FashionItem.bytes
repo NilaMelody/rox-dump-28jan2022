@@ -1,0 +1,5502 @@
+local table= {
+[2105072] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["IconDistinguishSex"]= 1,
+  ["Name"]= "牛仔服"
+},
+[2405001] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 2405001,
+  ["Name"]= "学园祭制服",
+  ["Rank"]= 440
+},
+[2405002] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_017",
+  ["ID"]= 2405002,
+  ["Name"]= "软软猫衣服",
+  ["Rank"]= 224
+},
+[2405003] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 2405003,
+  ["Name"]= "学园祭制服·红",
+  ["Rank"]= 431
+},
+[2405004] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 2405004,
+  ["Name"]= "学园祭制服·蓝",
+  ["Rank"]= 438
+},
+[2405005] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 2405005,
+  ["Name"]= "学园祭制服·绿",
+  ["Rank"]= 434
+},
+[2405007] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_042",
+    "FashionItem_042",
+    "FashionItem_042",
+    "FashionItem_101"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_041",
+  ["ID"]= 2405007,
+  ["IsNot"]= 1,
+  ["Name"]= "烈日短衬衣",
+  ["Rank"]= 169
+},
+[2405008] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 2405008,
+  ["Name"]= "夏日沙滩服饰",
+  ["Rank"]= 429
+},
+[2405009] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_016",
+  ["ID"]= 2405009,
+  ["Name"]= "生物防护制服",
+  ["Rank"]= 229
+},
+[2405010] = {
+  ["GetWords"]= "FashionItem_2405010",
+  ["ID"]= 2405010,
+  ["Name"]= "侠士劲装",
+  ["Rank"]= 377
+},
+[2405011] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_020",
+    "FashionItem_020",
+    "FashionItem_020",
+    "FashionItem_081"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_020",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405011,
+  ["IsNot"]= 1,
+  ["Name"]= "白昼魔术礼服",
+  ["Rank"]= 222
+},
+[2405012] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_022",
+    "FashionItem_022",
+    "FashionItem_022",
+    "FashionItem_074"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_022",
+  ["ID"]= 2405012,
+  ["IsNot"]= 1,
+  ["Name"]= "黑夜魔术礼服",
+  ["Rank"]= 219
+},
+[2405013] = {
+  ["GetWords"]= "FashionItem_026",
+  ["ID"]= 2405013,
+  ["Name"]= "一掷千金华服",
+  ["Rank"]= 239
+},
+[2405014] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 2405014,
+  ["Name"]= "吟游诗人服饰",
+  ["Rank"]= 471
+},
+[2405015] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 2405015,
+  ["Name"]= "潮流达人皮衣",
+  ["Rank"]= 474
+},
+[2405016] = {
+  ["GetWords"]= "FashionItem_024",
+  ["ID"]= 2405016,
+  ["Name"]= "哈士奇玩偶",
+  ["Rank"]= 233,
+  ["StandbyAction"]= "stand_5016"
+},
+[2405017] = {
+  ["GetWords"]= "FashionItem_025",
+  ["ID"]= 2405017,
+  ["Name"]= "小丑连体服",
+  ["Rank"]= 236
+},
+[2405018] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_015",
+    "FashionItem_015",
+    "FashionItem_015",
+    "FashionItem_070"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 2405018,
+  ["IsNot"]= 1,
+  ["Name"]= "诡巫服饰",
+  ["Rank"]= 201
+},
+[2405019] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 2405019,
+  ["Name"]= "复生夜行服饰",
+  ["Rank"]= 204
+},
+[2405021] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 2405021,
+  ["Name"]= "月夜猫时装",
+  ["Rank"]= 484
+},
+[2405022] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_021",
+  ["ID"]= 2405022,
+  ["Name"]= "星语祝福服饰",
+  ["Rank"]= 193
+},
+[2405023] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_021",
+  ["ID"]= 2405023,
+  ["Name"]= "冬日暖阳服饰",
+  ["Rank"]= 196
+},
+[2405024] = {
+  ["GenderType"]= 1,
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 2405024,
+  ["Name"]= "承慕之诺西装",
+  ["Rank"]= 242
+},
+[2405025] = {
+  ["GenderType"]= 2,
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 2405025,
+  ["Name"]= "承慕之诺婚纱",
+  ["Rank"]= 243
+},
+[2405026] = {
+  ["GetWords"]= "FashionItem_027",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405026,
+  ["Name"]= "证诺之人礼服",
+  ["Rank"]= 246
+},
+[2405027] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_029",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405027,
+  ["Name"]= "红缎鎏金礼服",
+  ["Rank"]= 216
+},
+[2405028] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GenderType"]= 1,
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 2405028,
+  ["Name"]= "韩式婚礼时装(男款)",
+  ["Rank"]= 478
+},
+[2405029] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GenderType"]= 2,
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 2405029,
+  ["Name"]= "韩式婚礼时装(女款)",
+  ["Rank"]= 479
+},
+[2405030] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 2405030,
+  ["Name"]= "韩式伴郎/娘服",
+  ["Rank"]= 482
+},
+[2405031] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_030",
+    "FashionItem_030",
+    "FashionItem_030",
+    "FashionItem_102"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_030",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405031,
+  ["IsNot"]= 1,
+  ["Name"]= "年兽时装",
+  ["Rank"]= 183
+},
+[2405032] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_034",
+    "FashionItem_034",
+    "FashionItem_034",
+    "FashionItem_054"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_034",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405032,
+  ["IsNot"]= 1,
+  ["Name"]= "皇家骑兵制服",
+  ["Rank"]= 210
+},
+[2405033] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_040",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405033,
+  ["Name"]= "王家之仪制服",
+  ["Rank"]= 172
+},
+[2405035] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_037",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405035,
+  ["Name"]= "遗迹考古服",
+  ["Rank"]= 175
+},
+[2405036] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_039",
+    "FashionItem_039",
+    "FashionItem_039",
+    "FashionItem_072"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_039",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405036,
+  ["IsNot"]= 1,
+  ["Name"]= "蒸汽探险队服",
+  ["Rank"]= 208
+},
+[2405037] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_032",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405037,
+  ["Name"]= "格子甜心服饰",
+  ["Rank"]= 213
+},
+[2405038] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_042",
+    "FashionItem_053"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_042",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405038,
+  ["IsNot"]= 1,
+  ["Name"]= "喧哗上等制服",
+  ["Rank"]= 167
+},
+[2405039] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_035",
+    "FashionItem_056"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_035",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405039,
+  ["IsNot"]= 1,
+  ["Name"]= "嗡鸣蜜糖服饰",
+  ["Rank"]= 179,
+  ["StandbyAction"]= "stand_5016"
+},
+[2405040] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_070",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405040,
+  ["Name"]= "爱丽丝时装",
+  ["Rank"]= 86
+},
+[2405041] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_074",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405041,
+  ["Name"]= "魅惑巴尼",
+  ["Rank"]= 88
+},
+[2405043] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_044",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405043,
+  ["Name"]= "宣竹清风服饰",
+  ["Rank"]= 157
+},
+[2405044] = {
+  ["ChannelId"]= {
+    10
+  },
+  ["GetWords"]= "FashionItem_041",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405044,
+  ["Name"]= "烈火竞时服装",
+  ["Rank"]= 161
+},
+[2405045] = {
+  ["ChannelId"]= {
+    10
+  },
+  ["GetWords"]= "FashionItem_045",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405045,
+  ["Name"]= "活力之夏泳装",
+  ["Rank"]= 155
+},
+[2405046] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_054",
+    "FashionItem_072"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_054",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405046,
+  ["IsNot"]= 1,
+  ["Name"]= "警卫套装",
+  ["Rank"]= 134
+},
+[2405047] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_087",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405047,
+  ["Name"]= "恶魔猎人服饰",
+  ["Rank"]= 6
+},
+[2405049] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GenderType"]= 1,
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 2405049,
+  ["Name"]= "史莱姆联动-和风时装（男）",
+  ["Rank"]= 107
+},
+[2405051] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_045",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405051,
+  ["Name"]= "深海探险头饰",
+  ["Rank"]= 151
+},
+[2405052] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_064",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405052,
+  ["Name"]= "学院风格时装",
+  ["Rank"]= 127
+},
+[2405053] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_081",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405053,
+  ["Name"]= "睡衣套装",
+  ["Rank"]= 70
+},
+[2405054] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_047",
+    "FashionItem_079"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_047",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405054,
+  ["IsNot"]= 1,
+  ["Name"]= "水手服",
+  ["Rank"]= 147
+},
+[2405055] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_055",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405055,
+  ["Name"]= "棒球套装",
+  ["Rank"]= 138
+},
+[2405056] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 2405056,
+  ["Name"]= "迷彩套装",
+  ["Rank"]= 13
+},
+[2405057] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405057,
+  ["Name"]= "MLBB时装",
+  ["Rank"]= 15
+},
+[2405059] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_046",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405059,
+  ["Name"]= "活力之夏泳装-tw",
+  ["Rank"]= 148
+},
+[2405061] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_060",
+    "FashionItem_097"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_060",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405061,
+  ["IsNot"]= 1,
+  ["Name"]= "七夕节时装",
+  ["Rank"]= 123
+},
+[2405062] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GenderType"]= 1,
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 2405062,
+  ["Name"]= "迪亚波罗时装",
+  ["Rank"]= 108
+},
+[2405063] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405063,
+  ["Name"]= "宇航员时装",
+  ["Rank"]= 17,
+  ["StandbyAction"]= "stand_5063"
+},
+[2405064] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_062",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405064,
+  ["Name"]= "小黄鸡套装",
+  ["Rank"]= 135
+},
+[2405065] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GenderType"]= 1,
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 2405065,
+  ["Name"]= "史莱姆魔王套装男",
+  ["Rank"]= 119
+},
+[2405066] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GenderType"]= 2,
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 2405066,
+  ["Name"]= "朱菜",
+  ["Rank"]= 106
+},
+[2405067] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GenderType"]= 2,
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 2405067,
+  ["Name"]= "紫苑",
+  ["Rank"]= 117
+},
+[2405068] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GenderType"]= 2,
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 2405068,
+  ["Name"]= "米利姆",
+  ["Rank"]= 118,
+  ["StandbyAction"]= "stand_5068"
+},
+[2405069] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_071",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405069,
+  ["Name"]= "周年庆时装",
+  ["Rank"]= 79
+},
+[2405070] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405070,
+  ["Name"]= "小丑回魂夜光服",
+  ["Rank"]= 45
+},
+[2405071] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405071,
+  ["Name"]= "花栗鼠时装",
+  ["Rank"]= 22,
+  ["StandbyAction"]= "stand_5016"
+},
+[2405074] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_071",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405074,
+  ["Name"]= "周年庆嘻哈风格服饰",
+  ["Rank"]= 101
+},
+[2405075] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_088",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405075,
+  ["Name"]= "滑雪套装",
+  ["Rank"]= 93
+},
+[2405076] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_076",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405076,
+  ["Name"]= "西部牛仔时装",
+  ["Rank"]= 74
+},
+[2405080] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405080,
+  ["Name"]= "打歌服服饰",
+  ["Rank"]= 49
+},
+[2405081] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405081,
+  ["Name"]= "小精灵时装",
+  ["Rank"]= 57
+},
+[2405082] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_090",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405082,
+  ["Name"]= "奥丁时装",
+  ["Rank"]= 40
+},
+[2405083] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_102",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405083,
+  ["Name"]= "2022新年时装",
+  ["Rank"]= 24
+},
+[2405088] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_099",
+  ["IconDistinguishSex"]= 1,
+  ["ID"]= 2405088,
+  ["Rank"]= 30
+},
+[4101001] = {
+  ["ID"]= 4101001,
+  ["Name"]= "王冠",
+  ["Rank"]= 271,
+  ["ShowID"]= {
+    4
+  },
+  ["ShowType"]= 2
+},
+[4101002] = {
+  ["ID"]= 4101002,
+  ["Name"]= "芽苗",
+  ["Rank"]= 344,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101003] = {
+  ["ID"]= 4101003,
+  ["Name"]= "兔女郎发圈",
+  ["Rank"]= 336,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101004] = {
+  ["ID"]= 4101004,
+  ["Name"]= "蛋壳帽",
+  ["Rank"]= 357,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101005] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4101005,
+  ["Name"]= "黑猫耳朵",
+  ["Rank"]= 417
+},
+[4101006] = {
+  ["ID"]= 4101006,
+  ["Name"]= "黄金帽",
+  ["Rank"]= 273,
+  ["ShowID"]= {
+    4
+  },
+  ["ShowType"]= 2
+},
+[4101007] = {
+  ["ID"]= 4101007,
+  ["Name"]= "兽人英雄的头具",
+  ["Rank"]= 256,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101008] = {
+  ["ID"]= 4101008,
+  ["Name"]= "月夜猫帽子",
+  ["Rank"]= 269,
+  ["ShowID"]= {
+    4
+  },
+  ["ShowType"]= 2
+},
+[4101009] = {
+  ["ID"]= 4101009,
+  ["Name"]= "紫蝶发带",
+  ["Rank"]= 331,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101010] = {
+  ["ID"]= 4101010,
+  ["Name"]= "霹雳雷云",
+  ["Rank"]= 270,
+  ["ShowID"]= {
+    4
+  },
+  ["ShowType"]= 2
+},
+[4101011] = {
+  ["ID"]= 4101011,
+  ["Name"]= "海盗船长帽",
+  ["Rank"]= 272,
+  ["ShowID"]= {
+    4
+  },
+  ["ShowType"]= 2
+},
+[4101012] = {
+  ["ID"]= 4101012,
+  ["Name"]= "猫耳发圈",
+  ["Rank"]= 339,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101013] = {
+  ["ID"]= 4101013,
+  ["Name"]= "兔耳发圈",
+  ["Rank"]= 338,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101014] = {
+  ["ID"]= 4101014,
+  ["Name"]= "黄金冠冕",
+  ["Rank"]= 251,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101015] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101015,
+  ["Name"]= "圣职之帽",
+  ["Rank"]= 453,
+  ["ShowType"]= 0
+},
+[4101016] = {
+  ["ID"]= 4101016,
+  ["Name"]= "恶魔发圈",
+  ["Rank"]= 266,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101017] = {
+  ["ID"]= 4101017,
+  ["Name"]= "红蝶发带",
+  ["Rank"]= 289,
+  ["ShowID"]= {
+    10205017,
+    10401004,
+    10406839
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101018] = {
+  ["ID"]= 4101018,
+  ["Name"]= "天使发圈",
+  ["Rank"]= 265,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101019] = {
+  ["ID"]= 4101019,
+  ["Name"]= "渔夫帽",
+  ["Rank"]= 303,
+  ["ShowID"]= {
+    10205019,
+    10401005,
+    10406809
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101020] = {
+  ["ID"]= 4101020,
+  ["Name"]= "绅士帽",
+  ["Rank"]= 260,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101021] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["ID"]= 4101021,
+  ["Name"]= "牛仔帽",
+  ["Rank"]= 249,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101022] = {
+  ["ID"]= 4101022,
+  ["Name"]= "粉纱发圈",
+  ["Rank"]= 259,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101023] = {
+  ["ID"]= 4101023,
+  ["Name"]= "竹蜻蜓发圈",
+  ["Rank"]= 291,
+  ["ShowID"]= {
+    10205023,
+    10401005,
+    10406849
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101024] = {
+  ["ID"]= 4101024,
+  ["Name"]= "亡者发箍",
+  ["Rank"]= 262,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101025] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101025,
+  ["Name"]= "趴趴狮鹫兽",
+  ["Rank"]= 451,
+  ["ShowType"]= 0
+},
+[4101026] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101026,
+  ["Name"]= "安毕斯头盔",
+  ["Rank"]= 450,
+  ["ShowType"]= 0
+},
+[4101027] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4101027,
+  ["Name"]= "爱唱歌的小鸟",
+  ["Rank"]= 409
+},
+[4101028] = {
+  ["ID"]= 4101028,
+  ["Name"]= "兽角头饰",
+  ["Rank"]= 261,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101029] = {
+  ["ID"]= 4101029,
+  ["Name"]= "触角头饰",
+  ["Rank"]= 294,
+  ["ShowID"]= {
+    10205029,
+    10401004,
+    10406850
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101030] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101030,
+  ["Name"]= "武神之盔",
+  ["Rank"]= 449,
+  ["ShowType"]= 0
+},
+[4101031] = {
+  ["ID"]= 4101031,
+  ["Name"]= "骸骨帽子",
+  ["Rank"]= 359,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101032] = {
+  ["ID"]= 4101032,
+  ["Name"]= "金属头盔",
+  ["Rank"]= 318,
+  ["ShowHair"]= 0,
+  ["ShowID"]= {
+    10205032,
+    10401005,
+    10413050
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101033] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101033,
+  ["Name"]= "魔法师帽",
+  ["Rank"]= 455,
+  ["ShowType"]= 0
+},
+[4101034] = {
+  ["ID"]= 4101034,
+  ["Name"]= "苹果头饰",
+  ["Rank"]= 295,
+  ["ShowID"]= {
+    10205034,
+    10401004,
+    10406593
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101035] = {
+  ["ID"]= 4101035,
+  ["Name"]= "草帽",
+  ["Rank"]= 302,
+  ["ShowID"]= {
+    10205035,
+    10401004,
+    10406868
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101036] = {
+  ["ID"]= 4101036,
+  ["Name"]= "海盗头巾",
+  ["Rank"]= 308,
+  ["ShowID"]= {
+    10205036,
+    10401006,
+    10406593
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101037] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4101037,
+  ["Name"]= "学生帽",
+  ["Rank"]= 410
+},
+[4101038] = {
+  ["ID"]= 4101038,
+  ["Name"]= "御饭团帽子",
+  ["Rank"]= 307,
+  ["ShowID"]= {
+    10205038,
+    10401005,
+    10413049
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101039] = {
+  ["ID"]= 4101039,
+  ["Name"]= "卡普拉发圈",
+  ["Rank"]= 334,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101040] = {
+  ["ID"]= 4101040,
+  ["Name"]= "小狗发圈",
+  ["Rank"]= 340,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101041] = {
+  ["ID"]= 4101041,
+  ["Name"]= "后冠",
+  ["Rank"]= 255,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101042] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101042,
+  ["Name"]= "停止标志头饰",
+  ["Rank"]= 395
+},
+[4101043] = {
+  ["ID"]= 4101043,
+  ["Name"]= "粪便帽",
+  ["Rank"]= 316,
+  ["ShowID"]= {
+    10205043,
+    10401005,
+    10406891
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101044] = {
+  ["ID"]= 4101044,
+  ["Name"]= "魔菇帽",
+  ["Rank"]= 356,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101045] = {
+  ["ID"]= 4101045,
+  ["Name"]= "小恶魔帽",
+  ["Rank"]= 358,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101046] = {
+  ["ID"]= 4101046,
+  ["Name"]= "海獭帽",
+  ["Rank"]= 314,
+  ["ShowID"]= {
+    10205046,
+    10401004,
+    10406858
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101047] = {
+  ["ID"]= 4101047,
+  ["Name"]= "棒球帽",
+  ["Rank"]= 351,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101048] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101048,
+  ["Name"]= "戏剧帽子",
+  ["Rank"]= 394
+},
+[4101049] = {
+  ["ID"]= 4101049,
+  ["Name"]= "雀巢",
+  ["Rank"]= 345,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101050] = {
+  ["ID"]= 4101050,
+  ["Name"]= "少女礼帽",
+  ["Rank"]= 352,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101051] = {
+  ["ID"]= 4101051,
+  ["Name"]= "贝雷帽",
+  ["Rank"]= 305,
+  ["ShowID"]= {
+    10205051,
+    10401004,
+    10413050
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101052] = {
+  ["ID"]= 4101052,
+  ["Name"]= "蚊香",
+  ["Rank"]= 346,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101053] = {
+  ["ID"]= 4101053,
+  ["Name"]= "青蛙王子头饰",
+  ["Rank"]= 264,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101054] = {
+  ["ID"]= 4101054,
+  ["Name"]= "波利帽",
+  ["Rank"]= 355,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101055] = {
+  ["ID"]= 4101055,
+  ["Name"]= "羽毛帽",
+  ["Rank"]= 304,
+  ["ShowID"]= {
+    10205055,
+    10401006,
+    10406849
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101056] = {
+  ["ID"]= 4101056,
+  ["Name"]= "护士帽",
+  ["Rank"]= 353,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101057] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4101057,
+  ["Name"]= "玩具士兵帽",
+  ["Rank"]= 411
+},
+[4101058] = {
+  ["ID"]= 4101058,
+  ["Name"]= "花朵",
+  ["Rank"]= 343,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101059] = {
+  ["ID"]= 4101059,
+  ["Name"]= "宝石头盔",
+  ["Rank"]= 317,
+  ["ShowID"]= {
+    10205059,
+    10401007,
+    10406858
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101060] = {
+  ["ID"]= 4101060,
+  ["Name"]= "回忆帽",
+  ["Rank"]= 350,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101061] = {
+  ["ID"]= 4101061,
+  ["Name"]= "犬妖保暖毛帽",
+  ["Rank"]= 360,
+  ["ShowHair"]= 0,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101062] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101062,
+  ["Name"]= "趴趴泰依林",
+  ["Rank"]= 462,
+  ["ShowType"]= 0
+},
+[4101063] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4101063,
+  ["Name"]= "趴趴小野猫",
+  ["Rank"]= 413
+},
+[4101064] = {
+  ["ID"]= 4101064,
+  ["Name"]= "克里图拉学院帽",
+  ["Rank"]= 301,
+  ["ShowID"]= {
+    10205064,
+    10401007,
+    10406850
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101067] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["ID"]= 4101067,
+  ["Name"]= "魔术师帽",
+  ["Rank"]= 94,
+  ["ShowID"]= {
+    4
+  },
+  ["ShowType"]= 2
+},
+[4101069] = {
+  ["ID"]= 4101069,
+  ["Name"]= "首领冠冕",
+  ["Rank"]= 257,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101070] = {
+  ["ID"]= 4101070,
+  ["Name"]= "领导者头箍",
+  ["Rank"]= 258,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101071] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101071,
+  ["Name"]= "-",
+  ["Rank"]= 459,
+  ["ShowType"]= 0
+},
+[4101072] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101072,
+  ["Name"]= "-",
+  ["Rank"]= 460,
+  ["ShowType"]= 0
+},
+[4101073] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_087",
+  ["ID"]= 4101073,
+  ["Name"]= "山羊头盔",
+  ["Rank"]= 3
+},
+[4101074] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101074,
+  ["Name"]= "方头巾",
+  ["Rank"]= 379
+},
+[4101075] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101075,
+  ["Name"]= "头巾",
+  ["Rank"]= 399
+},
+[4101076] = {
+  ["GetWords"]= "FashionItem_4101076",
+  ["ID"]= 4101076,
+  ["Name"]= "蓝色发带",
+  ["Rank"]= 371
+},
+[4101077] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101077,
+  ["Name"]= "条纹发带",
+  ["Rank"]= 400
+},
+[4101078] = {
+  ["ID"]= 4101078,
+  ["Name"]= "头箍",
+  ["Rank"]= 290,
+  ["ShowID"]= {
+    10205071,
+    10401007,
+    10406599
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101079] = {
+  ["GetWords"]= "FashionItem_4101079",
+  ["ID"]= 4101079,
+  ["Name"]= "印地安发圈",
+  ["Rank"]= 372
+},
+[4101080] = {
+  ["ID"]= 4101080,
+  ["Name"]= "武将头盔",
+  ["Rank"]= 293,
+  ["ShowID"]= {
+    10205073,
+    10401004,
+    10406818
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101083] = {
+  ["ID"]= 4101083,
+  ["Name"]= "梳子",
+  ["Rank"]= 335,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101084] = {
+  ["ID"]= 4101084,
+  ["Name"]= "星星发带",
+  ["Rank"]= 296,
+  ["ShowID"]= {
+    10205075,
+    10401007,
+    10406868
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101085] = {
+  ["ID"]= 4101085,
+  ["Name"]= "花卉发夹",
+  ["Rank"]= 297,
+  ["ShowID"]= {
+    10205076,
+    10401005,
+    10406839
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101086] = {
+  ["ID"]= 4101086,
+  ["Name"]= "爱心发夹",
+  ["Rank"]= 298,
+  ["ShowID"]= {
+    10205077,
+    10401006,
+    10406891
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101087] = {
+  ["ID"]= 4101087,
+  ["Name"]= "猫爪发卡",
+  ["Rank"]= 299,
+  ["ShowID"]= {
+    10205078,
+    10401007,
+    10406801
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101088] = {
+  ["ID"]= 4101088,
+  ["Name"]= "上弦月发夹",
+  ["Rank"]= 300,
+  ["ShowID"]= {
+    10205079,
+    10401005,
+    10406858
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101089] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101089,
+  ["Name"]= "发箍",
+  ["Rank"]= 401
+},
+[4101090] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101090,
+  ["Name"]= "绿色头绳",
+  ["Rank"]= 380
+},
+[4101091] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101091,
+  ["Name"]= "红色头绳",
+  ["Rank"]= 381
+},
+[4101092] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101092,
+  ["Name"]= "蓝色头绳",
+  ["Rank"]= 382
+},
+[4101093] = {
+  ["GetWords"]= "FashionItem_4101093",
+  ["ID"]= 4101093,
+  ["Name"]= "花发圈",
+  ["Rank"]= 373
+},
+[4101094] = {
+  ["ID"]= 4101094,
+  ["Name"]= "情人节帽",
+  ["Rank"]= 337,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101095] = {
+  ["ID"]= 4101095,
+  ["Name"]= "香菇发圈",
+  ["Rank"]= 332,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101096] = {
+  ["ID"]= 4101096,
+  ["Name"]= "三层波利帽子",
+  ["Rank"]= 333,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101097] = {
+  ["ID"]= 4101097,
+  ["Name"]= "鹿角头饰",
+  ["Rank"]= 341,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101098] = {
+  ["ID"]= 4101098,
+  ["Name"]= "猴子发箍",
+  ["Rank"]= 342,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101099] = {
+  ["ID"]= 4101099,
+  ["Name"]= "无边帽",
+  ["Rank"]= 369,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101100] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101100,
+  ["Name"]= "安全帽",
+  ["Rank"]= 384
+},
+[4101101] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4101101,
+  ["Name"]= "兽人头盔",
+  ["Rank"]= 416
+},
+[4101102] = {
+  ["ID"]= 4101102,
+  ["Name"]= "学士帽",
+  ["Rank"]= 306,
+  ["ShowID"]= {
+    10205093,
+    10401007,
+    10406513
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101103] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101103,
+  ["Name"]= "魔法帽",
+  ["Rank"]= 454,
+  ["ShowType"]= 0
+},
+[4101104] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101104,
+  ["Name"]= "魔导师的帽子",
+  ["Rank"]= 458,
+  ["ShowType"]= 0
+},
+[4101105] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4101105,
+  ["Name"]= "狂欢节小丑帽子",
+  ["Rank"]= 412
+},
+[4101106] = {
+  ["ID"]= 4101106,
+  ["Name"]= "狸猫帽",
+  ["Rank"]= 310,
+  ["ShowID"]= {
+    10205097,
+    10401006,
+    10403011
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101107] = {
+  ["ID"]= 4101107,
+  ["Name"]= "小熊帽",
+  ["Rank"]= 311,
+  ["ShowID"]= {
+    10205098,
+    10401007,
+    10406513
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101108] = {
+  ["ID"]= 4101108,
+  ["Name"]= "绵羊帽",
+  ["Rank"]= 315,
+  ["ShowID"]= {
+    10205099,
+    10401007,
+    10406809
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101109] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_021",
+  ["ID"]= 4101109,
+  ["Name"]= "天使波利帽子",
+  ["Rank"]= 188
+},
+[4101110] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4101110,
+  ["Name"]= "恶魔波利帽子",
+  ["Rank"]= 198
+},
+[4101111] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101111,
+  ["Name"]= "巴基力的头盔",
+  ["Rank"]= 445,
+  ["ShowType"]= 0
+},
+[4101113] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4101113,
+  ["Name"]= "白色懒洋洋的猫",
+  ["Rank"]= 418
+},
+[4101114] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4101114,
+  ["Name"]= "灰色懒洋洋的猫",
+  ["Rank"]= 419
+},
+[4101115] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4101115,
+  ["Name"]= "粉红色懒洋洋的猫",
+  ["Rank"]= 420
+},
+[4101116] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4101116,
+  ["Name"]= "蓝色懒洋洋的猫",
+  ["Rank"]= 421
+},
+[4101117] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4101117,
+  ["Name"]= "黄色懒洋洋的猫",
+  ["Rank"]= 422
+},
+[4101118] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4101118,
+  ["Name"]= "懒洋洋的猫",
+  ["Rank"]= 423
+},
+[4101119] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101119,
+  ["Name"]= "趴趴妣妮",
+  ["Rank"]= 463,
+  ["ShowType"]= 0
+},
+[4101120] = {
+  ["GetWords"]= "FashionItem_023",
+  ["ID"]= 4101120,
+  ["Name"]= "趴趴德帛硫",
+  ["Rank"]= 231
+},
+[4101121] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101121,
+  ["Name"]= "趴趴狄波萝太",
+  ["Rank"]= 464,
+  ["ShowType"]= 0
+},
+[4101122] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101122,
+  ["Name"]= "趴趴莉莉娅",
+  ["Rank"]= 465,
+  ["ShowType"]= 0
+},
+[4101123] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101123,
+  ["Name"]= "趴趴多萝茜",
+  ["Rank"]= 466,
+  ["ShowType"]= 0
+},
+[4101124] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101124,
+  ["Name"]= "趴趴克拉丽斯",
+  ["Rank"]= 467,
+  ["ShowType"]= 0
+},
+[4101125] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101125,
+  ["Name"]= "趴趴索兰",
+  ["Rank"]= 468,
+  ["ShowType"]= 0
+},
+[4101126] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101126,
+  ["Name"]= "趴趴塔尼古米",
+  ["Rank"]= 469,
+  ["ShowType"]= 0
+},
+[4101127] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101127,
+  ["Name"]= "玉兔头饰",
+  ["Rank"]= 456,
+  ["ShowType"]= 0
+},
+[4101128] = {
+  ["ID"]= 4101128,
+  ["Name"]= "青蛙帽子",
+  ["Rank"]= 362,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101129] = {
+  ["ID"]= 4101129,
+  ["Name"]= "乌龟帽",
+  ["Rank"]= 361,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101131] = {
+  ["ID"]= 4101131,
+  ["Name"]= "讨厌的狸猫",
+  ["Rank"]= 363,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101132] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101132,
+  ["Name"]= "下垂的九尾狐",
+  ["Rank"]= 452,
+  ["ShowType"]= 0
+},
+[4101133] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4101133,
+  ["Name"]= "小狗帽",
+  ["Rank"]= 414
+},
+[4101134] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101134,
+  ["Name"]= "夸提帽",
+  ["Rank"]= 457,
+  ["ShowType"]= 0
+},
+[4101135] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4101135,
+  ["Name"]= "幼龙帽",
+  ["Rank"]= 415
+},
+[4101136] = {
+  ["ID"]= 4101136,
+  ["Name"]= "下垂的丽芙娃娃",
+  ["Rank"]= 370,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101137] = {
+  ["ID"]= 4101137,
+  ["Name"]= "趴趴兔",
+  ["Rank"]= 364,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101138] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_021",
+  ["ID"]= 4101138,
+  ["Name"]= "小天使头饰",
+  ["Rank"]= 189
+},
+[4101139] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4101139,
+  ["Name"]= "小鬼帽",
+  ["Rank"]= 199
+},
+[4101140] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101140,
+  ["Name"]= "草绿色发带",
+  ["Rank"]= 402
+},
+[4101141] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101141,
+  ["Name"]= "粉红色发带",
+  ["Rank"]= 403
+},
+[4101142] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101142,
+  ["Name"]= "红色发带",
+  ["Rank"]= 404
+},
+[4101143] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101143,
+  ["Name"]= "白色发带",
+  ["Rank"]= 405
+},
+[4101144] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4101144,
+  ["Name"]= "黄色发带",
+  ["Rank"]= 406
+},
+[4101145] = {
+  ["ID"]= 4101145,
+  ["Name"]= "光环",
+  ["Rank"]= 365,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101146] = {
+  ["GetWords"]= "FashionItem_4101146",
+  ["ID"]= 4101146,
+  ["Name"]= "花冠",
+  ["Rank"]= 374
+},
+[4101148] = {
+  ["ID"]= 4101148,
+  ["Name"]= "变身树叶",
+  ["Rank"]= 366,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101149] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101149,
+  ["Name"]= "蓝色鱼",
+  ["Rank"]= 383
+},
+[4101150] = {
+  ["ID"]= 4101150,
+  ["Name"]= "向日葵头饰",
+  ["Rank"]= 367,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101151] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101151,
+  ["Name"]= "蜡烛头饰",
+  ["Rank"]= 386
+},
+[4101152] = {
+  ["ID"]= 4101152,
+  ["Name"]= "丸子头饰",
+  ["Rank"]= 329,
+  ["ShowID"]= {
+    10205140,
+    10401006,
+    10406513
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101153] = {
+  ["ID"]= 4101153,
+  ["Name"]= "恶魔女仆的角",
+  ["Rank"]= 347,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101154] = {
+  ["ID"]= 4101154,
+  ["Name"]= "恶魔侍者的角",
+  ["Rank"]= 348,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101155] = {
+  ["ID"]= 4101155,
+  ["Name"]= "恶魔之翼",
+  ["Rank"]= 349,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101156] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4101156,
+  ["Name"]= "黑暗头盔",
+  ["Rank"]= 448,
+  ["ShowType"]= 0
+},
+[4101157] = {
+  ["ID"]= 4101157,
+  ["Name"]= "红宝石发箍",
+  ["Rank"]= 292,
+  ["ShowID"]= {
+    10205145,
+    10401006,
+    10406868
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101158] = {
+  ["ID"]= 4101158,
+  ["Name"]= "巨大的金铃铛",
+  ["Rank"]= 368,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101159] = {
+  ["ID"]= 4101159,
+  ["Name"]= "紧密的头盔",
+  ["Rank"]= 319,
+  ["ShowID"]= {
+    10205147,
+    10401006,
+    10406513
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101160] = {
+  ["ID"]= 4101160,
+  ["Name"]= "僵尸帽",
+  ["Rank"]= 312,
+  ["ShowID"]= {
+    10205148,
+    10401005,
+    10413049
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101161] = {
+  ["ID"]= 4101161,
+  ["Name"]= "妖道帽",
+  ["Rank"]= 313,
+  ["ShowID"]= {
+    10205149,
+    10401006,
+    10406848
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101162] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["ID"]= 4101162,
+  ["Name"]= "暗黑皇冠",
+  ["Rank"]= 98,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101171] = {
+  ["ID"]= 4101171,
+  ["Name"]= "大脚龙虾帽",
+  ["Rank"]= 263,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101172] = {
+  ["ID"]= 4101172,
+  ["Name"]= "乌贼帽",
+  ["Rank"]= 253,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101173] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101173,
+  ["Name"]= "学园祭帽子",
+  ["Rank"]= 441
+},
+[4101174] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_017",
+  ["ID"]= 4101174,
+  ["Name"]= "软软猫耳朵",
+  ["Rank"]= 225
+},
+[4101175] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101175,
+  ["Name"]= "学园祭帽子·红",
+  ["Rank"]= 432
+},
+[4101176] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101176,
+  ["Name"]= "学园祭帽子·蓝",
+  ["Rank"]= 439
+},
+[4101177] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101177,
+  ["Name"]= "学园祭帽子·绿",
+  ["Rank"]= 435
+},
+[4101180] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101180,
+  ["Name"]= "烈日太阳镜",
+  ["Rank"]= 427
+},
+[4101181] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101181,
+  ["Name"]= "夏日沙滩草帽",
+  ["Rank"]= 428
+},
+[4101182] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_016",
+  ["ID"]= 4101182,
+  ["Name"]= "生物防护面具",
+  ["Rank"]= 228
+},
+[4101183] = {
+  ["GetWords"]= "FashionItem_2405010",
+  ["ID"]= 4101183,
+  ["Name"]= "侠士斗笠",
+  ["Rank"]= 376
+},
+[4101184] = {
+  ["ID"]= 4101184,
+  ["Name"]= "青蛙斗笠",
+  ["Rank"]= 330,
+  ["ShowID"]= {
+    11101050
+  },
+  ["ShowType"]= 4
+},
+[4101185] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_014",
+  ["ID"]= 4101185,
+  ["Name"]= "新世代学员手册",
+  ["Rank"]= 424
+},
+[4101186] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_020",
+    "FashionItem_020",
+    "FashionItem_020",
+    "FashionItem_081"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_020",
+  ["ID"]= 4101186,
+  ["IsNot"]= 1,
+  ["Name"]= "白昼魔术发饰",
+  ["Rank"]= 221
+},
+[4101187] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_022",
+    "FashionItem_022",
+    "FashionItem_022",
+    "FashionItem_074"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_022",
+  ["ID"]= 4101187,
+  ["IsNot"]= 1,
+  ["Name"]= "黑夜魔术礼帽",
+  ["Rank"]= 218
+},
+[4101188] = {
+  ["GetWords"]= "FashionItem_026",
+  ["ID"]= 4101188,
+  ["Name"]= "一掷千金金猪",
+  ["Rank"]= 238
+},
+[4101189] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4101189,
+  ["Name"]= "吟游诗人羽帽",
+  ["Rank"]= 470
+},
+[4101190] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4101190,
+  ["Name"]= "潮流达人假发",
+  ["Rank"]= 473,
+  ["ShowHair"]= 0
+},
+[4101191] = {
+  ["GetWords"]= "FashionItem_024",
+  ["ID"]= 4101191,
+  ["Name"]= "哈士奇玩偶头套",
+  ["Rank"]= 232,
+  ["ShowHair"]= 0
+},
+[4101192] = {
+  ["GetWords"]= "FashionItem_025",
+  ["ID"]= 4101192,
+  ["Name"]= "小丑蓬松假发",
+  ["Rank"]= 235,
+  ["ShowHair"]= 0
+},
+[4101193] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_014",
+  ["ID"]= 4101193,
+  ["Name"]= "学园祭帽子·白",
+  ["Rank"]= 425
+},
+[4101194] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_015",
+    "FashionItem_015",
+    "FashionItem_015",
+    "FashionItem_070"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4101194,
+  ["IsNot"]= 1,
+  ["Name"]= "诡巫帽子",
+  ["Rank"]= 200
+},
+[4101195] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4101195,
+  ["Name"]= "复生夜行头饰",
+  ["Rank"]= 203,
+  ["ShowHair"]= 0
+},
+[4101197] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101197,
+  ["Name"]= "月夜猫时装",
+  ["Rank"]= 483
+},
+[4101198] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_021",
+  ["ID"]= 4101198,
+  ["Name"]= "星语祝福帽子",
+  ["Rank"]= 191
+},
+[4101199] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_021",
+  ["ID"]= 4101199,
+  ["Name"]= "冬日暖阳头饰",
+  ["Rank"]= 195
+},
+[4101200] = {
+  ["GenderType"]= 1,
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 4101200,
+  ["Name"]= "承慕之诺礼帽",
+  ["Rank"]= 240
+},
+[4101201] = {
+  ["GenderType"]= 2,
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 4101201,
+  ["Name"]= "承慕之诺头纱",
+  ["Rank"]= 241
+},
+[4101202] = {
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 4101202,
+  ["Name"]= "证诺之人花环",
+  ["Rank"]= 245
+},
+[4101203] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_029",
+  ["ID"]= 4101203,
+  ["Name"]= "红缎鎏金牛角",
+  ["Rank"]= 215
+},
+[4101204] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GenderType"]= 1,
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 4101204,
+  ["Name"]= "韩式婚礼头饰(男款)",
+  ["Rank"]= 476
+},
+[4101205] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GenderType"]= 2,
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 4101205,
+  ["Name"]= "韩式婚礼头饰(女款)",
+  ["Rank"]= 477,
+  ["ShowHair"]= 0
+},
+[4101206] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 4101206,
+  ["Name"]= "韩式伴郎/娘头饰",
+  ["Rank"]= 481
+},
+[4101208] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_030",
+    "FashionItem_030",
+    "FashionItem_030",
+    "FashionItem_102"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_030",
+  ["ID"]= 4101208,
+  ["IsNot"]= 1,
+  ["Name"]= "年兽头饰",
+  ["Rank"]= 182,
+  ["ShowHair"]= 0
+},
+[4101209] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_031",
+  ["ID"]= 4101209,
+  ["Name"]= "舞狮帽",
+  ["Rank"]= 185
+},
+[4101210] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_028",
+  ["ID"]= 4101210,
+  ["Name"]= "幸福花嫁",
+  ["Rank"]= 181
+},
+[4101211] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_031",
+  ["ID"]= 4101211,
+  ["Name"]= "一碗汤圆",
+  ["Rank"]= 186,
+  ["ShowNum"]= {
+    1
+  }
+},
+[4101212] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_037",
+  ["ID"]= 4101212,
+  ["Name"]= "遗迹考古帽",
+  ["Rank"]= 174
+},
+[4101213] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_032",
+  ["ID"]= 4101213,
+  ["Name"]= "格子甜心耳机",
+  ["Rank"]= 212
+},
+[4101214] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_035",
+    "FashionItem_056"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_035",
+  ["ID"]= 4101214,
+  ["IsNot"]= 1,
+  ["Name"]= "嗡鸣蜜糖头饰",
+  ["Rank"]= 178,
+  ["ShowHair"]= 0
+},
+[4101215] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101215,
+  ["Name"]= "皇冠",
+  ["Rank"]= 1
+},
+[4101216] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_039",
+    "FashionItem_039",
+    "FashionItem_039",
+    "FashionItem_072"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_039",
+  ["ID"]= 4101216,
+  ["IsNot"]= 1,
+  ["Name"]= "蒸汽探测仪",
+  ["Rank"]= 207
+},
+[4101217] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_077",
+    "FashionItem_043"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_043",
+  ["ID"]= 4101217,
+  ["IsNot"]= 1,
+  ["Name"]= "神鸟金冠",
+  ["Rank"]= 162
+},
+[4101218] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_033",
+  ["ID"]= 4101218,
+  ["Name"]= "水晶后冠",
+  ["Rank"]= 180
+},
+[4101219] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_034",
+    "FashionItem_034",
+    "FashionItem_034",
+    "FashionItem_054"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_034",
+  ["ID"]= 4101219,
+  ["IsNot"]= 1,
+  ["Name"]= "皇家骑兵宽式帽",
+  ["Rank"]= 209
+},
+[4101220] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_036",
+  ["ID"]= 4101220,
+  ["Name"]= "皇家骑兵羽饰帽",
+  ["Rank"]= 177
+},
+[4101221] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_070",
+  ["ID"]= 4101221,
+  ["Name"]= "爱丽丝兔耳头饰",
+  ["Rank"]= 84
+},
+[4101222] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_042",
+    "FashionItem_053"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_042",
+  ["ID"]= 4101222,
+  ["IsNot"]= 1,
+  ["Name"]= "喧哗上等波浪卷",
+  ["Rank"]= 165,
+  ["ShowHair"]= 0
+},
+[4101223] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["ID"]= 4101223,
+  ["Name"]= "人面狮身帽",
+  ["Rank"]= 247,
+  ["ShowHair"]= 0,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101224] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["ID"]= 4101224,
+  ["Name"]= "尖角发圈",
+  ["Rank"]= 248,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101225] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["ID"]= 4101225,
+  ["Name"]= "祭司头环",
+  ["Rank"]= 250,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101226] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["ID"]= 4101226,
+  ["Name"]= "黑暗光环",
+  ["Rank"]= 267,
+  ["ShowID"]= {
+    4
+  },
+  ["ShowType"]= 2
+},
+[4101227] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_040",
+  ["ID"]= 4101227,
+  ["Name"]= "王家之仪帽子",
+  ["Rank"]= 171
+},
+[4101228] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_042",
+    "FashionItem_053"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_042",
+  ["ID"]= 4101228,
+  ["IsNot"]= 1,
+  ["Name"]= "喧哗上等飞机头",
+  ["Rank"]= 164,
+  ["ShowHair"]= 0
+},
+[4101229] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_074",
+  ["ID"]= 4101229,
+  ["Name"]= "蹦跳巴尼",
+  ["Rank"]= 87
+},
+[4101230] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_065",
+    "FashionItem_063"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_065",
+  ["ID"]= 4101230,
+  ["IsNot"]= 1,
+  ["Name"]= "趴趴猫",
+  ["Rank"]= 126
+},
+[4101231] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_073",
+  ["ID"]= 4101231,
+  ["Name"]= "波利的派对帽子",
+  ["Rank"]= 90
+},
+[4101232] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_050",
+    "FashionItem_063"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_050",
+  ["ID"]= 4101232,
+  ["IsNot"]= 1,
+  ["Name"]= "蓝疯兔大耳帽子",
+  ["Rank"]= 141
+},
+[4101235] = {
+  ["ChannelId"]= {
+    10
+  },
+  ["GetWords"]= "FashionItem_041",
+  ["ID"]= 4101235,
+  ["Name"]= "烈火竞时头盔",
+  ["Rank"]= 159,
+  ["ShowHair"]= 0
+},
+[4101236] = {
+  ["ChannelId"]= {
+    10
+  },
+  ["GetWords"]= "FashionItem_041",
+  ["ID"]= 4101236,
+  ["Name"]= "烈火竞时帽子",
+  ["Rank"]= 160
+},
+[4101237] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["ID"]= 4101237,
+  ["Name"]= "噬神者玩偶",
+  ["Rank"]= 99,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4101238] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_054",
+    "FashionItem_072"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_054",
+  ["ID"]= 4101238,
+  ["IsNot"]= 1,
+  ["Name"]= "警卫套装头饰",
+  ["Rank"]= 133
+},
+[4101239] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_046",
+    "FashionItem_045"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_045",
+  ["ID"]= 4101239,
+  ["IsNot"]= 1,
+  ["Name"]= "活力之夏头饰",
+  ["Rank"]= 154
+},
+[4101240] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_046",
+    "FashionItem_045"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_045",
+  ["ID"]= 4101240,
+  ["IsNot"]= 1,
+  ["Name"]= "活力之夏泳镜",
+  ["Rank"]= 153
+},
+[4101241] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_042",
+    "FashionItem_042",
+    "FashionItem_042",
+    "FashionItem_101"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_041",
+  ["ID"]= 4101241,
+  ["IsNot"]= 1,
+  ["Name"]= "烈日宽墨镜",
+  ["Rank"]= 168
+},
+[4101242] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_044",
+  ["ID"]= 4101242,
+  ["Name"]= "宣竹清风发簪",
+  ["Rank"]= 156
+},
+[4101244] = {
+  ["ChannelId"]= {
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101244,
+  ["Name"]= "tiktok头饰",
+  ["Rank"]= 149
+},
+[4101245] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101245,
+  ["Name"]= "史莱姆和风男头饰",
+  ["Rank"]= 103,
+  ["ShowHair"]= 0
+},
+[4101246] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101246,
+  ["Name"]= "史莱姆联动-和风头饰女",
+  ["Rank"]= 110,
+  ["ShowHair"]= 0
+},
+[4101249] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101249,
+  ["Name"]= "学者史莱姆",
+  ["Rank"]= 113
+},
+[4101250] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101250,
+  ["Name"]= "史莱姆面具头饰",
+  ["Rank"]= 102
+},
+[4101251] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101251,
+  ["Name"]= "史莱姆联动头饰-鬼角",
+  ["Rank"]= 109,
+  ["ShowHair"]= 0
+},
+[4101252] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101252,
+  ["Name"]= "深海探险头饰",
+  ["Rank"]= 8
+},
+[4101253] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_082",
+    "FashionItem_052"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_052",
+  ["ID"]= 4101253,
+  ["IsNot"]= 1,
+  ["Name"]= "鸡蛋花头饰",
+  ["Rank"]= 142
+},
+[4101254] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_081",
+  ["ID"]= 4101254,
+  ["Name"]= "睡衣帽1",
+  ["Rank"]= 71
+},
+[4101255] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_081",
+  ["ID"]= 4101255,
+  ["Name"]= "睡衣帽2",
+  ["Rank"]= 72
+},
+[4101256] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_047",
+    "FashionItem_079"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_047",
+  ["ID"]= 4101256,
+  ["IsNot"]= 1,
+  ["Name"]= "水手头饰1",
+  ["Rank"]= 139
+},
+[4101257] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_047",
+    "FashionItem_079"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_047",
+  ["ID"]= 4101257,
+  ["IsNot"]= 1,
+  ["Name"]= "水手头饰2",
+  ["Rank"]= 140
+},
+[4101258] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_055",
+  ["ID"]= 4101258,
+  ["Name"]= "棒球帽",
+  ["Rank"]= 137
+},
+[4101259] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101259,
+  ["Name"]= "草编花环",
+  ["Rank"]= 10
+},
+[4101260] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101260,
+  ["Name"]= "鲜花花环",
+  ["Rank"]= 9
+},
+[4101264] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101264,
+  ["Name"]= "MLBB女头饰",
+  ["Rank"]= 16,
+  ["ShowHair"]= 0
+},
+[4101265] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_058",
+  ["ID"]= 4101265,
+  ["Name"]= "毕业奖励帽子",
+  ["Rank"]= 129
+},
+[4101266] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101266,
+  ["Name"]= "吟游诗人绿帽",
+  ["Rank"]= 14
+},
+[4101269] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_060",
+    "FashionItem_097"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_060",
+  ["ID"]= 4101269,
+  ["IsNot"]= 1,
+  ["Name"]= "七夕头饰男",
+  ["Rank"]= 124,
+  ["ShowHair"]= 0
+},
+[4101270] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101270,
+  ["Name"]= "迪亚波罗头饰",
+  ["Rank"]= 111,
+  ["ShowHair"]= 0
+},
+[4101271] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101271,
+  ["Name"]= "白老发饰",
+  ["Rank"]= 114,
+  ["ShowHair"]= 0
+},
+[4101272] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101272,
+  ["Name"]= "爱莲发饰",
+  ["Rank"]= 115,
+  ["ShowHair"]= 0
+},
+[4101273] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101273,
+  ["Name"]= "利姆露头饰",
+  ["Rank"]= 112,
+  ["ShowHair"]= 0
+},
+[4101275] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_062",
+  ["ID"]= 4101275,
+  ["Name"]= "小黄鸡头饰",
+  ["Rank"]= 136
+},
+[4101276] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_060",
+    "FashionItem_097"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_060",
+  ["ID"]= 4101276,
+  ["IsNot"]= 1,
+  ["Name"]= "七夕头饰女",
+  ["Rank"]= 125,
+  ["ShowHair"]= 0
+},
+[4101277] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4101277,
+  ["Name"]= "米莉姆发饰",
+  ["Rank"]= 116,
+  ["ShowHair"]= 0
+},
+[4101278] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_071",
+  ["ID"]= 4101278,
+  ["Name"]= "周年庆头饰",
+  ["Rank"]= 82
+},
+[4101279] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4101279,
+  ["Name"]= "小丑回魂男头饰",
+  ["Rank"]= 44,
+  ["ShowHair"]= 0
+},
+[4101280] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101280,
+  ["Name"]= "花栗鼠帽子",
+  ["Rank"]= 20
+},
+[4101284] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_066",
+  ["ID"]= 4101284,
+  ["Name"]= "光头",
+  ["Rank"]= 120,
+  ["ShowHair"]= 0
+},
+[4101285] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4101285,
+  ["Name"]= "小丑回魂女头饰",
+  ["Rank"]= 42,
+  ["ShowHair"]= 0
+},
+[4101286] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_071",
+  ["ID"]= 4101286,
+  ["Name"]= "周年庆嘻哈风格头饰",
+  ["Rank"]= 100
+},
+[4101289] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_088",
+  ["ID"]= 4101289,
+  ["Name"]= "滑雪帽子",
+  ["Rank"]= 91
+},
+[4101290] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_088",
+  ["ID"]= 4101290,
+  ["Name"]= "滑雪耳罩",
+  ["Rank"]= 92
+},
+[4101291] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_076",
+  ["ID"]= 4101291,
+  ["Name"]= "西部牛仔头饰",
+  ["Rank"]= 75
+},
+[4101292] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4101292,
+  ["Name"]= "南瓜巫师帽",
+  ["Rank"]= 78,
+  ["ShowHair"]= 0
+},
+[4101295] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101295,
+  ["Name"]= "雪怪帽子",
+  ["Rank"]= 50
+},
+[4101296] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101296,
+  ["Name"]= "趴趴姜饼人",
+  ["Rank"]= 51
+},
+[4101297] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101297,
+  ["Name"]= "打歌服头部",
+  ["Rank"]= 47
+},
+[4101298] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101298,
+  ["Name"]= "小精灵头饰",
+  ["Rank"]= 56
+},
+[4101299] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_084",
+  ["ID"]= 4101299,
+  ["Name"]= "Pattieung头饰",
+  ["Rank"]= 34
+},
+[4101300] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_085",
+  ["ID"]= 4101300,
+  ["Name"]= "The Toy头饰",
+  ["Rank"]= 35
+},
+[4101301] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_086",
+  ["ID"]= 4101301,
+  ["Name"]= "Kao头饰",
+  ["Rank"]= 36
+},
+[4101302] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101302,
+  ["Name"]= "打歌服头饰2",
+  ["Rank"]= 54
+},
+[4101303] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4101303,
+  ["Name"]= "小精灵头饰2",
+  ["Rank"]= 55
+},
+[4101304] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_083",
+  ["ID"]= 4101304,
+  ["Name"]= "槲寄生之约​",
+  ["Rank"]= 53
+},
+[4101307] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_102",
+  ["ID"]= 4101307,
+  ["Name"]= "2022新年头饰",
+  ["Rank"]= 23
+},
+[4101309] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_095",
+  ["ID"]= 4101309,
+  ["Name"]= "华为头盔",
+  ["Rank"]= 31,
+  ["ShowHair"]= 0
+},
+[4101310] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_090",
+  ["ID"]= 4101310,
+  ["Name"]= "奥丁头饰1",
+  ["Rank"]= 38,
+  ["ShowHair"]= 0
+},
+[4101311] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_090",
+  ["ID"]= 4101311,
+  ["Name"]= "奥丁头饰2",
+  ["Rank"]= 39,
+  ["ShowHair"]= 0
+},
+[4101321] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_099",
+  ["ID"]= 4101321,
+  ["Rank"]= 27
+},
+[4101322] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_099",
+  ["ID"]= 4101322,
+  ["Rank"]= 28
+},
+[4101501] = {
+  ["ID"]= 4101501,
+  ["Name"]= "提督帽",
+  ["Rank"]= 354,
+  ["ShowID"]= {
+    10101016
+  },
+  ["ShowType"]= 4
+},
+[4101502] = {
+  ["ID"]= 4101502,
+  ["Name"]= "狐狸假面",
+  ["Rank"]= 285,
+  ["ShowID"]= {
+    10205153,
+    10401006,
+    10403011
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4101504] = {
+  ["ID"]= 4101504,
+  ["Name"]= "蜜蜂帽",
+  ["Rank"]= 309,
+  ["ShowID"]= {
+    10205154,
+    10401004,
+    10406868
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102001] = {
+  ["ID"]= 4102001,
+  ["Name"]= "红框眼镜",
+  ["Rank"]= 280,
+  ["ShowID"]= {
+    10205155,
+    10401005,
+    10406850
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102002] = {
+  ["ID"]= 4102002,
+  ["Name"]= "舞会假面",
+  ["Rank"]= 283,
+  ["ShowID"]= {
+    10205156,
+    10401007,
+    10406848
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102003] = {
+  ["ID"]= 4102003,
+  ["Name"]= "哥布灵面具",
+  ["Rank"]= 286,
+  ["ShowID"]= {
+    10205157,
+    10401007,
+    10406839
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102004] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4102004,
+  ["Name"]= "天使魅影",
+  ["Rank"]= 408
+},
+[4102005] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4102005,
+  ["Name"]= "恶魔翅膀耳饰",
+  ["Rank"]= 197
+},
+[4102006] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_021",
+  ["ID"]= 4102006,
+  ["Name"]= "天使翅膀耳饰",
+  ["Rank"]= 190
+},
+[4102007] = {
+  ["ID"]= 4102007,
+  ["Name"]= "黑色眼罩",
+  ["Rank"]= 279,
+  ["ShowID"]= {
+    10205161,
+    10401007,
+    10403011
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102008] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4102008,
+  ["Name"]= "望远镜",
+  ["Rank"]= 461,
+  ["ShowType"]= 0
+},
+[4102009] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4102009,
+  ["Name"]= "浮潜蛙镜",
+  ["Rank"]= 393
+},
+[4102010] = {
+  ["ID"]= 4102010,
+  ["Name"]= "独眼巨人的护目镜",
+  ["Rank"]= 282,
+  ["ShowID"]= {
+    10205164,
+    10401006,
+    10413049
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102011] = {
+  ["ID"]= 4102011,
+  ["Name"]= "整人面具",
+  ["Rank"]= 252,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4102022] = {
+  ["GetWords"]= "FashionItem_002",
+  ["ID"]= 4102022,
+  ["Name"]= "独眼龙眼罩",
+  ["Rank"]= 407
+},
+[4102024] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4102024,
+  ["Name"]= "大嘴鸟的翅膀耳饰",
+  ["Rank"]= 446,
+  ["ShowType"]= 0
+},
+[4102025] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4102025,
+  ["Name"]= "妖精长耳朵饰",
+  ["Rank"]= 447,
+  ["ShowType"]= 0
+},
+[4102026] = {
+  ["ID"]= 4102026,
+  ["Name"]= "蝴蝶假面",
+  ["Rank"]= 288,
+  ["ShowID"]= {
+    10205169,
+    10401006,
+    10406818
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102027] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4102027,
+  ["Name"]= "红晕",
+  ["Rank"]= 378
+},
+[4102028] = {
+  ["ID"]= 4102028,
+  ["Name"]= "白幽灵面具",
+  ["Rank"]= 287,
+  ["ShowHair"]= 0,
+  ["ShowID"]= {
+    10205171,
+    10401005,
+    10406599
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102029] = {
+  ["ID"]= 4102029,
+  ["Name"]= "歌剧之魂假面",
+  ["Rank"]= 284,
+  ["ShowID"]= {
+    10205172,
+    10401005,
+    10406801
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102030] = {
+  ["ID"]= 4102030,
+  ["Name"]= "眼镜",
+  ["Rank"]= 323,
+  ["ShowID"]= {
+    10205173,
+    10401004,
+    10406891
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102031] = {
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4102031,
+  ["Name"]= "时髦眼罩",
+  ["Rank"]= 385
+},
+[4102032] = {
+  ["ID"]= 4102032,
+  ["Name"]= "大眼睛眼镜",
+  ["Rank"]= 324,
+  ["ShowID"]= {
+    10205175,
+    10401004,
+    10406801
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102033] = {
+  ["ID"]= 4102033,
+  ["Name"]= "迷你眼镜",
+  ["Rank"]= 325,
+  ["ShowID"]= {
+    10205176,
+    10401006,
+    10406809
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102034] = {
+  ["ID"]= 4102034,
+  ["Name"]= "旋转眼镜",
+  ["Rank"]= 326,
+  ["ShowID"]= {
+    10205177,
+    10401007,
+    10406593
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102035] = {
+  ["ID"]= 4102035,
+  ["Name"]= "高级太阳眼镜",
+  ["Rank"]= 281,
+  ["ShowID"]= {
+    10205178,
+    10401005,
+    10406848
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102036] = {
+  ["ID"]= 4102036,
+  ["Name"]= "舞会面具",
+  ["Rank"]= 327,
+  ["ShowID"]= {
+    10205179,
+    10401004,
+    10406513
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102037] = {
+  ["ID"]= 4102037,
+  ["Name"]= "钢铁面具",
+  ["Rank"]= 277,
+  ["ShowID"]= {
+    10205180,
+    10401005,
+    10406818
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4102038] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_021",
+  ["ID"]= 4102038,
+  ["Name"]= "星语祝福贴纸",
+  ["Rank"]= 192
+},
+[4102039] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_042",
+    "FashionItem_053"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_042",
+  ["ID"]= 4102039,
+  ["IsNot"]= 1,
+  ["Name"]= "喧哗上等墨镜",
+  ["Rank"]= 166
+},
+[4102040] = {
+  ["ID"]= 4102040,
+  ["Name"]= "血袋",
+  ["Rank"]= 268,
+  ["ShowID"]= {
+    4
+  },
+  ["ShowType"]= 2
+},
+[4102041] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4102041,
+  ["Name"]= "学园祭眼镜",
+  ["Rank"]= 430
+},
+[4102042] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_077",
+    "FashionItem_100"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4102042,
+  ["IsNot"]= 1,
+  ["Name"]= "风情面具",
+  ["Rank"]= 163
+},
+[4102043] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["ID"]= 4102043,
+  ["Name"]= "单眼眼镜",
+  ["Rank"]= 95,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4102044] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["ID"]= 4102044,
+  ["Name"]= "面部绷带",
+  ["Rank"]= 96,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4102045] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["ID"]= 4102045,
+  ["Name"]= "小丑脸谱面具",
+  ["Rank"]= 97,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4102046] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_087",
+  ["ID"]= 4102046,
+  ["Name"]= "恶魔耳朵",
+  ["Rank"]= 2
+},
+[4102047] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4102047,
+  ["Name"]= "史莱姆面具",
+  ["Rank"]= 104
+},
+[4102048] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_045",
+  ["ID"]= 4102048,
+  ["Name"]= "深海探险潜水镜",
+  ["Rank"]= 150
+},
+[4102049] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_064",
+  ["ID"]= 4102049,
+  ["Name"]= "面包片",
+  ["Rank"]= 128
+},
+[4102050] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_058",
+  ["ID"]= 4102050,
+  ["Name"]= "灵光一闪",
+  ["Rank"]= 131
+},
+[4102051] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_058",
+  ["ID"]= 4102051,
+  ["Name"]= "大胡子嘴饰",
+  ["Rank"]= 130
+},
+[4102052] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_071",
+  ["ID"]= 4102052,
+  ["Name"]= "周年庆耳饰",
+  ["Rank"]= 81
+},
+[4102053] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4102053,
+  ["Name"]= "小丑回魂面饰",
+  ["Rank"]= 43
+},
+[4102054] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_070",
+  ["ID"]= 4102054,
+  ["Name"]= "爱丽丝胡子面饰",
+  ["Rank"]= 85
+},
+[4102055] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_069",
+    "FashionItem_069",
+    "FashionItem_091"
+  },
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_069",
+  ["ID"]= 4102055,
+  ["IsNot"]= 1,
+  ["Name"]= "马赛克眼镜",
+  ["Rank"]= 83
+},
+[4102056] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4102056,
+  ["Name"]= "狂笑魔音",
+  ["Rank"]= 77
+},
+[4102058] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4102058,
+  ["Name"]= "打歌服眼部",
+  ["Rank"]= 46
+},
+[4102059] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_095",
+  ["ID"]= 4102059,
+  ["Name"]= "华为面饰",
+  ["Rank"]= 32
+},
+[4103001] = {
+  ["ID"]= 4103001,
+  ["Name"]= "烟斗",
+  ["Rank"]= 254,
+  ["ShowID"]= {
+    6
+  },
+  ["ShowType"]= 2
+},
+[4103002] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4103002,
+  ["Name"]= "叼在嘴里的鱼",
+  ["Rank"]= 392
+},
+[4103003] = {
+  ["ID"]= 4103003,
+  ["Name"]= "金属口罩",
+  ["Rank"]= 276,
+  ["ShowID"]= {
+    10205184,
+    10401007,
+    10413049
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4103004] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4103004,
+  ["Name"]= "小孩奶嘴",
+  ["Rank"]= 391
+},
+[4103005] = {
+  ["ID"]= 4103005,
+  ["Name"]= "武士面具",
+  ["Rank"]= 278,
+  ["ShowID"]= {
+    10205186,
+    10401006,
+    10413050
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4103006] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4103006,
+  ["Name"]= "花叶",
+  ["Rank"]= 388
+},
+[4103007] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4103007,
+  ["Name"]= "嘴咬甜甜圈",
+  ["Rank"]= 390
+},
+[4103008] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4103008,
+  ["Name"]= "草叶",
+  ["Rank"]= 387
+},
+[4103009] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4103009,
+  ["Name"]= "香烟",
+  ["Rank"]= 396
+},
+[4103010] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4103010,
+  ["Name"]= "白胡须",
+  ["Rank"]= 398
+},
+[4103011] = {
+  ["ID"]= 4103011,
+  ["Name"]= "络腮胡",
+  ["Rank"]= 320,
+  ["ShowID"]= {
+    10205192,
+    10401007,
+    10406809
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4103012] = {
+  ["ID"]= 4103012,
+  ["Name"]= "愤怒的嘴",
+  ["Rank"]= 321,
+  ["ShowID"]= {
+    10205193,
+    10401005,
+    10406891
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4103013] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4103013,
+  ["Name"]= "甜蜜糖果",
+  ["Rank"]= 389
+},
+[4103014] = {
+  ["ID"]= 4103014,
+  ["Name"]= "血色玫瑰",
+  ["Rank"]= 275,
+  ["ShowID"]= {
+    10205195,
+    10401004,
+    10403011
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4103015] = {
+  ["ID"]= 4103015,
+  ["Name"]= "嘴咬口香糖",
+  ["Rank"]= 322,
+  ["ShowID"]= {
+    10205196,
+    10401006,
+    10406599
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4103016] = {
+  ["ID"]= 4103016,
+  ["Name"]= "小丑鼻子",
+  ["Rank"]= 328,
+  ["ShowID"]= {
+    10205197,
+    10401004,
+    10406849
+  },
+  ["ShowNum"]= {
+    1,
+    125,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4103017] = {
+  ["GetWords"]= "FashionItem_001",
+  ["ID"]= 4103017,
+  ["Name"]= "彩虹口罩",
+  ["Rank"]= 397
+},
+[4103018] = {
+  ["ID"]= 4103018,
+  ["Name"]= "铁钉口罩",
+  ["Rank"]= 274,
+  ["ShowID"]= {
+    10205199,
+    10401004,
+    10406513
+  },
+  ["ShowNum"]= {
+    1,
+    500,
+    250
+  },
+  ["ShowType"]= 3,
+  ["ShowWords"]= "ShowWords2"
+},
+[4103019] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4103019,
+  ["Name"]= "蓝色卫生口罩",
+  ["Rank"]= 443
+},
+[4103020] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4103020,
+  ["Name"]= "严密防护口罩",
+  ["Rank"]= 444
+},
+[4103021] = {
+  ["GetWords"]= "FashionItem_4103021",
+  ["ID"]= 4103021,
+  ["Name"]= "玫瑰低语",
+  ["Rank"]= 375
+},
+[4103022] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_087",
+  ["ID"]= 4103022,
+  ["Name"]= "恶魔猎人口罩",
+  ["Rank"]= 4
+},
+[4104261] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4104261,
+  ["Name"]= "迷彩帽",
+  ["Rank"]= 11
+},
+[4104262] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4104262,
+  ["Name"]= "船帽",
+  ["Rank"]= 12
+},
+[4107001] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4107001,
+  ["Name"]= "学园祭背包",
+  ["Rank"]= 442
+},
+[4107002] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_017",
+  ["ID"]= 4107002,
+  ["Name"]= "软软猫背包",
+  ["Rank"]= 226
+},
+[4107003] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4107003,
+  ["Name"]= "学园祭背包·红",
+  ["Rank"]= 433
+},
+[4107004] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_014",
+    "FashionItem_100"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_014",
+  ["ID"]= 4107004,
+  ["IsNot"]= 1,
+  ["Name"]= "学园祭背包·蓝",
+  ["Rank"]= 426
+},
+[4107005] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4107005,
+  ["Name"]= "学园祭背包·绿",
+  ["Rank"]= 436
+},
+[4107006] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4107006,
+  ["Name"]= "学园祭背包·白",
+  ["Rank"]= 437
+},
+[4107009] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_016",
+  ["ID"]= 4107009,
+  ["Name"]= "生物防护侦测机",
+  ["Rank"]= 230
+},
+[4107010] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_020",
+    "FashionItem_020",
+    "FashionItem_020",
+    "FashionItem_081"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_020",
+  ["ID"]= 4107010,
+  ["IsNot"]= 1,
+  ["Name"]= "白昼魔术花篮",
+  ["Rank"]= 223
+},
+[4107011] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_022",
+    "FashionItem_022",
+    "FashionItem_022",
+    "FashionItem_074"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_022",
+  ["ID"]= 4107011,
+  ["IsNot"]= 1,
+  ["Name"]= "黑夜魔术纸鹤",
+  ["Rank"]= 220
+},
+[4107013] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4107013,
+  ["Name"]= "吟游诗人鲁特琴",
+  ["Rank"]= 472
+},
+[4107014] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_010",
+  ["ID"]= 4107014,
+  ["Name"]= "潮流达人喷雾罐",
+  ["Rank"]= 475
+},
+[4107015] = {
+  ["GetWords"]= "FashionItem_025",
+  ["ID"]= 4107015,
+  ["Name"]= "小丑气球",
+  ["Rank"]= 237
+},
+[4107016] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_015",
+    "FashionItem_015",
+    "FashionItem_015",
+    "FashionItem_070"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4107016,
+  ["IsNot"]= 1,
+  ["Name"]= "诡巫扫把",
+  ["Rank"]= 202
+},
+[4107017] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4107017,
+  ["Name"]= "复生夜行幽魂",
+  ["Rank"]= 205
+},
+[4107018] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_021",
+  ["ID"]= 4107018,
+  ["Name"]= "星语祝福背饰",
+  ["Rank"]= 194
+},
+[4107019] = {
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 4107019,
+  ["Name"]= "承慕之诺洋伞",
+  ["Rank"]= 244
+},
+[4107020] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_029",
+  ["ID"]= 4107020,
+  ["Name"]= "红缎鎏金焰火",
+  ["Rank"]= 217
+},
+[4107021] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_027",
+  ["ID"]= 4107021,
+  ["Name"]= "韩式婚礼背饰(花伞)",
+  ["Rank"]= 480
+},
+[4107022] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_030",
+    "FashionItem_030",
+    "FashionItem_030",
+    "FashionItem_102"
+  },
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_030",
+  ["ID"]= 4107022,
+  ["IsNot"]= 1,
+  ["Name"]= "年兽背饰",
+  ["Rank"]= 184
+},
+[4107023] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_031",
+  ["ID"]= 4107023,
+  ["Name"]= "佳期华灯",
+  ["Rank"]= 187
+},
+[4107024] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_034",
+  ["ID"]= 4107024,
+  ["Name"]= "皇家骑兵战旗",
+  ["Rank"]= 211
+},
+[4107025] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_041",
+  ["ID"]= 4107025,
+  ["Name"]= "烈日冲浪板",
+  ["Rank"]= 170
+},
+[4107026] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_032",
+  ["ID"]= 4107026,
+  ["Name"]= "格子甜心背包",
+  ["Rank"]= 214
+},
+[4107027] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_087",
+  ["ID"]= 4107027,
+  ["Name"]= "巴风特娃娃",
+  ["Rank"]= 5
+},
+[4107030] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_036",
+  ["ID"]= 4107030,
+  ["Name"]= "遗迹考古包",
+  ["Rank"]= 176
+},
+[4107031] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_038",
+  ["ID"]= 4107031,
+  ["Name"]= "畅饮CoCo",
+  ["Rank"]= 173
+},
+[4107032] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_077",
+    "FashionItem_041"
+  },
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_041",
+  ["ID"]= 4107032,
+  ["IsNot"]= 1,
+  ["mountListener"]= 1,
+  ["Name"]= "回忆抱抱熊",
+  ["Rank"]= 158
+},
+[4107033] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_057",
+  ["ID"]= 4107033,
+  ["Name"]= "史莱姆背饰",
+  ["Rank"]= 105
+},
+[4107034] = {
+  ["ChannelId"]= {
+    9
+  },
+  ["GetWords"]= "FashionItem_045",
+  ["ID"]= 4107034,
+  ["mountListener"]= 1,
+  ["Name"]= "深海探险背饰",
+  ["Rank"]= 152
+},
+[4107035] = {
+  ["ChannelId"]= {
+    10
+  },
+  ["GetWords"]= "FashionItem_051",
+  ["ID"]= 4107035,
+  ["Name"]= "马来西亚蜡染背包",
+  ["Rank"]= 143
+},
+[4107036] = {
+  ["ChannelId"]= {
+    10
+  },
+  ["GetWords"]= "FashionItem_051",
+  ["ID"]= 4107036,
+  ["Name"]= "印尼蜡染背包",
+  ["Rank"]= 144
+},
+[4107037] = {
+  ["ChannelId"]= {
+    10
+  },
+  ["GetWords"]= "FashionItem_051",
+  ["ID"]= 4107037,
+  ["Name"]= "泰国蜡染背包",
+  ["Rank"]= 145
+},
+[4107039] = {
+  ["ChannelId"]= {
+    10
+  },
+  ["GetWords"]= "FashionItem_054",
+  ["ID"]= 4107039,
+  ["Name"]= "庆典旗帜",
+  ["Rank"]= 146
+},
+[4107040] = {
+  ["ChannelId"]= {
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_058",
+  ["ID"]= 4107040,
+  ["Name"]= "学院秘典",
+  ["Rank"]= 132
+},
+[4107043] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_059",
+  ["ID"]= 4107043,
+  ["Name"]= "疯兔背饰",
+  ["Rank"]= 121
+},
+[4107044] = {
+  ["ChannelGetWords"]= {
+    "FashionItem_059",
+    "FashionItem_067",
+    "FashionItem_059"
+  },
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_059",
+  ["ID"]= 4107044,
+  ["IsNot"]= 1,
+  ["Name"]= "波利背饰",
+  ["Rank"]= 122
+},
+[4107046] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4107046,
+  ["Name"]= "宇航员背饰",
+  ["Rank"]= 18
+},
+[4107047] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_071",
+  ["ID"]= 4107047,
+  ["Name"]= "周年庆背饰",
+  ["Rank"]= 80
+},
+[4107048] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4107048,
+  ["Name"]= "小丑回魂背饰",
+  ["Rank"]= 41
+},
+[4107050] = {
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4107050,
+  ["Name"]= "绿色小鬼背饰",
+  ["Rank"]= 76
+},
+[4107051] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_075",
+  ["ID"]= 4107051,
+  ["Name"]= "GVG奖杯",
+  ["Rank"]= 89
+},
+[4107052] = {
+  ["ChannelId"]= {
+    1,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_078",
+  ["ID"]= 4107052,
+  ["Name"]= "金色小恶魔",
+  ["Rank"]= 73
+},
+[4107053] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4107053,
+  ["Name"]= "打歌服背部",
+  ["Rank"]= 48
+},
+[4107054] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4107054,
+  ["Name"]= "蓬松翅膀",
+  ["Rank"]= 52
+},
+[4107055] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107055,
+  ["Name"]= "KITA工会旗帜",
+  ["Rank"]= 58
+},
+[4107056] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107056,
+  ["Name"]= "L’aventales工会旗帜",
+  ["Rank"]= 59
+},
+[4107057] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107057,
+  ["Name"]= "Wakanda工会旗",
+  ["Rank"]= 60
+},
+[4107058] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107058,
+  ["Name"]= "Ethereal工会旗帜",
+  ["Rank"]= 61
+},
+[4107059] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107059,
+  ["Name"]= "B Esports工会旗帜",
+  ["Rank"]= 62
+},
+[4107060] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107060,
+  ["Name"]= "มังกรฟ้า ROx工会旗帜",
+  ["Rank"]= 63
+},
+[4107061] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107061,
+  ["Name"]= "SH@RK_MoUTh工会旗帜",
+  ["Rank"]= 64
+},
+[4107062] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107062,
+  ["Name"]= "Μ⊗n$ter工会旗帜",
+  ["Rank"]= 65
+},
+[4107063] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107063,
+  ["Name"]= " #Untitled工会旗帜",
+  ["Rank"]= 66
+},
+[4107064] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107064,
+  ["Name"]= "THE ONE工会旗帜",
+  ["Rank"]= 67
+},
+[4107065] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107065,
+  ["Name"]= "亚军工会旗帜",
+  ["Rank"]= 68
+},
+[4107066] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_080",
+  ["ID"]= 4107066,
+  ["Name"]= "季军工会旗帜",
+  ["Rank"]= 69
+},
+[4107067] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_090",
+  ["ID"]= 4107067,
+  ["Name"]= "奥丁背饰",
+  ["Rank"]= 37
+},
+[4107070] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_102",
+  ["ID"]= 4107070,
+  ["Name"]= "2022新年背饰",
+  ["Rank"]= 25
+},
+[4107075] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_063",
+  ["ID"]= 4107075,
+  ["Name"]= "深绿音符",
+  ["Rank"]= 33
+},
+[4107076] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_099",
+  ["ID"]= 4107076,
+  ["Rank"]= 29
+},
+[4108001] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_017",
+  ["ID"]= 4108001,
+  ["Name"]= "软软猫尾巴",
+  ["Rank"]= 227
+},
+[4108003] = {
+  ["GetWords"]= "FashionItem_024",
+  ["ID"]= 4108003,
+  ["Name"]= "哈士奇玩偶尾巴",
+  ["Rank"]= 234
+},
+[4108004] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4108004,
+  ["Name"]= "月夜猫时装",
+  ["Rank"]= 485
+},
+[4108005] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10
+  },
+  ["GetWords"]= "FashionItem_015",
+  ["ID"]= 4108005,
+  ["Name"]= "复生夜行尾巴",
+  ["Rank"]= 206
+},
+[4108006] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_087",
+  ["ID"]= 4108006,
+  ["Name"]= "恶魔猎人蝎尾",
+  ["Rank"]= 7
+},
+[4108007] = {
+  ["ChannelId"]= {
+    1
+  },
+  ["GetWords"]= "FashionItem_100",
+  ["ID"]= 4108007,
+  ["Name"]= "花栗鼠尾巴",
+  ["Rank"]= 19
+},
+[4108009] = {
+  ["ChannelId"]= {
+    1,
+    10
+  },
+  ["GetWords"]= "FashionItem_102",
+  ["ID"]= 4108009,
+  ["Name"]= "2023新年尾饰",
+  ["Rank"]= 26
+},
+[4109997] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4109997,
+  ["Name"]= "GM鱼",
+  ["Rank"]= 486,
+  ["ShowType"]= 0
+},
+[4109998] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4109998,
+  ["Name"]= "GM鱼",
+  ["Rank"]= 487,
+  ["ShowType"]= 0
+},
+[4109999] = {
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["ID"]= 4109999,
+  ["Name"]= "GM鱼",
+  ["Rank"]= 488,
+  ["ShowType"]= 0
+}
+}
+local baseTable={
+  ["battleListener"]= 0,
+  ["ChannelGetWords"]= {},
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10,
+    12
+  },
+  ["GenderType"]= 0,
+  ["GetWords"]= "",
+  ["IconDistinguishSex"]= 0,
+  ["ID"]= 2105072,
+  ["IsNot"]= 0,
+  ["mountListener"]= 0,
+  ["MountOffset"]= {},
+  ["Name"]= "",
+  ["Rank"]= 21,
+  ["ShowHair"]= 1,
+  ["ShowID"]= {
+    0
+  },
+  ["ShowNum"]= {
+    0
+  },
+  ["ShowType"]= 5,
+  ["ShowWords"]= "ShowWords3",
+  ["StandbyAction"]= ""
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

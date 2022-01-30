@@ -1,0 +1,773 @@
+local table= {
+[10000] = {
+  ["condition"]= 1001,
+  ["name"]= "SystemName_1",
+  ["nameLocalized"]= "任务"
+},
+[20000] = {
+  ["condition"]= 1001,
+  ["id"]= 20000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_2",
+  ["nameLocalized"]= "背包"
+},
+[30000] = {
+  ["condition"]= 1021,
+  ["id"]= 30000,
+  ["name"]= "SystemName_3",
+  ["nameLocalized"]= "嘉年华"
+},
+[30100] = {
+  ["condition"]= 1035,
+  ["id"]= 30100,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_4",
+  ["nameLocalized"]= "爬塔"
+},
+[30200] = {
+  ["condition"]= 1022,
+  ["id"]= 30200,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_5",
+  ["nameLocalized"]= "委托板"
+},
+[40000] = {
+  ["condition"]= 1025,
+  ["id"]= 40000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_6",
+  ["nameLocalized"]= "商会"
+},
+[50000] = {
+  ["condition"]= 4006,
+  ["id"]= 50000,
+  ["name"]= "SystemName_7",
+  ["nameLocalized"]= "交易行"
+},
+[60000] = {
+  ["condition"]= 1029,
+  ["id"]= 60000,
+  ["name"]= "SystemName_8",
+  ["nameLocalized"]= "MVP"
+},
+[70000] = {
+  ["condition"]= 1022,
+  ["id"]= 70000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_9",
+  ["nameLocalized"]= "副本"
+},
+[80000] = {
+  ["condition"]= 1008,
+  ["id"]= 80000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_10",
+  ["nameLocalized"]= "坐骑"
+},
+[90000] = {
+  ["condition"]= 1001,
+  ["id"]= 90000,
+  ["name"]= "SystemName_11",
+  ["nameLocalized"]= "冒险"
+},
+[100000] = {
+  ["condition"]= 1011,
+  ["id"]= 100000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_12",
+  ["nameLocalized"]= "技能"
+},
+[110000] = {
+  ["condition"]= 1001,
+  ["id"]= 110000,
+  ["name"]= "SystemName_13",
+  ["nameLocalized"]= "邮件"
+},
+[120000] = {
+  ["condition"]= 1001,
+  ["id"]= 120000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_14",
+  ["nameLocalized"]= "装备"
+},
+[120100] = {
+  ["condition"]= 1001,
+  ["id"]= 120100,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_15",
+  ["nameLocalized"]= "装备"
+},
+[120200] = {
+  ["condition"]= 1012,
+  ["id"]= 120200,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_16",
+  ["nameLocalized"]= "强化"
+},
+[120300] = {
+  ["condition"]= 1023,
+  ["id"]= 120300,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_17",
+  ["nameLocalized"]= "卡片"
+},
+[120400] = {
+  ["condition"]= 1030,
+  ["id"]= 120400,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_18",
+  ["nameLocalized"]= "精炼"
+},
+[120500] = {
+  ["condition"]= 1026,
+  ["id"]= 120500,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_19",
+  ["nameLocalized"]= "附魔"
+},
+[130000] = {
+  ["condition"]= 1003,
+  ["id"]= 130000,
+  ["name"]= "SystemName_20",
+  ["nameLocalized"]= "好友"
+},
+[140000] = {
+  ["condition"]= 1001,
+  ["id"]= 140000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_21",
+  ["nameLocalized"]= "聊天"
+},
+[150000] = {
+  ["condition"]= 1001,
+  ["id"]= 150000,
+  ["name"]= "SystemName_22",
+  ["nameLocalized"]= "邮件"
+},
+[160000] = {
+  ["condition"]= 1009,
+  ["id"]= 160000,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_23",
+  ["nameLocalized"]= "衣橱"
+},
+[170000] = {
+  ["condition"]= 1001,
+  ["id"]= 170000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_24",
+  ["nameLocalized"]= "角色"
+},
+[170100] = {
+  ["condition"]= 1001,
+  ["id"]= 170100,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_25",
+  ["nameLocalized"]= "加点"
+},
+[170200] = {
+  ["condition"]= 1011,
+  ["id"]= 170200,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_26",
+  ["nameLocalized"]= "转职"
+},
+[170300] = {
+  ["condition"]= 1001,
+  ["id"]= 170300,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_27",
+  ["nameLocalized"]= "作战方案"
+},
+[180000] = {
+  ["condition"]= 1030,
+  ["id"]= 180000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_28",
+  ["nameLocalized"]= "制造"
+},
+[190000] = {
+  ["condition"]= 1040,
+  ["id"]= 190000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_29",
+  ["nameLocalized"]= "战场"
+},
+[200000] = {
+  ["condition"]= 3004,
+  ["id"]= 200000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_30",
+  ["nameLocalized"]= "学院"
+},
+[210000] = {
+  ["condition"]= 1020,
+  ["id"]= 210000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_31",
+  ["nameLocalized"]= "公会"
+},
+[220000] = {
+  ["condition"]= 1002,
+  ["id"]= 220000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_32",
+  ["nameLocalized"]= "相机"
+},
+[230000] = {
+  ["condition"]= 1001,
+  ["id"]= 230000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_33",
+  ["nameLocalized"]= "表情"
+},
+[240000] = {
+  ["condition"]= 1001,
+  ["id"]= 240000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_34",
+  ["nameLocalized"]= "解锁预告"
+},
+[250000] = {
+  ["condition"]= 1040,
+  ["id"]= 250000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_35",
+  ["nameLocalized"]= "KVM战场"
+},
+[260000] = {
+  ["condition"]= 1002,
+  ["id"]= 260000,
+  ["name"]= "SystemName_36",
+  ["nameLocalized"]= "学院手册"
+},
+[270000] = {
+  ["condition"]= 1009,
+  ["id"]= 270000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_37",
+  ["nameLocalized"]= "头饰兑换"
+},
+[280000] = {
+  ["id"]= 280000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_40",
+  ["nameLocalized"]= "福利"
+},
+[290000] = {
+  ["condition"]= 1012,
+  ["id"]= 290000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_39",
+  ["nameLocalized"]= "冒险技能"
+},
+[300000] = {
+  ["condition"]= 210033,
+  ["id"]= 300000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_38",
+  ["nameLocalized"]= "奥丁祝福"
+},
+[310000] = {
+  ["id"]= 310000,
+  ["level"]= 0,
+  ["name"]= "SystemName_41",
+  ["nameLocalized"]= "王国通行证"
+},
+[320000] = {
+  ["condition"]= 210036,
+  ["id"]= 320000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 0,
+  ["name"]= "SystemName_42",
+  ["nameLocalized"]= "宠物"
+},
+[330000] = {
+  ["condition"]= 1007,
+  ["id"]= 330000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 0,
+  ["name"]= "SystemName_43",
+  ["nameLocalized"]= "自动战斗"
+},
+[340000] = {
+  ["condition"]= 3009,
+  ["id"]= 340000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 0,
+  ["name"]= "SystemName_44",
+  ["nameLocalized"]= "装备推荐"
+},
+[350000] = {
+  ["condition"]= 1001,
+  ["id"]= 350000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["level"]= 0,
+  ["name"]= "SystemName_45",
+  ["nameLocalized"]= "宠物雷达"
+},
+[360000] = {
+  ["condition"]= 1014,
+  ["id"]= 360000,
+  ["name"]= "SystemName_46",
+  ["nameLocalized"]= "生活"
+},
+[370000] = {
+  ["condition"]= 1040,
+  ["id"]= 370000,
+  ["name"]= "SystemName_47",
+  ["nameLocalized"]= "奥丁血脉"
+},
+[380000] = {
+  ["condition"]= 1040,
+  ["id"]= 380000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_48",
+  ["nameLocalized"]= "卡片羁绊"
+},
+[390000] = {
+  ["condition"]= 1002,
+  ["id"]= 390000,
+  ["isCrossForbid"]= 0,
+  ["isOpen"]= 0,
+  ["name"]= "SystemName_49",
+  ["nameLocalized"]= "Facebook"
+},
+[400000] = {
+  ["condition"]= 1999,
+  ["id"]= 400000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["isOpen"]= 0,
+  ["name"]= "SystemName_50",
+  ["nameLocalized"]= "开学祭"
+},
+[410000] = {
+  ["condition"]= 1010,
+  ["id"]= 410000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_51",
+  ["nameLocalized"]= "微社区"
+},
+[420000] = {
+  ["id"]= 420000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_52",
+  ["nameLocalized"]= "充值"
+},
+[430000] = {
+  ["condition"]= 1022,
+  ["id"]= 430000,
+  ["name"]= "SystemName_53",
+  ["nameLocalized"]= "问卷"
+},
+[440000] = {
+  ["condition"]= 1003,
+  ["id"]= 440000,
+  ["name"]= "SystemName_54",
+  ["nameLocalized"]= "赢Mycard"
+},
+[450000] = {
+  ["id"]= 450000,
+  ["name"]= "SystemName_55",
+  ["nameLocalized"]= "开服庆典"
+},
+[460000] = {
+  ["condition"]= 46000001,
+  ["id"]= 460000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_56",
+  ["nameLocalized"]= "影装"
+},
+[470000] = {
+  ["condition"]= 11028,
+  ["id"]= 470000,
+  ["name"]= "SystemName_57",
+  ["nameLocalized"]= "万圣节狂欢"
+},
+[480000] = {
+  ["condition"]= 1030,
+  ["id"]= 480000,
+  ["isCrossForbid"]= 0,
+  ["isCrossRegionForbid"]= 0,
+  ["name"]= "SystemName_58",
+  ["nameLocalized"]= "GVG预热"
+},
+[490000] = {
+  ["condition"]= 1025,
+  ["id"]= 490000,
+  ["nameLocalized"]= "GVG预热"
+},
+[500000] = {
+  ["id"]= 500000,
+  ["name"]= "SystemName_60",
+  ["nameLocalized"]= "问卷"
+},
+[510000] = {
+  ["condition"]= 1030,
+  ["id"]= 510000,
+  ["name"]= "SystemName_61"
+},
+[520000] = {
+  ["condition"]= 1201,
+  ["id"]= 520000,
+  ["name"]= "SystemName_62"
+},
+[530000] = {
+  ["id"]= 530000,
+  ["name"]= "SystemName_63"
+},
+[540000] = {
+  ["condition"]= 1010,
+  ["id"]= 540000,
+  ["name"]= "SystemName_64"
+},
+[550000] = {
+  ["id"]= 550000,
+  ["name"]= "SystemName_65"
+},
+[560000] = {
+  ["condition"]= 1999,
+  ["id"]= 560000
+},
+[580000] = {
+  ["id"]= 580000,
+  ["name"]= "SystemName_66"
+},
+[590000] = {
+  ["condition"]= 1023,
+  ["id"]= 590000,
+  ["name"]= "SystemName_67"
+},
+[600000] = {
+  ["condition"]= 1025,
+  ["id"]= 600000,
+  ["name"]= "九尾古城集章"
+},
+[610000] = {
+  ["condition"]= 1025,
+  ["id"]= 610000,
+  ["name"]= "ui_CoCoActivity_003"
+},
+[620000] = {
+  ["condition"]= 1025,
+  ["id"]= 620000,
+  ["name"]= "东南亚手拉手活动"
+},
+[630000] = {
+  ["id"]= 630000,
+  ["name"]= "半周年庆典"
+},
+[640000] = {
+  ["condition"]= 1025,
+  ["id"]= 640000,
+  ["name"]= "SystemName_68"
+},
+[650000] = {
+  ["id"]= 650000,
+  ["name"]= "幸运大乐透"
+},
+[660000] = {
+  ["condition"]= 1035,
+  ["id"]= 660000,
+  ["name"]= "飞行棋"
+},
+[670000] = {
+  ["id"]= 670000,
+  ["name"]= "初夏の轻语"
+},
+[680000] = {
+  ["id"]= 680000,
+  ["name"]= "点亮地标"
+},
+[690000] = {
+  ["id"]= 690000,
+  ["name"]= "裂变活动"
+},
+[700000] = {
+  ["id"]= 700000,
+  ["name"]= "世界旅行商人\n"
+},
+[710000] = {
+  ["id"]= 710000,
+  ["name"]= "爬塔神秘商人"
+},
+[720000] = {
+  ["condition"]= 1025,
+  ["id"]= 720000,
+  ["name"]= "东南亚选美大赛"
+},
+[730000] = {
+  ["condition"]= 1021,
+  ["id"]= 730000,
+  ["name"]= "端午活动"
+},
+[740000] = {
+  ["id"]= 740000,
+  ["name"]= "宠物礼包活动"
+},
+[750000] = {
+  ["id"]= 750000,
+  ["name"]= "萌宠约定"
+},
+[760000] = {
+  ["condition"]= 1025,
+  ["id"]= 760000,
+  ["name"]= "满月的献礼"
+},
+[770000] = {
+  ["condition"]= 1025,
+  ["id"]= 770000,
+  ["name"]= "九尾-夏日祭"
+},
+[780000] = {
+  ["id"]= 780000,
+  ["name"]= "满月特惠礼包活动"
+},
+[790000] = {
+  ["condition"]= 1025,
+  ["id"]= 790000,
+  ["name"]= "学院的暑假"
+},
+[800000] = {
+  ["condition"]= 210100,
+  ["id"]= 800000,
+  ["name"]= "师徒学院解锁"
+},
+[810000] = {
+  ["condition"]= 1025,
+  ["id"]= 810000,
+  ["name"]= "九尾-砍价裂变活动"
+},
+[820000] = {
+  ["condition"]= 1021,
+  ["id"]= 820000,
+  ["name"]= "萌宠历险记"
+},
+[830000] = {
+  ["condition"]= 1025,
+  ["id"]= 830000,
+  ["name"]= "九尾-助威GVG"
+},
+[840000] = {
+  ["condition"]= 1025,
+  ["id"]= 840000,
+  ["name"]= "九尾-棒球大赛"
+},
+[850000] = {
+  ["id"]= 850000,
+  ["name"]= "礼包-三转助力"
+},
+[860000] = {
+  ["condition"]= 1003,
+  ["id"]= 860000,
+  ["name"]= "九尾-三期裂变"
+},
+[870000] = {
+  ["condition"]= 1025,
+  ["id"]= 870000,
+  ["name"]= "九尾-棒球活动"
+},
+[880000] = {
+  ["condition"]= 1025,
+  ["id"]= 880000,
+  ["name"]= "九尾-疯兔波利PK赛"
+},
+[890000] = {
+  ["condition"]= 1025,
+  ["id"]= 890000,
+  ["name"]= "七夕活动"
+},
+[900000] = {
+  ["condition"]= 1025,
+  ["id"]= 900000,
+  ["name"]= "转生史莱姆联动"
+},
+[910000] = {
+  ["condition"]= 1080317704,
+  ["id"]= 910000,
+  ["name"]= "周年庆任务"
+},
+[920000] = {
+  ["condition"]= 1025,
+  ["id"]= 920000,
+  ["name"]= "九尾-组队赢现金"
+},
+[930000] = {
+  ["condition"]= 1080317703,
+  ["id"]= 930000,
+  ["name"]= "中秋活动"
+},
+[940000] = {
+  ["condition"]= 1003,
+  ["id"]= 940000,
+  ["name"]= "周年庆演唱会直播"
+},
+[950000] = {
+  ["condition"]= 1999,
+  ["id"]= 950000,
+  ["name"]= "周年选美"
+},
+[960000] = {
+  ["condition"]= 1040,
+  ["id"]= 960000,
+  ["name"]= "九尾-我的对战"
+},
+[970000] = {
+  ["condition"]= 1040,
+  ["id"]= 970000,
+  ["name"]= "九尾-跨服KVM战报"
+},
+[980000] = {
+  ["id"]= 980000,
+  ["name"]= "百日大回馈礼包"
+},
+[990000] = {
+  ["id"]= 990000,
+  ["name"]= "双十一庆典礼包"
+},
+[999000] = {
+  ["condition"]= 1003,
+  ["id"]= 999000,
+  ["name"]= "九尾-通用"
+},
+[1000000] = {
+  ["condition"]= 1080317705,
+  ["id"]= 1000000,
+  ["name"]= "水灯祈福"
+},
+[1010000] = {
+  ["condition"]= 1003,
+  ["id"]= 1010000,
+  ["name"]= "代言人直播"
+},
+[1020000] = {
+  ["condition"]= 1003,
+  ["id"]= 1020000,
+  ["name"]= "百万印尼盾"
+},
+[1030000] = {
+  ["condition"]= 1020,
+  ["id"]= 1030000,
+  ["name"]= "半年庆漂流瓶"
+},
+[1040000] = {
+  ["id"]= 1040000,
+  ["name"]= "合服礼包活动"
+},
+[1050000] = {
+  ["condition"]= 1080317710,
+  ["id"]= 1050000,
+  ["name"]= "SEA回忆录"
+},
+[1060000] = {
+  ["condition"]= 10999,
+  ["id"]= 1060000,
+  ["isOpen"]= 0,
+  ["name"]= "SystemName_69"
+},
+[1070000] = {
+  ["condition"]= 1015,
+  ["id"]= 1070000,
+  ["name"]= "九尾-新手七天乐"
+},
+[1080000] = {
+  ["condition"]= 1003,
+  ["id"]= 1080000,
+  ["name"]= "九尾-组队赢现金"
+},
+[1090000] = {
+  ["condition"]= 1003,
+  ["id"]= 1090000,
+  ["name"]= "九尾-半周年预热"
+},
+[1100000] = {
+  ["condition"]= 1003,
+  ["id"]= 1100000,
+  ["name"]= "九尾-半周年直播"
+},
+[1110000] = {
+  ["id"]= 1110000,
+  ["name"]= "sea 圣诞直购礼包"
+},
+[1120000] = {
+  ["condition"]= 1080317711,
+  ["id"]= 1120000,
+  ["name"]= "sea 新年抽奖"
+},
+[1130000] = {
+  ["condition"]= 101008,
+  ["id"]= 1130000,
+  ["name"]= "SystemName_70",
+  ["nameLocalized"]= "神选者之战"
+},
+[1140000] = {
+  ["condition"]= 101009,
+  ["id"]= 1140000,
+  ["name"]= "SystemName_71",
+  ["nameLocalized"]= "神选者战备"
+},
+[1150000] = {
+  ["condition"]= 1003,
+  ["id"]= 1150000,
+  ["name"]= "神选者直播",
+  ["nameLocalized"]= "神选者直播"
+},
+[1180000] = {
+  ["condition"]= 1068,
+  ["id"]= 1180000,
+  ["name"]= "九尾-副本竞速",
+  ["nameLocalized"]= "神选者直播"
+}
+}
+local baseTable={
+  ["condition"]= 1017,
+  ["drop"]= 0,
+  ["id"]= 10000,
+  ["isCrossForbid"]= 1,
+  ["isCrossRegionForbid"]= 1,
+  ["isOpen"]= 1,
+  ["level"]= 1,
+  ["name"]= "SystemName_59",
+  ["nameLocalized"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

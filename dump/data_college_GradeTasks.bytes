@@ -1,0 +1,127 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Id"]= 2,
+  ["Order"]= 2,
+  ["QuestList"]= {
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  },
+  ["StageName"]= "GradeName_02",
+  ["StageReward"]= {
+    1106011034
+  }
+},
+[3] = {
+  ["Id"]= 3,
+  ["Order"]= 3,
+  ["QuestList"]= {
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  },
+  ["StageName"]= "GradeName_03",
+  ["StageReward"]= {
+    1106011035
+  }
+},
+[4] = {
+  ["Id"]= 4,
+  ["Order"]= 4,
+  ["QuestList"]= {
+    59,
+    60,
+    61,
+    62,
+    63,
+    64
+  },
+  ["StageName"]= "GradeName_04",
+  ["StageReward"]= {
+    1106011036
+  }
+},
+[5] = {
+  ["Id"]= 5,
+  ["Order"]= 5,
+  ["QuestList"]= {
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+  },
+  ["StageName"]= "GradeName_05",
+  ["StageReward"]= {
+    1106011037
+  }
+},
+[6] = {
+  ["Id"]= 6,
+  ["Order"]= 6,
+  ["QuestList"]= {
+    71,
+    72,
+    73,
+    74,
+    75,
+    76
+  },
+  ["StageName"]= "GradeName_06",
+  ["StageReward"]= {
+    1106011038
+  }
+},
+[7] = {
+  ["Id"]= 7,
+  ["Order"]= 7,
+  ["QuestList"]= {},
+  ["StageName"]= "GradeName_07",
+  ["StageReward"]= {
+    1106011028,
+    1106011029,
+    1106011030,
+    1106011031,
+    1106011032
+  },
+  ["StageRewardValue"]= {
+    3000,
+    3500,
+    4000,
+    4500,
+    5000
+  }
+}
+}
+local baseTable={
+  ["CollegeExp"]= 0,
+  ["Id"]= 1,
+  ["Order"]= 1,
+  ["QuestList"]= {
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  },
+  ["StageName"]= "GradeName_01",
+  ["StageReward"]= {
+    1106011033
+  },
+  ["StageRewardValue"]= {
+    0
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

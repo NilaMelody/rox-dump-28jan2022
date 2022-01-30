@@ -1,0 +1,117 @@
+local table= {
+[1] = {
+  ["ActivityStore"]= 11,
+  ["AwardMail"]= 1408,
+  ["ExtraGiveTimes"]= 10,
+  ["GiveItem"]= {
+    10217099,
+    10217098,
+    10217097,
+    10217100
+  },
+  ["GiveMail"]= 1406,
+  ["GiveTimes"]= 10,
+  ["Level"]= 25,
+  ["MountModel"]= 80073,
+  ["OdinKillLevel"]= 25,
+  ["OdinKillSwitch"]= 1,
+  ["PointAwardSwitch"]= 1,
+  ["RelationMail"]= 1407,
+  ["RelationSwitch"]= 1,
+  ["WishSwitch"]= 1
+},
+[2] = {
+  ["ActivityType"]= 20,
+  ["AwardMail"]= 14015,
+  ["AwardValue"]= 100,
+  ["DiscountGiftsSwitch"]= 1,
+  ["Id"]= 2,
+  ["Level"]= 10,
+  ["PointAwardSwitch"]= 1,
+  ["SystemLock"]= 900000
+},
+[3] = {
+  ["ActivityType"]= 21,
+  ["Id"]= 3,
+  ["PointAwardSwitch"]= 1,
+  ["SystemLock"]= 910000
+},
+[4] = {
+  ["ActivityType"]= 22,
+  ["Id"]= 4,
+  ["Level"]= 55,
+  ["OdinKillLevel"]= 55,
+  ["OdinKillSwitch"]= 1,
+  ["SystemLock"]= 930000
+},
+[5] = {
+  ["ActivityType"]= 24,
+  ["Id"]= 5,
+  ["Level"]= 51,
+  ["QuestSwitch"]= 0,
+  ["SystemLock"]= 470000
+},
+[6] = {
+  ["ActivityType"]= 26,
+  ["Id"]= 6,
+  ["Level"]= 26,
+  ["OdinKillLevel"]= 55,
+  ["OdinKillSwitch"]= 1,
+  ["SystemLock"]= 1000000
+},
+[7] = {
+  ["ActivityType"]= 29,
+  ["Id"]= 7,
+  ["QuestSwitch"]= 0,
+  ["SystemLock"]= 1030000
+},
+[8] = {
+  ["ActivityType"]= 28,
+  ["Id"]= 8,
+  ["QuestSwitch"]= 0,
+  ["SystemLock"]= 1050000
+},
+[9] = {
+  ["ActivityType"]= 6,
+  ["bodilyItemDrop"]= 1,
+  ["bodilyItemDropId"]= "0:5520340;1:5520341;2:5520342",
+  ["bodilyItemLevel"]= 30,
+  ["GiveMail"]= 16010,
+  ["Id"]= 9,
+  ["Level"]= 30,
+  ["OdinKillLevel"]= 30,
+  ["OdinKillSwitch"]= 1,
+  ["PointAwardSwitch"]= 1,
+  ["QuestSwitch"]= 0,
+  ["SystemLock"]= 570000
+}
+}
+local baseTable={
+  ["ActivityStore"]= 0,
+  ["ActivityType"]= 19,
+  ["AwardMail"]= 0,
+  ["AwardValue"]= 0,
+  ["bodilyItemDrop"]= 0,
+  ["bodilyItemDropId"]= "",
+  ["bodilyItemLevel"]= 0,
+  ["DiscountGiftsSwitch"]= 0,
+  ["ExtraGiveTimes"]= 0,
+  ["GiveItem"]= {},
+  ["GiveMail"]= 0,
+  ["GiveTimes"]= 0,
+  ["Id"]= 1,
+  ["Level"]= 20,
+  ["MountModel"]= 0,
+  ["OdinKillLevel"]= 0,
+  ["OdinKillSwitch"]= 0,
+  ["PointAwardSwitch"]= 0,
+  ["QuestSwitch"]= 1,
+  ["RelationMail"]= 0,
+  ["RelationSwitch"]= 0,
+  ["SystemLock"]= 890000,
+  ["WishSwitch"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

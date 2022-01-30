@@ -1,0 +1,8104 @@
+local table= {
+[1] = {
+  ["Color"]= "Img_ball_red",
+  ["ItemNum"]= 2,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 4
+},
+[2] = {
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 2,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 4
+},
+[3] = {
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 3,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 4
+},
+[4] = {
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 4,
+  ["ItemNum"]= 3,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 4
+},
+[5] = {
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 5,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 4
+},
+[6] = {
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 6,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 4
+},
+[7] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 7,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101
+},
+[8] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 8,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102
+},
+[9] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 9,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103
+},
+[10] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 10,
+  ["ItemNum"]= 9,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104
+},
+[11] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 11,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201
+},
+[12] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 12,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301
+},
+[13] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 13,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 6
+},
+[14] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 14,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 6
+},
+[15] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 15,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 6
+},
+[16] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 16,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 6
+},
+[17] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 17,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 6
+},
+[18] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 18,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 6
+},
+[19] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 19,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 7
+},
+[20] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 20,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 7
+},
+[21] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 21,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 7
+},
+[22] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 22,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 7
+},
+[23] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 23,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 7
+},
+[24] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 24,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 7
+},
+[25] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 25,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 8
+},
+[26] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 26,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 8
+},
+[27] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 27,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 8
+},
+[28] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 28,
+  ["ItemNum"]= 45,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 8
+},
+[29] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 29,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 8
+},
+[30] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 30,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 8
+},
+[31] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 31,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 9
+},
+[32] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 32,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 9
+},
+[33] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 33,
+  ["ItemNum"]= 126,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 9
+},
+[34] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 34,
+  ["ItemNum"]= 63,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 9
+},
+[35] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 35,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 9
+},
+[36] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 36,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 9
+},
+[37] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 37,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 10
+},
+[38] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 38,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 10
+},
+[39] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 39,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 10
+},
+[40] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 40,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 10
+},
+[41] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 41,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 10
+},
+[42] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 42,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 10
+},
+[43] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 43,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 11
+},
+[44] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 44,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 11
+},
+[45] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 45,
+  ["ItemNum"]= 216,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 11
+},
+[46] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 46,
+  ["ItemNum"]= 108,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 11
+},
+[47] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 47,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 11
+},
+[48] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 48,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 11
+},
+[49] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 49,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 12
+},
+[50] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 50,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 12
+},
+[51] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 51,
+  ["ItemNum"]= 270,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 12
+},
+[52] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 52,
+  ["ItemNum"]= 135,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 12
+},
+[53] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 53,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 12
+},
+[54] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 54,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 12
+},
+[55] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 55,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 13
+},
+[56] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 56,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 13
+},
+[57] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 57,
+  ["ItemNum"]= 330,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 13
+},
+[58] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 58,
+  ["ItemNum"]= 165,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 13
+},
+[59] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 59,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 13
+},
+[60] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 60,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 13
+},
+[61] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 61,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1010101,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 14
+},
+[62] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 62,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1010102,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 14
+},
+[63] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 63,
+  ["ItemNum"]= 396,
+  ["LibID"]= 1010103,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 14
+},
+[64] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 64,
+  ["ItemNum"]= 198,
+  ["LibID"]= 1010104,
+  ["SceneID"]= 1010,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 14
+},
+[65] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 65,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1010201,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 14
+},
+[66] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_red",
+  ["ID"]= 66,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1010301,
+  ["SceneID"]= 1010,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 14
+},
+[67] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 67,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 4
+},
+[68] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 68,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 4
+},
+[69] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 69,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 4
+},
+[70] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 70,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 4
+},
+[71] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 71,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 4
+},
+[72] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 72,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 4
+},
+[73] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 73,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310
+},
+[74] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 74,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102
+},
+[75] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 75,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103
+},
+[76] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 76,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104
+},
+[77] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 77,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201
+},
+[78] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 78,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301
+},
+[79] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 79,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 6
+},
+[80] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 80,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 6
+},
+[81] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 81,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 6
+},
+[82] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 82,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 6
+},
+[83] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 83,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 6
+},
+[84] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 84,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 6
+},
+[85] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 85,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 7
+},
+[86] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 86,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 7
+},
+[87] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 87,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 7
+},
+[88] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 88,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 7
+},
+[89] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 89,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 7
+},
+[90] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 90,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 7
+},
+[91] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 91,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 8
+},
+[92] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 92,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 8
+},
+[93] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 93,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 8
+},
+[94] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 94,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 8
+},
+[95] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 95,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 8
+},
+[96] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 96,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 8
+},
+[97] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 97,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 9
+},
+[98] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 98,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 9
+},
+[99] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 99,
+  ["ItemNum"]= 252,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 9
+},
+[100] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 100,
+  ["ItemNum"]= 126,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 9
+},
+[101] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 101,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 9
+},
+[102] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 102,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 9
+},
+[103] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 103,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 10
+},
+[104] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 104,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 10
+},
+[105] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 105,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 10
+},
+[106] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 106,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 10
+},
+[107] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 107,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 10
+},
+[108] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 108,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 10
+},
+[109] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 109,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 11
+},
+[110] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 110,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 11
+},
+[111] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 111,
+  ["ItemNum"]= 432,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 11
+},
+[112] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 112,
+  ["ItemNum"]= 216,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 11
+},
+[113] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 113,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 11
+},
+[114] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 114,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 11
+},
+[115] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 115,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 12
+},
+[116] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 116,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 12
+},
+[117] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 117,
+  ["ItemNum"]= 540,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 12
+},
+[118] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 118,
+  ["ItemNum"]= 270,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 12
+},
+[119] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 119,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 12
+},
+[120] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 120,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 12
+},
+[121] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 121,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 13
+},
+[122] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 122,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 13
+},
+[123] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 123,
+  ["ItemNum"]= 660,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 13
+},
+[124] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 124,
+  ["ItemNum"]= 330,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 13
+},
+[125] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 125,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 13
+},
+[126] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 126,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 13
+},
+[127] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 127,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLv"]= 14
+},
+[128] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 128,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 14
+},
+[129] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 129,
+  ["ItemNum"]= 792,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 14
+},
+[130] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 130,
+  ["ItemNum"]= 396,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 14
+},
+[131] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 131,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 14
+},
+[132] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 132,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 14
+},
+[133] = {
+  ["ID"]= 133,
+  ["ItemNum"]= 8,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 4
+},
+[134] = {
+  ["ID"]= 134,
+  ["ItemNum"]= 16,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 4
+},
+[135] = {
+  ["ID"]= 135,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 4
+},
+[136] = {
+  ["ID"]= 136,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 4
+},
+[137] = {
+  ["ID"]= 137,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 4
+},
+[138] = {
+  ["ID"]= 138,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 4
+},
+[139] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 139,
+  ["ItemNum"]= 24,
+  ["TransformationLibID"]= 1410101
+},
+[140] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 140,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102
+},
+[141] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 141,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103
+},
+[142] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 142,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104
+},
+[143] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 143,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201
+},
+[144] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 144,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301
+},
+[145] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 145,
+  ["ItemNum"]= 48,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 6
+},
+[146] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 146,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 6
+},
+[147] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 147,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 6
+},
+[148] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 148,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 6
+},
+[149] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 149,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 6
+},
+[150] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 150,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 6
+},
+[151] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 151,
+  ["ItemNum"]= 80,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 7
+},
+[152] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 152,
+  ["ItemNum"]= 160,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 7
+},
+[153] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 153,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 7
+},
+[154] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 154,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 7
+},
+[155] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 155,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 7
+},
+[156] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 156,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 7
+},
+[157] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 157,
+  ["ItemNum"]= 120,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 8
+},
+[158] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 158,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 8
+},
+[159] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 159,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 8
+},
+[160] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 160,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 8
+},
+[161] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 161,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 8
+},
+[162] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 162,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 8
+},
+[163] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 163,
+  ["ItemNum"]= 168,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 9
+},
+[164] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 164,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 9
+},
+[165] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 165,
+  ["ItemNum"]= 504,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 9
+},
+[166] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 166,
+  ["ItemNum"]= 252,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 9
+},
+[167] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 167,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 9
+},
+[168] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 168,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 9
+},
+[169] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 169,
+  ["ItemNum"]= 224,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 10
+},
+[170] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 170,
+  ["ItemNum"]= 448,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 10
+},
+[171] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 171,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 10
+},
+[172] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 172,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 10
+},
+[173] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 173,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 10
+},
+[174] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 174,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 10
+},
+[175] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 175,
+  ["ItemNum"]= 288,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 11
+},
+[176] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 176,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 11
+},
+[177] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 177,
+  ["ItemNum"]= 864,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 11
+},
+[178] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 178,
+  ["ItemNum"]= 432,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 11
+},
+[179] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 179,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 11
+},
+[180] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 180,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 11
+},
+[181] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 181,
+  ["ItemNum"]= 360,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 12
+},
+[182] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 182,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 12
+},
+[183] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 183,
+  ["ItemNum"]= 1080,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 12
+},
+[184] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 184,
+  ["ItemNum"]= 540,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 12
+},
+[185] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 185,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 12
+},
+[186] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 186,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 12
+},
+[187] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 187,
+  ["ItemNum"]= 440,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 13
+},
+[188] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 188,
+  ["ItemNum"]= 880,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 13
+},
+[189] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 189,
+  ["ItemNum"]= 1320,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 13
+},
+[190] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 190,
+  ["ItemNum"]= 660,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 13
+},
+[191] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 191,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 13
+},
+[192] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 192,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 13
+},
+[193] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 193,
+  ["ItemNum"]= 528,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 14
+},
+[194] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 194,
+  ["ItemNum"]= 1056,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 14
+},
+[195] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 195,
+  ["ItemNum"]= 1584,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 14
+},
+[196] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 196,
+  ["ItemNum"]= 792,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 14
+},
+[197] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 197,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 14
+},
+[198] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 198,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 14
+},
+[199] = {
+  ["ID"]= 199,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 4
+},
+[200] = {
+  ["ID"]= 200,
+  ["ItemNum"]= 16,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 4
+},
+[201] = {
+  ["ID"]= 201,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 4
+},
+[202] = {
+  ["ID"]= 202,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 4
+},
+[203] = {
+  ["ID"]= 203,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 4
+},
+[204] = {
+  ["ID"]= 204,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 4
+},
+[205] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 205,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101
+},
+[206] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 206,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102
+},
+[207] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 207,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103
+},
+[208] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 208,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104
+},
+[209] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 209,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201
+},
+[210] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 210,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301
+},
+[211] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 211,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 6
+},
+[212] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 212,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 6
+},
+[213] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 213,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 6
+},
+[214] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 214,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 6
+},
+[215] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 215,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 6
+},
+[216] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 216,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 6
+},
+[217] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 217,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 7
+},
+[218] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 218,
+  ["ItemNum"]= 160,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 7
+},
+[219] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 219,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 7
+},
+[220] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 220,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 7
+},
+[221] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 221,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 7
+},
+[222] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 222,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 7
+},
+[223] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 223,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 8
+},
+[224] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 224,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 8
+},
+[225] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 225,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 8
+},
+[226] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 226,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 8
+},
+[227] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 227,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 8
+},
+[228] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 228,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 8
+},
+[229] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 229,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 9
+},
+[230] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 230,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 9
+},
+[231] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 231,
+  ["ItemNum"]= 504,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 9
+},
+[232] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 232,
+  ["ItemNum"]= 252,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 9
+},
+[233] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 233,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 9
+},
+[234] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 234,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 9
+},
+[235] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 235,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 10
+},
+[236] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 236,
+  ["ItemNum"]= 448,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 10
+},
+[237] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 237,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 10
+},
+[238] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 238,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 10
+},
+[239] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 239,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 10
+},
+[240] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 240,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 10
+},
+[241] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 241,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 11
+},
+[242] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 242,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 11
+},
+[243] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 243,
+  ["ItemNum"]= 864,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 11
+},
+[244] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 244,
+  ["ItemNum"]= 432,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 11
+},
+[245] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 245,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 11
+},
+[246] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 246,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 11
+},
+[247] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 247,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 12
+},
+[248] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 248,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 12
+},
+[249] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 249,
+  ["ItemNum"]= 1080,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 12
+},
+[250] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 250,
+  ["ItemNum"]= 540,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 12
+},
+[251] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 251,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 12
+},
+[252] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 252,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 12
+},
+[253] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 253,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 13
+},
+[254] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 254,
+  ["ItemNum"]= 880,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 13
+},
+[255] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 255,
+  ["ItemNum"]= 1320,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 13
+},
+[256] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 256,
+  ["ItemNum"]= 660,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 13
+},
+[257] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 257,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 13
+},
+[258] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 258,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 13
+},
+[259] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 259,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 14
+},
+[260] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 260,
+  ["ItemNum"]= 1056,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 14
+},
+[261] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 261,
+  ["ItemNum"]= 1584,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 14
+},
+[262] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 262,
+  ["ItemNum"]= 792,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 14
+},
+[263] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 263,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 14
+},
+[264] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 264,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 14
+},
+[265] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 265,
+  ["ItemNum"]= 16,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 4
+},
+[266] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 266,
+  ["ItemNum"]= 32,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 4
+},
+[267] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 267,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 4
+},
+[268] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 268,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 4
+},
+[269] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 269,
+  ["ItemNum"]= 16,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 4
+},
+[270] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 270,
+  ["ItemNum"]= 16,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 4
+},
+[271] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 271,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101
+},
+[272] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 272,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102
+},
+[273] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 273,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103
+},
+[274] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 274,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104
+},
+[275] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 275,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201
+},
+[276] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 276,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301
+},
+[277] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 277,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 6
+},
+[278] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 278,
+  ["ItemNum"]= 192,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 6
+},
+[279] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 279,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 6
+},
+[280] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 280,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 6
+},
+[281] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 281,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 6
+},
+[282] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 282,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 6
+},
+[283] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 283,
+  ["ItemNum"]= 160,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 7
+},
+[284] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 284,
+  ["ItemNum"]= 320,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 7
+},
+[285] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 285,
+  ["ItemNum"]= 480,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 7
+},
+[286] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 286,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 7
+},
+[287] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 287,
+  ["ItemNum"]= 160,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 7
+},
+[288] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 288,
+  ["ItemNum"]= 160,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 7
+},
+[289] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 289,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 8
+},
+[290] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 290,
+  ["ItemNum"]= 480,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 8
+},
+[291] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 291,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 8
+},
+[292] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 292,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 8
+},
+[293] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 293,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 8
+},
+[294] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 294,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 8
+},
+[295] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 295,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 9
+},
+[296] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 296,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 9
+},
+[297] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 297,
+  ["ItemNum"]= 1008,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 9
+},
+[298] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 298,
+  ["ItemNum"]= 504,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 9
+},
+[299] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 299,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 9
+},
+[300] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 300,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 9
+},
+[301] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 301,
+  ["ItemNum"]= 448,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 10
+},
+[302] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 302,
+  ["ItemNum"]= 896,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 10
+},
+[303] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 303,
+  ["ItemNum"]= 1344,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 10
+},
+[304] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 304,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 10
+},
+[305] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 305,
+  ["ItemNum"]= 448,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 10
+},
+[306] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 306,
+  ["ItemNum"]= 448,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 10
+},
+[307] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 307,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 11
+},
+[308] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 308,
+  ["ItemNum"]= 1152,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 11
+},
+[309] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 309,
+  ["ItemNum"]= 1728,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 11
+},
+[310] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 310,
+  ["ItemNum"]= 864,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 11
+},
+[311] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 311,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 11
+},
+[312] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 312,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 11
+},
+[313] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 313,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 12
+},
+[314] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 314,
+  ["ItemNum"]= 1440,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 12
+},
+[315] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 315,
+  ["ItemNum"]= 2160,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 12
+},
+[316] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 316,
+  ["ItemNum"]= 1080,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 12
+},
+[317] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 317,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 12
+},
+[318] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 318,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 12
+},
+[319] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 319,
+  ["ItemNum"]= 880,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 13
+},
+[320] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 320,
+  ["ItemNum"]= 1760,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 13
+},
+[321] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 321,
+  ["ItemNum"]= 2640,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 13
+},
+[322] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 322,
+  ["ItemNum"]= 1320,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 13
+},
+[323] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 323,
+  ["ItemNum"]= 880,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 13
+},
+[324] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 324,
+  ["ItemNum"]= 880,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 13
+},
+[325] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 325,
+  ["ItemNum"]= 1056,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 14
+},
+[326] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 326,
+  ["ItemNum"]= 2112,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 14
+},
+[327] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 327,
+  ["ItemNum"]= 3168,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 14
+},
+[328] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 328,
+  ["ItemNum"]= 1584,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 14
+},
+[329] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 329,
+  ["ItemNum"]= 1056,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 14
+},
+[330] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 330,
+  ["ItemNum"]= 1056,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 14
+},
+[331] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 331,
+  ["ItemNum"]= 32,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 4
+},
+[332] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 332,
+  ["ItemNum"]= 64,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 4
+},
+[333] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 333,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 4
+},
+[334] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 334,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 4
+},
+[335] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 335,
+  ["ItemNum"]= 32,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 4
+},
+[336] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 336,
+  ["ItemNum"]= 32,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 4
+},
+[337] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 337,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101
+},
+[338] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 338,
+  ["ItemNum"]= 192,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102
+},
+[339] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 339,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103
+},
+[340] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 340,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104
+},
+[341] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 341,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201
+},
+[342] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 342,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301
+},
+[343] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 343,
+  ["ItemNum"]= 192,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 6
+},
+[344] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 344,
+  ["ItemNum"]= 384,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 6
+},
+[345] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 345,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 6
+},
+[346] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 346,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 6
+},
+[347] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 347,
+  ["ItemNum"]= 192,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 6
+},
+[348] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 348,
+  ["ItemNum"]= 192,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 6
+},
+[349] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 349,
+  ["ItemNum"]= 320,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 7
+},
+[350] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 350,
+  ["ItemNum"]= 640,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 7
+},
+[351] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 351,
+  ["ItemNum"]= 960,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 7
+},
+[352] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 352,
+  ["ItemNum"]= 480,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 7
+},
+[353] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 353,
+  ["ItemNum"]= 320,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 7
+},
+[354] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 354,
+  ["ItemNum"]= 320,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 7
+},
+[355] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 355,
+  ["ItemNum"]= 480,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 8
+},
+[356] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 356,
+  ["ItemNum"]= 960,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 8
+},
+[357] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 357,
+  ["ItemNum"]= 1440,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 8
+},
+[358] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 358,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 8
+},
+[359] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 359,
+  ["ItemNum"]= 480,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 8
+},
+[360] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 360,
+  ["ItemNum"]= 480,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 8
+},
+[361] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 361,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 9
+},
+[362] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 362,
+  ["ItemNum"]= 1344,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 9
+},
+[363] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 363,
+  ["ItemNum"]= 2016,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 9
+},
+[364] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 364,
+  ["ItemNum"]= 1008,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 9
+},
+[365] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 365,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 9
+},
+[366] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 366,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 9
+},
+[367] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 367,
+  ["ItemNum"]= 896,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 10
+},
+[368] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 368,
+  ["ItemNum"]= 1792,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 10
+},
+[369] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 369,
+  ["ItemNum"]= 2688,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 10
+},
+[370] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 370,
+  ["ItemNum"]= 1344,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 10
+},
+[371] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 371,
+  ["ItemNum"]= 896,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 10
+},
+[372] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 372,
+  ["ItemNum"]= 896,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 10
+},
+[373] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 373,
+  ["ItemNum"]= 1152,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 11
+},
+[374] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 374,
+  ["ItemNum"]= 2304,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 11
+},
+[375] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 375,
+  ["ItemNum"]= 3456,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 11
+},
+[376] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 376,
+  ["ItemNum"]= 1728,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 11
+},
+[377] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 377,
+  ["ItemNum"]= 1152,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 11
+},
+[378] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 378,
+  ["ItemNum"]= 1152,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 11
+},
+[379] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 379,
+  ["ItemNum"]= 1440,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 12
+},
+[380] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 380,
+  ["ItemNum"]= 2880,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 12
+},
+[381] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 381,
+  ["ItemNum"]= 4320,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 12
+},
+[382] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 382,
+  ["ItemNum"]= 2160,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 12
+},
+[383] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 383,
+  ["ItemNum"]= 1440,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 12
+},
+[384] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 384,
+  ["ItemNum"]= 1440,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 12
+},
+[385] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 385,
+  ["ItemNum"]= 1760,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 13
+},
+[386] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 386,
+  ["ItemNum"]= 3520,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 13
+},
+[387] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 387,
+  ["ItemNum"]= 5280,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 13
+},
+[388] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 388,
+  ["ItemNum"]= 2640,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 13
+},
+[389] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 389,
+  ["ItemNum"]= 1760,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 13
+},
+[390] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 390,
+  ["ItemNum"]= 1760,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 13
+},
+[391] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 391,
+  ["ItemNum"]= 2112,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610101,
+  ["TransformationLv"]= 14
+},
+[392] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 392,
+  ["ItemNum"]= 4224,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610102,
+  ["TransformationLv"]= 14
+},
+[393] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 393,
+  ["ItemNum"]= 6336,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610103,
+  ["TransformationLv"]= 14
+},
+[394] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 394,
+  ["ItemNum"]= 3168,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1610104,
+  ["TransformationLv"]= 14
+},
+[395] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 395,
+  ["ItemNum"]= 2112,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1610201,
+  ["TransformationLv"]= 14
+},
+[396] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 396,
+  ["ItemNum"]= 2112,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1610301,
+  ["TransformationLv"]= 14
+},
+[397] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 397,
+  ["ItemNum"]= 1,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101
+},
+[398] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 398,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102
+},
+[399] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 399,
+  ["ItemNum"]= 3,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103
+},
+[400] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 400,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104
+},
+[401] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 401,
+  ["ItemNum"]= 1,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201
+},
+[402] = {
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 402,
+  ["ItemNum"]= 1,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301
+},
+[403] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 403,
+  ["ItemNum"]= 3,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 6
+},
+[404] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 404,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 6
+},
+[405] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 405,
+  ["ItemNum"]= 9,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 6
+},
+[406] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 406,
+  ["ItemNum"]= 5,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 6
+},
+[407] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 407,
+  ["ItemNum"]= 3,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 6
+},
+[408] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 408,
+  ["ItemNum"]= 3,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 6
+},
+[409] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 409,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 7
+},
+[410] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 410,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 7
+},
+[411] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 411,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 7
+},
+[412] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 412,
+  ["ItemNum"]= 9,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 7
+},
+[413] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 413,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 7
+},
+[414] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 414,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 7
+},
+[415] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 415,
+  ["ItemNum"]= 10,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 8
+},
+[416] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 416,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 8
+},
+[417] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 417,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 8
+},
+[418] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 418,
+  ["ItemNum"]= 15,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 8
+},
+[419] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 419,
+  ["ItemNum"]= 10,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 8
+},
+[420] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 420,
+  ["ItemNum"]= 10,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 8
+},
+[421] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 421,
+  ["ItemNum"]= 15,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 9
+},
+[422] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 422,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 9
+},
+[423] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 423,
+  ["ItemNum"]= 45,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 9
+},
+[424] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 424,
+  ["ItemNum"]= 23,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 9
+},
+[425] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 425,
+  ["ItemNum"]= 15,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 9
+},
+[426] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 426,
+  ["ItemNum"]= 15,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 9
+},
+[427] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 427,
+  ["ItemNum"]= 21,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 10
+},
+[428] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 428,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 10
+},
+[429] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 429,
+  ["ItemNum"]= 63,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 10
+},
+[430] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 430,
+  ["ItemNum"]= 32,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 10
+},
+[431] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 431,
+  ["ItemNum"]= 21,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 10
+},
+[432] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 432,
+  ["ItemNum"]= 21,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 10
+},
+[433] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 433,
+  ["ItemNum"]= 28,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 11
+},
+[434] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 434,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 11
+},
+[435] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 435,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 11
+},
+[436] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 436,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 11
+},
+[437] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 437,
+  ["ItemNum"]= 28,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 11
+},
+[438] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 438,
+  ["ItemNum"]= 28,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 11
+},
+[439] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 439,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 12
+},
+[440] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 440,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 12
+},
+[441] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 441,
+  ["ItemNum"]= 108,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 12
+},
+[442] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 442,
+  ["ItemNum"]= 54,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 12
+},
+[443] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 443,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 12
+},
+[444] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 444,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 12
+},
+[445] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 445,
+  ["ItemNum"]= 45,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 13
+},
+[446] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 446,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 13
+},
+[447] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 447,
+  ["ItemNum"]= 135,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 13
+},
+[448] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 448,
+  ["ItemNum"]= 68,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 13
+},
+[449] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 449,
+  ["ItemNum"]= 45,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 13
+},
+[450] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 450,
+  ["ItemNum"]= 45,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 13
+},
+[451] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 451,
+  ["ItemNum"]= 55,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 14
+},
+[452] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 452,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 14
+},
+[453] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 453,
+  ["ItemNum"]= 165,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 14
+},
+[454] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 454,
+  ["ItemNum"]= 83,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 14
+},
+[455] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 455,
+  ["ItemNum"]= 55,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 14
+},
+[456] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 456,
+  ["ItemNum"]= 55,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 14
+},
+[457] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 457,
+  ["ItemNum"]= 66,
+  ["LibID"]= 1310101,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010101,
+  ["TransformationLv"]= 15
+},
+[458] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 458,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1310102,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010102,
+  ["TransformationLv"]= 15
+},
+[459] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 459,
+  ["ItemNum"]= 198,
+  ["LibID"]= 1310103,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010103,
+  ["TransformationLv"]= 15
+},
+[460] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 460,
+  ["ItemNum"]= 99,
+  ["LibID"]= 1310104,
+  ["SceneID"]= 1310,
+  ["TransformationLibID"]= 1010104,
+  ["TransformationLv"]= 15
+},
+[461] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 461,
+  ["ItemNum"]= 66,
+  ["LibID"]= 1310201,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1010201,
+  ["TransformationLv"]= 15
+},
+[462] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_yellow",
+  ["ID"]= 462,
+  ["ItemNum"]= 66,
+  ["LibID"]= 1310301,
+  ["SceneID"]= 1310,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1010301,
+  ["TransformationLv"]= 15
+},
+[463] = {
+  ["ID"]= 463,
+  ["ItemNum"]= 2,
+  ["TransformationLibID"]= 1310101
+},
+[464] = {
+  ["ID"]= 464,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102
+},
+[465] = {
+  ["ID"]= 465,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103
+},
+[466] = {
+  ["ID"]= 466,
+  ["ItemNum"]= 3,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104
+},
+[467] = {
+  ["ID"]= 467,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201
+},
+[468] = {
+  ["ID"]= 468,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301
+},
+[469] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 469,
+  ["ItemNum"]= 6,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 6
+},
+[470] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 470,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 6
+},
+[471] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 471,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 6
+},
+[472] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 472,
+  ["ItemNum"]= 9,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 6
+},
+[473] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 473,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 6
+},
+[474] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 474,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 6
+},
+[475] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 475,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 7
+},
+[476] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 476,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 7
+},
+[477] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 477,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 7
+},
+[478] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 478,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 7
+},
+[479] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 479,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 7
+},
+[480] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 480,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 7
+},
+[481] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 481,
+  ["ItemNum"]= 20,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 8
+},
+[482] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 482,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 8
+},
+[483] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 483,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 8
+},
+[484] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 484,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 8
+},
+[485] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 485,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 8
+},
+[486] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 486,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 8
+},
+[487] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 487,
+  ["ItemNum"]= 30,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 9
+},
+[488] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 488,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 9
+},
+[489] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 489,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 9
+},
+[490] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 490,
+  ["ItemNum"]= 45,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 9
+},
+[491] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 491,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 9
+},
+[492] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 492,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 9
+},
+[493] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 493,
+  ["ItemNum"]= 42,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 10
+},
+[494] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 494,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 10
+},
+[495] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 495,
+  ["ItemNum"]= 126,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 10
+},
+[496] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 496,
+  ["ItemNum"]= 63,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 10
+},
+[497] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 497,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 10
+},
+[498] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 498,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 10
+},
+[499] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 499,
+  ["ItemNum"]= 56,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 11
+},
+[500] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 500,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 11
+},
+[501] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 501,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 11
+},
+[502] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 502,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 11
+},
+[503] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 503,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 11
+},
+[504] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 504,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 11
+},
+[505] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 505,
+  ["ItemNum"]= 72,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 12
+},
+[506] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 506,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 12
+},
+[507] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 507,
+  ["ItemNum"]= 216,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 12
+},
+[508] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 508,
+  ["ItemNum"]= 108,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 12
+},
+[509] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 509,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 12
+},
+[510] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 510,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 12
+},
+[511] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 511,
+  ["ItemNum"]= 90,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 13
+},
+[512] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 512,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 13
+},
+[513] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 513,
+  ["ItemNum"]= 270,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 13
+},
+[514] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 514,
+  ["ItemNum"]= 135,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 13
+},
+[515] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 515,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 13
+},
+[516] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 516,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 13
+},
+[517] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 517,
+  ["ItemNum"]= 110,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 14
+},
+[518] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 518,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 14
+},
+[519] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 519,
+  ["ItemNum"]= 330,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 14
+},
+[520] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 520,
+  ["ItemNum"]= 165,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 14
+},
+[521] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 521,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 14
+},
+[522] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 522,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 14
+},
+[523] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 523,
+  ["ItemNum"]= 132,
+  ["TransformationLibID"]= 1310101,
+  ["TransformationLv"]= 15
+},
+[524] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 524,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1310102,
+  ["TransformationLv"]= 15
+},
+[525] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 525,
+  ["ItemNum"]= 396,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1310103,
+  ["TransformationLv"]= 15
+},
+[526] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 526,
+  ["ItemNum"]= 198,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1310104,
+  ["TransformationLv"]= 15
+},
+[527] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 527,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1310201,
+  ["TransformationLv"]= 15
+},
+[528] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 528,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1310301,
+  ["TransformationLv"]= 15
+},
+[529] = {
+  ["ID"]= 529,
+  ["ItemNum"]= 2,
+  ["TransformationLibID"]= 1180101
+},
+[530] = {
+  ["ID"]= 530,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102
+},
+[531] = {
+  ["ID"]= 531,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103
+},
+[532] = {
+  ["ID"]= 532,
+  ["ItemNum"]= 3,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104
+},
+[533] = {
+  ["ID"]= 533,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201
+},
+[534] = {
+  ["ID"]= 534,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301
+},
+[535] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 535,
+  ["ItemNum"]= 6,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 6
+},
+[536] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 536,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 6
+},
+[537] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 537,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 6
+},
+[538] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 538,
+  ["ItemNum"]= 9,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 6
+},
+[539] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 539,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 6
+},
+[540] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 540,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 6
+},
+[541] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 541,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 7
+},
+[542] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 542,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 7
+},
+[543] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 543,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 7
+},
+[544] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 544,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 7
+},
+[545] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 545,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 7
+},
+[546] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 546,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 7
+},
+[547] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 547,
+  ["ItemNum"]= 20,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 8
+},
+[548] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 548,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 8
+},
+[549] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 549,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 8
+},
+[550] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 550,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 8
+},
+[551] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 551,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 8
+},
+[552] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 552,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 8
+},
+[553] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 553,
+  ["ItemNum"]= 30,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 9
+},
+[554] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 554,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 9
+},
+[555] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 555,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 9
+},
+[556] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 556,
+  ["ItemNum"]= 45,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 9
+},
+[557] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 557,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 9
+},
+[558] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 558,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 9
+},
+[559] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 559,
+  ["ItemNum"]= 42,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 10
+},
+[560] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 560,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 10
+},
+[561] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 561,
+  ["ItemNum"]= 126,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 10
+},
+[562] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 562,
+  ["ItemNum"]= 63,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 10
+},
+[563] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 563,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 10
+},
+[564] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 564,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 10
+},
+[565] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 565,
+  ["ItemNum"]= 56,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 11
+},
+[566] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 566,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 11
+},
+[567] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 567,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 11
+},
+[568] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 568,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 11
+},
+[569] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 569,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 11
+},
+[570] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 570,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 11
+},
+[571] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 571,
+  ["ItemNum"]= 72,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 12
+},
+[572] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 572,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 12
+},
+[573] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 573,
+  ["ItemNum"]= 216,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 12
+},
+[574] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 574,
+  ["ItemNum"]= 108,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 12
+},
+[575] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 575,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 12
+},
+[576] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 576,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 12
+},
+[577] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 577,
+  ["ItemNum"]= 90,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 13
+},
+[578] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 578,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 13
+},
+[579] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 579,
+  ["ItemNum"]= 270,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 13
+},
+[580] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 580,
+  ["ItemNum"]= 135,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 13
+},
+[581] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 581,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 13
+},
+[582] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 582,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 13
+},
+[583] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 583,
+  ["ItemNum"]= 110,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 14
+},
+[584] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 584,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 14
+},
+[585] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 585,
+  ["ItemNum"]= 330,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 14
+},
+[586] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 586,
+  ["ItemNum"]= 165,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 14
+},
+[587] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 587,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 14
+},
+[588] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 588,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 14
+},
+[589] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 589,
+  ["ItemNum"]= 132,
+  ["TransformationLibID"]= 1180101,
+  ["TransformationLv"]= 15
+},
+[590] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 590,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1110102,
+  ["TransformationLibID"]= 1180102,
+  ["TransformationLv"]= 15
+},
+[591] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 591,
+  ["ItemNum"]= 396,
+  ["LibID"]= 1110103,
+  ["TransformationLibID"]= 1180103,
+  ["TransformationLv"]= 15
+},
+[592] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 592,
+  ["ItemNum"]= 198,
+  ["LibID"]= 1110104,
+  ["TransformationLibID"]= 1180104,
+  ["TransformationLv"]= 15
+},
+[593] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 593,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1110201,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1180201,
+  ["TransformationLv"]= 15
+},
+[594] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 594,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1110301,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1180301,
+  ["TransformationLv"]= 15
+},
+[595] = {
+  ["ID"]= 595,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180
+},
+[596] = {
+  ["ID"]= 596,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102
+},
+[597] = {
+  ["ID"]= 597,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103
+},
+[598] = {
+  ["ID"]= 598,
+  ["ItemNum"]= 3,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104
+},
+[599] = {
+  ["ID"]= 599,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201
+},
+[600] = {
+  ["ID"]= 600,
+  ["ItemNum"]= 2,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301
+},
+[601] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 601,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 6
+},
+[602] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 602,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 6
+},
+[603] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 603,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 6
+},
+[604] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 604,
+  ["ItemNum"]= 9,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 6
+},
+[605] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 605,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 6
+},
+[606] = {
+  ["AttrLv"]= 6,
+  ["ID"]= 606,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 6
+},
+[607] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 607,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 7
+},
+[608] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 608,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 7
+},
+[609] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 609,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 7
+},
+[610] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 610,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 7
+},
+[611] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 611,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 7
+},
+[612] = {
+  ["AttrLv"]= 7,
+  ["ID"]= 612,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 7
+},
+[613] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 613,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 8
+},
+[614] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 614,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 8
+},
+[615] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 615,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 8
+},
+[616] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 616,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 8
+},
+[617] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 617,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 8
+},
+[618] = {
+  ["AttrLv"]= 8,
+  ["ID"]= 618,
+  ["ItemNum"]= 20,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 8
+},
+[619] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 619,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 9
+},
+[620] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 620,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 9
+},
+[621] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 621,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 9
+},
+[622] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 622,
+  ["ItemNum"]= 45,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 9
+},
+[623] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 623,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 9
+},
+[624] = {
+  ["AttrLv"]= 9,
+  ["ID"]= 624,
+  ["ItemNum"]= 30,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 9
+},
+[625] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 625,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 10
+},
+[626] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 626,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 10
+},
+[627] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 627,
+  ["ItemNum"]= 126,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 10
+},
+[628] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 628,
+  ["ItemNum"]= 63,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 10
+},
+[629] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 629,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 10
+},
+[630] = {
+  ["AttrLv"]= 10,
+  ["ID"]= 630,
+  ["ItemNum"]= 42,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 10
+},
+[631] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 631,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 11
+},
+[632] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 632,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 11
+},
+[633] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 633,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 11
+},
+[634] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 634,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 11
+},
+[635] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 635,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 11
+},
+[636] = {
+  ["AttrLv"]= 11,
+  ["ID"]= 636,
+  ["ItemNum"]= 56,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 11
+},
+[637] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 637,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 12
+},
+[638] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 638,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 12
+},
+[639] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 639,
+  ["ItemNum"]= 216,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 12
+},
+[640] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 640,
+  ["ItemNum"]= 108,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 12
+},
+[641] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 641,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 12
+},
+[642] = {
+  ["AttrLv"]= 12,
+  ["ID"]= 642,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 12
+},
+[643] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 643,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 13
+},
+[644] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 644,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 13
+},
+[645] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 645,
+  ["ItemNum"]= 270,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 13
+},
+[646] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 646,
+  ["ItemNum"]= 135,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 13
+},
+[647] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 647,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 13
+},
+[648] = {
+  ["AttrLv"]= 13,
+  ["ID"]= 648,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 13
+},
+[649] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 649,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 14
+},
+[650] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 650,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 14
+},
+[651] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 651,
+  ["ItemNum"]= 330,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 14
+},
+[652] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 652,
+  ["ItemNum"]= 165,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 14
+},
+[653] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 653,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 14
+},
+[654] = {
+  ["AttrLv"]= 14,
+  ["ID"]= 654,
+  ["ItemNum"]= 110,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 14
+},
+[655] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 655,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1180101,
+  ["SceneID"]= 1180,
+  ["TransformationLv"]= 15
+},
+[656] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 656,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1180102,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 15
+},
+[657] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 657,
+  ["ItemNum"]= 396,
+  ["LibID"]= 1180103,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 15
+},
+[658] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 658,
+  ["ItemNum"]= 198,
+  ["LibID"]= 1180104,
+  ["SceneID"]= 1180,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 15
+},
+[659] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 659,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1180201,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 15
+},
+[660] = {
+  ["AttrLv"]= 15,
+  ["ID"]= 660,
+  ["ItemNum"]= 132,
+  ["LibID"]= 1180301,
+  ["SceneID"]= 1180,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 15
+},
+[661] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 661,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410
+},
+[662] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 662,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102
+},
+[663] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 663,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103
+},
+[664] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 664,
+  ["ItemNum"]= 6,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104
+},
+[665] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 665,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201
+},
+[666] = {
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 666,
+  ["ItemNum"]= 4,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301
+},
+[667] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 667,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 6
+},
+[668] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 668,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 6
+},
+[669] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 669,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 6
+},
+[670] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 670,
+  ["ItemNum"]= 18,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 6
+},
+[671] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 671,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 6
+},
+[672] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 672,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 6
+},
+[673] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 673,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 7
+},
+[674] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 674,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 7
+},
+[675] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 675,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 7
+},
+[676] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 676,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 7
+},
+[677] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 677,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 7
+},
+[678] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 678,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 7
+},
+[679] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 679,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 8
+},
+[680] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 680,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 8
+},
+[681] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 681,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 8
+},
+[682] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 682,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 8
+},
+[683] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 683,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 8
+},
+[684] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 684,
+  ["ItemNum"]= 40,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 8
+},
+[685] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 685,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 9
+},
+[686] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 686,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 9
+},
+[687] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 687,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 9
+},
+[688] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 688,
+  ["ItemNum"]= 90,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 9
+},
+[689] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 689,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 9
+},
+[690] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 690,
+  ["ItemNum"]= 60,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 9
+},
+[691] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 691,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 10
+},
+[692] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 692,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 10
+},
+[693] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 693,
+  ["ItemNum"]= 252,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 10
+},
+[694] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 694,
+  ["ItemNum"]= 126,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 10
+},
+[695] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 695,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 10
+},
+[696] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 696,
+  ["ItemNum"]= 84,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 10
+},
+[697] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 697,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 11
+},
+[698] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 698,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 11
+},
+[699] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 699,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 11
+},
+[700] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 700,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 11
+},
+[701] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 701,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 11
+},
+[702] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 702,
+  ["ItemNum"]= 112,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 11
+},
+[703] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 703,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 12
+},
+[704] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 704,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 12
+},
+[705] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 705,
+  ["ItemNum"]= 432,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 12
+},
+[706] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 706,
+  ["ItemNum"]= 216,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 12
+},
+[707] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 707,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 12
+},
+[708] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 708,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 12
+},
+[709] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 709,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 13
+},
+[710] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 710,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 13
+},
+[711] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 711,
+  ["ItemNum"]= 540,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 13
+},
+[712] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 712,
+  ["ItemNum"]= 270,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 13
+},
+[713] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 713,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 13
+},
+[714] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 714,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 13
+},
+[715] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 715,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 14
+},
+[716] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 716,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 14
+},
+[717] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 717,
+  ["ItemNum"]= 660,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 14
+},
+[718] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 718,
+  ["ItemNum"]= 330,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 14
+},
+[719] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 719,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 14
+},
+[720] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 720,
+  ["ItemNum"]= 220,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 14
+},
+[721] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 721,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1410101,
+  ["SceneID"]= 1410,
+  ["TransformationLv"]= 15
+},
+[722] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 722,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1410102,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110102,
+  ["TransformationLv"]= 15
+},
+[723] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 723,
+  ["ItemNum"]= 792,
+  ["LibID"]= 1410103,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110103,
+  ["TransformationLv"]= 15
+},
+[724] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 724,
+  ["ItemNum"]= 396,
+  ["LibID"]= 1410104,
+  ["SceneID"]= 1410,
+  ["TransformationLibID"]= 1110104,
+  ["TransformationLv"]= 15
+},
+[725] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 725,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1410201,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1110201,
+  ["TransformationLv"]= 15
+},
+[726] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_green",
+  ["ID"]= 726,
+  ["ItemNum"]= 264,
+  ["LibID"]= 1410301,
+  ["SceneID"]= 1410,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1110301,
+  ["TransformationLv"]= 15
+},
+[727] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 727,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101
+},
+[728] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 728,
+  ["ItemNum"]= 16,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102
+},
+[729] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 729,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103
+},
+[730] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 730,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104
+},
+[731] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 731,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201
+},
+[732] = {
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 732,
+  ["ItemNum"]= 8,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301
+},
+[733] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 733,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 6
+},
+[734] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 734,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 6
+},
+[735] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 735,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 6
+},
+[736] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 736,
+  ["ItemNum"]= 36,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 6
+},
+[737] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 737,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 6
+},
+[738] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 738,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 6
+},
+[739] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 739,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 7
+},
+[740] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 740,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 7
+},
+[741] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 741,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 7
+},
+[742] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 742,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 7
+},
+[743] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 743,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 7
+},
+[744] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 744,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 7
+},
+[745] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 745,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 8
+},
+[746] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 746,
+  ["ItemNum"]= 160,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 8
+},
+[747] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 747,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 8
+},
+[748] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 748,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 8
+},
+[749] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 749,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 8
+},
+[750] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 750,
+  ["ItemNum"]= 80,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 8
+},
+[751] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 751,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 9
+},
+[752] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 752,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 9
+},
+[753] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 753,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 9
+},
+[754] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 754,
+  ["ItemNum"]= 180,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 9
+},
+[755] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 755,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 9
+},
+[756] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 756,
+  ["ItemNum"]= 120,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 9
+},
+[757] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 757,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 10
+},
+[758] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 758,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 10
+},
+[759] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 759,
+  ["ItemNum"]= 504,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 10
+},
+[760] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 760,
+  ["ItemNum"]= 252,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 10
+},
+[761] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 761,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 10
+},
+[762] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 762,
+  ["ItemNum"]= 168,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 10
+},
+[763] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 763,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 11
+},
+[764] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 764,
+  ["ItemNum"]= 448,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 11
+},
+[765] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 765,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 11
+},
+[766] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 766,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 11
+},
+[767] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 767,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 11
+},
+[768] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 768,
+  ["ItemNum"]= 224,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 11
+},
+[769] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 769,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 12
+},
+[770] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 770,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 12
+},
+[771] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 771,
+  ["ItemNum"]= 864,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 12
+},
+[772] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 772,
+  ["ItemNum"]= 432,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 12
+},
+[773] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 773,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 12
+},
+[774] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 774,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 12
+},
+[775] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 775,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 13
+},
+[776] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 776,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 13
+},
+[777] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 777,
+  ["ItemNum"]= 1080,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 13
+},
+[778] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 778,
+  ["ItemNum"]= 540,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 13
+},
+[779] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 779,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 13
+},
+[780] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 780,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 13
+},
+[781] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 781,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 14
+},
+[782] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 782,
+  ["ItemNum"]= 880,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 14
+},
+[783] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 783,
+  ["ItemNum"]= 1320,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 14
+},
+[784] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 784,
+  ["ItemNum"]= 660,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 14
+},
+[785] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 785,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 14
+},
+[786] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 786,
+  ["ItemNum"]= 440,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 14
+},
+[787] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 787,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1210101,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410101,
+  ["TransformationLv"]= 15
+},
+[788] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 788,
+  ["ItemNum"]= 1056,
+  ["LibID"]= 1210102,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410102,
+  ["TransformationLv"]= 15
+},
+[789] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 789,
+  ["ItemNum"]= 1584,
+  ["LibID"]= 1210103,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410103,
+  ["TransformationLv"]= 15
+},
+[790] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 790,
+  ["ItemNum"]= 792,
+  ["LibID"]= 1210104,
+  ["SceneID"]= 1210,
+  ["TransformationLibID"]= 1410104,
+  ["TransformationLv"]= 15
+},
+[791] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 791,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1210201,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1410201,
+  ["TransformationLv"]= 15
+},
+[792] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_purple",
+  ["ID"]= 792,
+  ["ItemNum"]= 528,
+  ["LibID"]= 1210301,
+  ["SceneID"]= 1210,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1410301,
+  ["TransformationLv"]= 15
+},
+[793] = {
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 793,
+  ["ItemNum"]= 16,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101
+},
+[794] = {
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 794,
+  ["ItemNum"]= 32,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102
+},
+[795] = {
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 795,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103
+},
+[796] = {
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 796,
+  ["ItemNum"]= 24,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104
+},
+[797] = {
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 797,
+  ["ItemNum"]= 16,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201
+},
+[798] = {
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 798,
+  ["ItemNum"]= 16,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301
+},
+[799] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 799,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 6
+},
+[800] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 800,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 6
+},
+[801] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 801,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 6
+},
+[802] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 802,
+  ["ItemNum"]= 72,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 6
+},
+[803] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 803,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 6
+},
+[804] = {
+  ["AttrLv"]= 6,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 804,
+  ["ItemNum"]= 48,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 6
+},
+[805] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 805,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 7
+},
+[806] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 806,
+  ["ItemNum"]= 192,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 7
+},
+[807] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 807,
+  ["ItemNum"]= 288,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 7
+},
+[808] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 808,
+  ["ItemNum"]= 144,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 7
+},
+[809] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 809,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 7
+},
+[810] = {
+  ["AttrLv"]= 7,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 810,
+  ["ItemNum"]= 96,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 7
+},
+[811] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 811,
+  ["ItemNum"]= 160,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 8
+},
+[812] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 812,
+  ["ItemNum"]= 320,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 8
+},
+[813] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 813,
+  ["ItemNum"]= 480,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 8
+},
+[814] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 814,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 8
+},
+[815] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 815,
+  ["ItemNum"]= 160,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 8
+},
+[816] = {
+  ["AttrLv"]= 8,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 816,
+  ["ItemNum"]= 160,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 8
+},
+[817] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 817,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 9
+},
+[818] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 818,
+  ["ItemNum"]= 480,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 9
+},
+[819] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 819,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 9
+},
+[820] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 820,
+  ["ItemNum"]= 360,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 9
+},
+[821] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 821,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 9
+},
+[822] = {
+  ["AttrLv"]= 9,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 822,
+  ["ItemNum"]= 240,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 9
+},
+[823] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 823,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 10
+},
+[824] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 824,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 10
+},
+[825] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 825,
+  ["ItemNum"]= 1008,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 10
+},
+[826] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 826,
+  ["ItemNum"]= 504,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 10
+},
+[827] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 827,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 10
+},
+[828] = {
+  ["AttrLv"]= 10,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 828,
+  ["ItemNum"]= 336,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 10
+},
+[829] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 829,
+  ["ItemNum"]= 448,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 11
+},
+[830] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 830,
+  ["ItemNum"]= 896,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 11
+},
+[831] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 831,
+  ["ItemNum"]= 1344,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 11
+},
+[832] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 832,
+  ["ItemNum"]= 672,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 11
+},
+[833] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 833,
+  ["ItemNum"]= 448,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 11
+},
+[834] = {
+  ["AttrLv"]= 11,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 834,
+  ["ItemNum"]= 448,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 11
+},
+[835] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 835,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 12
+},
+[836] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 836,
+  ["ItemNum"]= 1152,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 12
+},
+[837] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 837,
+  ["ItemNum"]= 1728,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 12
+},
+[838] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 838,
+  ["ItemNum"]= 864,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 12
+},
+[839] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 839,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 12
+},
+[840] = {
+  ["AttrLv"]= 12,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 840,
+  ["ItemNum"]= 576,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 12
+},
+[841] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 841,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 13
+},
+[842] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 842,
+  ["ItemNum"]= 1440,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 13
+},
+[843] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 843,
+  ["ItemNum"]= 2160,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 13
+},
+[844] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 844,
+  ["ItemNum"]= 1080,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 13
+},
+[845] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 845,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 13
+},
+[846] = {
+  ["AttrLv"]= 13,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 846,
+  ["ItemNum"]= 720,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 13
+},
+[847] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 847,
+  ["ItemNum"]= 880,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 14
+},
+[848] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 848,
+  ["ItemNum"]= 1760,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 14
+},
+[849] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 849,
+  ["ItemNum"]= 2640,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 14
+},
+[850] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 850,
+  ["ItemNum"]= 1320,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 14
+},
+[851] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 851,
+  ["ItemNum"]= 880,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 14
+},
+[852] = {
+  ["AttrLv"]= 14,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 852,
+  ["ItemNum"]= 880,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 14
+},
+[853] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 853,
+  ["ItemNum"]= 1056,
+  ["LibID"]= 1610101,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210101,
+  ["TransformationLv"]= 15
+},
+[854] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 854,
+  ["ItemNum"]= 2112,
+  ["LibID"]= 1610102,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210102,
+  ["TransformationLv"]= 15
+},
+[855] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 855,
+  ["ItemNum"]= 3168,
+  ["LibID"]= 1610103,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210103,
+  ["TransformationLv"]= 15
+},
+[856] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 856,
+  ["ItemNum"]= 1584,
+  ["LibID"]= 1610104,
+  ["SceneID"]= 1610,
+  ["TransformationLibID"]= 1210104,
+  ["TransformationLv"]= 15
+},
+[857] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 857,
+  ["ItemNum"]= 1056,
+  ["LibID"]= 1610201,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419002,
+  ["TransformationLibID"]= 1210201,
+  ["TransformationLv"]= 15
+},
+[858] = {
+  ["AttrLv"]= 15,
+  ["Color"]= "Img_ball_brown",
+  ["ID"]= 858,
+  ["ItemNum"]= 1056,
+  ["LibID"]= 1610301,
+  ["SceneID"]= 1610,
+  ["TransformationItem"]= 10419003,
+  ["TransformationLibID"]= 1210301,
+  ["TransformationLv"]= 15
+}
+}
+local baseTable={
+  ["AttrLv"]= 5,
+  ["Color"]= "Img_ball_blue",
+  ["ID"]= 1,
+  ["ItemNum"]= 12,
+  ["LibID"]= 1110101,
+  ["SceneID"]= 1110,
+  ["TransformationItem"]= 10419001,
+  ["TransformationLibID"]= 1110101,
+  ["TransformationLv"]= 5
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

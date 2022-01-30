@@ -1,0 +1,66 @@
+local table= {
+[1] = {},
+[2] = {
+  ["FavorNum"]= 2,
+  ["Id"]= 2,
+  ["LowSum"]= 36,
+  ["TopSum"]= 48
+},
+[3] = {
+  ["FavorNum"]= 3,
+  ["Id"]= 3,
+  ["LowSum"]= 48,
+  ["TopSum"]= 60
+},
+[4] = {
+  ["Id"]= 4,
+  ["LowSum"]= 72,
+  ["Quality"]= 2,
+  ["TopSum"]= 90
+},
+[5] = {
+  ["FavorNum"]= 2,
+  ["Id"]= 5,
+  ["LowSum"]= 90,
+  ["Quality"]= 2,
+  ["TopSum"]= 108
+},
+[6] = {
+  ["FavorNum"]= 3,
+  ["Id"]= 6,
+  ["LowSum"]= 108,
+  ["Quality"]= 2,
+  ["TopSum"]= 126
+},
+[7] = {
+  ["Id"]= 7,
+  ["LowSum"]= 144,
+  ["Quality"]= 3,
+  ["TopSum"]= 168
+},
+[8] = {
+  ["FavorNum"]= 2,
+  ["Id"]= 8,
+  ["LowSum"]= 168,
+  ["Quality"]= 3,
+  ["TopSum"]= 192
+},
+[9] = {
+  ["FavorNum"]= 3,
+  ["Id"]= 9,
+  ["LowSum"]= 192,
+  ["Quality"]= 3,
+  ["TopSum"]= 216
+}
+}
+local baseTable={
+  ["FavorNum"]= 1,
+  ["Id"]= 1,
+  ["LowSum"]= 24,
+  ["Quality"]= 1,
+  ["TopSum"]= 36
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

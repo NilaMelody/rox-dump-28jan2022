@@ -1,0 +1,62 @@
+local table= {
+[1] = {
+  ["CostType"]= 1,
+  ["ReduceVal"]= 10
+},
+[2] = {
+  ["CostType"]= 2,
+  ["id"]= 2,
+  ["Name"]= "采矿",
+  ["ReduceVal"]= 2
+},
+[3] = {
+  ["CostType"]= 3,
+  ["id"]= 3,
+  ["Name"]= "园艺",
+  ["ReduceVal"]= 8
+},
+[4] = {
+  ["id"]= 4,
+  ["Name"]= "冶炼"
+},
+[5] = {
+  ["id"]= 5,
+  ["Job"]= {
+    1600,
+    1610,
+    1611,
+    1612
+  },
+  ["Name"]= "制造(商人)",
+  ["UnlockDes"]= "LifeSkill_035"
+},
+[6] = {
+  ["id"]= 6,
+  ["Name"]= "烹饪"
+},
+[7] = {
+  ["id"]= 7,
+  ["Job"]= {
+    1112
+  },
+  ["Name"]= "符文(符文骑士)",
+  ["UnlockDes"]= "LifeSkill_110"
+},
+[8] = {
+  ["id"]= 8,
+  ["Name"]= "宠物",
+  ["ReduceVal"]= 10
+}
+}
+local baseTable={
+  ["CostType"]= 4,
+  ["id"]= 1,
+  ["Job"]= {},
+  ["Name"]= "钓鱼",
+  ["ReduceVal"]= 7,
+  ["UnlockDes"]= ""
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

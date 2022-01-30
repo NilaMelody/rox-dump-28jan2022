@@ -1,0 +1,4690 @@
+local table= {
+[100001] = {
+  ["attrDesc"]= {
+    "AttrPool_3102024_1"
+  },
+  ["attrs"]= {
+    {
+      ["attrId"]= 5,
+      ["attrValue"]= 2,
+      ["type"]= 1
+    }
+  },
+  ["name"]= "课程达标属性测试"
+},
+[100002] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 105,
+      ["attrValue"]= 0.04,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 128,
+      ["attrValue"]= -0.04,
+      ["type"]= 1
+    }
+  },
+  ["name"]= "转职装备通用",
+  ["StaticId"]= 100002
+},
+[100003] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 105,
+      ["attrValue"]= 0.06,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 128,
+      ["attrValue"]= -0.06,
+      ["type"]= 1
+    }
+  },
+  ["name"]= "转职装备通用",
+  ["StaticId"]= 100003
+},
+[100004] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 105,
+      ["attrValue"]= 0.08,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 128,
+      ["attrValue"]= -0.08,
+      ["type"]= 1
+    }
+  },
+  ["name"]= "转职装备通用",
+  ["StaticId"]= 100004
+},
+[100005] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 105,
+      ["attrValue"]= 0.1,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 128,
+      ["attrValue"]= -0.1,
+      ["type"]= 1
+    }
+  },
+  ["name"]= "转职装备通用",
+  ["StaticId"]= 100005
+},
+[4109999] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {},
+      ["argumentValue"]= {},
+      ["improvedLevel"]= 0,
+      ["skillId"]= 100020,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "4109999",
+  ["StaticId"]= 4109999
+},
+[8100001] = {
+  ["attrDesc"]= {
+    "SkillDesc_8100001"
+  },
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.05,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 9,
+      ["min"]= 8,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100001
+},
+[8100002] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.1,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 10,
+      ["min"]= 9,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100002
+},
+[8100003] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.15,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 11,
+      ["min"]= 10,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100003
+},
+[8100004] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.2,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 12,
+      ["min"]= 11,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100004
+},
+[8100005] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.25,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 13,
+      ["min"]= 12,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100005
+},
+[8100006] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.3,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 14,
+      ["min"]= 13,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100006
+},
+[8100007] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.35,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 15,
+      ["min"]= 14,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100007
+},
+[8100008] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.4,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 16,
+      ["min"]= 15,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100008
+},
+[8100009] = {
+  ["attrDesc"]= {
+    "SkillDesc_8100002"
+  },
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.00625,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.05,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 9,
+      ["min"]= 8,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100009
+},
+[8100010] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0125,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.1,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 10,
+      ["min"]= 9,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100010
+},
+[8100011] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.01875,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.15,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 11,
+      ["min"]= 10,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100011
+},
+[8100012] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.025,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.2,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 12,
+      ["min"]= 11,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100012
+},
+[8100013] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.03125,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.25,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 13,
+      ["min"]= 12,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100013
+},
+[8100014] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0375,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.3,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 14,
+      ["min"]= 13,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100014
+},
+[8100015] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.04375,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.35,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 15,
+      ["min"]= 14,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100015
+},
+[8100016] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.05,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.4,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 16,
+      ["min"]= 15,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100016
+},
+[8100017] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.00625,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.05,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 9,
+      ["min"]= 8,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100017
+},
+[8100018] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0125,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.1,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 10,
+      ["min"]= 9,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100018
+},
+[8100019] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.01875,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.15,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 11,
+      ["min"]= 10,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100019
+},
+[8100020] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.025,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.2,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 12,
+      ["min"]= 11,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100020
+},
+[8100021] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.03125,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.25,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 13,
+      ["min"]= 12,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100021
+},
+[8100022] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0375,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.3,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 14,
+      ["min"]= 13,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100022
+},
+[8100023] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.04375,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.35,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 15,
+      ["min"]= 14,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100023
+},
+[8100024] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.05,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.4,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 16,
+      ["min"]= 15,
+      ["type"]= "RefineLevel"
+    },
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100024
+},
+[8100025] = {
+  ["attrDesc"]= {
+    "SkillDesc_8100004"
+  },
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 0.5,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 9,
+      ["min"]= 8,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100025
+},
+[8100026] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 1,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 10,
+      ["min"]= 9,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100026
+},
+[8100027] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 1.5,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 11,
+      ["min"]= 10,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100027
+},
+[8100028] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 2,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 12,
+      ["min"]= 11,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100028
+},
+[8100029] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 2.5,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 13,
+      ["min"]= 12,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100029
+},
+[8100030] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 3,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 14,
+      ["min"]= 13,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100030
+},
+[8100031] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 3.5,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 15,
+      ["min"]= 14,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100031
+},
+[8100032] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 4,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 16,
+      ["min"]= 15,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100032
+},
+[8100033] = {
+  ["attrDesc"]= {
+    "SkillDesc_8100005"
+  },
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= -0.125,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 311,
+      ["attrValue"]= 0.1,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 22,
+      ["attrValue"]= 0.05,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 9,
+      ["min"]= 8,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100033
+},
+[8100034] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= -0.25,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 311,
+      ["attrValue"]= 0.2,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 22,
+      ["attrValue"]= 0.1,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 10,
+      ["min"]= 9,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100034
+},
+[8100035] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= -0.375,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 311,
+      ["attrValue"]= 0.3,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 22,
+      ["attrValue"]= 0.15,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 11,
+      ["min"]= 10,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100035
+},
+[8100036] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= -0.5,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 311,
+      ["attrValue"]= 0.4,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 22,
+      ["attrValue"]= 0.2,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 12,
+      ["min"]= 11,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100036
+},
+[8100037] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= -0.625,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 311,
+      ["attrValue"]= 0.5,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 22,
+      ["attrValue"]= 0.25,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 13,
+      ["min"]= 12,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100037
+},
+[8100038] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= -0.75,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 311,
+      ["attrValue"]= 0.6,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 22,
+      ["attrValue"]= 0.3,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 14,
+      ["min"]= 13,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100038
+},
+[8100039] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= -0.875,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 311,
+      ["attrValue"]= 0.7,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 22,
+      ["attrValue"]= 0.35,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 15,
+      ["min"]= 14,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100039
+},
+[8100040] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= -1,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 311,
+      ["attrValue"]= 0.8,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 22,
+      ["attrValue"]= 0.4,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 16,
+      ["min"]= 15,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100040
+},
+[8100041] = {
+  ["attrDesc"]= {
+    "SkillDesc_8100006"
+  },
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0125,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.1,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 9,
+      ["min"]= 8,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100041
+},
+[8100042] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.025,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.2,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 10,
+      ["min"]= 9,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100042
+},
+[8100043] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0375,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.3,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 11,
+      ["min"]= 10,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100043
+},
+[8100044] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.05,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.4,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 12,
+      ["min"]= 11,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100044
+},
+[8100045] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0625,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.5,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 13,
+      ["min"]= 12,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100045
+},
+[8100046] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.075,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.6,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 14,
+      ["min"]= 13,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100046
+},
+[8100047] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0875,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.7,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 15,
+      ["min"]= 14,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100047
+},
+[8100048] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.1,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 314,
+      ["attrValue"]= 0.8,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 16,
+      ["min"]= 15,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100048
+},
+[8100049] = {
+  ["attrDesc"]= {
+    "SkillDesc_8100007"
+  },
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0125,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 315,
+      ["attrValue"]= 0.1,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 9,
+      ["min"]= 8,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100049
+},
+[8100050] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.025,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 315,
+      ["attrValue"]= 0.2,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 10,
+      ["min"]= 9,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100050
+},
+[8100051] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0375,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 315,
+      ["attrValue"]= 0.3,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 11,
+      ["min"]= 10,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100051
+},
+[8100052] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.05,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 315,
+      ["attrValue"]= 0.4,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 12,
+      ["min"]= 11,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100052
+},
+[8100053] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0625,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 315,
+      ["attrValue"]= 0.5,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 13,
+      ["min"]= 12,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100053
+},
+[8100054] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.075,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 315,
+      ["attrValue"]= 0.6,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 14,
+      ["min"]= 13,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100054
+},
+[8100055] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.0875,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 315,
+      ["attrValue"]= 0.7,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 15,
+      ["min"]= 14,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100055
+},
+[8100056] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= -0.1,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 315,
+      ["attrValue"]= 0.8,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 16,
+      ["min"]= 15,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100056
+},
+[8100057] = {
+  ["attrDesc"]= {
+    "SkillDesc_8100008"
+  },
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.025,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 0.25,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 9,
+      ["min"]= 8,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100057
+},
+[8100058] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.05,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 0.5,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 10,
+      ["min"]= 9,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100058
+},
+[8100059] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.075,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 0.75,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 11,
+      ["min"]= 10,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100059
+},
+[8100060] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.1,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 1,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 12,
+      ["min"]= 11,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100060
+},
+[8100061] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.125,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 1.25,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 13,
+      ["min"]= 12,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100061
+},
+[8100062] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.15,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 1.5,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 14,
+      ["min"]= 13,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100062
+},
+[8100063] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.175,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 1.75,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 15,
+      ["min"]= 14,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100063
+},
+[8100064] = {
+  ["attrs"]= {
+    {
+      ["attrId"]= 17,
+      ["attrValue"]= 0.2,
+      ["type"]= 1
+    },
+    {
+      ["attrId"]= 15,
+      ["attrValue"]= 2,
+      ["type"]= 1
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["max"]= 16,
+      ["min"]= 15,
+      ["type"]= "RefineLevel"
+    }
+  },
+  ["name"]= "100MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 1,
+  ["StaticId"]= 8100064
+},
+[8600001] = {
+  ["StaticId"]= 8600001
+},
+[8600002] = {
+  ["StaticId"]= 8600002
+},
+[8600003] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600003
+},
+[8600004] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600004
+},
+[8600005] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600005
+},
+[8600006] = {
+  ["StaticId"]= 8600006
+},
+[8600007] = {
+  ["StaticId"]= 8600007
+},
+[8600008] = {
+  ["StaticId"]= 8600008
+},
+[8600009] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.02
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86003000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600009
+},
+[8600010] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86007000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600010
+},
+[8600011] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86007001,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600011
+},
+[8600012] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600012
+},
+[8600013] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600013
+},
+[8600014] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600014
+},
+[8600015] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600015
+},
+[8600016] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600016
+},
+[8600017] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600017
+},
+[8600018] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86006000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600018
+},
+[8600101] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600101
+},
+[8600102] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600102
+},
+[8600103] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600103
+},
+[8600104] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600104
+},
+[8600105] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600105
+},
+[8600106] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600106
+},
+[8600107] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600107
+},
+[8600108] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600108
+},
+[8600109] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.02
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86003000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600109
+},
+[8600110] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86007000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600110
+},
+[8600111] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86007001,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600111
+},
+[8600112] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600112
+},
+[8600113] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600113
+},
+[8600114] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600114
+},
+[8600115] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600115
+},
+[8600116] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600116
+},
+[8600117] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600117
+},
+[8600118] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 86006000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600118
+},
+[8600201] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600201
+},
+[8600202] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600202
+},
+[8600203] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600203
+},
+[8600204] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600204
+},
+[8600205] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600205
+},
+[8600206] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600206
+},
+[8600207] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600207
+},
+[8600208] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600208
+},
+[8600209] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.02
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86003000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600209
+},
+[8600210] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86007000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600210
+},
+[8600211] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86007001,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600211
+},
+[8600212] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600212
+},
+[8600213] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600213
+},
+[8600214] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600214
+},
+[8600215] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600215
+},
+[8600216] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600216
+},
+[8600217] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600217
+},
+[8600218] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 86006000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600218
+},
+[8600301] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600301
+},
+[8600302] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600302
+},
+[8600303] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600303
+},
+[8600304] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600304
+},
+[8600305] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600305
+},
+[8600306] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600306
+},
+[8600307] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600307
+},
+[8600308] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600308
+},
+[8600309] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.02
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86003000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600309
+},
+[8600310] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86007000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600310
+},
+[8600311] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86007001,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600311
+},
+[8600312] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600312
+},
+[8600313] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600313
+},
+[8600314] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600314
+},
+[8600315] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600315
+},
+[8600316] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600316
+},
+[8600317] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600317
+},
+[8600318] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 3,
+      ["skillId"]= 86006000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600318
+},
+[8600401] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600401
+},
+[8600402] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600402
+},
+[8600403] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600403
+},
+[8600404] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600404
+},
+[8600405] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.03
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86008000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600405
+},
+[8600406] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600406
+},
+[8600407] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600407
+},
+[8600408] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600408
+},
+[8600409] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.02
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86003000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600409
+},
+[8600410] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86007000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600410
+},
+[8600411] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86007001,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["StaticId"]= 8600411
+},
+[8600412] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600412
+},
+[8600413] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600413
+},
+[8600414] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86005000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600414
+},
+[8600415] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86004000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600415
+},
+[8600416] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600416
+},
+[8600417] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86001000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600417
+},
+[8600418] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 4,
+      ["skillId"]= 86006000,
+      ["type"]= 2
+    }
+  },
+  ["StaticId"]= 8600418
+},
+[8800001] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800001
+},
+[8800002] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800002
+},
+[8800003] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.075
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88008000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800003
+},
+[8800004] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.075
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88008000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800004
+},
+[8800005] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.075
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88008000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800005
+},
+[8800006] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800006
+},
+[8800007] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800007
+},
+[8800008] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800008
+},
+[8800009] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800009
+},
+[8800010] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.0375
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88006000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800010
+},
+[8800011] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.0375
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88007000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800011
+},
+[8800012] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.1,
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800012
+},
+[8800013] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.1,
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800013
+},
+[8800014] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88005000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800014
+},
+[8800015] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88005000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800015
+},
+[8800016] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800016
+},
+[8800017] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800017
+},
+[8800018] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 88001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800018
+},
+[8800101] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800101
+},
+[8800102] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800102
+},
+[8800103] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.075
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88008000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800103
+},
+[8800104] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.075
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88008000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800104
+},
+[8800105] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.075
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88008000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800105
+},
+[8800106] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800106
+},
+[8800107] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800107
+},
+[8800108] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800108
+},
+[8800109] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800109
+},
+[8800110] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.0375
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88006000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800110
+},
+[8800111] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.0375
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88007000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800111
+},
+[8800112] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.1,
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800112
+},
+[8800113] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.1,
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800113
+},
+[8800114] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88005000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800114
+},
+[8800115] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88005000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800115
+},
+[8800116] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800116
+},
+[8800117] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800117
+},
+[8800118] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 88001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800118
+},
+[8800201] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800201
+},
+[8800202] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800202
+},
+[8800203] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.075
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88008000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800203
+},
+[8800204] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.075
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88008000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800204
+},
+[8800205] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.075
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88008000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800205
+},
+[8800206] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800206
+},
+[8800207] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800207
+},
+[8800208] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.075
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800208
+},
+[8800209] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.05,
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800209
+},
+[8800210] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.0375
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88006000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800210
+},
+[8800211] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.0375
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88007000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800211
+},
+[8800212] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.1,
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800212
+},
+[8800213] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1,
+        2
+      },
+      ["argumentValue"]= {
+        0.1,
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800213
+},
+[8800214] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88005000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800214
+},
+[8800215] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.025
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88005000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800215
+},
+[8800216] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800216
+},
+[8800217] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800217
+},
+[8800218] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 2,
+      ["skillId"]= 88001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "80MVP装备独有属性",
+  ["StaticId"]= 8800218
+},
+[8900001] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900001
+},
+[8900002] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900002
+},
+[8900003] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900003
+},
+[8900004] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900004
+},
+[8900005] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900005
+},
+[8900006] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900006
+},
+[8900007] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900007
+},
+[8900008] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900008
+},
+[8900009] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900009
+},
+[8900010] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89003001,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900010
+},
+[8900011] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89003002,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900011
+},
+[8900012] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900012
+},
+[8900013] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900013
+},
+[8900014] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900014
+},
+[8900015] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900015
+},
+[8900016] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 89001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900016
+},
+[8900101] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900101
+},
+[8900102] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900102
+},
+[8900103] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900103
+},
+[8900104] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900104
+},
+[8900105] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900105
+},
+[8900106] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900106
+},
+[8900107] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900107
+},
+[8900108] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.015
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89002000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900108
+},
+[8900109] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89003000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900109
+},
+[8900110] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89003001,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 0,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900110
+},
+[8900111] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.005
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89003002,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {
+    {
+      ["slot"]= 1,
+      ["type"]= "EquipSlot"
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900111
+},
+[8900112] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900112
+},
+[8900113] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89004000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900113
+},
+[8900114] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900114
+},
+[8900115] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900115
+},
+[8900116] = {
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.01
+      },
+      ["improvedLevel"]= 1,
+      ["skillId"]= 89001000,
+      ["type"]= 2
+    }
+  },
+  ["name"]= "90MVP装备独有属性",
+  ["StaticId"]= 8900116
+}
+}
+local baseTable={
+  ["attrDesc"]= {},
+  ["attrs"]= {
+    {
+      ["argumentOrder"]= {
+        1
+      },
+      ["argumentValue"]= {
+        0.05
+      },
+      ["improvedLevel"]= 0,
+      ["skillId"]= 86002000,
+      ["type"]= 2
+    }
+  },
+  ["Conditions"]= {},
+  ["name"]= "60MVP装备独有属性",
+  ["OnlyShowAttrDesc"]= 0,
+  ["StaticId"]= 100001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

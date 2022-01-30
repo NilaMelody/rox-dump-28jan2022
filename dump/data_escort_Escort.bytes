@@ -1,0 +1,12 @@
+return {
+	[1001] = {
+		["id"] = 1001,
+		["type"] = 0,
+		["destinationSceneId"] = 0,
+		["destinationPosition"] = 0,
+		["destinationRadius"] = 0,
+		["escortRadius"] = 0,
+		["followRadius"] = 0,
+		["npcId"] = 0
+	}
+}

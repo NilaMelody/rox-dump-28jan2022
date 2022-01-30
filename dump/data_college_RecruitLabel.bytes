@@ -1,0 +1,80 @@
+local table= {
+[10001] = {},
+[10002] = {
+  ["Id"]= 10002,
+  ["LabelName"]= "LabelName_10002",
+  ["Order"]= 2
+},
+[10003] = {
+  ["Id"]= 10003,
+  ["LabelName"]= "LabelName_10003",
+  ["Order"]= 3
+},
+[10004] = {
+  ["Id"]= 10004,
+  ["LabelName"]= "LabelName_10004",
+  ["Order"]= 4
+},
+[10005] = {
+  ["Id"]= 10005,
+  ["LabelName"]= "LabelName_10005",
+  ["Order"]= 5
+},
+[10006] = {
+  ["Id"]= 10006,
+  ["LabelName"]= "LabelName_10006",
+  ["Order"]= 6
+},
+[10007] = {
+  ["Id"]= 10007,
+  ["LabelName"]= "LabelName_10007",
+  ["Order"]= 7
+},
+[10101] = {
+  ["Condition"]= {
+    9002
+  },
+  ["Id"]= 10101,
+  ["Identity"]= 1,
+  ["LabelName"]= "LabelName_10101",
+  ["Order"]= 8
+},
+[10102] = {
+  ["Condition"]= {
+    9002
+  },
+  ["Id"]= 10102,
+  ["Identity"]= 1,
+  ["LabelName"]= "LabelName_10102",
+  ["Order"]= 9
+},
+[10201] = {
+  ["Condition"]= {
+    9001
+  },
+  ["Id"]= 10201,
+  ["Identity"]= 2,
+  ["LabelName"]= "LabelName_10201",
+  ["Order"]= 10
+},
+[10202] = {
+  ["Condition"]= {
+    9001
+  },
+  ["Id"]= 10202,
+  ["Identity"]= 2,
+  ["LabelName"]= "LabelName_10202",
+  ["Order"]= 11
+}
+}
+local baseTable={
+  ["Condition"]= {},
+  ["Id"]= 10001,
+  ["Identity"]= 0,
+  ["LabelName"]= "LabelName_10001",
+  ["Order"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

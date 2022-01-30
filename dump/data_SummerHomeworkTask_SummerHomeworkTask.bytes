@@ -1,0 +1,1754 @@
+local table= {
+[1] = {
+  ["Desc"]= "SummerHomeworkTask001",
+  ["EventType"]= 1,
+  ["GroupId"]= 1,
+  ["IsInitial"]= 0,
+  ["IsUpgrade"]= 0,
+  ["TargetType"]= 87,
+  ["TaskSort"]= 1
+},
+[2] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask002",
+  ["EventType"]= 1,
+  ["GoToType"]= 1,
+  ["GroupId"]= 2,
+  ["ID"]= 2,
+  ["IsUpgrade"]= 0,
+  ["TargetNPC"]= {
+    11709999
+  },
+  ["TargetType"]= 71,
+  ["TaskSort"]= 2,
+  ["Times"]= 3
+},
+[3] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask003",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 2,
+  ["ID"]= 3,
+  ["IsUpgrade"]= 0,
+  ["TargetType"]= 40,
+  ["TargetUI"]= "UI_MVPBoss",
+  ["TaskSort"]= 3
+},
+[4] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask004",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 2,
+  ["ID"]= 4,
+  ["IsUpgrade"]= 0,
+  ["TargetType"]= 98,
+  ["TargetUI"]= "UI_MVPBoss",
+  ["TaskSort"]= 4
+},
+[5] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask005",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 2,
+  ["ID"]= 5,
+  ["IsUpgrade"]= 0,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 89,
+  ["TargetUI"]= "UI_OdinRecommend",
+  ["TaskSort"]= 5,
+  ["Times"]= 200
+},
+[6] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask006",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 2,
+  ["ID"]= 6,
+  ["IsUpgrade"]= 0,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 89,
+  ["TargetUI"]= "UI_OdinRecommend",
+  ["TaskSort"]= 6,
+  ["Times"]= 300
+},
+[7] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask007",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 2,
+  ["ID"]= 7,
+  ["IsUpgrade"]= 0,
+  ["TargetType"]= 89,
+  ["TargetUI"]= "UI_OdinRecommend",
+  ["TaskSort"]= 7,
+  ["Times"]= 100
+},
+[8] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask008",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 2,
+  ["ID"]= 8,
+  ["IsUpgrade"]= 0,
+  ["TargetType"]= 15,
+  ["TargetUI"]= "UI_OdinBlessing",
+  ["TaskSort"]= 8,
+  ["Times"]= 600
+},
+[9] = {
+  ["Desc"]= "SummerHomeworkTask009",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 3,
+  ["ID"]= 9,
+  ["IsUpgrade"]= 0,
+  ["TargetType"]= 75,
+  ["TargetUI"]= "UI_Friend",
+  ["TaskSort"]= 9,
+  ["Times"]= 3
+},
+[10] = {
+  ["Desc"]= "SummerHomeworkTask010",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 3,
+  ["ID"]= 10,
+  ["IsUpgrade"]= 0,
+  ["TargetType"]= 99,
+  ["TargetUI"]= "UI_AddFriends",
+  ["TaskSort"]= 10,
+  ["Times"]= 3
+},
+[11] = {
+  ["Desc"]= "SummerHomeworkTask013",
+  ["EventType"]= 1,
+  ["GoToType"]= 1,
+  ["GroupId"]= 3,
+  ["ID"]= 11,
+  ["IsUpgrade"]= 0,
+  ["TargetNPC"]= {
+    10101013
+  },
+  ["TargetType"]= 5,
+  ["TaskSort"]= 11,
+  ["Times"]= 5
+},
+[12] = {
+  ["Desc"]= "SummerHomeworkTask015",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 3,
+  ["ID"]= 12,
+  ["IsGuild"]= 1,
+  ["IsUpgrade"]= 0,
+  ["TargetType"]= 100,
+  ["TargetUI"]= "UI_GuildOrder",
+  ["TaskSort"]= 12,
+  ["Times"]= 5
+},
+[13] = {
+  ["Desc"]= "SummerHomeworkTask022",
+  ["EventType"]= 1,
+  ["GoToType"]= 1,
+  ["GroupId"]= 3,
+  ["ID"]= 13,
+  ["IsUpgrade"]= 0,
+  ["TargetNPC"]= {
+    10206006
+  },
+  ["TargetType"]= 96,
+  ["TaskSort"]= 13
+},
+[14] = {
+  ["EventType"]= 1,
+  ["GoToType"]= 1,
+  ["GroupId"]= 3,
+  ["ID"]= 14,
+  ["IsUpgrade"]= 0,
+  ["TargetNPC"]= {
+    10101021
+  },
+  ["TargetType"]= 95,
+  ["TaskSort"]= 14
+},
+[15] = {
+  ["Desc"]= "SummerHomeworkTask021",
+  ["EventType"]= 1,
+  ["GoToType"]= 2,
+  ["GroupId"]= 3,
+  ["ID"]= 15,
+  ["IsUpgrade"]= 0,
+  ["TargetLocation"]= {
+    1530,
+    -7.8,
+    18.8
+  },
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 82,
+  ["TaskSort"]= 15
+},
+[16] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask016",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 4,
+  ["ID"]= 16,
+  ["IsUpgrade"]= 0,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 2,
+  ["TargetUI"]= "UI_Life",
+  ["TaskSort"]= 16,
+  ["Times"]= 25,
+  ["UIParameter"]= {
+    2
+  },
+  ["UIParameterName"]= {
+    "uiType"
+  }
+},
+[17] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask017",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 4,
+  ["ID"]= 17,
+  ["IsUpgrade"]= 0,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 2,
+  ["TargetUI"]= "UI_Life",
+  ["TaskSort"]= 17,
+  ["Times"]= 5,
+  ["UIParameter"]= {
+    3
+  },
+  ["UIParameterName"]= {
+    "uiType"
+  }
+},
+[18] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask018",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 4,
+  ["ID"]= 18,
+  ["IsUpgrade"]= 0,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 2,
+  ["TargetUI"]= "UI_Life",
+  ["TaskSort"]= 18,
+  ["Times"]= 10,
+  ["UIParameter"]= {
+    1
+  },
+  ["UIParameterName"]= {
+    "uiType"
+  }
+},
+[19] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask019",
+  ["EventType"]= 1,
+  ["GoToType"]= 1,
+  ["GroupId"]= 4,
+  ["ID"]= 19,
+  ["IsUpgrade"]= 0,
+  ["TargetNPC"]= {
+    10101022,
+    10101033,
+    10101034,
+    11101046,
+    11101047,
+    11101048,
+    11801048,
+    11801049,
+    11801050,
+    12101033,
+    12101034,
+    12101035,
+    13101033,
+    13101034,
+    13101035,
+    14101033,
+    14101034,
+    14101035
+  },
+  ["TargetType"]= 37,
+  ["TaskSort"]= 19,
+  ["Times"]= 2
+},
+[20] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask020",
+  ["EventType"]= 1,
+  ["GoToType"]= 1,
+  ["GroupId"]= 4,
+  ["ID"]= 20,
+  ["IsUpgrade"]= 0,
+  ["TargetNPC"]= {
+    10101007,
+    11101044,
+    11801045,
+    12101036,
+    13101036,
+    14101009
+  },
+  ["TargetType"]= 38,
+  ["TaskSort"]= 20
+},
+[21] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask011",
+  ["EventType"]= 1,
+  ["GoToType"]= 1,
+  ["GroupId"]= 4,
+  ["ID"]= 21,
+  ["IsUpgrade"]= 0,
+  ["TargetNPC"]= {
+    10101008,
+    11101043,
+    11801046,
+    12101009,
+    13101039,
+    14101036
+  },
+  ["TargetType"]= 36,
+  ["TaskSort"]= 21,
+  ["Times"]= 5
+},
+[22] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask012",
+  ["EventType"]= 1,
+  ["GoToType"]= 3,
+  ["GroupId"]= 4,
+  ["ID"]= 22,
+  ["IsUpgrade"]= 0,
+  ["TargetType"]= 114,
+  ["TargetUI"]= "UI_Jobber",
+  ["TaskSort"]= 22,
+  ["Times"]= 10
+},
+[23] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask023",
+  ["ID"]= 23,
+  ["ShowGroup"]= 1,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 87,
+  ["TaskSort"]= 23,
+  ["Times"]= 2
+},
+[24] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask024",
+  ["ID"]= 24,
+  ["ShowGroup"]= 2,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 36,
+  ["TaskSort"]= 24,
+  ["Times"]= 5
+},
+[25] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask044",
+  ["ID"]= 25,
+  ["ShowGroup"]= 3,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 128,
+  ["TaskSort"]= 25,
+  ["Times"]= 5
+},
+[26] = {
+  ["Desc"]= "SummerHomeworkTask026",
+  ["ID"]= 26,
+  ["ShowGroup"]= 4,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 111,
+  ["TaskSort"]= 26,
+  ["Times"]= 3
+},
+[27] = {
+  ["AwardNum"]= 2,
+  ["ID"]= 27,
+  ["ShowGroup"]= 5,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 95,
+  ["TaskSort"]= 27
+},
+[28] = {
+  ["Desc"]= "SummerHomeworkTask028",
+  ["ID"]= 28,
+  ["ShowGroup"]= 6,
+  ["ShowOrder"]= 1,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskSort"]= 28
+},
+[29] = {
+  ["Desc"]= "SummerHomeworkTask029",
+  ["ID"]= 29,
+  ["ShowGroup"]= 7,
+  ["ShowOrder"]= 1,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TaskSort"]= 29
+},
+[30] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask030",
+  ["ID"]= 30,
+  ["ShowGroup"]= 8,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 101
+},
+[31] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask031",
+  ["ID"]= 31,
+  ["ShowGroup"]= 9,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 40,
+  ["TaskSort"]= 31,
+  ["Times"]= 3
+},
+[32] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask032",
+  ["ID"]= 32,
+  ["ShowGroup"]= 10,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 98,
+  ["TaskSort"]= 32,
+  ["Times"]= 3
+},
+[33] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask033",
+  ["ID"]= 33,
+  ["ShowGroup"]= 11,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 71,
+  ["TaskSort"]= 33,
+  ["Times"]= 3
+},
+[34] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask034",
+  ["ID"]= 34,
+  ["ShowGroup"]= 12,
+  ["ShowOrder"]= 1,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 82,
+  ["TaskSort"]= 34
+},
+[35] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask035",
+  ["ID"]= 35,
+  ["ShowGroup"]= 13,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 113,
+  ["TaskSort"]= 35,
+  ["Times"]= 10
+},
+[36] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask036",
+  ["ID"]= 36,
+  ["ShowGroup"]= 14,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 97,
+  ["TaskSort"]= 36,
+  ["Times"]= 1000
+},
+[37] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask037",
+  ["ID"]= 37,
+  ["ShowGroup"]= 15,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 15,
+  ["TaskSort"]= 37,
+  ["Times"]= 1000
+},
+[38] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask038",
+  ["ID"]= 38,
+  ["ShowGroup"]= 16,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 38,
+  ["TaskSort"]= 38
+},
+[39] = {
+  ["Award"]= 10217050,
+  ["Desc"]= "SummerHomeworkTask039",
+  ["ID"]= 39,
+  ["ShowGroup"]= 17,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 37,
+  ["TaskSort"]= 39,
+  ["Times"]= 2
+},
+[40] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask040",
+  ["ID"]= 40,
+  ["ShowGroup"]= 18,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 76,
+  ["TaskSort"]= 40,
+  ["Times"]= 100000
+},
+[41] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask041",
+  ["ID"]= 41,
+  ["ShowGroup"]= 19,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 109,
+  ["TaskSort"]= 41,
+  ["Times"]= 100000
+},
+[42] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask042",
+  ["ID"]= 42,
+  ["ShowGroup"]= 20,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 108,
+  ["TaskSort"]= 42
+},
+[43] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask043",
+  ["ID"]= 43,
+  ["ShowGroup"]= 21,
+  ["ShowOrder"]= 1,
+  ["TargetType"]= 102,
+  ["TaskSort"]= 43,
+  ["Times"]= 5000
+},
+[44] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask023",
+  ["ID"]= 44,
+  ["ShowGroup"]= 1,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 87,
+  ["TaskSort"]= 23,
+  ["Times"]= 5
+},
+[45] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask024",
+  ["ID"]= 45,
+  ["ShowGroup"]= 2,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 36,
+  ["TaskSort"]= 24,
+  ["Times"]= 15
+},
+[46] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask044",
+  ["ID"]= 46,
+  ["ShowGroup"]= 3,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 128,
+  ["TaskSort"]= 25,
+  ["Times"]= 15
+},
+[47] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask026",
+  ["ID"]= 47,
+  ["ShowGroup"]= 4,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 111,
+  ["TaskSort"]= 26,
+  ["Times"]= 6
+},
+[48] = {
+  ["AwardNum"]= 4,
+  ["ID"]= 48,
+  ["ShowGroup"]= 5,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 95,
+  ["TaskSort"]= 27,
+  ["Times"]= 2
+},
+[49] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask028",
+  ["ID"]= 49,
+  ["ShowGroup"]= 6,
+  ["ShowOrder"]= 2,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskSort"]= 28,
+  ["Times"]= 2
+},
+[50] = {
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask029",
+  ["ID"]= 50,
+  ["ShowGroup"]= 7,
+  ["ShowOrder"]= 2,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TaskSort"]= 29,
+  ["Times"]= 2
+},
+[51] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask030",
+  ["ID"]= 51,
+  ["ShowGroup"]= 8,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 101,
+  ["Times"]= 2
+},
+[52] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask031",
+  ["ID"]= 52,
+  ["ShowGroup"]= 9,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 40,
+  ["TaskSort"]= 31,
+  ["Times"]= 6
+},
+[53] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask032",
+  ["ID"]= 53,
+  ["ShowGroup"]= 10,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 98,
+  ["TaskSort"]= 32,
+  ["Times"]= 6
+},
+[54] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask033",
+  ["ID"]= 54,
+  ["ShowGroup"]= 11,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 71,
+  ["TaskSort"]= 33,
+  ["Times"]= 6
+},
+[55] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask034",
+  ["ID"]= 55,
+  ["ShowGroup"]= 12,
+  ["ShowOrder"]= 2,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 82,
+  ["TaskSort"]= 34,
+  ["Times"]= 2
+},
+[56] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask035",
+  ["ID"]= 56,
+  ["ShowGroup"]= 13,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 113,
+  ["TaskSort"]= 35,
+  ["Times"]= 20
+},
+[57] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask036",
+  ["ID"]= 57,
+  ["ShowGroup"]= 14,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 97,
+  ["TaskSort"]= 36,
+  ["Times"]= 3000
+},
+[58] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask037",
+  ["ID"]= 58,
+  ["ShowGroup"]= 15,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 15,
+  ["TaskSort"]= 37,
+  ["Times"]= 3000
+},
+[59] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask038",
+  ["ID"]= 59,
+  ["ShowGroup"]= 16,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 38,
+  ["TaskSort"]= 38,
+  ["Times"]= 3
+},
+[60] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 2,
+  ["Desc"]= "SummerHomeworkTask039",
+  ["ID"]= 60,
+  ["ShowGroup"]= 17,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 37,
+  ["TaskSort"]= 39,
+  ["Times"]= 7
+},
+[61] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask040",
+  ["ID"]= 61,
+  ["ShowGroup"]= 18,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 76,
+  ["TaskSort"]= 40,
+  ["Times"]= 200000
+},
+[62] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask041",
+  ["ID"]= 62,
+  ["ShowGroup"]= 19,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 109,
+  ["TaskSort"]= 41,
+  ["Times"]= 200000
+},
+[63] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask042",
+  ["ID"]= 63,
+  ["ShowGroup"]= 20,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 108,
+  ["TaskSort"]= 42,
+  ["Times"]= 3
+},
+[64] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask043",
+  ["ID"]= 64,
+  ["ShowGroup"]= 21,
+  ["ShowOrder"]= 2,
+  ["TargetType"]= 102,
+  ["TaskSort"]= 43,
+  ["Times"]= 15000
+},
+[65] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask023",
+  ["ID"]= 65,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 1,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 87,
+  ["TaskSort"]= 23,
+  ["Times"]= 10
+},
+[66] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask024",
+  ["ID"]= 66,
+  ["ShowGroup"]= 2,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 36,
+  ["TaskSort"]= 24,
+  ["Times"]= 35
+},
+[67] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask044",
+  ["ID"]= 67,
+  ["ShowGroup"]= 3,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 128,
+  ["TaskSort"]= 25,
+  ["Times"]= 30
+},
+[68] = {
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask026",
+  ["ID"]= 68,
+  ["ShowGroup"]= 4,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 111,
+  ["TaskSort"]= 26,
+  ["Times"]= 9
+},
+[69] = {
+  ["AwardNum"]= 6,
+  ["ID"]= 69,
+  ["ShowGroup"]= 5,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 95,
+  ["TaskSort"]= 27,
+  ["Times"]= 3
+},
+[70] = {
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask028",
+  ["ID"]= 70,
+  ["ShowGroup"]= 6,
+  ["ShowOrder"]= 3,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskSort"]= 28,
+  ["Times"]= 4
+},
+[71] = {
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask029",
+  ["ID"]= 71,
+  ["ShowGroup"]= 7,
+  ["ShowOrder"]= 3,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TaskSort"]= 29,
+  ["Times"]= 4
+},
+[72] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask030",
+  ["ID"]= 72,
+  ["ShowGroup"]= 8,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 101,
+  ["Times"]= 3
+},
+[73] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask031",
+  ["ID"]= 73,
+  ["ShowGroup"]= 9,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 40,
+  ["TaskSort"]= 31,
+  ["Times"]= 9
+},
+[74] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask032",
+  ["ID"]= 74,
+  ["ShowGroup"]= 10,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 98,
+  ["TaskSort"]= 32,
+  ["Times"]= 9
+},
+[75] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask033",
+  ["ID"]= 75,
+  ["ShowGroup"]= 11,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 71,
+  ["TaskSort"]= 33,
+  ["Times"]= 9
+},
+[76] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask034",
+  ["ID"]= 76,
+  ["ShowGroup"]= 12,
+  ["ShowOrder"]= 3,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 82,
+  ["TaskSort"]= 34,
+  ["Times"]= 3
+},
+[77] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask035",
+  ["ID"]= 77,
+  ["ShowGroup"]= 13,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 113,
+  ["TaskSort"]= 35,
+  ["Times"]= 30
+},
+[78] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask036",
+  ["ID"]= 78,
+  ["ShowGroup"]= 14,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 97,
+  ["TaskSort"]= 36,
+  ["Times"]= 6000
+},
+[79] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 3,
+  ["Desc"]= "SummerHomeworkTask037",
+  ["ID"]= 79,
+  ["ShowGroup"]= 15,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 15,
+  ["TaskSort"]= 37,
+  ["Times"]= 6000
+},
+[80] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask038",
+  ["ID"]= 80,
+  ["ShowGroup"]= 16,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 38,
+  ["TaskSort"]= 38,
+  ["Times"]= 8
+},
+[81] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask039",
+  ["ID"]= 81,
+  ["ShowGroup"]= 17,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 37,
+  ["TaskSort"]= 39,
+  ["Times"]= 17
+},
+[82] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask040",
+  ["ID"]= 82,
+  ["ShowGroup"]= 18,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 76,
+  ["TaskSort"]= 40,
+  ["Times"]= 300000
+},
+[83] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask041",
+  ["ID"]= 83,
+  ["ShowGroup"]= 19,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 109,
+  ["TaskSort"]= 41,
+  ["Times"]= 300000
+},
+[84] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask042",
+  ["ID"]= 84,
+  ["ShowGroup"]= 20,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 108,
+  ["TaskSort"]= 42,
+  ["Times"]= 6
+},
+[85] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask043",
+  ["ID"]= 85,
+  ["ShowGroup"]= 21,
+  ["ShowOrder"]= 3,
+  ["TargetType"]= 102,
+  ["TaskSort"]= 43,
+  ["Times"]= 35000
+},
+[86] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 10,
+  ["Desc"]= "SummerHomeworkTask024",
+  ["ID"]= 86,
+  ["ShowGroup"]= 2,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 36,
+  ["TaskSort"]= 24,
+  ["Times"]= 85
+},
+[87] = {
+  ["AwardNum"]= 8,
+  ["Desc"]= "SummerHomeworkTask044",
+  ["ID"]= 87,
+  ["ShowGroup"]= 3,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 128,
+  ["TaskSort"]= 25,
+  ["Times"]= 50
+},
+[88] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask026",
+  ["ID"]= 88,
+  ["ShowGroup"]= 4,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 111,
+  ["TaskSort"]= 26,
+  ["Times"]= 15
+},
+[89] = {
+  ["AwardNum"]= 8,
+  ["ID"]= 89,
+  ["ShowGroup"]= 5,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 95,
+  ["TaskSort"]= 27,
+  ["Times"]= 5
+},
+[90] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask028",
+  ["ID"]= 90,
+  ["ShowGroup"]= 6,
+  ["ShowOrder"]= 4,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskSort"]= 28,
+  ["Times"]= 6
+},
+[91] = {
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask029",
+  ["ID"]= 91,
+  ["ShowGroup"]= 7,
+  ["ShowOrder"]= 4,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TaskSort"]= 29,
+  ["Times"]= 6
+},
+[92] = {
+  ["AwardNum"]= 8,
+  ["Desc"]= "SummerHomeworkTask030",
+  ["ID"]= 92,
+  ["ShowGroup"]= 8,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 101,
+  ["Times"]= 5
+},
+[93] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask031",
+  ["ID"]= 93,
+  ["ShowGroup"]= 9,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 40,
+  ["TaskSort"]= 31,
+  ["Times"]= 15
+},
+[94] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask032",
+  ["ID"]= 94,
+  ["ShowGroup"]= 10,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 98,
+  ["TaskSort"]= 32,
+  ["Times"]= 15
+},
+[95] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask033",
+  ["ID"]= 95,
+  ["ShowGroup"]= 11,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 71,
+  ["TaskSort"]= 33,
+  ["Times"]= 15
+},
+[96] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask034",
+  ["ID"]= 96,
+  ["ShowGroup"]= 12,
+  ["ShowOrder"]= 4,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 82,
+  ["TaskSort"]= 34,
+  ["Times"]= 5
+},
+[97] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask035",
+  ["ID"]= 97,
+  ["ShowGroup"]= 13,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 113,
+  ["TaskSort"]= 35,
+  ["Times"]= 50
+},
+[98] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask036",
+  ["ID"]= 98,
+  ["ShowGroup"]= 14,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 97,
+  ["TaskSort"]= 36,
+  ["Times"]= 10000
+},
+[99] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 4,
+  ["Desc"]= "SummerHomeworkTask037",
+  ["ID"]= 99,
+  ["ShowGroup"]= 15,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 15,
+  ["TaskSort"]= 37,
+  ["Times"]= 10000
+},
+[100] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 10,
+  ["Desc"]= "SummerHomeworkTask038",
+  ["ID"]= 100,
+  ["ShowGroup"]= 16,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 38,
+  ["TaskSort"]= 38,
+  ["Times"]= 18
+},
+[101] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 10,
+  ["Desc"]= "SummerHomeworkTask039",
+  ["ID"]= 101,
+  ["ShowGroup"]= 17,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 37,
+  ["TaskSort"]= 39,
+  ["Times"]= 37
+},
+[102] = {
+  ["AwardNum"]= 8,
+  ["Desc"]= "SummerHomeworkTask040",
+  ["ID"]= 102,
+  ["ShowGroup"]= 18,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 76,
+  ["TaskSort"]= 40,
+  ["Times"]= 500000
+},
+[103] = {
+  ["AwardNum"]= 8,
+  ["Desc"]= "SummerHomeworkTask041",
+  ["ID"]= 103,
+  ["ShowGroup"]= 19,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 109,
+  ["TaskSort"]= 41,
+  ["Times"]= 500000
+},
+[104] = {
+  ["AwardNum"]= 8,
+  ["Desc"]= "SummerHomeworkTask042",
+  ["ID"]= 104,
+  ["ShowGroup"]= 20,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 108,
+  ["TaskSort"]= 42,
+  ["Times"]= 11
+},
+[105] = {
+  ["AwardNum"]= 8,
+  ["Desc"]= "SummerHomeworkTask043",
+  ["ID"]= 105,
+  ["ShowGroup"]= 21,
+  ["ShowOrder"]= 4,
+  ["TargetType"]= 102,
+  ["TaskSort"]= 43,
+  ["Times"]= 85000
+},
+[106] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 20,
+  ["Desc"]= "SummerHomeworkTask024",
+  ["ID"]= 106,
+  ["ShowGroup"]= 2,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 36,
+  ["TaskSort"]= 24,
+  ["Times"]= 185
+},
+[107] = {
+  ["AwardNum"]= 10,
+  ["Desc"]= "SummerHomeworkTask044",
+  ["ID"]= 107,
+  ["ShowGroup"]= 3,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 128,
+  ["TaskSort"]= 25,
+  ["Times"]= 75
+},
+[108] = {
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask026",
+  ["ID"]= 108,
+  ["ShowGroup"]= 4,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 111,
+  ["TaskSort"]= 26,
+  ["Times"]= 21
+},
+[109] = {
+  ["AwardNum"]= 10,
+  ["ID"]= 109,
+  ["ShowGroup"]= 5,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 95,
+  ["TaskSort"]= 27,
+  ["Times"]= 7
+},
+[110] = {
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask028",
+  ["ID"]= 110,
+  ["ShowGroup"]= 6,
+  ["ShowOrder"]= 5,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskSort"]= 28,
+  ["Times"]= 9
+},
+[111] = {
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask029",
+  ["ID"]= 111,
+  ["ShowGroup"]= 7,
+  ["ShowOrder"]= 5,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TaskSort"]= 29,
+  ["Times"]= 9
+},
+[112] = {
+  ["AwardNum"]= 10,
+  ["Desc"]= "SummerHomeworkTask030",
+  ["ID"]= 112,
+  ["ShowGroup"]= 8,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 101,
+  ["Times"]= 7
+},
+[113] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask031",
+  ["ID"]= 113,
+  ["ShowGroup"]= 9,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 40,
+  ["TaskSort"]= 31,
+  ["Times"]= 21
+},
+[114] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask032",
+  ["ID"]= 114,
+  ["ShowGroup"]= 10,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 98,
+  ["TaskSort"]= 32,
+  ["Times"]= 21
+},
+[115] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask033",
+  ["ID"]= 115,
+  ["ShowGroup"]= 11,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 71,
+  ["TaskSort"]= 33,
+  ["Times"]= 21
+},
+[116] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask034",
+  ["ID"]= 116,
+  ["ShowGroup"]= 12,
+  ["ShowOrder"]= 5,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 82,
+  ["TaskSort"]= 34,
+  ["Times"]= 7
+},
+[117] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask035",
+  ["ID"]= 117,
+  ["ShowGroup"]= 13,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 113,
+  ["TaskSort"]= 35,
+  ["Times"]= 70
+},
+[118] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask036",
+  ["ID"]= 118,
+  ["ShowGroup"]= 14,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 97,
+  ["TaskSort"]= 36,
+  ["Times"]= 15000
+},
+[119] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 5,
+  ["Desc"]= "SummerHomeworkTask037",
+  ["ID"]= 119,
+  ["ShowGroup"]= 15,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 15,
+  ["TaskSort"]= 37,
+  ["Times"]= 15000
+},
+[120] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 20,
+  ["Desc"]= "SummerHomeworkTask038",
+  ["ID"]= 120,
+  ["ShowGroup"]= 16,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 38,
+  ["TaskSort"]= 38,
+  ["Times"]= 38
+},
+[121] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 20,
+  ["Desc"]= "SummerHomeworkTask039",
+  ["ID"]= 121,
+  ["ShowGroup"]= 17,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 37,
+  ["TaskSort"]= 39,
+  ["Times"]= 87
+},
+[122] = {
+  ["AwardNum"]= 10,
+  ["Desc"]= "SummerHomeworkTask040",
+  ["ID"]= 122,
+  ["ShowGroup"]= 18,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 76,
+  ["TaskSort"]= 40,
+  ["Times"]= 700000
+},
+[123] = {
+  ["AwardNum"]= 10,
+  ["Desc"]= "SummerHomeworkTask041",
+  ["ID"]= 123,
+  ["ShowGroup"]= 19,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 109,
+  ["TaskSort"]= 41,
+  ["Times"]= 700000
+},
+[124] = {
+  ["AwardNum"]= 10,
+  ["Desc"]= "SummerHomeworkTask042",
+  ["ID"]= 124,
+  ["ShowGroup"]= 20,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 108,
+  ["TaskSort"]= 42,
+  ["Times"]= 21
+},
+[125] = {
+  ["AwardNum"]= 10,
+  ["Desc"]= "SummerHomeworkTask043",
+  ["ID"]= 125,
+  ["ShowGroup"]= 21,
+  ["ShowOrder"]= 5,
+  ["TargetType"]= 102,
+  ["TaskSort"]= 43,
+  ["Times"]= 185000
+},
+[126] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 50,
+  ["Desc"]= "SummerHomeworkTask024",
+  ["ID"]= 126,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 2,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 36,
+  ["TaskSort"]= 24,
+  ["Times"]= 385
+},
+[127] = {
+  ["AwardNum"]= 12,
+  ["Desc"]= "SummerHomeworkTask044",
+  ["ID"]= 127,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 3,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 128,
+  ["TaskSort"]= 25,
+  ["Times"]= 105
+},
+[128] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask026",
+  ["ID"]= 128,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 4,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 111,
+  ["TaskSort"]= 26,
+  ["Times"]= 30
+},
+[129] = {
+  ["AwardNum"]= 12,
+  ["ID"]= 129,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 5,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 95,
+  ["TaskSort"]= 27,
+  ["Times"]= 10
+},
+[130] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask028",
+  ["ID"]= 130,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 6,
+  ["ShowOrder"]= 6,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskSort"]= 28,
+  ["Times"]= 12
+},
+[131] = {
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask029",
+  ["ID"]= 131,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 7,
+  ["ShowOrder"]= 6,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TaskSort"]= 29,
+  ["Times"]= 12
+},
+[132] = {
+  ["AwardNum"]= 12,
+  ["Desc"]= "SummerHomeworkTask030",
+  ["ID"]= 132,
+  ["ShowGroup"]= 8,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 101,
+  ["Times"]= 9
+},
+[133] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask031",
+  ["ID"]= 133,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 9,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 40,
+  ["TaskSort"]= 31,
+  ["Times"]= 30
+},
+[134] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask032",
+  ["ID"]= 134,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 10,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 98,
+  ["TaskSort"]= 32,
+  ["Times"]= 30
+},
+[135] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask033",
+  ["ID"]= 135,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 11,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 71,
+  ["TaskSort"]= 33,
+  ["Times"]= 30
+},
+[136] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask034",
+  ["ID"]= 136,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 12,
+  ["ShowOrder"]= 6,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 82,
+  ["TaskSort"]= 34,
+  ["Times"]= 10
+},
+[137] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask035",
+  ["ID"]= 137,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 13,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 113,
+  ["TaskSort"]= 35,
+  ["Times"]= 100
+},
+[138] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask036",
+  ["ID"]= 138,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 14,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 97,
+  ["TaskSort"]= 36,
+  ["Times"]= 21000
+},
+[139] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 6,
+  ["Desc"]= "SummerHomeworkTask037",
+  ["ID"]= 139,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 15,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 15,
+  ["TaskSort"]= 37,
+  ["Times"]= 21000
+},
+[140] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 50,
+  ["Desc"]= "SummerHomeworkTask038",
+  ["ID"]= 140,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 16,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 38,
+  ["TaskSort"]= 38,
+  ["Times"]= 88
+},
+[141] = {
+  ["Award"]= 10217050,
+  ["AwardNum"]= 50,
+  ["Desc"]= "SummerHomeworkTask039",
+  ["ID"]= 141,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 17,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 37,
+  ["TaskSort"]= 39,
+  ["Times"]= 187
+},
+[142] = {
+  ["AwardNum"]= 12,
+  ["Desc"]= "SummerHomeworkTask040",
+  ["ID"]= 142,
+  ["ShowGroup"]= 18,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 76,
+  ["TaskSort"]= 40,
+  ["Times"]= 1000000
+},
+[143] = {
+  ["AwardNum"]= 12,
+  ["Desc"]= "SummerHomeworkTask041",
+  ["ID"]= 143,
+  ["ShowGroup"]= 19,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 109,
+  ["TaskSort"]= 41,
+  ["Times"]= 1000000
+},
+[144] = {
+  ["AwardNum"]= 12,
+  ["Desc"]= "SummerHomeworkTask042",
+  ["ID"]= 144,
+  ["ShowGroup"]= 20,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 108,
+  ["TaskSort"]= 42,
+  ["Times"]= 41
+},
+[145] = {
+  ["AwardNum"]= 12,
+  ["Desc"]= "SummerHomeworkTask043",
+  ["ID"]= 145,
+  ["ShowGroup"]= 21,
+  ["ShowOrder"]= 6,
+  ["TargetType"]= 102,
+  ["TaskSort"]= 43,
+  ["Times"]= 385000
+},
+[146] = {
+  ["AwardNum"]= 15,
+  ["Desc"]= "SummerHomeworkTask030",
+  ["ID"]= 146,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 8,
+  ["ShowOrder"]= 7,
+  ["TargetType"]= 101,
+  ["Times"]= 12
+},
+[147] = {
+  ["AwardNum"]= 15,
+  ["Desc"]= "SummerHomeworkTask040",
+  ["ID"]= 147,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 18,
+  ["ShowOrder"]= 7,
+  ["TargetType"]= 76,
+  ["TaskSort"]= 40,
+  ["Times"]= 1500000
+},
+[148] = {
+  ["AwardNum"]= 15,
+  ["Desc"]= "SummerHomeworkTask041",
+  ["ID"]= 148,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 19,
+  ["ShowOrder"]= 7,
+  ["TargetType"]= 109,
+  ["TaskSort"]= 41,
+  ["Times"]= 1500000
+},
+[149] = {
+  ["AwardNum"]= 15,
+  ["Desc"]= "SummerHomeworkTask042",
+  ["ID"]= 149,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 20,
+  ["ShowOrder"]= 7,
+  ["TargetType"]= 108,
+  ["TaskSort"]= 42,
+  ["Times"]= 71
+},
+[150] = {
+  ["AwardNum"]= 15,
+  ["Desc"]= "SummerHomeworkTask043",
+  ["ID"]= 150,
+  ["IsUpgrade"]= 0,
+  ["ShowGroup"]= 21,
+  ["ShowOrder"]= 7,
+  ["TargetType"]= 102,
+  ["TaskSort"]= 43,
+  ["Times"]= 885000
+}
+}
+local baseTable={
+  ["Award"]= 10217049,
+  ["AwardNum"]= 1,
+  ["Desc"]= "SummerHomeworkTask014",
+  ["EventType"]= 2,
+  ["GoToType"]= 4,
+  ["GroupId"]= 0,
+  ["ID"]= 1,
+  ["IsBlind"]= 1,
+  ["IsGuild"]= 0,
+  ["IsInitial"]= 1,
+  ["IsUpgrade"]= 1,
+  ["NextTaskId"]= 0,
+  ["ParameterType"]= 1,
+  ["ShowGroup"]= 0,
+  ["ShowOrder"]= 0,
+  ["TargetLocation"]= {},
+  ["TargetNPC"]= {},
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 94,
+  ["TargetUI"]= "",
+  ["TaskSort"]= 30,
+  ["Times"]= 1,
+  ["UIParameter"]= {},
+  ["UIParameterName"]= {}
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,43 @@
+local table= {
+[1] = {},
+[2] = {
+  ["id"]= 2,
+  ["resId"]= "Icons/CrossRegionKVM/CrossRegionKVMBorder_2"
+},
+[3] = {
+  ["id"]= 3,
+  ["resId"]= "Icons/CrossRegionKVM/CrossRegionKVMBorder_3"
+},
+[4] = {
+  ["id"]= 4,
+  ["resId"]= "Icons/CrossRegionKVM/CrossRegionKVMBorder_4"
+},
+[5] = {
+  ["id"]= 5,
+  ["resId"]= "Icons/CrossRegionKVM/CrossRegionKVMBorder_5"
+},
+[6] = {
+  ["id"]= 6,
+  ["resId"]= "Icons/CrossRegionKVM/CrossRegionKVMBorder_6"
+},
+[7] = {
+  ["id"]= 7,
+  ["resId"]= "Icons/CrossRegionKVM/CrossRegionKVMBorder_7"
+},
+[8] = {
+  ["id"]= 8,
+  ["resId"]= "Icons/CrossRegionKVM/CrossRegionKVMBorder_8"
+},
+[9] = {
+  ["id"]= 9,
+  ["resId"]= "Icons/CrossRegionKVM/CrossRegionKVMBorder_9"
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["resId"]= "Icons/CrossRegionKVM/CrossRegionKVMBorder_1"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

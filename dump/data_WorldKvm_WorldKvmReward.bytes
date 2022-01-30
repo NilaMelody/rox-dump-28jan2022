@@ -1,0 +1,80 @@
+local table= {
+[1] = {
+  ["dropId"]= 10657,
+  ["type"]= 1
+},
+[2] = {
+  ["id"]= 2,
+  ["name"]= "本服冠军8进4",
+  ["stageId"]= 4
+},
+[3] = {
+  ["id"]= 3,
+  ["name"]= "本服冠军4进2",
+  ["stageId"]= 6
+},
+[4] = {
+  ["id"]= 4,
+  ["name"]= "本服冠军2进1",
+  ["stageId"]= 8
+},
+[5] = {
+  ["dropId"]= 10659,
+  ["id"]= 5,
+  ["name"]= "跨区八强8进4",
+  ["stageId"]= 11,
+  ["type"]= 3
+},
+[6] = {
+  ["dropId"]= 10659,
+  ["id"]= 6,
+  ["name"]= "跨区八强4进2",
+  ["stageId"]= 13,
+  ["type"]= 3
+},
+[7] = {
+  ["dropId"]= 10659,
+  ["id"]= 7,
+  ["name"]= "跨区八强2进1",
+  ["stageId"]= 15,
+  ["type"]= 3
+},
+[8] = {
+  ["dropId"]= 10660,
+  ["id"]= 8,
+  ["name"]= "跨区冠军8进4",
+  ["stageId"]= 17,
+  ["type"]= 4
+},
+[9] = {
+  ["dropId"]= 10660,
+  ["id"]= 9,
+  ["name"]= "跨区冠军4进2",
+  ["stageId"]= 19,
+  ["type"]= 4
+},
+[10] = {
+  ["dropId"]= 10660,
+  ["id"]= 10,
+  ["name"]= "跨区冠军2进1",
+  ["stageId"]= 21,
+  ["type"]= 4
+},
+[11] = {
+  ["dropId"]= 10661,
+  ["id"]= 11,
+  ["name"]= "参与观众",
+  ["type"]= 5
+}
+}
+local baseTable={
+  ["dropId"]= 10658,
+  ["id"]= 1,
+  ["name"]= "本服八强",
+  ["stageId"]= 0,
+  ["type"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,81 @@
+local table= {
+[1] = {
+  ["ExchangeId"]= {
+    10217050
+  }
+},
+[2] = {
+  ["ExchangeId"]= {
+    10217050
+  },
+  ["GoodsId"]= 4103016,
+  ["ID"]= 2
+},
+[3] = {
+  ["ExchangeId"]= {
+    10217050
+  },
+  ["GoodsId"]= 2405017,
+  ["ID"]= 3
+},
+[4] = {
+  ["ExchangeId"]= {
+    10217050
+  },
+  ["GoodsId"]= 4101109,
+  ["ID"]= 4
+},
+[5] = {
+  ["ExchangeNum"]= {
+    5
+  },
+  ["ExchangeTime"]= 50,
+  ["GoodsId"]= 10204045,
+  ["ID"]= 5
+},
+[6] = {
+  ["ExchangeNum"]= {
+    5
+  },
+  ["ExchangeTime"]= 10,
+  ["GoodsId"]= 10204129,
+  ["ID"]= 6
+},
+[7] = {
+  ["ExchangeTime"]= 5,
+  ["GoodsId"]= 10204110,
+  ["ID"]= 7
+},
+[8] = {
+  ["ExchangeNum"]= {
+    5
+  },
+  ["ExchangeTime"]= 5,
+  ["GoodsId"]= 10201004,
+  ["ID"]= 8
+},
+[9] = {
+  ["ExchangeNum"]= {
+    5
+  },
+  ["ExchangeTime"]= 5,
+  ["GoodsId"]= 10201006,
+  ["ID"]= 9
+}
+}
+local baseTable={
+  ["ExchangeId"]= {
+    10217049
+  },
+  ["ExchangeNum"]= {
+    10
+  },
+  ["ExchangeTime"]= 1,
+  ["GoodsId"]= 4101192,
+  ["ID"]= 1,
+  ["IsBlind"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

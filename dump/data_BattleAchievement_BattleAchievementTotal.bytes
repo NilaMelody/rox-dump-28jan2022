@@ -1,0 +1,42 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Icon"]= "AchievementLevel_2",
+  ["Id"]= 2,
+  ["Name"]= "BattleAchievementStep_2",
+  ["NeedTaskSum"]= 200,
+  ["Reward"]= 10002
+},
+[3] = {
+  ["Icon"]= "AchievementLevel_3",
+  ["Id"]= 3,
+  ["Name"]= "BattleAchievementStep_3",
+  ["NeedTaskSum"]= 300,
+  ["Reward"]= 10003
+},
+[4] = {
+  ["Icon"]= "AchievementLevel_4",
+  ["Id"]= 4,
+  ["Name"]= "BattleAchievementStep_4",
+  ["NeedTaskSum"]= 400,
+  ["Reward"]= 10004
+},
+[5] = {
+  ["Icon"]= "AchievementLevel_5",
+  ["Id"]= 5,
+  ["Name"]= "BattleAchievementStep_5",
+  ["NeedTaskSum"]= 500,
+  ["Reward"]= 10005
+}
+}
+local baseTable={
+  ["Icon"]= "AchievementLevel_1",
+  ["Id"]= 1,
+  ["Name"]= "BattleAchievementStep_1",
+  ["NeedTaskSum"]= 100,
+  ["Reward"]= 10001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

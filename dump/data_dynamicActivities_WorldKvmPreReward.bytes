@@ -1,0 +1,55 @@
+local table= {
+[1] = {
+  ["Type"]= 1
+},
+[2] = {
+  ["DropId"]= 10664,
+  ["id"]= 2,
+  ["Limit"]= 10
+},
+[3] = {
+  ["DropId"]= 10665,
+  ["id"]= 3,
+  ["Limit"]= 20
+},
+[4] = {
+  ["DropId"]= 10666,
+  ["id"]= 4,
+  ["Limit"]= 30
+},
+[5] = {
+  ["DropId"]= 10667,
+  ["id"]= 5,
+  ["Limit"]= 40
+},
+[6] = {
+  ["DropId"]= 10668,
+  ["id"]= 6,
+  ["Limit"]= 50
+},
+[7] = {
+  ["DropId"]= 10669,
+  ["id"]= 7,
+  ["Limit"]= 60
+},
+[8] = {
+  ["DropId"]= 10670,
+  ["id"]= 8,
+  ["Limit"]= 70
+},
+[9] = {
+  ["DropId"]= 10671,
+  ["id"]= 9,
+  ["Limit"]= 80
+}
+}
+local baseTable={
+  ["DropId"]= 10663,
+  ["id"]= 1,
+  ["Limit"]= 100,
+  ["Type"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

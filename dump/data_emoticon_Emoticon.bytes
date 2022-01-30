@@ -1,0 +1,172 @@
+local table= {
+[1] = {},
+[2] = {
+  ["emoteId"]= 2,
+  ["name"]= "惊讶",
+  ["resourceId"]= 21
+},
+[3] = {
+  ["emoteId"]= 3,
+  ["name"]= "坏笑",
+  ["resourceId"]= 3
+},
+[4] = {
+  ["emoteId"]= 4,
+  ["groupId"]= 1017,
+  ["name"]= "感谢",
+  ["resourceId"]= 4
+},
+[5] = {
+  ["emoteId"]= 5,
+  ["groupId"]= 1020,
+  ["name"]= "点头",
+  ["resourceId"]= 24
+},
+[6] = {
+  ["emoteId"]= 6,
+  ["groupId"]= 1020,
+  ["name"]= "晕",
+  ["resourceId"]= 5
+},
+[7] = {
+  ["emoteId"]= 7,
+  ["groupId"]= 922,
+  ["name"]= "哭",
+  ["resourceId"]= 6
+},
+[8] = {
+  ["emoteId"]= 8,
+  ["groupId"]= 1017,
+  ["name"]= "害羞",
+  ["resourceId"]= 12
+},
+[9] = {
+  ["emoteId"]= 9,
+  ["name"]= "吐舌头",
+  ["resourceId"]= 2
+},
+[10] = {
+  ["emoteId"]= 10,
+  ["groupId"]= 1018,
+  ["name"]= "竖大拇指",
+  ["resourceId"]= 8
+},
+[11] = {
+  ["emoteId"]= 11,
+  ["groupId"]= 1020,
+  ["name"]= "爱心",
+  ["resourceId"]= 7
+},
+[12] = {
+  ["emoteId"]= 12,
+  ["groupId"]= 1018,
+  ["name"]= "流汗",
+  ["resourceId"]= 23
+},
+[13] = {
+  ["emoteId"]= 13,
+  ["name"]= "叹气",
+  ["resourceId"]= 19
+},
+[14] = {
+  ["emoteId"]= 14,
+  ["groupId"]= 1020,
+  ["name"]= "摇头",
+  ["resourceId"]= 22
+},
+[15] = {
+  ["emoteId"]= 15,
+  ["groupId"]= 1020,
+  ["name"]= "灵魂出窍",
+  ["resourceId"]= 15
+},
+[16] = {
+  ["emoteId"]= 16,
+  ["name"]= "go",
+  ["resourceId"]= 1
+},
+[17] = {
+  ["emoteId"]= 17,
+  ["groupId"]= 1017,
+  ["name"]= "道歉",
+  ["resourceId"]= 9
+},
+[18] = {
+  ["emoteId"]= 18,
+  ["groupId"]= 1018,
+  ["name"]= "亲吻",
+  ["resourceId"]= 10
+},
+[19] = {
+  ["emoteId"]= 19,
+  ["groupId"]= 1020,
+  ["name"]= "呕吐",
+  ["resourceId"]= 11
+},
+[20] = {
+  ["emoteId"]= 20,
+  ["groupId"]= 1017,
+  ["name"]= "打哈欠",
+  ["resourceId"]= 13
+},
+[21] = {
+  ["emoteId"]= 21,
+  ["name"]= "求救",
+  ["resourceId"]= 14
+},
+[22] = {
+  ["emoteId"]= 22,
+  ["groupId"]= 1020,
+  ["name"]= "生气",
+  ["resourceId"]= 16
+},
+[23] = {
+  ["emoteId"]= 23,
+  ["name"]= "飞吻",
+  ["resourceId"]= 18
+},
+[24] = {
+  ["emoteId"]= 24,
+  ["groupId"]= 1017,
+  ["name"]= "唱歌",
+  ["resourceId"]= 20
+},
+[25] = {
+  ["emoteId"]= 25,
+  ["name"]= "留口水",
+  ["resourceId"]= 25
+},
+[26] = {
+  ["emoteId"]= 26,
+  ["groupId"]= 1017,
+  ["name"]= "O",
+  ["resourceId"]= 26
+},
+[27] = {
+  ["emoteId"]= 27,
+  ["groupId"]= 1020,
+  ["name"]= "X",
+  ["resourceId"]= 27
+},
+[28] = {
+  ["emoteId"]= 28,
+  ["groupId"]= 1020,
+  ["isUnlock"]= 0,
+  ["name"]= "辛苦了",
+  ["resourceId"]= 28,
+  ["unlockedTips"]= "BubbleUnlock"
+}
+}
+local baseTable={
+  ["emoteId"]= 1,
+  ["groupId"]= 1016,
+  ["IsCouple"]= 0,
+  ["isUnlock"]= 1,
+  ["name"]= "笑",
+  ["resourceId"]= 17,
+  ["unlockedTips"]= ""
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

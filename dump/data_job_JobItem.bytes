@@ -1,0 +1,26 @@
+local table= {
+[1] = {},
+[2] = {
+  ["JobId"]= 1510
+},
+[3] = {
+  ["JobId"]= 1511
+},
+[4] = {
+  ["JobId"]= 1512
+}
+}
+local baseTable={
+  ["ItemId"]= {
+    10204023,
+    10204024,
+    10204025,
+    10204034,
+    10204035
+  },
+  ["JobId"]= 1500
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

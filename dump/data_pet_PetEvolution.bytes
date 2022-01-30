@@ -1,0 +1,104 @@
+local table= {
+[1] = {},
+[2] = {
+  ["EvolutionId"]= 82004,
+  ["Fashion"]= "4101022,1",
+  ["Id"]= 2,
+  ["PetId"]= 82003
+},
+[3] = {
+  ["EvolutionId"]= 82006,
+  ["Fashion"]= "4101014,1",
+  ["Id"]= 3,
+  ["PetId"]= 82005
+},
+[4] = {
+  ["Deduct"]= 15000,
+  ["EvolutionId"]= 82008,
+  ["Fashion"]= "4101038,1",
+  ["Id"]= 4,
+  ["Item"]= "10409102,10",
+  ["Level"]= 30,
+  ["PetId"]= 82007,
+  ["Probability"]= 0.2,
+  ["Star"]= 3
+},
+[5] = {
+  ["Deduct"]= 15000,
+  ["EvolutionId"]= 82010,
+  ["Fashion"]= "4102032,1",
+  ["Id"]= 5,
+  ["Item"]= "10409102,10",
+  ["Level"]= 30,
+  ["PetId"]= 82009,
+  ["Probability"]= 0.2,
+  ["Star"]= 3
+},
+[6] = {
+  ["Deduct"]= 15000,
+  ["EvolutionId"]= 82012,
+  ["Fashion"]= "4103003,1",
+  ["Id"]= 6,
+  ["Item"]= "10409102,10",
+  ["Level"]= 30,
+  ["PetId"]= 82011,
+  ["Probability"]= 0.2,
+  ["Star"]= 3
+},
+[7] = {
+  ["EvolutionId"]= 82020,
+  ["Fashion"]= "4101020,1",
+  ["Id"]= 7,
+  ["PetId"]= 82019
+},
+[8] = {
+  ["EvolutionId"]= 82022,
+  ["Fashion"]= "4101053,1",
+  ["Id"]= 8,
+  ["PetId"]= 82021
+},
+[9] = {
+  ["EvolutionId"]= 82024,
+  ["Fashion"]= "4101024,1",
+  ["Id"]= 9,
+  ["PetId"]= 82023
+},
+[10] = {
+  ["Deduct"]= 15000,
+  ["EvolutionId"]= 82026,
+  ["Fashion"]= "4101036,1",
+  ["Id"]= 10,
+  ["Item"]= "10409102,10",
+  ["Level"]= 30,
+  ["PetId"]= 82025,
+  ["Probability"]= 0.2,
+  ["Star"]= 3
+},
+[11] = {
+  ["Deduct"]= 15000,
+  ["EvolutionId"]= 82028,
+  ["Fashion"]= "4101152,1",
+  ["Id"]= 11,
+  ["Item"]= "10409102,10",
+  ["Level"]= 30,
+  ["PetId"]= 82027,
+  ["Probability"]= 0.2,
+  ["Star"]= 3
+}
+}
+local baseTable={
+  ["Deduct"]= 50000,
+  ["EvolutionId"]= 82002,
+  ["Fashion"]= "4101028,1",
+  ["Id"]= 1,
+  ["Item"]= "10409104,10",
+  ["Level"]= 50,
+  ["Order"]= 1,
+  ["PetId"]= 82001,
+  ["Probability"]= 0.1,
+  ["Star"]= 5
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

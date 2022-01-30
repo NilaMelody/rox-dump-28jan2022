@@ -1,0 +1,387 @@
+local table= {
+[1] = {
+  ["position"]= {
+    22,
+    46
+  },
+  ["qualificationNum"]= 2,
+  ["severNum"]= 2
+},
+[2] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2011,
+  ["severName"]= "Wing of Blessing",
+  ["severNum"]= 2
+},
+[3] = {
+  ["position"]= {
+    6,
+    62
+  },
+  ["qualificationNum"]= 2,
+  ["severId"]= 2013,
+  ["severName"]= "Valhalla",
+  ["severNum"]= 2
+},
+[4] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2014,
+  ["severName"]= "Gungnir",
+  ["severNum"]= 2
+},
+[5] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2015,
+  ["severName"]= "Central Plains",
+  ["severNum"]= 2
+},
+[6] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2016,
+  ["severName"]= "Dark Lord",
+  ["severNum"]= 2
+},
+[7] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2020,
+  ["severName"]= "Temple of Dawn",
+  ["severNum"]= 2
+},
+[8] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2021,
+  ["severName"]= "Golden Lava",
+  ["severNum"]= 2
+},
+[9] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2022,
+  ["severName"]= "Highland",
+  ["severNum"]= 2
+},
+[10] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2023,
+  ["severName"]= "Demon's Castle",
+  ["severNum"]= 2
+},
+[11] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2024,
+  ["severName"]= "Sealed Island",
+  ["severNum"]= 2
+},
+[12] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2030,
+  ["severName"]= "Silent Ship",
+  ["severNum"]= 2
+},
+[13] = {
+  ["qualificationNum"]= 2,
+  ["severId"]= 2031,
+  ["severName"]= "Golden Route",
+  ["severNum"]= 2
+},
+[14] = {
+  ["position"]= {
+    15,
+    57
+  },
+  ["severId"]= 2032,
+  ["severName"]= "Sapir"
+},
+[15] = {
+  ["severId"]= 2033,
+  ["severName"]= "Rose Red"
+},
+[16] = {
+  ["severId"]= 2034,
+  ["severName"]= "Kingdom of Freedom"
+},
+[17] = {
+  ["severId"]= 2035,
+  ["severName"]= "Nicola"
+},
+[18] = {
+  ["severId"]= 2040,
+  ["severName"]= "Crystal Waterfall"
+},
+[19] = {
+  ["severId"]= 2041,
+  ["severName"]= "Bifrost"
+},
+[20] = {
+  ["severId"]= 2042,
+  ["severName"]= "Nastia"
+},
+[21] = {
+  ["severId"]= 2044,
+  ["severName"]= "Green Tranquil Pond"
+},
+[22] = {
+  ["severId"]= 2045,
+  ["severName"]= "Ingael"
+},
+[23] = {
+  ["severId"]= 2050,
+  ["severName"]= "Tome of Glory"
+},
+[24] = {
+  ["severId"]= 2051,
+  ["severName"]= "Incense Pavilion"
+},
+[25] = {
+  ["severId"]= 2052,
+  ["severName"]= "Carew"
+},
+[26] = {
+  ["position"]= {
+    29,
+    33
+  },
+  ["severId"]= 2053,
+  ["severName"]= "Boulders and Horns"
+},
+[27] = {
+  ["severId"]= 2054,
+  ["severName"]= "Exquisite Pond"
+},
+[28] = {
+  ["position"]= {
+    9,
+    55
+  },
+  ["severId"]= 2055,
+  ["severName"]= "Nemesis"
+},
+[29] = {
+  ["severId"]= 2060,
+  ["severName"]= "Bright Lotus Pond"
+},
+[30] = {
+  ["severId"]= 2061,
+  ["severName"]= "Seocho Market"
+},
+[31] = {
+  ["severId"]= 2062,
+  ["severName"]= "Eudora"
+},
+[32] = {
+  ["severId"]= 2063,
+  ["severName"]= "Moonlit Temple"
+},
+[33] = {
+  ["severId"]= 2064,
+  ["severName"]= "Hidden Wood Ruins"
+},
+[34] = {
+  ["severId"]= 2065,
+  ["severName"]= "Dungeon Throne"
+},
+[35] = {
+  ["position"]= {
+    28,
+    40
+  },
+  ["severId"]= 2070,
+  ["severName"]= "Ayothaya"
+},
+[36] = {
+  ["severId"]= 2071,
+  ["severName"]= "Luzon"
+},
+[37] = {
+  ["severId"]= 2072,
+  ["severName"]= "Majapahit"
+},
+[38] = {
+  ["severId"]= 2073,
+  ["severName"]= "Garden City"
+},
+[39] = {
+  ["severId"]= 2074,
+  ["severName"]= "Manila"
+},
+[40] = {
+  ["severId"]= 2075,
+  ["severName"]= "Sukhothai"
+},
+[41] = {
+  ["severId"]= 2080,
+  ["severName"]= "Tossakan"
+},
+[42] = {
+  ["severId"]= 2081,
+  ["severName"]= "Badang"
+},
+[43] = {
+  ["severId"]= 2082,
+  ["severName"]= "Lapulapu"
+},
+[44] = {
+  ["severId"]= 2083,
+  ["severName"]= "Gatotkaca"
+},
+[45] = {
+  ["severId"]= 2085,
+  ["severName"]= "Kumpakan"
+},
+[46] = {
+  ["severId"]= 2090,
+  ["severName"]= "Angeling"
+},
+[47] = {
+  ["severId"]= 2091,
+  ["severName"]= "Deviling"
+},
+[48] = {
+  ["severId"]= 2092,
+  ["severName"]= "Ghostring"
+},
+[49] = {
+  ["severId"]= 2093,
+  ["severName"]= "Mastering"
+},
+[50] = {
+  ["severId"]= 2100,
+  ["severName"]= "Song Tử"
+},
+[51] = {
+  ["severId"]= 2101,
+  ["severName"]= "Xử Nữ"
+},
+[52] = {
+  ["isShow"]= 0,
+  ["position"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  },
+  ["qualificationNum"]= 4,
+  ["severId"]= 111,
+  ["severName"]= "测试111",
+  ["severNum"]= 8
+},
+[53] = {
+  ["isShow"]= 0,
+  ["position"]= {
+    60,
+    61,
+    62,
+    63,
+    64
+  },
+  ["qualificationNum"]= 4,
+  ["severId"]= 113,
+  ["severName"]= "测试113",
+  ["severNum"]= 8
+},
+[54] = {
+  ["isShow"]= 0,
+  ["position"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  },
+  ["qualificationNum"]= 4,
+  ["severId"]= 61,
+  ["severName"]= "测试61",
+  ["severNum"]= 8
+},
+[55] = {
+  ["isShow"]= 0,
+  ["position"]= {
+    60,
+    61,
+    62,
+    63,
+    64
+  },
+  ["qualificationNum"]= 4,
+  ["severId"]= 62,
+  ["severName"]= "测试62",
+  ["severNum"]= 8
+},
+[56] = {
+  ["isShow"]= 0,
+  ["qualificationNum"]= 4,
+  ["severId"]= 63,
+  ["severName"]= "测试63",
+  ["severNum"]= 8
+},
+[57] = {
+  ["isShow"]= 0,
+  ["qualificationNum"]= 4,
+  ["severId"]= 64,
+  ["severName"]= "测试64",
+  ["severNum"]= 8
+},
+[58] = {
+  ["isShow"]= 0,
+  ["position"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  },
+  ["qualificationNum"]= 4,
+  ["severId"]= 301,
+  ["severName"]= "测试301",
+  ["severNum"]= 8
+},
+[59] = {
+  ["isShow"]= 0,
+  ["position"]= {
+    60,
+    61,
+    62,
+    63,
+    64
+  },
+  ["qualificationNum"]= 4,
+  ["severId"]= 302,
+  ["severName"]= "测试302",
+  ["severNum"]= 8
+},
+[60] = {
+  ["isShow"]= 0,
+  ["qualificationNum"]= 4,
+  ["severId"]= 601,
+  ["severName"]= "测试601",
+  ["severNum"]= 8
+},
+[61] = {
+  ["isShow"]= 0,
+  ["qualificationNum"]= 4,
+  ["severId"]= 602,
+  ["severName"]= "测试602",
+  ["severNum"]= 8
+}
+}
+local baseTable={
+  ["isShow"]= 1,
+  ["position"]= {},
+  ["qualificationNum"]= 1,
+  ["severId"]= 2010,
+  ["severName"]= "Opera Phantom",
+  ["severNum"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

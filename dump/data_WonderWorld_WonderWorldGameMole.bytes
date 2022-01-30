@@ -1,0 +1,57 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Icon"]= "Img_SlimeIcon_1",
+  ["id"]= 2,
+  ["Score"]= 20
+},
+[3] = {
+  ["Icon"]= "Img_SlimeIcon_4",
+  ["id"]= 3
+},
+[4] = {
+  ["Icon"]= "Img_SlimeIcon_2",
+  ["id"]= 4,
+  ["RuleCircle"]= "Img_Circle_1",
+  ["RuleColor"]= "#ea6565",
+  ["Score"]= -10
+},
+[5] = {
+  ["Icon"]= "Img_SlimeIcon_3",
+  ["id"]= 5
+},
+[6] = {
+  ["Icon"]= "Img_SlimeIcon_6",
+  ["id"]= 6,
+  ["RuleCircle"]= "Img_Circle_1",
+  ["RuleColor"]= "#ea6565",
+  ["Score"]= -20
+},
+[7] = {
+  ["Icon"]= "Img_SlimeIcon_0",
+  ["id"]= 7,
+  ["Score"]= 10
+},
+[8] = {
+  ["Icon"]= "Img_SlimeIcon_5",
+  ["id"]= 8,
+  ["IsSlime"]= 1,
+  ["RuleCircle"]= "Img_Circle_1",
+  ["RuleColor"]= "#6c96dc",
+  ["Score"]= 0
+}
+}
+local baseTable={
+  ["FirstRefreshTime"]= 1.5,
+  ["Icon"]= "Img_SlimeIcon_7",
+  ["id"]= 1,
+  ["IsSlime"]= 0,
+  ["RuleCircle"]= "Img_Circle_0",
+  ["RuleColor"]= "#b6dd87",
+  ["Score"]= 5,
+  ["SecondRefreshTime"]= 1.5
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

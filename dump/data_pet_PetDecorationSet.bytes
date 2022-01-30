@@ -1,0 +1,235 @@
+local table= {
+[1001] = {
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1002] = {
+  ["Id"]= 1002,
+  ["Model"]= "Roles\\Monster\\Material\\8200601",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1003] = {
+  ["Id"]= 1003,
+  ["Model"]= "Roles\\Monster\\Material\\8201301",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1004] = {
+  ["Id"]= 1004,
+  ["Model"]= "Roles\\Monster\\Material\\8201401",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1005] = {
+  ["Id"]= 1005,
+  ["Model"]= "Roles\\Monster\\Material\\8200302",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1006] = {
+  ["Id"]= 1006,
+  ["Model"]= "Roles\\Monster\\Material\\8200402",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1007] = {
+  ["Id"]= 1007,
+  ["Model"]= "Roles\\Monster\\Material\\8201602",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1008] = {
+  ["Id"]= 1008,
+  ["Model"]= "Roles\\Monster\\Material\\8201503",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1009] = {
+  ["Id"]= 1009,
+  ["Model"]= "Roles\\Monster\\Material\\8201603",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1010] = {
+  ["Id"]= 1010,
+  ["Model"]= "Roles\\Monster\\Material\\8201303",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[1011] = {
+  ["Id"]= 1011,
+  ["Model"]= "Roles\\Monster\\Material\\8202903",
+  ["Scale"]= 0,
+  ["Type"]= 1
+},
+[3001] = {
+  ["Id"]= 3001,
+  ["Model"]= "Roles\\Player\\Back\\4107030",
+  ["PositionX"]= 0.049,
+  ["PositionY"]= -0.063,
+  ["PositionZ"]= 0.011,
+  ["RotationZ"]= 9.904,
+  ["Scale"]= 1.076,
+  ["Type"]= 3
+},
+[3002] = {
+  ["Id"]= 3002,
+  ["Model"]= "Roles\\Player\\Decoration\\4101202",
+  ["PositionX"]= 0.594,
+  ["PositionY"]= -0.307,
+  ["PositionZ"]= 0.021,
+  ["RotationZ"]= 5.303,
+  ["Scale"]= 2.27
+},
+[3003] = {
+  ["Id"]= 3003,
+  ["Model"]= "Roles\\Player\\Decoration\\8201001"
+},
+[3004] = {
+  ["Id"]= 3004,
+  ["Model"]= "Roles\\Player\\Decoration\\8200501"
+},
+[3005] = {
+  ["Id"]= 3005,
+  ["Model"]= "Roles\\Player\\Decoration\\8201901"
+},
+[3006] = {
+  ["Id"]= 3006,
+  ["Model"]= "Roles\\Player\\Decoration\\4101084",
+  ["PositionX"]= 0.444,
+  ["PositionY"]= -0.252,
+  ["PositionZ"]= -0.003,
+  ["RotationZ"]= -5.053,
+  ["Scale"]= 1.79
+},
+[3007] = {
+  ["Id"]= 3007,
+  ["Model"]= "Roles\\Player\\Decoration\\8202201"
+},
+[3008] = {
+  ["Id"]= 3008,
+  ["Model"]= "Roles\\Player\\Decoration\\4101028",
+  ["PositionX"]= 0.53,
+  ["PositionY"]= 0.2,
+  ["RotationZ"]= 12.9,
+  ["Scale"]= 2.3
+},
+[3009] = {
+  ["Id"]= 3009,
+  ["Model"]= "Roles\\Player\\Decoration\\8202401"
+},
+[3010] = {
+  ["Id"]= 3010,
+  ["Model"]= "Roles\\Player\\Decoration\\8202601"
+},
+[3011] = {
+  ["Id"]= 3011,
+  ["Model"]= "Roles\\Player\\Decoration\\8203101"
+},
+[3012] = {
+  ["Id"]= 3012,
+  ["Model"]= "Roles\\Player\\Decoration\\4101192",
+  ["PositionX"]= 0.142,
+  ["PositionY"]= -0.063,
+  ["Scale"]= 2
+},
+[3013] = {
+  ["Id"]= 3013,
+  ["Model"]= "Roles\\Player\\Decoration\\8200701"
+},
+[3014] = {
+  ["Id"]= 3014,
+  ["Model"]= "Roles\\Player\\Decoration\\8200901"
+},
+[3015] = {
+  ["Id"]= 3015,
+  ["Model"]= "Roles\\Player\\Decoration\\8200301"
+},
+[3016] = {
+  ["Id"]= 3016,
+  ["Model"]= "Roles\\Player\\Decoration\\8203001",
+  ["Type"]= 3
+},
+[3017] = {
+  ["Id"]= 3017,
+  ["Model"]= "Roles\\Player\\Decoration\\8200801"
+},
+[3018] = {
+  ["Id"]= 3018,
+  ["Model"]= "Roles\\Player\\Decoration\\8200101",
+  ["Type"]= 3
+},
+[3019] = {
+  ["Id"]= 3019,
+  ["Model"]= "Roles\\Player\\Decoration\\8201301",
+  ["Type"]= 3
+},
+[3020] = {
+  ["Id"]= 3020,
+  ["Model"]= "Roles\\Player\\Decoration\\8202101"
+},
+[3021] = {
+  ["Id"]= 3021,
+  ["Model"]= "Roles\\Player\\Decoration\\8200201",
+  ["Type"]= 3
+},
+[3022] = {
+  ["Id"]= 3022,
+  ["Model"]= "Roles\\Player\\Decoration\\8202901",
+  ["Type"]= 3
+},
+[3023] = {
+  ["Id"]= 3023,
+  ["Model"]= "Roles\\Player\\Decoration\\8201401"
+},
+[3024] = {
+  ["Id"]= 3024,
+  ["Model"]= "Roles\\Player\\Decoration\\8201201"
+},
+[3025] = {
+  ["Id"]= 3025,
+  ["Model"]= "Roles\\Player\\Decoration\\8201101"
+},
+[3026] = {
+  ["Id"]= 3026,
+  ["Model"]= "Roles\\Player\\Decoration\\8202501",
+  ["PositionX"]= 0.017,
+  ["PositionY"]= 0.019,
+  ["Type"]= 3
+},
+[3027] = {
+  ["Id"]= 3027,
+  ["Model"]= "Roles\\Player\\Decoration\\8201601",
+  ["Type"]= 3
+},
+[3028] = {
+  ["Id"]= 3028,
+  ["Model"]= "Roles\\Player\\Decoration\\8200601"
+},
+[3029] = {
+  ["Id"]= 3029,
+  ["Model"]= "Roles\\Player\\Decoration\\8202701",
+  ["Type"]= 3
+},
+[3030] = {
+  ["Id"]= 3030,
+  ["Model"]= "Roles\\Player\\Decoration\\8202801"
+}
+}
+local baseTable={
+  ["Id"]= 1001,
+  ["Model"]= "Roles\\Monster\\Material\\8200201",
+  ["PositionX"]= 0,
+  ["PositionY"]= 0,
+  ["PositionZ"]= 0,
+  ["RotationX"]= 0,
+  ["RotationY"]= 0,
+  ["RotationZ"]= 0,
+  ["Scale"]= 1,
+  ["Type"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

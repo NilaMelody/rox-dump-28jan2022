@@ -1,0 +1,10 @@
+return {
+[1] = {
+  "Coefficient ": {
+    ["BaseLevelCount"]= {},
+    ["TimeCount"]= {},
+    ["WeddingLevelCount"]= {}
+  },
+  ["ID"]= 1
+}
+}

@@ -1,0 +1,132 @@
+local table= {
+[1] = {
+  ["formChangeId"]= 1,
+  ["optionIntValue"]= {},
+  ["optionType"]= 1
+},
+[2] = {
+  ["id"]= 2,
+  ["optionIntValue"]= {
+    5
+  },
+  ["optionType"]= 2
+},
+[3] = {
+  ["id"]= 3,
+  ["optionIntValue"]= {
+    3
+  },
+  ["optionType"]= 3
+},
+[4] = {
+  ["formChangeId"]= 2,
+  ["id"]= 4,
+  ["optionIntValue"]= {
+    10911002
+  }
+},
+[5] = {
+  ["formChangeId"]= 4,
+  ["id"]= 5,
+  ["optionIntValue"]= {
+    10911001
+  }
+},
+[6] = {
+  ["formChangeId"]= 5,
+  ["id"]= 6,
+  ["optionIntValue"]= {
+    10911003
+  }
+},
+[7] = {
+  ["formChangeId"]= 1,
+  ["id"]= 7,
+  ["optionIntValue"]= {
+    10911004
+  }
+},
+[8] = {
+  ["formChangeId"]= 1,
+  ["id"]= 8,
+  ["optionIntValue"]= {
+    10911006
+  }
+},
+[9] = {
+  ["id"]= 9,
+  ["optionIntValue"]= {
+    20120
+  },
+  ["optionType"]= 5
+},
+[10] = {
+  ["id"]= 10,
+  ["optionIntValue"]= {
+    57
+  },
+  ["optionType"]= 6
+},
+[11] = {
+  ["id"]= 11,
+  ["optionType"]= 7
+},
+[12] = {
+  ["id"]= 12,
+  ["optionIntValue"]= {
+    2
+  },
+  ["optionType"]= 7
+},
+[13] = {
+  ["id"]= 13,
+  ["optionIntValue"]= {
+    3
+  },
+  ["optionType"]= 7
+},
+[14] = {
+  ["id"]= 14,
+  ["optionType"]= 8
+},
+[15] = {
+  ["id"]= 15,
+  ["optionIntValue"]= {},
+  ["optionType"]= 9
+},
+[16] = {
+  ["id"]= 16,
+  ["optionType"]= 10
+},
+[17] = {
+  ["id"]= 17,
+  ["optionIntValue"]= {
+    5
+  },
+  ["optionType"]= 3
+},
+[18] = {
+  ["id"]= 18,
+  ["optionIntValue"]= {
+    19
+  },
+  ["optionType"]= 2
+},
+[19] = {
+  ["id"]= 19,
+  ["optionType"]= 3
+}
+}
+local baseTable={
+  ["formChangeId"]= 0,
+  ["id"]= 1,
+  ["optionIntValue"]= {
+    1
+  },
+  ["optionStringValue"]= {},
+  ["optionType"]= 4
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

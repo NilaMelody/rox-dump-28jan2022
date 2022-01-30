@@ -1,0 +1,7 @@
+local table= {
+}
+local baseTable={}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

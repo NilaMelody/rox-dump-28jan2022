@@ -1,0 +1,66 @@
+local table= {
+[1] = {
+  ["PerRoundLimit"]= 3,
+  ["RoundLimit"]= 10
+},
+[2] = {
+  ["FlipCd"]= 0.5,
+  ["FlipDisappear"]= 0.4,
+  ["FlipTime"]= 0.8,
+  ["id"]= 2,
+  ["RewardMilestone"]= {
+    1,
+    2,
+    4,
+    6,
+    8
+  },
+  ["TimeLimit"]= 45
+},
+[3] = {
+  ["id"]= 3,
+  ["RewardMilestone"]= {
+    20,
+    40,
+    60,
+    80,
+    100
+  },
+  ["TimeLimit"]= 30
+}
+}
+local baseTable={
+  ["CheckTime"]= 10,
+  ["EndTime"]= 10,
+  ["FlipCd"]= 0,
+  ["FlipDisappear"]= 0,
+  ["FlipTime"]= 0,
+  ["FullPrice"]= 3000,
+  ["FullPriceType"]= 3,
+  ["id"]= 1,
+  ["PerRoundLimit"]= 0,
+  ["RetryPrice"]= 1000,
+  ["RetryPriceType"]= 3,
+  ["Reward"]= {
+    10000,
+    20115,
+    20116,
+    20117,
+    20118,
+    20119
+  },
+  ["RewardMilestone"]= {
+    1,
+    2,
+    3,
+    4,
+    5
+  },
+  ["RoundLimit"]= 0,
+  ["TimeLimit"]= 60,
+  ["VipDiscount"]= 80
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,128 @@
+local table= {
+[1] = {
+  ["BaseLimitRunes"]= 90,
+  ["Runes"]= 10000
+},
+[2] = {
+  ["BaseLimitRunes"]= 90,
+  ["CatchingPets"]= 2000,
+  ["Cooking"]= 2000,
+  ["Fishing"]= 2000,
+  ["Forge"]= 2000,
+  ["id"]= 2,
+  ["Mine"]= 2000,
+  ["Plant"]= 2000,
+  ["Produce"]= 400,
+  ["Runes"]= 20000
+},
+[3] = {
+  ["BaseLimitRunes"]= 90,
+  ["CatchingPets"]= 5000,
+  ["Cooking"]= 5000,
+  ["Fishing"]= 5000,
+  ["Forge"]= 5000,
+  ["id"]= 3,
+  ["Mine"]= 5000,
+  ["Plant"]= 5000,
+  ["Produce"]= 1000,
+  ["RunesFullLevel"]= 1
+},
+[4] = {
+  ["CatchingPets"]= 10000,
+  ["Cooking"]= 10000,
+  ["Fishing"]= 10000,
+  ["Forge"]= 10000,
+  ["id"]= 4,
+  ["Mine"]= 10000,
+  ["Plant"]= 10000,
+  ["Produce"]= 2000
+},
+[5] = {
+  ["CatchingPets"]= 20000,
+  ["Cooking"]= 20000,
+  ["Fishing"]= 20000,
+  ["Forge"]= 20000,
+  ["id"]= 5,
+  ["Mine"]= 20000,
+  ["Plant"]= 20000,
+  ["Produce"]= 4000
+},
+[6] = {
+  ["CatchingPets"]= 30000,
+  ["Cooking"]= 30000,
+  ["Fishing"]= 30000,
+  ["Forge"]= 30000,
+  ["id"]= 6,
+  ["Mine"]= 30000,
+  ["Plant"]= 30000,
+  ["Produce"]= 6000
+},
+[7] = {
+  ["CatchingPets"]= 40000,
+  ["Cooking"]= 40000,
+  ["Fishing"]= 40000,
+  ["Forge"]= 40000,
+  ["id"]= 7,
+  ["Mine"]= 40000,
+  ["Plant"]= 40000,
+  ["Produce"]= 8000
+},
+[8] = {
+  ["CatchingPets"]= 50000,
+  ["Cooking"]= 50000,
+  ["Fishing"]= 50000,
+  ["Forge"]= 50000,
+  ["id"]= 8,
+  ["Mine"]= 50000,
+  ["Plant"]= 50000,
+  ["Produce"]= 10000
+},
+[9] = {
+  ["CatchingPets"]= 60000,
+  ["CookFullLevel"]= 1,
+  ["Cooking"]= 60000,
+  ["FishFullLevel"]= 1,
+  ["Fishing"]= 60000,
+  ["Forge"]= 60000,
+  ["ForgeFullLevel"]= 1,
+  ["id"]= 9,
+  ["Mine"]= 60000,
+  ["MineFullLevel"]= 1,
+  ["PetFullLevel"]= 1,
+  ["Plant"]= 60000,
+  ["PlantFullLevel"]= 1,
+  ["Produce"]= 12000,
+  ["ProduceFullLevel"]= 1
+}
+}
+local baseTable={
+  ["BaseLimitCook"]= 14,
+  ["BaseLimitFish"]= 14,
+  ["BaseLimitForge"]= 14,
+  ["BaseLimitMine"]= 14,
+  ["BaseLimitPet"]= 35,
+  ["BaseLimitPlant"]= 14,
+  ["BaseLimitProduce"]= 14,
+  ["BaseLimitRunes"]= 999,
+  ["CatchingPets"]= 1000,
+  ["CookFullLevel"]= 0,
+  ["Cooking"]= 1000,
+  ["FishFullLevel"]= 0,
+  ["Fishing"]= 1000,
+  ["Forge"]= 1000,
+  ["ForgeFullLevel"]= 0,
+  ["id"]= 1,
+  ["Mine"]= 1000,
+  ["MineFullLevel"]= 0,
+  ["PetFullLevel"]= 0,
+  ["Plant"]= 1000,
+  ["PlantFullLevel"]= 0,
+  ["Produce"]= 200,
+  ["ProduceFullLevel"]= 0,
+  ["Runes"]= 9999999,
+  ["RunesFullLevel"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

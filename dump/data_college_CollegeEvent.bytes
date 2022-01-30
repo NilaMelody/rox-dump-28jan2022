@@ -1,0 +1,50 @@
+local table= {
+[1001] = {},
+[1002] = {
+  ["EventDes"]= "CollegeEvent_1002",
+  ["EventType"]= 2,
+  ["Id"]= 1002
+},
+[1003] = {
+  ["EventDes"]= "CollegeEvent_1003",
+  ["EventType"]= 3,
+  ["Id"]= 1003
+},
+[1004] = {
+  ["EventDes"]= "CollegeEvent_1004",
+  ["EventType"]= 4,
+  ["Id"]= 1004
+},
+[1005] = {
+  ["EventDes"]= "CollegeEvent_1005",
+  ["EventType"]= 5,
+  ["Id"]= 1005
+},
+[1006] = {
+  ["EventDes"]= "CollegeEvent_1006",
+  ["EventType"]= 6,
+  ["Id"]= 1006
+},
+[1007] = {
+  ["EventDes"]= "CollegeEvent_1007",
+  ["EventType"]= 7,
+  ["Id"]= 1007
+},
+[1008] = {
+  ["EventDes"]= "CollegeEvent_1008",
+  ["EventType"]= 8,
+  ["Id"]= 1008
+}
+}
+local baseTable={
+  ["EventDes"]= "CollegeEvent_1001",
+  ["EventType"]= 1,
+  ["Id"]= 1001,
+  ["Parameter"]= {
+    1
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

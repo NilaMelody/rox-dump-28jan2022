@@ -1,0 +1,58 @@
+local table= {
+[1] = {
+  ["DiceNum"]= 1
+},
+[2] = {
+  ["EatItemAndForm"]= {
+    "10911001,4",
+    "10911004,1",
+    "10911006,1",
+    "10911003,5"
+  },
+  ["Id"]= 2,
+  ["ModelId"]= 40048
+},
+[3] = {
+  ["EatItemAndForm"]= {
+    "10911002,4",
+    "10911003,5",
+    "10911004,1",
+    "10911006,1"
+  },
+  ["Id"]= 3,
+  ["ModelId"]= 40045
+},
+[4] = {
+  ["DiceNum"]= 3,
+  ["EatItemAndForm"]= {
+    "10911004,1",
+    "10911006,1",
+    "10911003,5"
+  },
+  ["Id"]= 4,
+  ["ModelId"]= 40047
+},
+[5] = {
+  ["DiceNum"]= 3,
+  ["EatItemAndForm"]= {
+    "10911004,1",
+    "10911006,1"
+  },
+  ["Id"]= 5,
+  ["ModelId"]= 40046
+}
+}
+local baseTable={
+  ["DiceNum"]= 2,
+  ["EatItemAndForm"]= {
+    "10911001,3",
+    "10911002,2",
+    "10911003,5"
+  },
+  ["Id"]= 1,
+  ["ModelId"]= 40044
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

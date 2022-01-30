@@ -1,0 +1,2626 @@
+local table= {
+[1] = {
+  ["dropId"]= 10112,
+  ["isDouble"]= 1,
+  ["rewardsItem"]= 10204110
+},
+[2] = {
+  ["days"]= 2,
+  ["dropId"]= 10113,
+  ["id"]= 2,
+  ["isDouble"]= 1,
+  ["rewardsNum"]= 1000
+},
+[3] = {
+  ["days"]= 3,
+  ["dropId"]= 10107,
+  ["id"]= 3,
+  ["rewardsItem"]= 10204059
+},
+[4] = {
+  ["days"]= 4,
+  ["dropId"]= 10108,
+  ["id"]= 4,
+  ["rewardsItem"]= 10204058
+},
+[5] = {
+  ["days"]= 5,
+  ["dropId"]= 10109,
+  ["id"]= 5,
+  ["rewardsItem"]= 10204060
+},
+[6] = {
+  ["days"]= 6,
+  ["dropId"]= 10110,
+  ["id"]= 6,
+  ["rewardsItem"]= 10204061
+},
+[7] = {
+  ["days"]= 7,
+  ["dropId"]= 10111,
+  ["id"]= 7,
+  ["rewardsItem"]= 10204115
+},
+[8] = {
+  ["days"]= 8,
+  ["dropId"]= 10112,
+  ["id"]= 8,
+  ["isDouble"]= 1,
+  ["rewardsItem"]= 10204110
+},
+[9] = {
+  ["days"]= 9,
+  ["dropId"]= 10113,
+  ["id"]= 9,
+  ["isDouble"]= 1,
+  ["rewardsNum"]= 1000
+},
+[10] = {
+  ["days"]= 10,
+  ["dropId"]= 10114,
+  ["id"]= 10,
+  ["rewardsItem"]= 10204059
+},
+[11] = {
+  ["days"]= 11,
+  ["dropId"]= 10115,
+  ["id"]= 11,
+  ["rewardsItem"]= 10204058
+},
+[12] = {
+  ["days"]= 12,
+  ["dropId"]= 10116,
+  ["id"]= 12,
+  ["rewardsItem"]= 10204060
+},
+[13] = {
+  ["days"]= 13,
+  ["dropId"]= 10117,
+  ["id"]= 13,
+  ["rewardsItem"]= 10204061
+},
+[14] = {
+  ["days"]= 14,
+  ["dropId"]= 10118,
+  ["id"]= 14,
+  ["rewardsItem"]= 10204112
+},
+[15] = {
+  ["days"]= 15,
+  ["dropId"]= 10119,
+  ["id"]= 15,
+  ["isDouble"]= 1,
+  ["rewardsItem"]= 10207003
+},
+[16] = {
+  ["days"]= 16,
+  ["dropId"]= 10120,
+  ["id"]= 16,
+  ["isDouble"]= 1,
+  ["rewardsNum"]= 2000
+},
+[17] = {
+  ["days"]= 17,
+  ["dropId"]= 10121,
+  ["id"]= 17,
+  ["rewardsItem"]= 10204059
+},
+[18] = {
+  ["days"]= 18,
+  ["dropId"]= 10122,
+  ["id"]= 18,
+  ["rewardsItem"]= 10204058
+},
+[19] = {
+  ["days"]= 19,
+  ["dropId"]= 10123,
+  ["id"]= 19,
+  ["rewardsItem"]= 10204060
+},
+[20] = {
+  ["days"]= 20,
+  ["dropId"]= 10124,
+  ["id"]= 20,
+  ["rewardsItem"]= 10204061
+},
+[21] = {
+  ["days"]= 21,
+  ["dropId"]= 10125,
+  ["id"]= 21,
+  ["rewardsItem"]= 10204113
+},
+[22] = {
+  ["days"]= 22,
+  ["dropId"]= 10126,
+  ["id"]= 22,
+  ["isDouble"]= 1,
+  ["rewardsItem"]= 10204062
+},
+[23] = {
+  ["days"]= 23,
+  ["dropId"]= 10127,
+  ["id"]= 23,
+  ["isDouble"]= 1,
+  ["rewardsNum"]= 3000
+},
+[24] = {
+  ["days"]= 24,
+  ["dropId"]= 10128,
+  ["id"]= 24,
+  ["rewardsItem"]= 10204059
+},
+[25] = {
+  ["days"]= 25,
+  ["dropId"]= 10129,
+  ["id"]= 25,
+  ["rewardsItem"]= 10204058
+},
+[26] = {
+  ["days"]= 26,
+  ["dropId"]= 10130,
+  ["id"]= 26,
+  ["rewardsItem"]= 10204060
+},
+[27] = {
+  ["days"]= 27,
+  ["dropId"]= 10131,
+  ["id"]= 27,
+  ["rewardsItem"]= 10204061
+},
+[28] = {
+  ["days"]= 28,
+  ["dropId"]= 10132,
+  ["id"]= 28,
+  ["rewardsItem"]= 10204114
+},
+[29] = {
+  ["days"]= 29,
+  ["dropId"]= 10133,
+  ["id"]= 29,
+  ["isDouble"]= 1,
+  ["rewardsItem"]= 10204111
+},
+[30] = {
+  ["days"]= 30,
+  ["dropId"]= 10134,
+  ["id"]= 30,
+  ["isDouble"]= 1,
+  ["rewardsNum"]= 4000
+},
+[31] = {
+  ["days"]= 31,
+  ["dropId"]= 10107,
+  ["id"]= 31,
+  ["rewardsItem"]= 10204059
+},
+[32] = {
+  ["id"]= 32,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219171
+},
+[33] = {
+  ["days"]= 2,
+  ["dropId"]= 10680,
+  ["id"]= 33,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219172
+},
+[34] = {
+  ["days"]= 3,
+  ["dropId"]= 10681,
+  ["id"]= 34,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219173
+},
+[35] = {
+  ["days"]= 4,
+  ["dropId"]= 10682,
+  ["id"]= 35,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219174
+},
+[36] = {
+  ["days"]= 5,
+  ["dropId"]= 10683,
+  ["id"]= 36,
+  ["isDouble"]= 1,
+  ["month"]= 2,
+  ["rewardsNum"]= 5000
+},
+[37] = {
+  ["days"]= 6,
+  ["dropId"]= 10684,
+  ["id"]= 37,
+  ["isDouble"]= 1,
+  ["month"]= 2,
+  ["rewardsItem"]= 10204110
+},
+[38] = {
+  ["days"]= 7,
+  ["dropId"]= 10685,
+  ["id"]= 38,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219176
+},
+[39] = {
+  ["days"]= 8,
+  ["dropId"]= 10686,
+  ["id"]= 39,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219171
+},
+[40] = {
+  ["days"]= 9,
+  ["dropId"]= 10687,
+  ["id"]= 40,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219172
+},
+[41] = {
+  ["days"]= 10,
+  ["dropId"]= 10688,
+  ["id"]= 41,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219173
+},
+[42] = {
+  ["days"]= 11,
+  ["dropId"]= 10689,
+  ["id"]= 42,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219174
+},
+[43] = {
+  ["days"]= 12,
+  ["dropId"]= 10690,
+  ["id"]= 43,
+  ["isDouble"]= 1,
+  ["month"]= 2,
+  ["rewardsNum"]= 7500
+},
+[44] = {
+  ["days"]= 13,
+  ["dropId"]= 10691,
+  ["id"]= 44,
+  ["isDouble"]= 1,
+  ["month"]= 2,
+  ["rewardsItem"]= 10207002
+},
+[45] = {
+  ["days"]= 14,
+  ["dropId"]= 10692,
+  ["id"]= 45,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219176
+},
+[46] = {
+  ["days"]= 15,
+  ["dropId"]= 10693,
+  ["id"]= 46,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219171
+},
+[47] = {
+  ["days"]= 16,
+  ["dropId"]= 10694,
+  ["id"]= 47,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219172
+},
+[48] = {
+  ["days"]= 17,
+  ["dropId"]= 10695,
+  ["id"]= 48,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219173
+},
+[49] = {
+  ["days"]= 18,
+  ["dropId"]= 10696,
+  ["id"]= 49,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219174
+},
+[50] = {
+  ["days"]= 19,
+  ["dropId"]= 10697,
+  ["id"]= 50,
+  ["isDouble"]= 1,
+  ["month"]= 2,
+  ["rewardsNum"]= 10000
+},
+[51] = {
+  ["days"]= 20,
+  ["dropId"]= 10698,
+  ["id"]= 51,
+  ["isDouble"]= 1,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219175
+},
+[52] = {
+  ["days"]= 21,
+  ["dropId"]= 10699,
+  ["id"]= 52,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219176
+},
+[53] = {
+  ["days"]= 22,
+  ["dropId"]= 10700,
+  ["id"]= 53,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219171
+},
+[54] = {
+  ["days"]= 23,
+  ["dropId"]= 10701,
+  ["id"]= 54,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219172
+},
+[55] = {
+  ["days"]= 24,
+  ["dropId"]= 10702,
+  ["id"]= 55,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219173
+},
+[56] = {
+  ["days"]= 25,
+  ["dropId"]= 10703,
+  ["id"]= 56,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219174
+},
+[57] = {
+  ["days"]= 26,
+  ["dropId"]= 10704,
+  ["id"]= 57,
+  ["isDouble"]= 1,
+  ["month"]= 2,
+  ["rewardsNum"]= 15000
+},
+[58] = {
+  ["days"]= 27,
+  ["dropId"]= 10705,
+  ["id"]= 58,
+  ["isDouble"]= 1,
+  ["month"]= 2,
+  ["rewardsItem"]= 10204111
+},
+[59] = {
+  ["days"]= 28,
+  ["dropId"]= 10678,
+  ["id"]= 59,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219176
+},
+[60] = {
+  ["days"]= 29,
+  ["dropId"]= 10678,
+  ["id"]= 60,
+  ["month"]= 2,
+  ["rewardsItem"]= 10219176
+},
+[61] = {
+  ["id"]= 61,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219171
+},
+[62] = {
+  ["days"]= 2,
+  ["dropId"]= 10680,
+  ["id"]= 62,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219172
+},
+[63] = {
+  ["days"]= 3,
+  ["dropId"]= 10681,
+  ["id"]= 63,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219173
+},
+[64] = {
+  ["days"]= 4,
+  ["dropId"]= 10682,
+  ["id"]= 64,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219174
+},
+[65] = {
+  ["days"]= 5,
+  ["dropId"]= 10683,
+  ["id"]= 65,
+  ["isDouble"]= 1,
+  ["month"]= 3,
+  ["rewardsNum"]= 5000
+},
+[66] = {
+  ["days"]= 6,
+  ["dropId"]= 10684,
+  ["id"]= 66,
+  ["isDouble"]= 1,
+  ["month"]= 3,
+  ["rewardsItem"]= 10204110
+},
+[67] = {
+  ["days"]= 7,
+  ["dropId"]= 10685,
+  ["id"]= 67,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219176
+},
+[68] = {
+  ["days"]= 8,
+  ["dropId"]= 10686,
+  ["id"]= 68,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219171
+},
+[69] = {
+  ["days"]= 9,
+  ["dropId"]= 10687,
+  ["id"]= 69,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219172
+},
+[70] = {
+  ["days"]= 10,
+  ["dropId"]= 10688,
+  ["id"]= 70,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219173
+},
+[71] = {
+  ["days"]= 11,
+  ["dropId"]= 10689,
+  ["id"]= 71,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219174
+},
+[72] = {
+  ["days"]= 12,
+  ["dropId"]= 10690,
+  ["id"]= 72,
+  ["isDouble"]= 1,
+  ["month"]= 3,
+  ["rewardsNum"]= 7500
+},
+[73] = {
+  ["days"]= 13,
+  ["dropId"]= 10691,
+  ["id"]= 73,
+  ["isDouble"]= 1,
+  ["month"]= 3,
+  ["rewardsItem"]= 10207002
+},
+[74] = {
+  ["days"]= 14,
+  ["dropId"]= 10692,
+  ["id"]= 74,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219176
+},
+[75] = {
+  ["days"]= 15,
+  ["dropId"]= 10693,
+  ["id"]= 75,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219171
+},
+[76] = {
+  ["days"]= 16,
+  ["dropId"]= 10694,
+  ["id"]= 76,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219172
+},
+[77] = {
+  ["days"]= 17,
+  ["dropId"]= 10695,
+  ["id"]= 77,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219173
+},
+[78] = {
+  ["days"]= 18,
+  ["dropId"]= 10696,
+  ["id"]= 78,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219174
+},
+[79] = {
+  ["days"]= 19,
+  ["dropId"]= 10697,
+  ["id"]= 79,
+  ["isDouble"]= 1,
+  ["month"]= 3,
+  ["rewardsNum"]= 10000
+},
+[80] = {
+  ["days"]= 20,
+  ["dropId"]= 10698,
+  ["id"]= 80,
+  ["isDouble"]= 1,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219175
+},
+[81] = {
+  ["days"]= 21,
+  ["dropId"]= 10699,
+  ["id"]= 81,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219176
+},
+[82] = {
+  ["days"]= 22,
+  ["dropId"]= 10700,
+  ["id"]= 82,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219171
+},
+[83] = {
+  ["days"]= 23,
+  ["dropId"]= 10701,
+  ["id"]= 83,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219172
+},
+[84] = {
+  ["days"]= 24,
+  ["dropId"]= 10702,
+  ["id"]= 84,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219173
+},
+[85] = {
+  ["days"]= 25,
+  ["dropId"]= 10703,
+  ["id"]= 85,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219174
+},
+[86] = {
+  ["days"]= 26,
+  ["dropId"]= 10704,
+  ["id"]= 86,
+  ["isDouble"]= 1,
+  ["month"]= 3,
+  ["rewardsNum"]= 15000
+},
+[87] = {
+  ["days"]= 27,
+  ["dropId"]= 10705,
+  ["id"]= 87,
+  ["isDouble"]= 1,
+  ["month"]= 3,
+  ["rewardsItem"]= 10204111
+},
+[88] = {
+  ["days"]= 28,
+  ["dropId"]= 10678,
+  ["id"]= 88,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219176
+},
+[89] = {
+  ["days"]= 29,
+  ["id"]= 89,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219171
+},
+[90] = {
+  ["days"]= 30,
+  ["dropId"]= 10680,
+  ["id"]= 90,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219172
+},
+[91] = {
+  ["days"]= 31,
+  ["dropId"]= 10681,
+  ["id"]= 91,
+  ["month"]= 3,
+  ["rewardsItem"]= 10219173
+},
+[92] = {
+  ["dropId"]= 10682,
+  ["id"]= 92,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219174
+},
+[93] = {
+  ["days"]= 2,
+  ["dropId"]= 10683,
+  ["id"]= 93,
+  ["isDouble"]= 1,
+  ["month"]= 4,
+  ["rewardsNum"]= 5000
+},
+[94] = {
+  ["days"]= 3,
+  ["dropId"]= 10684,
+  ["id"]= 94,
+  ["isDouble"]= 1,
+  ["month"]= 4,
+  ["rewardsItem"]= 10204110
+},
+[95] = {
+  ["days"]= 4,
+  ["dropId"]= 10685,
+  ["id"]= 95,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219176
+},
+[96] = {
+  ["days"]= 5,
+  ["dropId"]= 10686,
+  ["id"]= 96,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219171
+},
+[97] = {
+  ["days"]= 6,
+  ["dropId"]= 10687,
+  ["id"]= 97,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219172
+},
+[98] = {
+  ["days"]= 7,
+  ["dropId"]= 10688,
+  ["id"]= 98,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219173
+},
+[99] = {
+  ["days"]= 8,
+  ["dropId"]= 10689,
+  ["id"]= 99,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219174
+},
+[100] = {
+  ["days"]= 9,
+  ["dropId"]= 10690,
+  ["id"]= 100,
+  ["isDouble"]= 1,
+  ["month"]= 4,
+  ["rewardsNum"]= 7500
+},
+[101] = {
+  ["days"]= 10,
+  ["dropId"]= 10691,
+  ["id"]= 101,
+  ["isDouble"]= 1,
+  ["month"]= 4,
+  ["rewardsItem"]= 10207002
+},
+[102] = {
+  ["days"]= 11,
+  ["dropId"]= 10692,
+  ["id"]= 102,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219176
+},
+[103] = {
+  ["days"]= 12,
+  ["dropId"]= 10693,
+  ["id"]= 103,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219171
+},
+[104] = {
+  ["days"]= 13,
+  ["dropId"]= 10694,
+  ["id"]= 104,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219172
+},
+[105] = {
+  ["days"]= 14,
+  ["dropId"]= 10695,
+  ["id"]= 105,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219173
+},
+[106] = {
+  ["days"]= 15,
+  ["dropId"]= 10696,
+  ["id"]= 106,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219174
+},
+[107] = {
+  ["days"]= 16,
+  ["dropId"]= 10697,
+  ["id"]= 107,
+  ["isDouble"]= 1,
+  ["month"]= 4,
+  ["rewardsNum"]= 10000
+},
+[108] = {
+  ["days"]= 17,
+  ["dropId"]= 10698,
+  ["id"]= 108,
+  ["isDouble"]= 1,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219175
+},
+[109] = {
+  ["days"]= 18,
+  ["dropId"]= 10699,
+  ["id"]= 109,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219176
+},
+[110] = {
+  ["days"]= 19,
+  ["dropId"]= 10700,
+  ["id"]= 110,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219171
+},
+[111] = {
+  ["days"]= 20,
+  ["dropId"]= 10701,
+  ["id"]= 111,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219172
+},
+[112] = {
+  ["days"]= 21,
+  ["dropId"]= 10702,
+  ["id"]= 112,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219173
+},
+[113] = {
+  ["days"]= 22,
+  ["dropId"]= 10703,
+  ["id"]= 113,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219174
+},
+[114] = {
+  ["days"]= 23,
+  ["dropId"]= 10704,
+  ["id"]= 114,
+  ["isDouble"]= 1,
+  ["month"]= 4,
+  ["rewardsNum"]= 15000
+},
+[115] = {
+  ["days"]= 24,
+  ["dropId"]= 10705,
+  ["id"]= 115,
+  ["isDouble"]= 1,
+  ["month"]= 4,
+  ["rewardsItem"]= 10204111
+},
+[116] = {
+  ["days"]= 25,
+  ["dropId"]= 10678,
+  ["id"]= 116,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219176
+},
+[117] = {
+  ["days"]= 26,
+  ["id"]= 117,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219171
+},
+[118] = {
+  ["days"]= 27,
+  ["dropId"]= 10680,
+  ["id"]= 118,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219172
+},
+[119] = {
+  ["days"]= 28,
+  ["dropId"]= 10681,
+  ["id"]= 119,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219173
+},
+[120] = {
+  ["days"]= 29,
+  ["dropId"]= 10682,
+  ["id"]= 120,
+  ["month"]= 4,
+  ["rewardsItem"]= 10219174
+},
+[121] = {
+  ["days"]= 30,
+  ["dropId"]= 10683,
+  ["id"]= 121,
+  ["isDouble"]= 1,
+  ["month"]= 4,
+  ["rewardsNum"]= 5000
+},
+[122] = {
+  ["dropId"]= 10684,
+  ["id"]= 122,
+  ["isDouble"]= 1,
+  ["month"]= 5,
+  ["rewardsItem"]= 10204110
+},
+[123] = {
+  ["days"]= 2,
+  ["dropId"]= 10685,
+  ["id"]= 123,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219176
+},
+[124] = {
+  ["days"]= 3,
+  ["dropId"]= 10686,
+  ["id"]= 124,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219171
+},
+[125] = {
+  ["days"]= 4,
+  ["dropId"]= 10687,
+  ["id"]= 125,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219172
+},
+[126] = {
+  ["days"]= 5,
+  ["dropId"]= 10688,
+  ["id"]= 126,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219173
+},
+[127] = {
+  ["days"]= 6,
+  ["dropId"]= 10689,
+  ["id"]= 127,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219174
+},
+[128] = {
+  ["days"]= 7,
+  ["dropId"]= 10690,
+  ["id"]= 128,
+  ["isDouble"]= 1,
+  ["month"]= 5,
+  ["rewardsNum"]= 7500
+},
+[129] = {
+  ["days"]= 8,
+  ["dropId"]= 10691,
+  ["id"]= 129,
+  ["isDouble"]= 1,
+  ["month"]= 5,
+  ["rewardsItem"]= 10207002
+},
+[130] = {
+  ["days"]= 9,
+  ["dropId"]= 10692,
+  ["id"]= 130,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219176
+},
+[131] = {
+  ["days"]= 10,
+  ["dropId"]= 10693,
+  ["id"]= 131,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219171
+},
+[132] = {
+  ["days"]= 11,
+  ["dropId"]= 10694,
+  ["id"]= 132,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219172
+},
+[133] = {
+  ["days"]= 12,
+  ["dropId"]= 10695,
+  ["id"]= 133,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219173
+},
+[134] = {
+  ["days"]= 13,
+  ["dropId"]= 10696,
+  ["id"]= 134,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219174
+},
+[135] = {
+  ["days"]= 14,
+  ["dropId"]= 10697,
+  ["id"]= 135,
+  ["isDouble"]= 1,
+  ["month"]= 5,
+  ["rewardsNum"]= 10000
+},
+[136] = {
+  ["days"]= 15,
+  ["dropId"]= 10698,
+  ["id"]= 136,
+  ["isDouble"]= 1,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219175
+},
+[137] = {
+  ["days"]= 16,
+  ["dropId"]= 10699,
+  ["id"]= 137,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219176
+},
+[138] = {
+  ["days"]= 17,
+  ["dropId"]= 10700,
+  ["id"]= 138,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219171
+},
+[139] = {
+  ["days"]= 18,
+  ["dropId"]= 10701,
+  ["id"]= 139,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219172
+},
+[140] = {
+  ["days"]= 19,
+  ["dropId"]= 10702,
+  ["id"]= 140,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219173
+},
+[141] = {
+  ["days"]= 20,
+  ["dropId"]= 10703,
+  ["id"]= 141,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219174
+},
+[142] = {
+  ["days"]= 21,
+  ["dropId"]= 10704,
+  ["id"]= 142,
+  ["isDouble"]= 1,
+  ["month"]= 5,
+  ["rewardsNum"]= 15000
+},
+[143] = {
+  ["days"]= 22,
+  ["dropId"]= 10705,
+  ["id"]= 143,
+  ["isDouble"]= 1,
+  ["month"]= 5,
+  ["rewardsItem"]= 10204111
+},
+[144] = {
+  ["days"]= 23,
+  ["dropId"]= 10678,
+  ["id"]= 144,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219176
+},
+[145] = {
+  ["days"]= 24,
+  ["id"]= 145,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219171
+},
+[146] = {
+  ["days"]= 25,
+  ["dropId"]= 10680,
+  ["id"]= 146,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219172
+},
+[147] = {
+  ["days"]= 26,
+  ["dropId"]= 10681,
+  ["id"]= 147,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219173
+},
+[148] = {
+  ["days"]= 27,
+  ["dropId"]= 10682,
+  ["id"]= 148,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219174
+},
+[149] = {
+  ["days"]= 28,
+  ["dropId"]= 10683,
+  ["id"]= 149,
+  ["isDouble"]= 1,
+  ["month"]= 5,
+  ["rewardsNum"]= 5000
+},
+[150] = {
+  ["days"]= 29,
+  ["dropId"]= 10684,
+  ["id"]= 150,
+  ["isDouble"]= 1,
+  ["month"]= 5,
+  ["rewardsItem"]= 10204110
+},
+[151] = {
+  ["days"]= 30,
+  ["dropId"]= 10685,
+  ["id"]= 151,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219176
+},
+[152] = {
+  ["days"]= 31,
+  ["dropId"]= 10686,
+  ["id"]= 152,
+  ["month"]= 5,
+  ["rewardsItem"]= 10219171
+},
+[153] = {
+  ["dropId"]= 10687,
+  ["id"]= 153,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219172
+},
+[154] = {
+  ["days"]= 2,
+  ["dropId"]= 10688,
+  ["id"]= 154,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219173
+},
+[155] = {
+  ["days"]= 3,
+  ["dropId"]= 10689,
+  ["id"]= 155,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219174
+},
+[156] = {
+  ["days"]= 4,
+  ["dropId"]= 10690,
+  ["id"]= 156,
+  ["isDouble"]= 1,
+  ["month"]= 6,
+  ["rewardsNum"]= 7500
+},
+[157] = {
+  ["days"]= 5,
+  ["dropId"]= 10691,
+  ["id"]= 157,
+  ["isDouble"]= 1,
+  ["month"]= 6,
+  ["rewardsItem"]= 10207002
+},
+[158] = {
+  ["days"]= 6,
+  ["dropId"]= 10692,
+  ["id"]= 158,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219176
+},
+[159] = {
+  ["days"]= 7,
+  ["dropId"]= 10693,
+  ["id"]= 159,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219171
+},
+[160] = {
+  ["days"]= 8,
+  ["dropId"]= 10694,
+  ["id"]= 160,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219172
+},
+[161] = {
+  ["days"]= 9,
+  ["dropId"]= 10695,
+  ["id"]= 161,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219173
+},
+[162] = {
+  ["days"]= 10,
+  ["dropId"]= 10696,
+  ["id"]= 162,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219174
+},
+[163] = {
+  ["days"]= 11,
+  ["dropId"]= 10697,
+  ["id"]= 163,
+  ["isDouble"]= 1,
+  ["month"]= 6,
+  ["rewardsNum"]= 10000
+},
+[164] = {
+  ["days"]= 12,
+  ["dropId"]= 10698,
+  ["id"]= 164,
+  ["isDouble"]= 1,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219175
+},
+[165] = {
+  ["days"]= 13,
+  ["dropId"]= 10699,
+  ["id"]= 165,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219176
+},
+[166] = {
+  ["days"]= 14,
+  ["dropId"]= 10700,
+  ["id"]= 166,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219171
+},
+[167] = {
+  ["days"]= 15,
+  ["dropId"]= 10701,
+  ["id"]= 167,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219172
+},
+[168] = {
+  ["days"]= 16,
+  ["dropId"]= 10702,
+  ["id"]= 168,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219173
+},
+[169] = {
+  ["days"]= 17,
+  ["dropId"]= 10703,
+  ["id"]= 169,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219174
+},
+[170] = {
+  ["days"]= 18,
+  ["dropId"]= 10704,
+  ["id"]= 170,
+  ["isDouble"]= 1,
+  ["month"]= 6,
+  ["rewardsNum"]= 15000
+},
+[171] = {
+  ["days"]= 19,
+  ["dropId"]= 10705,
+  ["id"]= 171,
+  ["isDouble"]= 1,
+  ["month"]= 6,
+  ["rewardsItem"]= 10204111
+},
+[172] = {
+  ["days"]= 20,
+  ["dropId"]= 10678,
+  ["id"]= 172,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219176
+},
+[173] = {
+  ["days"]= 21,
+  ["id"]= 173,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219171
+},
+[174] = {
+  ["days"]= 22,
+  ["dropId"]= 10680,
+  ["id"]= 174,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219172
+},
+[175] = {
+  ["days"]= 23,
+  ["dropId"]= 10681,
+  ["id"]= 175,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219173
+},
+[176] = {
+  ["days"]= 24,
+  ["dropId"]= 10682,
+  ["id"]= 176,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219174
+},
+[177] = {
+  ["days"]= 25,
+  ["dropId"]= 10683,
+  ["id"]= 177,
+  ["isDouble"]= 1,
+  ["month"]= 6,
+  ["rewardsNum"]= 5000
+},
+[178] = {
+  ["days"]= 26,
+  ["dropId"]= 10684,
+  ["id"]= 178,
+  ["isDouble"]= 1,
+  ["month"]= 6,
+  ["rewardsItem"]= 10204110
+},
+[179] = {
+  ["days"]= 27,
+  ["dropId"]= 10685,
+  ["id"]= 179,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219176
+},
+[180] = {
+  ["days"]= 28,
+  ["dropId"]= 10686,
+  ["id"]= 180,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219171
+},
+[181] = {
+  ["days"]= 29,
+  ["dropId"]= 10687,
+  ["id"]= 181,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219172
+},
+[182] = {
+  ["days"]= 30,
+  ["dropId"]= 10688,
+  ["id"]= 182,
+  ["month"]= 6,
+  ["rewardsItem"]= 10219173
+},
+[183] = {
+  ["dropId"]= 10689,
+  ["id"]= 183,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219174
+},
+[184] = {
+  ["days"]= 2,
+  ["dropId"]= 10690,
+  ["id"]= 184,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsNum"]= 7500
+},
+[185] = {
+  ["days"]= 3,
+  ["dropId"]= 10691,
+  ["id"]= 185,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsItem"]= 10207002
+},
+[186] = {
+  ["days"]= 4,
+  ["dropId"]= 10692,
+  ["id"]= 186,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219176
+},
+[187] = {
+  ["days"]= 5,
+  ["dropId"]= 10693,
+  ["id"]= 187,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219171
+},
+[188] = {
+  ["days"]= 6,
+  ["dropId"]= 10694,
+  ["id"]= 188,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219172
+},
+[189] = {
+  ["days"]= 7,
+  ["dropId"]= 10695,
+  ["id"]= 189,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219173
+},
+[190] = {
+  ["days"]= 8,
+  ["dropId"]= 10696,
+  ["id"]= 190,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219174
+},
+[191] = {
+  ["days"]= 9,
+  ["dropId"]= 10697,
+  ["id"]= 191,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsNum"]= 10000
+},
+[192] = {
+  ["days"]= 10,
+  ["dropId"]= 10698,
+  ["id"]= 192,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219175
+},
+[193] = {
+  ["days"]= 11,
+  ["dropId"]= 10699,
+  ["id"]= 193,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219176
+},
+[194] = {
+  ["days"]= 12,
+  ["dropId"]= 10700,
+  ["id"]= 194,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219171
+},
+[195] = {
+  ["days"]= 13,
+  ["dropId"]= 10701,
+  ["id"]= 195,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219172
+},
+[196] = {
+  ["days"]= 14,
+  ["dropId"]= 10702,
+  ["id"]= 196,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219173
+},
+[197] = {
+  ["days"]= 15,
+  ["dropId"]= 10703,
+  ["id"]= 197,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219174
+},
+[198] = {
+  ["days"]= 16,
+  ["dropId"]= 10704,
+  ["id"]= 198,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsNum"]= 15000
+},
+[199] = {
+  ["days"]= 17,
+  ["dropId"]= 10705,
+  ["id"]= 199,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsItem"]= 10204111
+},
+[200] = {
+  ["days"]= 18,
+  ["dropId"]= 10678,
+  ["id"]= 200,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219176
+},
+[201] = {
+  ["days"]= 19,
+  ["id"]= 201,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219171
+},
+[202] = {
+  ["days"]= 20,
+  ["dropId"]= 10680,
+  ["id"]= 202,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219172
+},
+[203] = {
+  ["days"]= 21,
+  ["dropId"]= 10681,
+  ["id"]= 203,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219173
+},
+[204] = {
+  ["days"]= 22,
+  ["dropId"]= 10682,
+  ["id"]= 204,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219174
+},
+[205] = {
+  ["days"]= 23,
+  ["dropId"]= 10683,
+  ["id"]= 205,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsNum"]= 5000
+},
+[206] = {
+  ["days"]= 24,
+  ["dropId"]= 10684,
+  ["id"]= 206,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsItem"]= 10204110
+},
+[207] = {
+  ["days"]= 25,
+  ["dropId"]= 10685,
+  ["id"]= 207,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219176
+},
+[208] = {
+  ["days"]= 26,
+  ["dropId"]= 10686,
+  ["id"]= 208,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219171
+},
+[209] = {
+  ["days"]= 27,
+  ["dropId"]= 10687,
+  ["id"]= 209,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219172
+},
+[210] = {
+  ["days"]= 28,
+  ["dropId"]= 10688,
+  ["id"]= 210,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219173
+},
+[211] = {
+  ["days"]= 29,
+  ["dropId"]= 10689,
+  ["id"]= 211,
+  ["month"]= 7,
+  ["rewardsItem"]= 10219174
+},
+[212] = {
+  ["days"]= 30,
+  ["dropId"]= 10690,
+  ["id"]= 212,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsNum"]= 7500
+},
+[213] = {
+  ["days"]= 31,
+  ["dropId"]= 10691,
+  ["id"]= 213,
+  ["isDouble"]= 1,
+  ["month"]= 7,
+  ["rewardsItem"]= 10207002
+},
+[214] = {
+  ["dropId"]= 10692,
+  ["id"]= 214,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219176
+},
+[215] = {
+  ["days"]= 2,
+  ["dropId"]= 10693,
+  ["id"]= 215,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219171
+},
+[216] = {
+  ["days"]= 3,
+  ["dropId"]= 10694,
+  ["id"]= 216,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219172
+},
+[217] = {
+  ["days"]= 4,
+  ["dropId"]= 10695,
+  ["id"]= 217,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219173
+},
+[218] = {
+  ["days"]= 5,
+  ["dropId"]= 10696,
+  ["id"]= 218,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219174
+},
+[219] = {
+  ["days"]= 6,
+  ["dropId"]= 10697,
+  ["id"]= 219,
+  ["isDouble"]= 1,
+  ["month"]= 8,
+  ["rewardsNum"]= 10000
+},
+[220] = {
+  ["days"]= 7,
+  ["dropId"]= 10698,
+  ["id"]= 220,
+  ["isDouble"]= 1,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219175
+},
+[221] = {
+  ["days"]= 8,
+  ["dropId"]= 10699,
+  ["id"]= 221,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219176
+},
+[222] = {
+  ["days"]= 9,
+  ["dropId"]= 10700,
+  ["id"]= 222,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219171
+},
+[223] = {
+  ["days"]= 10,
+  ["dropId"]= 10701,
+  ["id"]= 223,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219172
+},
+[224] = {
+  ["days"]= 11,
+  ["dropId"]= 10702,
+  ["id"]= 224,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219173
+},
+[225] = {
+  ["days"]= 12,
+  ["dropId"]= 10703,
+  ["id"]= 225,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219174
+},
+[226] = {
+  ["days"]= 13,
+  ["dropId"]= 10704,
+  ["id"]= 226,
+  ["isDouble"]= 1,
+  ["month"]= 8,
+  ["rewardsNum"]= 15000
+},
+[227] = {
+  ["days"]= 14,
+  ["dropId"]= 10705,
+  ["id"]= 227,
+  ["isDouble"]= 1,
+  ["month"]= 8,
+  ["rewardsItem"]= 10204111
+},
+[228] = {
+  ["days"]= 15,
+  ["dropId"]= 10678,
+  ["id"]= 228,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219176
+},
+[229] = {
+  ["days"]= 16,
+  ["id"]= 229,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219171
+},
+[230] = {
+  ["days"]= 17,
+  ["dropId"]= 10680,
+  ["id"]= 230,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219172
+},
+[231] = {
+  ["days"]= 18,
+  ["dropId"]= 10681,
+  ["id"]= 231,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219173
+},
+[232] = {
+  ["days"]= 19,
+  ["dropId"]= 10682,
+  ["id"]= 232,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219174
+},
+[233] = {
+  ["days"]= 20,
+  ["dropId"]= 10683,
+  ["id"]= 233,
+  ["isDouble"]= 1,
+  ["month"]= 8,
+  ["rewardsNum"]= 5000
+},
+[234] = {
+  ["days"]= 21,
+  ["dropId"]= 10684,
+  ["id"]= 234,
+  ["isDouble"]= 1,
+  ["month"]= 8,
+  ["rewardsItem"]= 10204110
+},
+[235] = {
+  ["days"]= 22,
+  ["dropId"]= 10685,
+  ["id"]= 235,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219176
+},
+[236] = {
+  ["days"]= 23,
+  ["dropId"]= 10686,
+  ["id"]= 236,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219171
+},
+[237] = {
+  ["days"]= 24,
+  ["dropId"]= 10687,
+  ["id"]= 237,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219172
+},
+[238] = {
+  ["days"]= 25,
+  ["dropId"]= 10688,
+  ["id"]= 238,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219173
+},
+[239] = {
+  ["days"]= 26,
+  ["dropId"]= 10689,
+  ["id"]= 239,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219174
+},
+[240] = {
+  ["days"]= 27,
+  ["dropId"]= 10690,
+  ["id"]= 240,
+  ["isDouble"]= 1,
+  ["month"]= 8,
+  ["rewardsNum"]= 7500
+},
+[241] = {
+  ["days"]= 28,
+  ["dropId"]= 10691,
+  ["id"]= 241,
+  ["isDouble"]= 1,
+  ["month"]= 8,
+  ["rewardsItem"]= 10207002
+},
+[242] = {
+  ["days"]= 29,
+  ["dropId"]= 10692,
+  ["id"]= 242,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219176
+},
+[243] = {
+  ["days"]= 30,
+  ["dropId"]= 10693,
+  ["id"]= 243,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219171
+},
+[244] = {
+  ["days"]= 31,
+  ["dropId"]= 10694,
+  ["id"]= 244,
+  ["month"]= 8,
+  ["rewardsItem"]= 10219172
+},
+[245] = {
+  ["dropId"]= 10695,
+  ["id"]= 245,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219173
+},
+[246] = {
+  ["days"]= 2,
+  ["dropId"]= 10696,
+  ["id"]= 246,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219174
+},
+[247] = {
+  ["days"]= 3,
+  ["dropId"]= 10697,
+  ["id"]= 247,
+  ["isDouble"]= 1,
+  ["month"]= 9,
+  ["rewardsNum"]= 10000
+},
+[248] = {
+  ["days"]= 4,
+  ["dropId"]= 10698,
+  ["id"]= 248,
+  ["isDouble"]= 1,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219175
+},
+[249] = {
+  ["days"]= 5,
+  ["dropId"]= 10699,
+  ["id"]= 249,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219176
+},
+[250] = {
+  ["days"]= 6,
+  ["dropId"]= 10700,
+  ["id"]= 250,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219171
+},
+[251] = {
+  ["days"]= 7,
+  ["dropId"]= 10701,
+  ["id"]= 251,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219172
+},
+[252] = {
+  ["days"]= 8,
+  ["dropId"]= 10702,
+  ["id"]= 252,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219173
+},
+[253] = {
+  ["days"]= 9,
+  ["dropId"]= 10703,
+  ["id"]= 253,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219174
+},
+[254] = {
+  ["days"]= 10,
+  ["dropId"]= 10704,
+  ["id"]= 254,
+  ["isDouble"]= 1,
+  ["month"]= 9,
+  ["rewardsNum"]= 15000
+},
+[255] = {
+  ["days"]= 11,
+  ["dropId"]= 10705,
+  ["id"]= 255,
+  ["isDouble"]= 1,
+  ["month"]= 9,
+  ["rewardsItem"]= 10204111
+},
+[256] = {
+  ["days"]= 12,
+  ["dropId"]= 10678,
+  ["id"]= 256,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219176
+},
+[257] = {
+  ["days"]= 13,
+  ["id"]= 257,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219171
+},
+[258] = {
+  ["days"]= 14,
+  ["dropId"]= 10680,
+  ["id"]= 258,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219172
+},
+[259] = {
+  ["days"]= 15,
+  ["dropId"]= 10681,
+  ["id"]= 259,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219173
+},
+[260] = {
+  ["days"]= 16,
+  ["dropId"]= 10682,
+  ["id"]= 260,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219174
+},
+[261] = {
+  ["days"]= 17,
+  ["dropId"]= 10683,
+  ["id"]= 261,
+  ["isDouble"]= 1,
+  ["month"]= 9,
+  ["rewardsNum"]= 5000
+},
+[262] = {
+  ["days"]= 18,
+  ["dropId"]= 10684,
+  ["id"]= 262,
+  ["isDouble"]= 1,
+  ["month"]= 9,
+  ["rewardsItem"]= 10204110
+},
+[263] = {
+  ["days"]= 19,
+  ["dropId"]= 10685,
+  ["id"]= 263,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219176
+},
+[264] = {
+  ["days"]= 20,
+  ["dropId"]= 10686,
+  ["id"]= 264,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219171
+},
+[265] = {
+  ["days"]= 21,
+  ["dropId"]= 10687,
+  ["id"]= 265,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219172
+},
+[266] = {
+  ["days"]= 22,
+  ["dropId"]= 10688,
+  ["id"]= 266,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219173
+},
+[267] = {
+  ["days"]= 23,
+  ["dropId"]= 10689,
+  ["id"]= 267,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219174
+},
+[268] = {
+  ["days"]= 24,
+  ["dropId"]= 10690,
+  ["id"]= 268,
+  ["isDouble"]= 1,
+  ["month"]= 9,
+  ["rewardsNum"]= 7500
+},
+[269] = {
+  ["days"]= 25,
+  ["dropId"]= 10691,
+  ["id"]= 269,
+  ["isDouble"]= 1,
+  ["month"]= 9,
+  ["rewardsItem"]= 10207002
+},
+[270] = {
+  ["days"]= 26,
+  ["dropId"]= 10692,
+  ["id"]= 270,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219176
+},
+[271] = {
+  ["days"]= 27,
+  ["dropId"]= 10693,
+  ["id"]= 271,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219171
+},
+[272] = {
+  ["days"]= 28,
+  ["dropId"]= 10694,
+  ["id"]= 272,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219172
+},
+[273] = {
+  ["days"]= 29,
+  ["dropId"]= 10695,
+  ["id"]= 273,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219173
+},
+[274] = {
+  ["days"]= 30,
+  ["dropId"]= 10696,
+  ["id"]= 274,
+  ["month"]= 9,
+  ["rewardsItem"]= 10219174
+},
+[275] = {
+  ["dropId"]= 10697,
+  ["id"]= 275,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsNum"]= 10000
+},
+[276] = {
+  ["days"]= 2,
+  ["dropId"]= 10698,
+  ["id"]= 276,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219175
+},
+[277] = {
+  ["days"]= 3,
+  ["dropId"]= 10699,
+  ["id"]= 277,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219176
+},
+[278] = {
+  ["days"]= 4,
+  ["dropId"]= 10700,
+  ["id"]= 278,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219171
+},
+[279] = {
+  ["days"]= 5,
+  ["dropId"]= 10701,
+  ["id"]= 279,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219172
+},
+[280] = {
+  ["days"]= 6,
+  ["dropId"]= 10702,
+  ["id"]= 280,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219173
+},
+[281] = {
+  ["days"]= 7,
+  ["dropId"]= 10703,
+  ["id"]= 281,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219174
+},
+[282] = {
+  ["days"]= 8,
+  ["dropId"]= 10704,
+  ["id"]= 282,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsNum"]= 15000
+},
+[283] = {
+  ["days"]= 9,
+  ["dropId"]= 10705,
+  ["id"]= 283,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsItem"]= 10204111
+},
+[284] = {
+  ["days"]= 10,
+  ["dropId"]= 10678,
+  ["id"]= 284,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219176
+},
+[285] = {
+  ["days"]= 11,
+  ["id"]= 285,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219171
+},
+[286] = {
+  ["days"]= 12,
+  ["dropId"]= 10680,
+  ["id"]= 286,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219172
+},
+[287] = {
+  ["days"]= 13,
+  ["dropId"]= 10681,
+  ["id"]= 287,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219173
+},
+[288] = {
+  ["days"]= 14,
+  ["dropId"]= 10682,
+  ["id"]= 288,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219174
+},
+[289] = {
+  ["days"]= 15,
+  ["dropId"]= 10683,
+  ["id"]= 289,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsNum"]= 5000
+},
+[290] = {
+  ["days"]= 16,
+  ["dropId"]= 10684,
+  ["id"]= 290,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsItem"]= 10204110
+},
+[291] = {
+  ["days"]= 17,
+  ["dropId"]= 10685,
+  ["id"]= 291,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219176
+},
+[292] = {
+  ["days"]= 18,
+  ["dropId"]= 10686,
+  ["id"]= 292,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219171
+},
+[293] = {
+  ["days"]= 19,
+  ["dropId"]= 10687,
+  ["id"]= 293,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219172
+},
+[294] = {
+  ["days"]= 20,
+  ["dropId"]= 10688,
+  ["id"]= 294,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219173
+},
+[295] = {
+  ["days"]= 21,
+  ["dropId"]= 10689,
+  ["id"]= 295,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219174
+},
+[296] = {
+  ["days"]= 22,
+  ["dropId"]= 10690,
+  ["id"]= 296,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsNum"]= 7500
+},
+[297] = {
+  ["days"]= 23,
+  ["dropId"]= 10691,
+  ["id"]= 297,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsItem"]= 10207002
+},
+[298] = {
+  ["days"]= 24,
+  ["dropId"]= 10692,
+  ["id"]= 298,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219176
+},
+[299] = {
+  ["days"]= 25,
+  ["dropId"]= 10693,
+  ["id"]= 299,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219171
+},
+[300] = {
+  ["days"]= 26,
+  ["dropId"]= 10694,
+  ["id"]= 300,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219172
+},
+[301] = {
+  ["days"]= 27,
+  ["dropId"]= 10695,
+  ["id"]= 301,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219173
+},
+[302] = {
+  ["days"]= 28,
+  ["dropId"]= 10696,
+  ["id"]= 302,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219174
+},
+[303] = {
+  ["days"]= 29,
+  ["dropId"]= 10697,
+  ["id"]= 303,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsNum"]= 10000
+},
+[304] = {
+  ["days"]= 30,
+  ["dropId"]= 10698,
+  ["id"]= 304,
+  ["isDouble"]= 1,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219175
+},
+[305] = {
+  ["days"]= 31,
+  ["dropId"]= 10699,
+  ["id"]= 305,
+  ["month"]= 10,
+  ["rewardsItem"]= 10219176
+},
+[306] = {
+  ["dropId"]= 10700,
+  ["id"]= 306,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219171
+},
+[307] = {
+  ["days"]= 2,
+  ["dropId"]= 10701,
+  ["id"]= 307,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219172
+},
+[308] = {
+  ["days"]= 3,
+  ["dropId"]= 10702,
+  ["id"]= 308,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219173
+},
+[309] = {
+  ["days"]= 4,
+  ["dropId"]= 10703,
+  ["id"]= 309,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219174
+},
+[310] = {
+  ["days"]= 5,
+  ["dropId"]= 10704,
+  ["id"]= 310,
+  ["isDouble"]= 1,
+  ["month"]= 11,
+  ["rewardsNum"]= 15000
+},
+[311] = {
+  ["days"]= 6,
+  ["dropId"]= 10705,
+  ["id"]= 311,
+  ["isDouble"]= 1,
+  ["month"]= 11,
+  ["rewardsItem"]= 10204111
+},
+[312] = {
+  ["days"]= 7,
+  ["dropId"]= 10678,
+  ["id"]= 312,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219176
+},
+[313] = {
+  ["days"]= 8,
+  ["id"]= 313,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219171
+},
+[314] = {
+  ["days"]= 9,
+  ["dropId"]= 10680,
+  ["id"]= 314,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219172
+},
+[315] = {
+  ["days"]= 10,
+  ["dropId"]= 10681,
+  ["id"]= 315,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219173
+},
+[316] = {
+  ["days"]= 11,
+  ["dropId"]= 10682,
+  ["id"]= 316,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219174
+},
+[317] = {
+  ["days"]= 12,
+  ["dropId"]= 10683,
+  ["id"]= 317,
+  ["isDouble"]= 1,
+  ["month"]= 11,
+  ["rewardsNum"]= 5000
+},
+[318] = {
+  ["days"]= 13,
+  ["dropId"]= 10684,
+  ["id"]= 318,
+  ["isDouble"]= 1,
+  ["month"]= 11,
+  ["rewardsItem"]= 10204110
+},
+[319] = {
+  ["days"]= 14,
+  ["dropId"]= 10685,
+  ["id"]= 319,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219176
+},
+[320] = {
+  ["days"]= 15,
+  ["dropId"]= 10686,
+  ["id"]= 320,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219171
+},
+[321] = {
+  ["days"]= 16,
+  ["dropId"]= 10687,
+  ["id"]= 321,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219172
+},
+[322] = {
+  ["days"]= 17,
+  ["dropId"]= 10688,
+  ["id"]= 322,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219173
+},
+[323] = {
+  ["days"]= 18,
+  ["dropId"]= 10689,
+  ["id"]= 323,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219174
+},
+[324] = {
+  ["days"]= 19,
+  ["dropId"]= 10690,
+  ["id"]= 324,
+  ["isDouble"]= 1,
+  ["month"]= 11,
+  ["rewardsNum"]= 7500
+},
+[325] = {
+  ["days"]= 20,
+  ["dropId"]= 10691,
+  ["id"]= 325,
+  ["isDouble"]= 1,
+  ["month"]= 11,
+  ["rewardsItem"]= 10207002
+},
+[326] = {
+  ["days"]= 21,
+  ["dropId"]= 10692,
+  ["id"]= 326,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219176
+},
+[327] = {
+  ["days"]= 22,
+  ["dropId"]= 10693,
+  ["id"]= 327,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219171
+},
+[328] = {
+  ["days"]= 23,
+  ["dropId"]= 10694,
+  ["id"]= 328,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219172
+},
+[329] = {
+  ["days"]= 24,
+  ["dropId"]= 10695,
+  ["id"]= 329,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219173
+},
+[330] = {
+  ["days"]= 25,
+  ["dropId"]= 10696,
+  ["id"]= 330,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219174
+},
+[331] = {
+  ["days"]= 26,
+  ["dropId"]= 10697,
+  ["id"]= 331,
+  ["isDouble"]= 1,
+  ["month"]= 11,
+  ["rewardsNum"]= 10000
+},
+[332] = {
+  ["days"]= 27,
+  ["dropId"]= 10698,
+  ["id"]= 332,
+  ["isDouble"]= 1,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219175
+},
+[333] = {
+  ["days"]= 28,
+  ["dropId"]= 10699,
+  ["id"]= 333,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219176
+},
+[334] = {
+  ["days"]= 29,
+  ["dropId"]= 10700,
+  ["id"]= 334,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219171
+},
+[335] = {
+  ["days"]= 30,
+  ["dropId"]= 10701,
+  ["id"]= 335,
+  ["month"]= 11,
+  ["rewardsItem"]= 10219172
+},
+[336] = {
+  ["dropId"]= 10702,
+  ["id"]= 336,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219173
+},
+[337] = {
+  ["days"]= 2,
+  ["dropId"]= 10703,
+  ["id"]= 337,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219174
+},
+[338] = {
+  ["days"]= 3,
+  ["dropId"]= 10704,
+  ["id"]= 338,
+  ["isDouble"]= 1,
+  ["month"]= 12,
+  ["rewardsNum"]= 15000
+},
+[339] = {
+  ["days"]= 4,
+  ["dropId"]= 10705,
+  ["id"]= 339,
+  ["isDouble"]= 1,
+  ["month"]= 12,
+  ["rewardsItem"]= 10204111
+},
+[340] = {
+  ["days"]= 5,
+  ["dropId"]= 10678,
+  ["id"]= 340,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219176
+},
+[341] = {
+  ["days"]= 6,
+  ["id"]= 341,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219171
+},
+[342] = {
+  ["days"]= 7,
+  ["dropId"]= 10680,
+  ["id"]= 342,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219172
+},
+[343] = {
+  ["days"]= 8,
+  ["dropId"]= 10681,
+  ["id"]= 343,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219173
+},
+[344] = {
+  ["days"]= 9,
+  ["dropId"]= 10682,
+  ["id"]= 344,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219174
+},
+[345] = {
+  ["days"]= 10,
+  ["dropId"]= 10683,
+  ["id"]= 345,
+  ["isDouble"]= 1,
+  ["month"]= 12,
+  ["rewardsNum"]= 5000
+},
+[346] = {
+  ["days"]= 11,
+  ["dropId"]= 10684,
+  ["id"]= 346,
+  ["isDouble"]= 1,
+  ["month"]= 12,
+  ["rewardsItem"]= 10204110
+},
+[347] = {
+  ["days"]= 12,
+  ["dropId"]= 10685,
+  ["id"]= 347,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219176
+},
+[348] = {
+  ["days"]= 13,
+  ["dropId"]= 10686,
+  ["id"]= 348,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219171
+},
+[349] = {
+  ["days"]= 14,
+  ["dropId"]= 10687,
+  ["id"]= 349,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219172
+},
+[350] = {
+  ["days"]= 15,
+  ["dropId"]= 10688,
+  ["id"]= 350,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219173
+},
+[351] = {
+  ["days"]= 16,
+  ["dropId"]= 10689,
+  ["id"]= 351,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219174
+},
+[352] = {
+  ["days"]= 17,
+  ["dropId"]= 10690,
+  ["id"]= 352,
+  ["isDouble"]= 1,
+  ["month"]= 12,
+  ["rewardsNum"]= 7500
+},
+[353] = {
+  ["days"]= 18,
+  ["dropId"]= 10691,
+  ["id"]= 353,
+  ["isDouble"]= 1,
+  ["month"]= 12,
+  ["rewardsItem"]= 10207002
+},
+[354] = {
+  ["days"]= 19,
+  ["dropId"]= 10692,
+  ["id"]= 354,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219176
+},
+[355] = {
+  ["days"]= 20,
+  ["dropId"]= 10693,
+  ["id"]= 355,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219171
+},
+[356] = {
+  ["days"]= 21,
+  ["dropId"]= 10694,
+  ["id"]= 356,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219172
+},
+[357] = {
+  ["days"]= 22,
+  ["dropId"]= 10695,
+  ["id"]= 357,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219173
+},
+[358] = {
+  ["days"]= 23,
+  ["dropId"]= 10696,
+  ["id"]= 358,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219174
+},
+[359] = {
+  ["days"]= 24,
+  ["dropId"]= 10697,
+  ["id"]= 359,
+  ["isDouble"]= 1,
+  ["month"]= 12,
+  ["rewardsNum"]= 10000
+},
+[360] = {
+  ["days"]= 25,
+  ["dropId"]= 10698,
+  ["id"]= 360,
+  ["isDouble"]= 1,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219175
+},
+[361] = {
+  ["days"]= 26,
+  ["dropId"]= 10699,
+  ["id"]= 361,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219176
+},
+[362] = {
+  ["days"]= 27,
+  ["dropId"]= 10700,
+  ["id"]= 362,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219171
+},
+[363] = {
+  ["days"]= 28,
+  ["dropId"]= 10701,
+  ["id"]= 363,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219172
+},
+[364] = {
+  ["days"]= 29,
+  ["dropId"]= 10702,
+  ["id"]= 364,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219173
+},
+[365] = {
+  ["days"]= 30,
+  ["dropId"]= 10703,
+  ["id"]= 365,
+  ["month"]= 12,
+  ["rewardsItem"]= 10219174
+},
+[366] = {
+  ["days"]= 31,
+  ["dropId"]= 10704,
+  ["id"]= 366,
+  ["isDouble"]= 1,
+  ["month"]= 12,
+  ["rewardsNum"]= 15000
+}
+}
+local baseTable={
+  ["days"]= 1,
+  ["dropId"]= 10679,
+  ["id"]= 1,
+  ["isDouble"]= 0,
+  ["month"]= 1,
+  ["rewardsItem"]= 1003,
+  ["rewardsNum"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

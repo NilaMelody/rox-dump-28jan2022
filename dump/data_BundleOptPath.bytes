@@ -1,0 +1,62 @@
+local table= {
+[1] = {},
+[2] = {
+  ["id"]= 2,
+  ["Path"]= "maps_scene"
+},
+[3] = {
+  ["id"]= 3,
+  ["Path"]= "audio_effect"
+},
+[4] = {
+  ["id"]= 4,
+  ["Path"]= "roles_monster"
+},
+[5] = {
+  ["id"]= 5,
+  ["Path"]= "maps_sceneweather"
+},
+[6] = {
+  ["id"]= 6,
+  ["Path"]= "maps_scenedata"
+},
+[7] = {
+  ["id"]= 7,
+  ["isDir"]= 0,
+  ["Path"]= "icons_loading.bundle"
+},
+[8] = {
+  ["id"]= 8,
+  ["isDir"]= 0,
+  ["Path"]= "roles_carrier.bundle"
+},
+[9] = {
+  ["id"]= 9,
+  ["Path"]= "shared_assets_arts_maps_caiji"
+},
+[10] = {
+  ["id"]= 10,
+  ["Path"]= "shared_assets_arts_maps"
+},
+[11] = {
+  ["id"]= 11,
+  ["Path"]= "shared_assets_arts_roles"
+},
+[12] = {
+  ["id"]= 12,
+  ["Path"]= "fx"
+},
+[13] = {
+  ["id"]= 13,
+  ["Path"]= "roles_newnpc_animation"
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["isDir"]= 1,
+  ["Path"]= "roles_newnpc_prefab"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,30 @@
+local table= {
+[1] = {}
+}
+local baseTable={
+  ["AttrID"]= {
+    1,
+    2,
+    3
+  },
+  ["AttrValue"]= {
+    10,
+    20,
+    30
+  },
+  ["Desc"]= "FriendshipDesc_001",
+  ["FriendshipID"]= 1001,
+  ["IconId"]= 10001,
+  ["ID"]= 1,
+  ["Name"]= "Friendship_001",
+  ["Pet"]= {
+    82001,
+    82002,
+    82003
+  },
+  ["SkillID"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

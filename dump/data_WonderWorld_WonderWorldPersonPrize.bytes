@@ -1,0 +1,110 @@
+local table= {
+[1] = {},
+[2] = {
+  ["DropId"]= 10002,
+  ["Id"]= 2,
+  ["TurnsNum"]= 5
+},
+[3] = {
+  ["DropId"]= 10003,
+  ["Id"]= 3,
+  ["TurnsNum"]= 10
+},
+[4] = {
+  ["DropId"]= 10004,
+  ["Id"]= 4,
+  ["TurnsNum"]= 20
+},
+[5] = {
+  ["DropId"]= 10005,
+  ["Id"]= 5,
+  ["TurnsNum"]= 30
+},
+[6] = {
+  ["DropId"]= 10006,
+  ["Id"]= 6,
+  ["TurnsNum"]= 40
+},
+[7] = {
+  ["DropId"]= 10007,
+  ["Id"]= 7,
+  ["TurnsNum"]= 50
+},
+[8] = {
+  ["DropId"]= 10008,
+  ["Id"]= 8,
+  ["TurnsNum"]= 100
+},
+[9] = {
+  ["Id"]= 9,
+  ["TurnsNum"]= 110
+},
+[10] = {
+  ["DropId"]= 10002,
+  ["Id"]= 10,
+  ["TurnsNum"]= 132
+},
+[11] = {
+  ["DropId"]= 10003,
+  ["Id"]= 11,
+  ["TurnsNum"]= 154
+},
+[12] = {
+  ["DropId"]= 10004,
+  ["Id"]= 12,
+  ["TurnsNum"]= 176
+},
+[13] = {
+  ["DropId"]= 10005,
+  ["Id"]= 13,
+  ["TurnsNum"]= 198
+},
+[14] = {
+  ["DropId"]= 10006,
+  ["Id"]= 14,
+  ["TurnsNum"]= 220
+},
+[15] = {
+  ["DropId"]= 10007,
+  ["Id"]= 15,
+  ["TurnsNum"]= 242
+},
+[16] = {
+  ["Id"]= 16,
+  ["TurnsNum"]= 264
+},
+[17] = {
+  ["DropId"]= 10002,
+  ["Id"]= 17,
+  ["TurnsNum"]= 286
+},
+[18] = {
+  ["DropId"]= 10003,
+  ["Id"]= 18,
+  ["TurnsNum"]= 308
+},
+[19] = {
+  ["DropId"]= 10004,
+  ["Id"]= 19,
+  ["TurnsNum"]= 330
+},
+[20] = {
+  ["DropId"]= 10005,
+  ["Id"]= 20,
+  ["TurnsNum"]= 352
+},
+[21] = {
+  ["DropId"]= 10006,
+  ["Id"]= 21,
+  ["TurnsNum"]= 374
+}
+}
+local baseTable={
+  ["DropId"]= 10001,
+  ["Id"]= 1,
+  ["TurnsNum"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

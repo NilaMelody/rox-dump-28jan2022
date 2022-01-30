@@ -1,0 +1,191 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Id"]= 2,
+  ["ItemId"]= 10426002,
+  ["Name"]= "ItemName_10426002",
+  ["propId"]= {
+    1,
+    3
+  }
+},
+[3] = {
+  ["Id"]= 3,
+  ["ItemId"]= 10426003,
+  ["Name"]= "ItemName_10426003",
+  ["propId"]= {
+    1,
+    4
+  }
+},
+[4] = {
+  ["Id"]= 4,
+  ["ItemId"]= 10426004,
+  ["Name"]= "ItemName_10426004",
+  ["propId"]= {
+    1,
+    5
+  }
+},
+[5] = {
+  ["Id"]= 5,
+  ["ItemId"]= 10426005,
+  ["Name"]= "ItemName_10426005",
+  ["propId"]= {
+    1,
+    6
+  }
+},
+[6] = {
+  ["Id"]= 6,
+  ["ItemId"]= 10426006,
+  ["Name"]= "ItemName_10426006",
+  ["propId"]= {
+    1,
+    10
+  }
+},
+[7] = {
+  ["Id"]= 7,
+  ["ItemId"]= 10426007,
+  ["Name"]= "ItemName_10426007",
+  ["propId"]= {
+    1,
+    11
+  }
+},
+[8] = {
+  ["Id"]= 8,
+  ["ItemId"]= 10426008,
+  ["Name"]= "ItemName_10426008",
+  ["propId"]= {
+    1,
+    12
+  }
+},
+[9] = {
+  ["Id"]= 9,
+  ["ItemId"]= 10426009,
+  ["Name"]= "ItemName_10426009",
+  ["propId"]= {
+    1,
+    13
+  }
+},
+[10] = {
+  ["Id"]= 10,
+  ["ItemId"]= 10426010,
+  ["Name"]= "ItemName_10426010",
+  ["propId"]= {
+    1,
+    14
+  }
+},
+[11] = {
+  ["Id"]= 11,
+  ["ItemId"]= 10426011,
+  ["Name"]= "ItemName_10426011",
+  ["propId"]= {
+    1,
+    15
+  }
+},
+[12] = {
+  ["Id"]= 12,
+  ["ItemId"]= 10426012,
+  ["Name"]= "ItemName_10426012",
+  ["propId"]= {
+    1,
+    16
+  }
+},
+[13] = {
+  ["Id"]= 13,
+  ["ItemId"]= 10426013,
+  ["Name"]= "ItemName_10426013",
+  ["propId"]= {
+    1,
+    17
+  }
+},
+[14] = {
+  ["Id"]= 14,
+  ["ItemId"]= 10426014,
+  ["Name"]= "ItemName_10426014",
+  ["propId"]= {
+    1,
+    18
+  }
+},
+[15] = {
+  ["Id"]= 15,
+  ["ItemId"]= 10426015,
+  ["Name"]= "ItemName_10426015",
+  ["propId"]= {
+    1,
+    19
+  }
+},
+[16] = {
+  ["Id"]= 16,
+  ["ItemId"]= 10426016,
+  ["Name"]= "ItemName_10426016",
+  ["propId"]= {
+    1,
+    20
+  }
+},
+[17] = {
+  ["Id"]= 17,
+  ["ItemId"]= 10426017,
+  ["Name"]= "ItemName_10426017",
+  ["propId"]= {
+    1,
+    21
+  }
+},
+[18] = {
+  ["Id"]= 18,
+  ["ItemId"]= 10426018,
+  ["Name"]= "ItemName_10426018",
+  ["propId"]= {
+    1,
+    22
+  }
+},
+[19] = {
+  ["Id"]= 19,
+  ["ItemId"]= 10426019,
+  ["Name"]= "ItemName_10426019",
+  ["propId"]= {
+    1,
+    23
+  }
+},
+[20] = {
+  ["Id"]= 20,
+  ["ItemId"]= 10426020,
+  ["Name"]= "ItemName_10426020",
+  ["propId"]= {
+    1,
+    24
+  }
+}
+}
+local baseTable={
+  ["Id"]= 1,
+  ["ItemId"]= 10426001,
+  ["Name"]= "ItemName_10426001",
+  ["propId"]= {
+    1,
+    2
+  },
+  ["propNum"]= {
+    1,
+    1
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

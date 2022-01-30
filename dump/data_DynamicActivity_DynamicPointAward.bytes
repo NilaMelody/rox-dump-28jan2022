@@ -1,0 +1,583 @@
+local table= {
+[1] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 5,
+  ["DropId"]= 1106011105,
+  ["PointDemand"]= 99
+},
+[2] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 5,
+  ["DropId"]= 1106011106,
+  ["Id"]= 2,
+  ["PointDemand"]= 199
+},
+[3] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 5,
+  ["DropId"]= 1106011107,
+  ["Id"]= 3,
+  ["PointDemand"]= 299
+},
+[33] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 4,
+  ["DropId"]= 1106011108,
+  ["Id"]= 33,
+  ["PointDemand"]= 399
+},
+[34] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 4,
+  ["DropId"]= 1106011109,
+  ["Id"]= 34,
+  ["PointDemand"]= 499
+},
+[35] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 3,
+  ["DropId"]= 1106011110,
+  ["Id"]= 35,
+  ["PointDemand"]= 599
+},
+[36] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 3,
+  ["DropId"]= 1106011111,
+  ["Id"]= 36,
+  ["PointDemand"]= 699
+},
+[37] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 2,
+  ["DropId"]= 1106011112,
+  ["Id"]= 37,
+  ["PointDemand"]= 799
+},
+[38] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 2,
+  ["DropId"]= 1106011113,
+  ["Id"]= 38,
+  ["PointDemand"]= 899
+},
+[39] = {
+  ["ActivityType"]= 19,
+  ["AwardIcon"]= 1,
+  ["DropId"]= 1106011114,
+  ["Id"]= 39,
+  ["PointDemand"]= 999
+},
+[20201] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20104,
+  ["Id"]= 20201,
+  ["PointDemand"]= 10,
+  ["PointType"]= 2
+},
+[20202] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20105,
+  ["Id"]= 20202,
+  ["PointDemand"]= 50,
+  ["PointType"]= 2
+},
+[20203] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20106,
+  ["Id"]= 20203,
+  ["PointType"]= 2
+},
+[20204] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20107,
+  ["Id"]= 20204,
+  ["PointDemand"]= 200,
+  ["PointType"]= 2
+},
+[20205] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20108,
+  ["Id"]= 20205,
+  ["PointDemand"]= 400,
+  ["PointType"]= 2
+},
+[20206] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20109,
+  ["Id"]= 20206,
+  ["PointDemand"]= 800,
+  ["PointType"]= 2
+},
+[20301] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20110,
+  ["Id"]= 20301,
+  ["PointType"]= 3
+},
+[20302] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20111,
+  ["Id"]= 20302,
+  ["PointDemand"]= 200,
+  ["PointType"]= 3
+},
+[20303] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20112,
+  ["Id"]= 20303,
+  ["PointDemand"]= 300,
+  ["PointType"]= 3
+},
+[20304] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20113,
+  ["Id"]= 20304,
+  ["PointDemand"]= 400,
+  ["PointType"]= 3
+},
+[20305] = {
+  ["ActivityType"]= 20,
+  ["DropId"]= 20114,
+  ["Id"]= 20305,
+  ["PointDemand"]= 500,
+  ["PointType"]= 3
+},
+[30001] = {
+  ["Id"]= 30001
+},
+[30002] = {
+  ["DropId"]= 710028,
+  ["Id"]= 30002,
+  ["PointDemand"]= 200
+},
+[30003] = {
+  ["DropId"]= 710006,
+  ["Id"]= 30003,
+  ["PointDemand"]= 300
+},
+[30004] = {
+  ["DropId"]= 710035,
+  ["Id"]= 30004,
+  ["PointDemand"]= 400
+},
+[30005] = {
+  ["DropId"]= 710002,
+  ["Id"]= 30005,
+  ["PointDemand"]= 500
+},
+[30006] = {
+  ["Id"]= 30006,
+  ["PointDemand"]= 600
+},
+[30007] = {
+  ["DropId"]= 710012,
+  ["Id"]= 30007,
+  ["PointDemand"]= 700
+},
+[30008] = {
+  ["DropId"]= 710022,
+  ["Id"]= 30008,
+  ["PointDemand"]= 800
+},
+[30009] = {
+  ["Id"]= 30009,
+  ["PointDemand"]= 900
+},
+[30010] = {
+  ["DropId"]= 1106011246,
+  ["Id"]= 30010,
+  ["PointDemand"]= 1000
+},
+[30011] = {
+  ["DropId"]= 10233,
+  ["Id"]= 30011,
+  ["PointDemand"]= 1100
+},
+[30012] = {
+  ["DropId"]= 10092,
+  ["Id"]= 30012,
+  ["PointDemand"]= 1200
+},
+[30013] = {
+  ["DropId"]= 710016,
+  ["Id"]= 30013,
+  ["PointDemand"]= 1300
+},
+[30014] = {
+  ["Id"]= 30014,
+  ["PointDemand"]= 1400
+},
+[30015] = {
+  ["DropId"]= 710014,
+  ["Id"]= 30015,
+  ["PointDemand"]= 1500
+},
+[30016] = {
+  ["DropId"]= 710037,
+  ["Id"]= 30016,
+  ["PointDemand"]= 1600
+},
+[30017] = {
+  ["DropId"]= 10062,
+  ["Id"]= 30017,
+  ["PointDemand"]= 1700
+},
+[30018] = {
+  ["DropId"]= 710020,
+  ["Id"]= 30018,
+  ["PointDemand"]= 1800
+},
+[30019] = {
+  ["DropId"]= 10211,
+  ["Id"]= 30019,
+  ["PointDemand"]= 1900
+},
+[30020] = {
+  ["DropId"]= 1106011247,
+  ["Id"]= 30020,
+  ["PointDemand"]= 2000
+},
+[30021] = {
+  ["DropId"]= 10228,
+  ["Id"]= 30021,
+  ["PointDemand"]= 2100
+},
+[30022] = {
+  ["DropId"]= 10901016,
+  ["Id"]= 30022,
+  ["PointDemand"]= 2200
+},
+[30023] = {
+  ["DropId"]= 710022,
+  ["Id"]= 30023,
+  ["PointDemand"]= 2300
+},
+[30024] = {
+  ["Id"]= 30024,
+  ["PointDemand"]= 2400
+},
+[30025] = {
+  ["DropId"]= 710042,
+  ["Id"]= 30025,
+  ["PointDemand"]= 2500
+},
+[30026] = {
+  ["DropId"]= 710016,
+  ["Id"]= 30026,
+  ["PointDemand"]= 2600
+},
+[30027] = {
+  ["Id"]= 30027,
+  ["PointDemand"]= 2700
+},
+[30028] = {
+  ["DropId"]= 710006,
+  ["Id"]= 30028,
+  ["PointDemand"]= 2800
+},
+[30029] = {
+  ["DropId"]= 10233,
+  ["Id"]= 30029,
+  ["PointDemand"]= 2900
+},
+[30030] = {
+  ["DropId"]= 1106011248,
+  ["Id"]= 30030,
+  ["PointDemand"]= 3000
+},
+[30031] = {
+  ["Id"]= 30031,
+  ["PointDemand"]= 3100
+},
+[30032] = {
+  ["DropId"]= 710018,
+  ["Id"]= 30032,
+  ["PointDemand"]= 3200
+},
+[30033] = {
+  ["DropId"]= 710030,
+  ["Id"]= 30033,
+  ["PointDemand"]= 3300
+},
+[30034] = {
+  ["Id"]= 30034,
+  ["PointDemand"]= 3400
+},
+[30035] = {
+  ["DropId"]= 710008,
+  ["Id"]= 30035,
+  ["PointDemand"]= 3500
+},
+[30036] = {
+  ["DropId"]= 710016,
+  ["Id"]= 30036,
+  ["PointDemand"]= 3600
+},
+[30037] = {
+  ["DropId"]= 10062,
+  ["Id"]= 30037,
+  ["PointDemand"]= 3700
+},
+[30038] = {
+  ["DropId"]= 710012,
+  ["Id"]= 30038,
+  ["PointDemand"]= 3800
+},
+[30039] = {
+  ["DropId"]= 10901004,
+  ["Id"]= 30039,
+  ["PointDemand"]= 3900
+},
+[30040] = {
+  ["DropId"]= 1106011249,
+  ["Id"]= 30040,
+  ["PointDemand"]= 4000
+},
+[30041] = {
+  ["DropId"]= 10233,
+  ["Id"]= 30041,
+  ["PointDemand"]= 4100
+},
+[30042] = {
+  ["DropId"]= 710012,
+  ["Id"]= 30042,
+  ["PointDemand"]= 4200
+},
+[30043] = {
+  ["DropId"]= 710008,
+  ["Id"]= 30043,
+  ["PointDemand"]= 4300
+},
+[30044] = {
+  ["Id"]= 30044,
+  ["PointDemand"]= 4400
+},
+[30045] = {
+  ["DropId"]= 710010,
+  ["Id"]= 30045,
+  ["PointDemand"]= 4500
+},
+[30046] = {
+  ["DropId"]= 710032,
+  ["Id"]= 30046,
+  ["PointDemand"]= 4600
+},
+[30047] = {
+  ["Id"]= 30047,
+  ["PointDemand"]= 4700
+},
+[30048] = {
+  ["DropId"]= 710022,
+  ["Id"]= 30048,
+  ["PointDemand"]= 4800
+},
+[30049] = {
+  ["DropId"]= 10901009,
+  ["Id"]= 30049,
+  ["PointDemand"]= 4900
+},
+[30050] = {
+  ["DropId"]= 1106011250,
+  ["Id"]= 30050,
+  ["PointDemand"]= 5000
+},
+[30051] = {
+  ["Id"]= 30051,
+  ["PointDemand"]= 5100
+},
+[30052] = {
+  ["DropId"]= 10229,
+  ["Id"]= 30052,
+  ["PointDemand"]= 5200
+},
+[30053] = {
+  ["DropId"]= 10062,
+  ["Id"]= 30053,
+  ["PointDemand"]= 5300
+},
+[30054] = {
+  ["DropId"]= 710008,
+  ["Id"]= 30054,
+  ["PointDemand"]= 5400
+},
+[30055] = {
+  ["DropId"]= 710022,
+  ["Id"]= 30055,
+  ["PointDemand"]= 5500
+},
+[30056] = {
+  ["Id"]= 30056,
+  ["PointDemand"]= 5600
+},
+[30057] = {
+  ["DropId"]= 710034,
+  ["Id"]= 30057,
+  ["PointDemand"]= 5700
+},
+[30058] = {
+  ["DropId"]= 710020,
+  ["Id"]= 30058,
+  ["PointDemand"]= 5800
+},
+[30059] = {
+  ["DropId"]= 10901006,
+  ["Id"]= 30059,
+  ["PointDemand"]= 5900
+},
+[30060] = {
+  ["DropId"]= 1106011251,
+  ["Id"]= 30060,
+  ["PointDemand"]= 6000
+},
+[30061] = {
+  ["DropId"]= 10901007,
+  ["Id"]= 30061,
+  ["PointDemand"]= 6100
+},
+[30062] = {
+  ["Id"]= 30062,
+  ["PointDemand"]= 6200
+},
+[30063] = {
+  ["DropId"]= 710006,
+  ["Id"]= 30063,
+  ["PointDemand"]= 6300
+},
+[30064] = {
+  ["DropId"]= 710039,
+  ["Id"]= 30064,
+  ["PointDemand"]= 6400
+},
+[30065] = {
+  ["DropId"]= 710010,
+  ["Id"]= 30065,
+  ["PointDemand"]= 6500
+},
+[30066] = {
+  ["DropId"]= 10233,
+  ["Id"]= 30066,
+  ["PointDemand"]= 6600
+},
+[30067] = {
+  ["DropId"]= 710018,
+  ["Id"]= 30067,
+  ["PointDemand"]= 6700
+},
+[30068] = {
+  ["DropId"]= 710022,
+  ["Id"]= 30068,
+  ["PointDemand"]= 6800
+},
+[30069] = {
+  ["Id"]= 30069,
+  ["PointDemand"]= 6900
+},
+[30070] = {
+  ["DropId"]= 1106011252,
+  ["Id"]= 30070,
+  ["PointDemand"]= 7000
+},
+[30071] = {
+  ["DropId"]= 10230,
+  ["Id"]= 30071,
+  ["PointDemand"]= 7100
+},
+[30072] = {
+  ["Id"]= 30072,
+  ["PointDemand"]= 7200
+},
+[30073] = {
+  ["DropId"]= 710020,
+  ["Id"]= 30073,
+  ["PointDemand"]= 7300
+},
+[30074] = {
+  ["DropId"]= 10062,
+  ["Id"]= 30074,
+  ["PointDemand"]= 7400
+},
+[30075] = {
+  ["DropId"]= 710014,
+  ["Id"]= 30075,
+  ["PointDemand"]= 7500
+},
+[30076] = {
+  ["DropId"]= 710004,
+  ["Id"]= 30076,
+  ["PointDemand"]= 7600
+},
+[30077] = {
+  ["DropId"]= 10901003,
+  ["Id"]= 30077,
+  ["PointDemand"]= 7700
+},
+[30078] = {
+  ["Id"]= 30078,
+  ["PointDemand"]= 7800
+},
+[30079] = {
+  ["DropId"]= 710018,
+  ["Id"]= 30079,
+  ["PointDemand"]= 7900
+},
+[30080] = {
+  ["DropId"]= 1106011253,
+  ["Id"]= 30080,
+  ["PointDemand"]= 8000
+},
+[30081] = {
+  ["ActivityType"]= 6,
+  ["DropId"]= 5520310,
+  ["Id"]= 30081,
+  ["PointDemand"]= 1
+},
+[30082] = {
+  ["ActivityType"]= 6,
+  ["DropId"]= 5520310,
+  ["Id"]= 30082,
+  ["PointDemand"]= 2
+},
+[30083] = {
+  ["ActivityType"]= 6,
+  ["DropId"]= 5520310,
+  ["Id"]= 30083,
+  ["PointDemand"]= 3
+},
+[30084] = {
+  ["ActivityType"]= 6,
+  ["DropId"]= 5520310,
+  ["Id"]= 30084,
+  ["PointDemand"]= 4
+},
+[30085] = {
+  ["ActivityType"]= 6,
+  ["DropId"]= 5520310,
+  ["Id"]= 30085,
+  ["PointDemand"]= 5
+},
+[30086] = {
+  ["ActivityType"]= 6,
+  ["DropId"]= 5520310,
+  ["Id"]= 30086,
+  ["PointDemand"]= 6
+},
+[30087] = {
+  ["ActivityType"]= 6,
+  ["DropId"]= 5520310,
+  ["Id"]= 30087,
+  ["PointDemand"]= 7
+}
+}
+local baseTable={
+  ["ActivityType"]= 21,
+  ["AwardIcon"]= 0,
+  ["DropId"]= 10086,
+  ["Id"]= 1,
+  ["PointDemand"]= 100,
+  ["PointType"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

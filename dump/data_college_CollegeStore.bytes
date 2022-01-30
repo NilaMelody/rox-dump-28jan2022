@@ -1,0 +1,48 @@
+local table= {
+[1] = {}
+}
+local baseTable={
+  ["CollegeStoreMaxRefreshNum"]= 4,
+  ["Consume"]= 20,
+  ["CostCurrencyId"]= 63,
+  ["Frequency"]= 5,
+  ["ID"]= 1,
+  ["PermanentStore"]= {
+    2017,
+    2018,
+    2019
+  },
+  ["TeacherPermanentStore"]= {
+    2020,
+    2021,
+    2001,
+    2002,
+    2022,
+    2023
+  },
+  ["TeacherTimeLimitStore"]= {
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+  },
+  ["Time"]= 86400,
+  ["TimeLimitStore"]= {
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

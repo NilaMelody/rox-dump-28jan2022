@@ -1,0 +1,97 @@
+local table= {
+[1] = {},
+[2] = {
+  ["CollegeExp"]= 3300,
+  ["Id"]= 1002,
+  ["NextId"]= 1003,
+  ["Order"]= 2,
+  ["QuestList"]= {
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  },
+  ["StageName"]= "StageName_1002",
+  ["StageReward"]= {
+    1106011040
+  }
+},
+[3] = {
+  ["CollegeExp"]= 4500,
+  ["Id"]= 1003,
+  ["NextId"]= 1004,
+  ["Order"]= 3,
+  ["QuestList"]= {
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  },
+  ["StageName"]= "StageName_1003",
+  ["StageReward"]= {
+    1106011041
+  }
+},
+[4] = {
+  ["CollegeExp"]= 5500,
+  ["Id"]= 1004,
+  ["NextId"]= 1005,
+  ["Order"]= 4,
+  ["QuestList"]= {
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  },
+  ["StageName"]= "StageName_1004",
+  ["StageReward"]= {
+    1106011042
+  }
+},
+[5] = {
+  ["CollegeExp"]= 6750,
+  ["Id"]= 1005,
+  ["NextId"]= 0,
+  ["Order"]= 5,
+  ["QuestList"]= {
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  },
+  ["StageName"]= "StageName_1005",
+  ["StageReward"]= {
+    1106011043
+  }
+}
+}
+local baseTable={
+  ["CollegeExp"]= 2250,
+  ["Id"]= 1001,
+  ["NextId"]= 1002,
+  ["Order"]= 1,
+  ["QuestList"]= {
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["StageName"]= "StageName_1001",
+  ["StageReward"]= {
+    1106011039
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

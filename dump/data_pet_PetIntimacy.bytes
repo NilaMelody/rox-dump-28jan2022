@@ -1,0 +1,553 @@
+local table= {
+[1] = {},
+[2] = {
+  ["IntimacyExp"]= {
+    150,
+    300,
+    650,
+    0
+  },
+  ["IntimacyLevel"]= 2
+},
+[3] = {
+  ["IntimacyExp"]= {
+    200,
+    400,
+    900,
+    0
+  },
+  ["IntimacyLevel"]= 3
+},
+[4] = {
+  ["IntimacyExp"]= {
+    250,
+    500,
+    1150,
+    0
+  },
+  ["IntimacyLevel"]= 4
+},
+[5] = {
+  ["IntimacyExp"]= {
+    300,
+    600,
+    1400,
+    0
+  },
+  ["IntimacyLevel"]= 5
+},
+[6] = {
+  ["IntimacyExp"]= {
+    350,
+    700,
+    1650,
+    0
+  },
+  ["IntimacyLevel"]= 6
+},
+[7] = {
+  ["IntimacyExp"]= {
+    400,
+    800,
+    1900,
+    0
+  },
+  ["IntimacyLevel"]= 7
+},
+[8] = {
+  ["IntimacyExp"]= {
+    450,
+    900,
+    2150,
+    0
+  },
+  ["IntimacyLevel"]= 8
+},
+[9] = {
+  ["IntimacyExp"]= {
+    500,
+    1000,
+    2400,
+    0
+  },
+  ["IntimacyLevel"]= 9
+},
+[10] = {
+  ["IntimacyExp"]= {
+    600,
+    1250,
+    2900,
+    0
+  },
+  ["IntimacyLevel"]= 10
+},
+[11] = {
+  ["IntimacyExp"]= {
+    700,
+    1500,
+    3400,
+    0
+  },
+  ["IntimacyLevel"]= 11
+},
+[12] = {
+  ["IntimacyExp"]= {
+    800,
+    1750,
+    3900,
+    0
+  },
+  ["IntimacyLevel"]= 12
+},
+[13] = {
+  ["IntimacyExp"]= {
+    900,
+    2000,
+    4400,
+    0
+  },
+  ["IntimacyLevel"]= 13
+},
+[14] = {
+  ["IntimacyExp"]= {
+    1000,
+    2250,
+    4900,
+    0
+  },
+  ["IntimacyLevel"]= 14
+},
+[15] = {
+  ["IntimacyExp"]= {
+    1100,
+    2500,
+    5400,
+    0
+  },
+  ["IntimacyLevel"]= 15
+},
+[16] = {
+  ["IntimacyExp"]= {
+    1200,
+    2750,
+    5900,
+    0
+  },
+  ["IntimacyLevel"]= 16
+},
+[17] = {
+  ["IntimacyExp"]= {
+    1300,
+    3000,
+    6400,
+    0
+  },
+  ["IntimacyLevel"]= 17
+},
+[18] = {
+  ["IntimacyExp"]= {
+    1400,
+    3250,
+    6900,
+    0
+  },
+  ["IntimacyLevel"]= 18
+},
+[19] = {
+  ["IntimacyExp"]= {
+    1500,
+    3500,
+    7400,
+    0
+  },
+  ["IntimacyLevel"]= 19
+},
+[20] = {
+  ["IntimacyExp"]= {
+    1750,
+    4000,
+    8400,
+    0
+  },
+  ["IntimacyLevel"]= 20
+},
+[21] = {
+  ["IntimacyExp"]= {
+    2000,
+    4500,
+    9400,
+    0
+  },
+  ["IntimacyLevel"]= 21
+},
+[22] = {
+  ["IntimacyExp"]= {
+    2250,
+    5000,
+    10400,
+    0
+  },
+  ["IntimacyLevel"]= 22
+},
+[23] = {
+  ["IntimacyExp"]= {
+    2500,
+    5500,
+    11400,
+    0
+  },
+  ["IntimacyLevel"]= 23
+},
+[24] = {
+  ["IntimacyExp"]= {
+    2750,
+    6000,
+    12400,
+    0
+  },
+  ["IntimacyLevel"]= 24
+},
+[25] = {
+  ["IntimacyExp"]= {
+    3000,
+    6500,
+    13400,
+    0
+  },
+  ["IntimacyLevel"]= 25
+},
+[26] = {
+  ["IntimacyExp"]= {
+    3250,
+    7000,
+    14400,
+    0
+  },
+  ["IntimacyLevel"]= 26
+},
+[27] = {
+  ["IntimacyExp"]= {
+    3500,
+    7500,
+    15400,
+    0
+  },
+  ["IntimacyLevel"]= 27
+},
+[28] = {
+  ["IntimacyExp"]= {
+    3750,
+    8000,
+    16400,
+    0
+  },
+  ["IntimacyLevel"]= 28
+},
+[29] = {
+  ["IntimacyExp"]= {
+    4000,
+    8500,
+    17400,
+    0
+  },
+  ["IntimacyLevel"]= 29
+},
+[30] = {
+  ["IntimacyExp"]= {
+    4500,
+    9500,
+    19900,
+    0
+  },
+  ["IntimacyLevel"]= 30
+},
+[31] = {
+  ["IntimacyExp"]= {
+    5000,
+    10500,
+    22400,
+    0
+  },
+  ["IntimacyLevel"]= 31
+},
+[32] = {
+  ["IntimacyExp"]= {
+    5500,
+    11500,
+    24900,
+    0
+  },
+  ["IntimacyLevel"]= 32
+},
+[33] = {
+  ["IntimacyExp"]= {
+    6000,
+    12500,
+    27400,
+    0
+  },
+  ["IntimacyLevel"]= 33
+},
+[34] = {
+  ["IntimacyExp"]= {
+    6500,
+    13500,
+    29900,
+    0
+  },
+  ["IntimacyLevel"]= 34
+},
+[35] = {
+  ["IntimacyExp"]= {
+    7000,
+    14500,
+    32400,
+    0
+  },
+  ["IntimacyLevel"]= 35
+},
+[36] = {
+  ["IntimacyExp"]= {
+    7500,
+    15500,
+    34900,
+    0
+  },
+  ["IntimacyLevel"]= 36
+},
+[37] = {
+  ["IntimacyExp"]= {
+    8000,
+    16500,
+    37400,
+    0
+  },
+  ["IntimacyLevel"]= 37
+},
+[38] = {
+  ["IntimacyExp"]= {
+    8500,
+    17500,
+    39900,
+    0
+  },
+  ["IntimacyLevel"]= 38
+},
+[39] = {
+  ["IntimacyExp"]= {
+    9000,
+    18500,
+    42400,
+    0
+  },
+  ["IntimacyLevel"]= 39
+},
+[40] = {
+  ["IntimacyExp"]= {
+    10000,
+    21000,
+    47400,
+    0
+  },
+  ["IntimacyLevel"]= 40
+},
+[41] = {
+  ["IntimacyExp"]= {
+    11000,
+    23500,
+    52400,
+    0
+  },
+  ["IntimacyLevel"]= 41
+},
+[42] = {
+  ["IntimacyExp"]= {
+    12000,
+    26000,
+    57400,
+    0
+  },
+  ["IntimacyLevel"]= 42
+},
+[43] = {
+  ["IntimacyExp"]= {
+    13000,
+    28500,
+    62400,
+    0
+  },
+  ["IntimacyLevel"]= 43
+},
+[44] = {
+  ["IntimacyExp"]= {
+    14000,
+    31000,
+    67400,
+    0
+  },
+  ["IntimacyLevel"]= 44
+},
+[45] = {
+  ["IntimacyExp"]= {
+    15000,
+    33500,
+    72400,
+    0
+  },
+  ["IntimacyLevel"]= 45
+},
+[46] = {
+  ["IntimacyExp"]= {
+    16000,
+    36000,
+    77400,
+    0
+  },
+  ["IntimacyLevel"]= 46
+},
+[47] = {
+  ["IntimacyExp"]= {
+    17000,
+    38500,
+    82400,
+    0
+  },
+  ["IntimacyLevel"]= 47
+},
+[48] = {
+  ["IntimacyExp"]= {
+    18000,
+    41000,
+    87400,
+    0
+  },
+  ["IntimacyLevel"]= 48
+},
+[49] = {
+  ["IntimacyExp"]= {
+    19000,
+    43500,
+    92400,
+    0
+  },
+  ["IntimacyLevel"]= 49
+},
+[50] = {
+  ["IntimacyExp"]= {
+    21500,
+    48500,
+    102400,
+    0
+  },
+  ["IntimacyLevel"]= 50
+},
+[51] = {
+  ["IntimacyExp"]= {
+    24000,
+    53500,
+    112400,
+    0
+  },
+  ["IntimacyLevel"]= 51
+},
+[52] = {
+  ["IntimacyExp"]= {
+    26500,
+    58500,
+    122400,
+    0
+  },
+  ["IntimacyLevel"]= 52
+},
+[53] = {
+  ["IntimacyExp"]= {
+    29000,
+    63500,
+    132400,
+    0
+  },
+  ["IntimacyLevel"]= 53
+},
+[54] = {
+  ["IntimacyExp"]= {
+    31500,
+    68500,
+    142400,
+    0
+  },
+  ["IntimacyLevel"]= 54
+},
+[55] = {
+  ["IntimacyExp"]= {
+    34000,
+    73500,
+    152400,
+    0
+  },
+  ["IntimacyLevel"]= 55
+},
+[56] = {
+  ["IntimacyExp"]= {
+    36500,
+    78500,
+    162400,
+    0
+  },
+  ["IntimacyLevel"]= 56
+},
+[57] = {
+  ["IntimacyExp"]= {
+    39000,
+    83500,
+    172400,
+    0
+  },
+  ["IntimacyLevel"]= 57
+},
+[58] = {
+  ["IntimacyExp"]= {
+    41500,
+    88500,
+    182400,
+    0
+  },
+  ["IntimacyLevel"]= 58
+},
+[59] = {
+  ["IntimacyExp"]= {
+    44000,
+    93500,
+    192400,
+    0
+  },
+  ["IntimacyLevel"]= 59
+},
+[60] = {
+  ["IntimacyExp"]= {
+    0,
+    0,
+    0,
+    0
+  },
+  ["IntimacyLevel"]= 60
+}
+}
+local baseTable={
+  ["IntimacyExp"]= {
+    100,
+    200,
+    400,
+    0
+  },
+  ["IntimacyLevel"]= 1,
+  ["Quality"]= {
+    1,
+    2,
+    3,
+    4
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

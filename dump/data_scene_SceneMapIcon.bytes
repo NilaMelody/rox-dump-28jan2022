@@ -1,0 +1,199 @@
+local table= {
+[1] = {
+  ["MapIcon"]= "Icons/MapIndication/PlayerSelf.prefab",
+  ["PriorityLevel"]= 1,
+  ["SiblingIndex"]= 3
+},
+[2] = {
+  ["MapIcon"]= "Icons/MapIndication/activeMonster.prefab",
+  ["RelationType"]= 2,
+  ["RelationTypeName"]= "普通怪物",
+  ["SiblingIndex"]= 1
+},
+[3] = {
+  ["MapIcon"]= "Icons/MapIndication/boss.prefab",
+  ["RelationType"]= 3,
+  ["RelationTypeName"]= "boss怪物",
+  ["SiblingIndex"]= 1
+},
+[4] = {
+  ["MapIcon"]= "Icons/MapIndication/mini.prefab",
+  ["RelationType"]= 4,
+  ["RelationTypeName"]= "mini怪物",
+  ["SiblingIndex"]= 1
+},
+[5] = {
+  ["MapIcon"]= "Icons/MapIndication/MVPBoss.prefab",
+  ["RelationType"]= 5,
+  ["RelationTypeName"]= "mvp怪物",
+  ["SiblingIndex"]= 1
+},
+[6] = {
+  ["MapIcon"]= "Icons/MapIndication/teamLeader.prefab",
+  ["PriorityLevel"]= 4,
+  ["RelationType"]= 6,
+  ["RelationTypeName"]= "队长/团长"
+},
+[7] = {
+  ["MapIcon"]= "Icons/MapIndication/teamMember.prefab",
+  ["PriorityLevel"]= 5,
+  ["RelationType"]= 7,
+  ["RelationTypeName"]= "第一队队员"
+},
+[8] = {
+  ["MapIcon"]= "Icons/MapIndication/teamMember2.prefab",
+  ["PriorityLevel"]= 5,
+  ["RelationType"]= 8,
+  ["RelationTypeName"]= "第二队队员"
+},
+[9] = {
+  ["MapIcon"]= "Icons/MapIndication/teamMember3.prefab",
+  ["PriorityLevel"]= 5,
+  ["RelationType"]= 9,
+  ["RelationTypeName"]= "第三队队员"
+},
+[10] = {
+  ["PriorityLevel"]= 6,
+  ["RelationType"]= 10,
+  ["RelationTypeName"]= "友方阵营"
+},
+[11] = {
+  ["MapIcon"]= "Icons/MapIndication/OtherGuilds.prefab",
+  ["PriorityLevel"]= 2,
+  ["RelationType"]= 11,
+  ["RelationTypeName"]= "敌方阵营"
+},
+[12] = {
+  ["MapIcon"]= "Icons/MapIndication/npc.prefab",
+  ["PriorityLevel"]= 9,
+  ["RelationType"]= 12,
+  ["RelationTypeName"]= "NPC",
+  ["SiblingIndex"]= 1
+},
+[13] = {
+  ["MapIcon"]= "Icons/MapIndication/teleporter.prefab",
+  ["PriorityLevel"]= 9,
+  ["RelationType"]= 13,
+  ["RelationTypeName"]= "大传送门",
+  ["SiblingIndex"]= 1
+},
+[14] = {
+  ["MapIcon"]= "Icons/MapIndication/teleporter2.prefab",
+  ["PriorityLevel"]= 9,
+  ["RelationType"]= 14,
+  ["RelationTypeName"]= "小传送门",
+  ["SiblingIndex"]= 1
+},
+[15] = {
+  ["MapIcon"]= "Icons/MapIndication/AreaPoint.prefab",
+  ["PriorityLevel"]= 10,
+  ["RelationType"]= 15,
+  ["RelationTypeName"]= "区域名称",
+  ["SiblingIndex"]= 1
+},
+[16] = {
+  ["MapIcon"]= "Icons/MapIndication/lifeIcon_%s.prefab",
+  ["PriorityLevel"]= 10,
+  ["RelationType"]= 16,
+  ["RelationTypeName"]= "生活区域图标",
+  ["SiblingIndex"]= 1
+},
+[17] = {
+  ["MapIcon"]= "Icons/MapIndication/%sTaskInProgress.prefab",
+  ["PriorityLevel"]= 10,
+  ["RelationType"]= 17,
+  ["RelationTypeName"]= "任务进行中",
+  ["SiblingIndex"]= 1
+},
+[18] = {
+  ["MapIcon"]= "Icons/MapIndication/%sTaskCanAccept.prefab",
+  ["PriorityLevel"]= 10,
+  ["RelationType"]= 18,
+  ["RelationTypeName"]= "可接任务 ",
+  ["SiblingIndex"]= 1
+},
+[19] = {
+  ["MapIcon"]= "Icons/MapIndication/%sTaskDone.prefab",
+  ["PriorityLevel"]= 10,
+  ["RelationType"]= 19,
+  ["RelationTypeName"]= "已完成任务",
+  ["SiblingIndex"]= 1
+},
+[20] = {
+  ["MapIcon"]= "Icons/MapIndication/roadLinePoint.prefab",
+  ["PriorityLevel"]= 1,
+  ["RelationType"]= 20,
+  ["RelationTypeName"]= "寻路导航路线点",
+  ["SiblingIndex"]= 3
+},
+[21] = {
+  ["MapIcon"]= "UI/Effects/SmallMapTarget.prefab",
+  ["PriorityLevel"]= 1,
+  ["RelationType"]= 21,
+  ["RelationTypeName"]= "寻路目标点",
+  ["SiblingIndex"]= 3
+},
+[22] = {
+  ["MapIcon"]= "Icons/MapIndication/GvgMark_%s.prefab",
+  ["RelationType"]= 22,
+  ["RelationTypeName"]= "GVG策略",
+  ["SiblingIndex"]= 3
+},
+[23] = {
+  ["RelationType"]= 23,
+  ["RelationTypeName"]= "相同工会"
+},
+[24] = {
+  ["MapIcon"]= "Icons/MapIndication/OtherGuilds.prefab",
+  ["PriorityLevel"]= 2,
+  ["RelationType"]= 24,
+  ["RelationTypeName"]= "不同工会"
+},
+[25] = {
+  ["MapIcon"]= "Icons/MapIndication/GvgBoss.prefab",
+  ["RelationType"]= 25,
+  ["RelationTypeName"]= "华丽水晶"
+},
+[26] = {
+  ["MapIcon"]= "Icons/MapIndication/UI_loversTarget.prefab",
+  ["PriorityLevel"]= 1,
+  ["RelationType"]= 26,
+  ["RelationTypeName"]= "我的情侣",
+  ["SiblingIndex"]= 3
+},
+[27] = {
+  ["MapIcon"]= "Icons/MapIndication/Img_RaidMapSign_%s.prefab",
+  ["PriorityLevel"]= 3,
+  ["RelationType"]= 27,
+  ["RelationTypeName"]= "队伍标记点"
+},
+[28] = {
+  ["MapIcon"]= "Icons/MapIndication/Img_RaidMapIcon_1.prefab",
+  ["PriorityLevel"]= 3,
+  ["RelationType"]= 28,
+  ["RelationTypeName"]= "小队队长1"
+},
+[29] = {
+  ["MapIcon"]= "Icons/MapIndication/Img_RaidMapIcon_2.prefab",
+  ["PriorityLevel"]= 3,
+  ["RelationType"]= 29,
+  ["RelationTypeName"]= "小队队长2"
+},
+[30] = {
+  ["MapIcon"]= "Icons/MapIndication/Img_RaidMapIcon_3.prefab",
+  ["PriorityLevel"]= 3,
+  ["RelationType"]= 30,
+  ["RelationTypeName"]= "队伍标记3"
+}
+}
+local baseTable={
+  ["MapIcon"]= "Icons/MapIndication/MyGuilds.prefab",
+  ["PriorityLevel"]= 7,
+  ["RelationType"]= 1,
+  ["RelationTypeName"]= "自己",
+  ["SiblingIndex"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,72 @@
+local table= {
+[1] = {},
+[2] = {
+  ["ChallengeName"]= "MusicGameName_4",
+  ["GameplayId"]= "Mscg_Izlude_0",
+  ["id"]= 2,
+  ["MusicId"]= "Mscg_Izlude",
+  ["TaskId"]= 50053107
+},
+[3] = {
+  ["ChallengeName"]= "MusicGameName_1",
+  ["GameplayId"]= "Mscg_Alberta_0",
+  ["id"]= 3,
+  ["MusicId"]= "Mscg_Alberta",
+  ["Scores"]= 30000,
+  ["TaskId"]= 50053110
+},
+[4] = {
+  ["ChallengeName"]= "MusicGameName_5",
+  ["GameplayId"]= "Mscg_Morroc_0",
+  ["id"]= 4,
+  ["MusicId"]= "Mscg_Morroc",
+  ["Scores"]= 28000,
+  ["TaskId"]= 50053113
+},
+[5] = {
+  ["ChallengeName"]= "MusicGameName_2",
+  ["GameplayId"]= "Mscg_Geffen_0",
+  ["id"]= 5,
+  ["MusicId"]= "Mscg_Geffen",
+  ["Scores"]= 30000,
+  ["TaskId"]= 50053116
+},
+[6] = {
+  ["ChallengeName"]= "MusicGameName_3",
+  ["GameplayId"]= "Mscg_Glast Heim_0",
+  ["id"]= 6,
+  ["MusicId"]= "Mscg_Glast Heim",
+  ["Scores"]= 26000,
+  ["TaskId"]= 50053119
+},
+[7] = {
+  ["ChallengeName"]= "MusicGameName_6",
+  ["GameplayId"]= "Mscg_Payon_0",
+  ["id"]= 7,
+  ["MusicId"]= "Mscg_Payon",
+  ["Scores"]= 22000,
+  ["TaskId"]= 50053122
+}
+}
+local baseTable={
+  ["ChallengeName"]= "MusicGameName_7",
+  ["ComboMagnification"]= {
+    1.2,
+    1.5,
+    2
+  },
+  ["ComboScores"]= {
+    20,
+    50,
+    80
+  },
+  ["GameplayId"]= "Mscg_Prontera_0",
+  ["id"]= 1,
+  ["MusicId"]= "Mscg_Prontera",
+  ["Scores"]= 25000,
+  ["TaskId"]= 50053104
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

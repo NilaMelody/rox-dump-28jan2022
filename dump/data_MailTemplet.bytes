@@ -1,0 +1,1534 @@
+local table= {
+[1] = {
+  ["content"]= "MailContent_1",
+  ["contentLocalized"]= "%s",
+  ["title"]= "MailTitle_1",
+  ["titleLocalized"]= "%s"
+},
+[1001] = {
+  ["content"]= "MailContent_1001",
+  ["contentLocalized"]= "您已被移除出%s公会",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 1001,
+  ["title"]= "MailTitle_1001",
+  ["titleLocalized"]= "踢出公会"
+},
+[1002] = {
+  ["content"]= "MailContent_1002",
+  ["contentLocalized"]= "您的公会职位调整为%s",
+  ["ContentParamType"]= {
+    6
+  },
+  ["id"]= 1002,
+  ["title"]= "MailTitle_1002",
+  ["titleLocalized"]= "职位调整"
+},
+[1003] = {
+  ["content"]= "MailContent_1003",
+  ["contentLocalized"]= "亲爱的冒险者，您已加入%s公会",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 1003,
+  ["title"]= "MailTitle_1003",
+  ["titleLocalized"]= "加入公会"
+},
+[1004] = {
+  ["content"]= "MailContent_1004",
+  ["contentLocalized"]= "亲爱的冒险者，%s帮助您完成了本次公会订单，奖励如下：",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 1004,
+  ["title"]= "MailTitle_1004",
+  ["titleLocalized"]= "公会订单奖励"
+},
+[1005] = {
+  ["content"]= "MailContent_1005",
+  ["contentLocalized"]= "亲爱的冒险者，本周公会进度奖励如下：",
+  ["id"]= 1005,
+  ["title"]= "MailTitle_1005",
+  ["titleLocalized"]= "公会订单周奖励"
+},
+[1006] = {
+  ["content"]= "MailContent_1006",
+  ["contentLocalized"]= "您的公会职位调整为%s",
+  ["ContentParamType"]= {
+    6
+  },
+  ["id"]= 1006,
+  ["title"]= "MailTitle_1006",
+  ["titleLocalized"]= "职位调整"
+},
+[1007] = {
+  ["content"]= "MailContent_1007",
+  ["contentLocalized"]= "亲爱的冒险者，恭喜你发现%s，奖励如下：",
+  ["ContentParamType"]= {
+    4
+  },
+  ["id"]= 1007,
+  ["title"]= "MailTitle_1007",
+  ["titleLocalized"]= "MVP发现奖"
+},
+[1008] = {
+  ["content"]= "MailContent_1008",
+  ["contentLocalized"]= "亲爱的冒险者，很遗憾，%s公会已解散，快去寻找其他公会加入吧~",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 1008,
+  ["title"]= "MailTitle_1008",
+  ["titleLocalized"]= "公会已解散"
+},
+[1009] = {
+  ["content"]= "MailContent_1009",
+  ["contentLocalized"]= "亲爱的冒险者，当前异界之门的捐献进度已超过130000，达到150000后公会成员提交公会订单将无法获得进度值，请尽快开启战斗阶段",
+  ["id"]= 1009,
+  ["title"]= "MailTitle_1009",
+  ["titleLocalized"]= "异界之门进度警告"
+},
+[1010] = {
+  ["content"]= "MailContent_1010",
+  ["contentLocalized"]= "亲爱的冒险者，本轮BOSS击杀的个人奖励如下，请查收",
+  ["id"]= 1010,
+  ["title"]= "MailTitle_1010",
+  ["titleLocalized"]= "异界之门个人奖励"
+},
+[1011] = {
+  ["content"]= "MailContent_1011",
+  ["contentLocalized"]= "亲爱的冒险者，您获得的奖励如下所示",
+  ["id"]= 1011,
+  ["title"]= "MailTitle_1011",
+  ["titleLocalized"]= "公会仓库分配邮件"
+},
+[1012] = {
+  ["content"]= "MailContent_1012",
+  ["contentLocalized"]= "亲爱的冒险者，您在本次异界之门中获得的个人奖励如下",
+  ["id"]= 1012,
+  ["title"]= "MailTitle_1012",
+  ["titleLocalized"]= "异界之门个人奖励"
+},
+[1013] = {
+  ["content"]= "MailContent_1013",
+  ["contentLocalized"]= "尊敬的公会会长，你的公会%s已经可以升级到<color=#FF1E10>%s</color>级了，\n请在<color=#FF1E10>确保维护资金足够</color>的情况下，尽快前往公会管家处升级公会",
+  ["ContentParamType"]= {
+    5,
+    5
+  },
+  ["id"]= 1013,
+  ["title"]= "MailTitle_1013",
+  ["titleLocalized"]= "公会升级提醒"
+},
+[1014] = {
+  ["content"]= "MailContent_1014",
+  ["contentLocalized"]= "由于你连续七天未上线，%s的会长职位已经转交给%s",
+  ["id"]= 1014,
+  ["lifetime"]= 365,
+  ["title"]= "MailTitle_1014",
+  ["titleLocalized"]= "会长职位转让"
+},
+[1015] = {
+  ["content"]= "MailContent_1015",
+  ["contentLocalized"]= "前任会长%s由于连续七天未上线，其会长职位已移交给%s",
+  ["id"]= 1015,
+  ["title"]= "MailTitle_1015",
+  ["titleLocalized"]= "会长职位转让"
+},
+[1016] = {
+  ["content"]= "MailContent_1016",
+  ["contentLocalized"]= "亲爱的冒险者，本次异界之门将于明日%s开启，请做好准备，届时准时参与。",
+  ["ContentParamType"]= {
+    8
+  },
+  ["id"]= 1016,
+  ["title"]= "MailTitle_1016",
+  ["titleLocalized"]= "异界之门开启提示"
+},
+[1017] = {
+  ["content"]= "MailContent_1017",
+  ["contentLocalized"]= "亲爱的冒险者，公会通行证解锁条件已达成！快去完成公会任务赢取丰厚奖励吧~",
+  ["id"]= 1017,
+  ["title"]= "MailTitle_1017",
+  ["titleLocalized"]= "公会通行证开启通知"
+},
+[1018] = {
+  ["content"]= "MailContent_1018",
+  ["contentLocalized"]= "亲爱的冒险者，您召唤的归属怪物在您脱离战斗后被击杀，您的归属掉落奖励如下所示",
+  ["id"]= 1018,
+  ["title"]= "MailTitle_1018",
+  ["titleLocalized"]= "枯树枝怪物掉落奖励"
+},
+[1019] = {
+  ["content"]= "MailContent_1019",
+  ["contentLocalized"]= "尊敬的冒险者：\n      恭喜您在MVP挑战之王活动中获得第%s名的好成绩，您获得的奖励如下所示：",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 1019,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_1019",
+  ["titleLocalized"]= "MVP挑战之王嘉奖"
+},
+[1101] = {
+  ["content"]= "MailContent_1101",
+  ["contentLocalized"]= "亲爱的冒险者，您有未领取的副本奖励如下：",
+  ["id"]= 1101,
+  ["title"]= "MailTitle_1101",
+  ["titleLocalized"]= "副本奖励"
+},
+[1102] = {
+  ["contentLocalized"]= "亲爱的冒险者，您在万圣狂欢派对中的奖励如下：",
+  ["id"]= 1102,
+  ["titleLocalized"]= "万圣狂欢派对奖励"
+},
+[1103] = {
+  ["contentLocalized"]= "亲爱的冒险者，您在万圣狂欢派对中的奖励如下：",
+  ["id"]= 1103,
+  ["titleLocalized"]= "万圣狂欢派对奖励"
+},
+[1201] = {
+  ["content"]= "MailContent_1201",
+  ["contentLocalized"]= "亲爱的冒险者，在您参与的%s竞拍中，您给出的竞价被其他买家超过，现将您参与竞价的%s钻石退回！",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 1201,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_1201",
+  ["titleLocalized"]= "竞价失败"
+},
+[1202] = {
+  ["content"]= "MailContent_1202",
+  ["contentLocalized"]= "亲爱的冒险者，您已成功拍中%s，请前往【交易行】-【交易记录】中领取您的商品",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 1202,
+  ["title"]= "MailTitle_1202",
+  ["titleLocalized"]= "竞价成功"
+},
+[1301] = {
+  ["content"]= "MailContent_1301",
+  ["contentLocalized"]= "尊敬的冒险者，您在本次活动中未获得足够的功勋数量，我们无法给您发放奖励，希望你在后续的活动中再接再厉！",
+  ["id"]= 1301,
+  ["title"]= "MailTitle_1301",
+  ["titleLocalized"]= "GVG功勋奖励"
+},
+[1302] = {
+  ["content"]= "MailContent_1302",
+  ["contentLocalized"]= "尊敬的冒险者，鉴于您在本轮公会战优异的表现，公会战委员会决定授予你铜牌勋章，感谢您对公会的贡献，以下是您的奖励，请查收~",
+  ["id"]= 1302,
+  ["title"]= "MailTitle_1302",
+  ["titleLocalized"]= "GVG功勋奖励"
+},
+[1303] = {
+  ["content"]= "MailContent_1303",
+  ["contentLocalized"]= "尊敬的冒险者，鉴于您在本轮公会战优异的表现，公会战委员会决定授予你银牌勋章，感谢您对公会的贡献，以下是您的奖励，请查收~",
+  ["id"]= 1303,
+  ["title"]= "MailTitle_1303",
+  ["titleLocalized"]= "GVG功勋奖励"
+},
+[1304] = {
+  ["content"]= "MailContent_1304",
+  ["contentLocalized"]= "尊敬的冒险者，鉴于您在本轮公会战优异的表现，公会战委员会决定授予你金牌勋章，感谢您对公会的贡献，以下是您的奖励，请查收~",
+  ["id"]= 1304,
+  ["title"]= "MailTitle_1304",
+  ["titleLocalized"]= "GVG功勋奖励"
+},
+[1305] = {
+  ["content"]= "MailContent_1305",
+  ["contentLocalized"]= "尊敬的%s全体成员：\n您所属的公会在本次公会中活动中获得%s地区的归属权，公会战委员会将对功勋≥200的冒险者发放占领奖励\n希望您和您所属公会再接再厉，制霸整个大陆",
+  ["ContentParamType"]= {
+    5,
+    11
+  },
+  ["id"]= 1305,
+  ["title"]= "MailTitle_1305",
+  ["titleLocalized"]= "GVG据点占领奖励"
+},
+[1311] = {
+  ["content"]= "MailContent_1311",
+  ["contentLocalized"]= "尊敬的冒险者，您在本周王牌猎人争霸赛活动中处于见习猎人段位，以下是您的奖励，请查收~",
+  ["id"]= 1311,
+  ["title"]= "MailTitle_1311",
+  ["titleLocalized"]= "王牌猎人争霸赛奖励"
+},
+[1312] = {
+  ["content"]= "MailContent_1312",
+  ["contentLocalized"]= "尊敬的冒险者，您在本周王牌猎人争霸赛活动中处于白银猎人段位，以下是您的奖励，请查收~",
+  ["id"]= 1312,
+  ["title"]= "MailTitle_1312",
+  ["titleLocalized"]= "王牌猎人争霸赛奖励"
+},
+[1313] = {
+  ["content"]= "MailContent_1313",
+  ["contentLocalized"]= "尊敬的冒险者，您在本周王牌猎人争霸赛活动中处于黄金猎人段位，以下是您的奖励，请查收~",
+  ["id"]= 1313,
+  ["title"]= "MailTitle_1313",
+  ["titleLocalized"]= "王牌猎人争霸赛奖励"
+},
+[1314] = {
+  ["content"]= "MailContent_1314",
+  ["contentLocalized"]= "尊敬的冒险者，您在本周王牌猎人争霸赛活动中处于钻石猎人段位，以下是您的奖励，请查收~",
+  ["id"]= 1314,
+  ["title"]= "MailTitle_1314",
+  ["titleLocalized"]= "王牌猎人争霸赛奖励"
+},
+[1315] = {
+  ["content"]= "MailContent_1315",
+  ["contentLocalized"]= "尊敬的冒险者，您在本周王牌猎人争霸赛活动中处于王牌猎人段位，以下是您的奖励，请查收~",
+  ["id"]= 1315,
+  ["title"]= "MailTitle_1315",
+  ["titleLocalized"]= "王牌猎人争霸赛奖励"
+},
+[1316] = {
+  ["content"]= "MailContent_1316",
+  ["contentLocalized"]= "尊敬的冒险者，由于您在公会图标中上传了违规图片，现已将违规公会图标重置。\n同时在<color=#CA2E0AFF>%s</color>前无法再次上传新图标。\n请注意不要上传违规图片哦~",
+  ["ContentParamType"]= {
+    8
+  },
+  ["id"]= 1316,
+  ["title"]= "MailTitle_1316",
+  ["titleLocalized"]= "公会违规图标重置通知"
+},
+[1401] = {
+  ["content"]= "MailContent_1401",
+  ["id"]= 1401,
+  ["title"]= "MailTitle_1401"
+},
+[1402] = {
+  ["content"]= "MailContent_1402",
+  ["contentLocalized"]= "亲爱的冒险者：\n      \n      您的对象在《七夕献礼》活动中送给您一份饱含爱意的小礼物，请注意查收哦~\n                                                                                                                                                                \n                                                                                                                   祝您生活愉快，冒险顺利~\n                                                                                                                                卡普拉七夕办事处",
+  ["id"]= 1402,
+  ["lifetime"]= 8,
+  ["title"]= "MailTitle_1402",
+  ["titleLocalized"]= "七夕活动爱的赠礼"
+},
+[1403] = {
+  ["content"]= "MailContent_1403",
+  ["contentLocalized"]= "亲爱的冒险者：\n      \n      恭喜您在《七夕献礼》活动中牵手成功，预祝你们在活动中浓情惬意，应对挑战任务披荆斩棘，携手创造更多辉煌战绩&收获满满！\n                                                                                                                                                                \n                                                                                                                   祝您生活愉快，冒险顺利~\n                                                                                                                                卡普拉七夕办事处",
+  ["id"]= 1403,
+  ["lifetime"]= 8,
+  ["title"]= "MailTitle_1403",
+  ["titleLocalized"]= "七夕活动牵手成功"
+},
+[1404] = {
+  ["content"]= "MailContent_1404",
+  ["contentLocalized"]= "亲爱的冒险者：\n      \n       您在《七夕献礼》活动中有大量奖励没有领取，七夕办事处秉承顾客利益至上的原则，第一时间把奖励补发到了您这里，请注意查收哦~\n                                                                                                                                                                \n                                                                                                                   祝您生活愉快，冒险顺利~\n                                                                                                                                卡普拉七夕办事处",
+  ["id"]= 1404,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_1404",
+  ["titleLocalized"]= "七夕活动奖励补发"
+},
+[1405] = {
+  ["content"]= "MailContent_1405",
+  ["id"]= 1405,
+  ["lifetime"]= 8,
+  ["title"]= "MailTitle_1405"
+},
+[1406] = {
+  ["content"]= "MailContent_1406",
+  ["id"]= 1406,
+  ["lifetime"]= 8,
+  ["title"]= "MailTitle_1406"
+},
+[1407] = {
+  ["content"]= "MailContent_1407",
+  ["id"]= 1407,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_1407"
+},
+[2001] = {
+  ["content"]= "MailContent_2001",
+  ["contentLocalized"]= "尊敬的冒险家，因为某些未知的原因，您上次充值的奖励未及时到账，现补发如下：",
+  ["id"]= 2001,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2001",
+  ["titleLocalized"]= "充值奖励补发"
+},
+[2002] = {
+  ["content"]= "MailContent_2002",
+  ["contentLocalized"]= "尊敬的冒险家，因为某些未知的原因，您上次充值的贵宾卡未及时到账，现补发如下：",
+  ["id"]= 2002,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2002",
+  ["titleLocalized"]= "贵宾卡补发"
+},
+[2003] = {
+  ["content"]= "MailContent_2003",
+  ["contentLocalized"]= "亲爱的冒险者，恭喜您在本赛季<color=#ff6f76>{公会KVM}</color>个人贡献排行中获得第%s名，感谢您对公会的贡献，以下是您的奖励，请查收~",
+  ["id"]= 2003,
+  ["title"]= "MailTitle_2003",
+  ["titleLocalized"]= "公会KVM个人排名奖励"
+},
+[2004] = {
+  ["content"]= "MailContent_2004",
+  ["contentLocalized"]= "尊敬的冒险家，因未知原因您的贵宾卡储值馈赠未生效，现通过邮件进行补偿，请你及时领取",
+  ["id"]= 2004,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2004",
+  ["titleLocalized"]= "贵宾卡充值奖励"
+},
+[2005] = {
+  ["content"]= "MailContent_2005",
+  ["contentLocalized"]= "尊敬的冒险家，这是来自卡普拉公司的馈赠，让你的生活充满活力，元气满满",
+  ["id"]= 2005,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2005",
+  ["titleLocalized"]= "卡普拉贵宾馈赠"
+},
+[2006] = {
+  ["content"]= "MailContent_2006",
+  ["contentLocalized"]= "亲爱的%s，您对于%s的举报现已受理，我们将尽快处理相关举报，请您耐心等待。",
+  ["ContentParamType"]= {
+    5,
+    5
+  },
+  ["id"]= 2006,
+  ["title"]= "MailTitle_2006",
+  ["titleLocalized"]= "举报成功反馈"
+},
+[2007] = {
+  ["content"]= "MailContent_2007",
+  ["contentLocalized"]= "尊敬的冒险家，感谢使用我们的官网充值，对应钻石已自动添加到货币栏，请查收！",
+  ["id"]= 2007,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2007",
+  ["titleLocalized"]= "官网充值成功通知"
+},
+[2008] = {
+  ["content"]= "MailContent_2008",
+  ["contentLocalized"]= "尊敬的冒险家，感谢参与我们的MyCard储值活动，请收下活动奖励",
+  ["id"]= 2008,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2008",
+  ["titleLocalized"]= "MyCard全通路储值返利"
+},
+[2009] = {
+  ["content"]= "MailContent_2009",
+  ["contentLocalized"]= "尊敬的冒險者，感謝參與Apple禮品卡活動，請收下以下兌換獎勵：",
+  ["id"]= 2009,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2009",
+  ["titleLocalized"]= "Apple禮品卡活動福利"
+},
+[2010] = {
+  ["content"]= "MailContent_2010",
+  ["contentLocalized"]= "尊敬的冒險者，感謝參與Apple禮品卡活動，請收下以下兌換獎勵：",
+  ["id"]= 2010,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2010",
+  ["titleLocalized"]= "Apple禮品卡活動福利"
+},
+[2011] = {
+  ["content"]= "MailContent_2011",
+  ["contentLocalized"]= "尊敬的冒險者，感謝參與Apple禮品卡活動，請收下以下兌換獎勵：",
+  ["id"]= 2011,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2011",
+  ["titleLocalized"]= "Apple禮品卡活動福利"
+},
+[2012] = {
+  ["content"]= "MailContent_2012",
+  ["contentLocalized"]= "尊敬的冒险者，恭喜购买喵手团新年特惠礼包成功，请收下以下奖励：",
+  ["id"]= 2012,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2012",
+  ["titleLocalized"]= "喵手团新年特惠礼包"
+},
+[2013] = {
+  ["content"]= "MailContent_2013",
+  ["contentLocalized"]= "尊敬的冒险者，你在购买喵手商团玩心礼包的过程中发生了重复购买，具体退款或补偿事项，请联系人工客服。",
+  ["id"]= 2013,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2013",
+  ["titleLocalized"]= "重复购买通知"
+},
+[2014] = {
+  ["content"]= "MailContent_2014",
+  ["contentLocalized"]= "尊敬的冒险家，感谢使用我们的官网充值，对应钻石已自动添加到货币栏，请查收！",
+  ["id"]= 2014,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2014",
+  ["titleLocalized"]= "官网充值成功通知"
+},
+[2015] = {
+  ["content"]= "MailContent_2015",
+  ["contentLocalized"]= "尊敬的冒险者：\n      由于检测到您近期存在退款行为，系统已扣除等值于您退款商品价值的钻石作为惩罚，本次钻石扣除数额为%s。退款情节严重者可能还会同时受到其他游戏内处罚。如有更多疑问，请通过【客服中心】与我们联系并进行补款和解除处罚事宜。",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 2015,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2015",
+  ["titleLocalized"]= "恶意退款惩罚"
+},
+[2016] = {
+  ["content"]= "MailContent_2016",
+  ["contentLocalized"]= "尊敬的冒险家，感谢使用我们的官网充值，对应道具已随邮件发放，请查收！",
+  ["id"]= 2016,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2016",
+  ["titleLocalized"]= "官网充值成功通知"
+},
+[2017] = {
+  ["content"]= "MailContent_2017",
+  ["contentLocalized"]= "亲爱的冒险者：\n您已成功兑换Google Play礼品卡礼包奖励：\n<color=#CA2E0AFF>卡普拉商团纪念币*3</color>，请您查收。",
+  ["id"]= 2017,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2017",
+  ["titleLocalized"]= "Google Play礼品卡兑换奖励Ⅰ"
+},
+[2018] = {
+  ["content"]= "MailContent_2018",
+  ["contentLocalized"]= "亲爱的冒险者：\n您已成功兑换Google Play礼品卡礼包奖励：\n<color=#CA2E0AFF>卡普拉商团纪念币*3</color>，<color=#CA2E0AFF>准它社纪念币*3</color>，<color=#CA2E0AFF>喵手商团纪念币*3</color>，请您查收。",
+  ["id"]= 2018,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2018",
+  ["titleLocalized"]= "Google Play礼品卡兑换奖励Ⅱ"
+},
+[2019] = {
+  ["content"]= "MailContent_2019",
+  ["contentLocalized"]= "亲爱的冒险者：\n您已成功兑换Google Play礼品卡礼包奖励：\n<color=#CA2E0AFF>自动钓竿*1</color>，<color=#CA2E0AFF>合金矿镐*1</color>，请您查收。",
+  ["id"]= 2019,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2019",
+  ["titleLocalized"]= "Google Play礼品卡兑换奖励Ⅲ"
+},
+[2020] = {
+  ["content"]= "MailContent_2020",
+  ["contentLocalized"]= "亲爱的冒险者：\n您已成功兑换Google Play礼品卡礼包奖励：\n<color=#CA2E0AFF>基础头饰图纸礼盒*1</color>，<color=#CA2E0AFF>自动钓竿*1</color>，请您查收。",
+  ["id"]= 2020,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2020",
+  ["titleLocalized"]= "Google Play礼品卡兑换奖励Ⅳ"
+},
+[2101] = {
+  ["content"]= "MailContent_2101",
+  ["contentLocalized"]= "尊敬的冒险家，恭喜您最终竞拍成功，获得心仪的<color=#ec8a5a>%s</color>，请在领取界面领取您的商品！",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2101,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2101",
+  ["titleLocalized"]= "竞拍成功"
+},
+[2102] = {
+  ["content"]= "MailContent_2102",
+  ["contentLocalized"]= "尊敬的冒险家，很遗憾，您未成功拍得心爱的商品，感谢您的参与！",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2102,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2102",
+  ["titleLocalized"]= "竞拍失败"
+},
+[2103] = {
+  ["content"]= "MailContent_2103",
+  ["contentLocalized"]= "尊敬的冒险家，您参与的<color=#ec8a5a>%s</color>竞拍已经结束，现将您出价的钻石退回",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2103,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2103",
+  ["titleLocalized"]= "钻石退回"
+},
+[2104] = {
+  ["content"]= "MailContent_2104",
+  ["contentLocalized"]= "尊敬的冒险家，您在<color=#ec8a5a>%s</color>竞拍中支持的竞拍者最终获得了胜利，请收下您的礼物收益！",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2104,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2104",
+  ["titleLocalized"]= "PK竞拍礼物收益"
+},
+[2105] = {
+  ["content"]= "MailContent_2105",
+  ["contentLocalized"]= "尊敬的冒险家，<color=#ec8a5a>%s</color>的预购订单已经结束，请领取您预购的余款",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2105,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2105",
+  ["titleLocalized"]= "预购通知"
+},
+[2106] = {
+  ["content"]= "MailContent_2106",
+  ["contentLocalized"]= "尊敬的冒险家，您发布<color=#ec8a5a>%s</color>的预购订单已被中止，请领取您的退款并重新发布预购订单\n（若无法看到预购选项，则表示该商品的预购功能已经关闭）",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2106,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2106",
+  ["titleLocalized"]= "预购通知"
+},
+[2107] = {
+  ["content"]= "MailContent_2107",
+  ["contentLocalized"]= "亲爱的冒险者，由于您的勤劳贡献，交易行的库存商品得到了增加。\n交易行委员会根据您对交易行做出的贡献，将上周交易行库存的出售所得给予您一定的分红。\n您的贡献所得为：<color=#ec8a5a>%s</color> 水晶\n请查收~",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 2107,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2107",
+  ["titleLocalized"]= "合约分红"
+},
+[2108] = {
+  ["content"]= "MailContent_2108",
+  ["contentLocalized"]= "尊敬的冒险家，您关注的<color=#ec8a5a>%s</color>有新品上架，快去交易行查看吧~\n           \n                                                ------------------交易行服务台",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2108,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2108",
+  ["titleLocalized"]= "关注商品上架"
+},
+[2109] = {
+  ["content"]= "MailContent_2109",
+  ["contentLocalized"]= "尊敬的冒险家，您的【交易记录】中含有<color=#ec8a5a>7天</color> 内即将过期的交易订单，快去【交易行】-【交易记录】中查看吧",
+  ["id"]= 2109,
+  ["title"]= "MailTitle_2109",
+  ["titleLocalized"]= "交易记录领取提醒"
+},
+[2201] = {
+  ["content"]= "MailContent_2201",
+  ["id"]= 2201,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2201"
+},
+[2202] = {
+  ["content"]= "MailContent_2202",
+  ["id"]= 2202,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2202"
+},
+[2301] = {
+  ["content"]= "MailContent_2301",
+  ["contentLocalized"]= "嘿！冒险者\n\n      当你收到这封信，也就意味着我们--自由竞技场认可了你在对阵野外精英魔物时所展现出来的强大实力。\n      但你不要高兴的太早，自由竞技场从来不缺优秀的斗士。有资格加入我们，成为竞技场斗士，不仅需要展示你强大的实力，还需要得到幸运女神的眷顾。所以，我们邀请你参加一场有意思的较量，来证明你是不是最强的王牌斗士。\n      哈哈，害怕了么~？小朋友，我很期待看到你被打哭的样子~\n\n      接下来就让我介绍一下争霸赛的赛事流程\n      初赛报名时间：21:00~21:03\n      初赛进场时间：21:03~21:05\n\n      我们将会开设30个场次的初赛同时进行，决赛将会在所有赛场完成初赛的2分钟后正式开始。届时，我们会用公告的方式提醒所有人，如果你有幸晋级了决赛，别忘记关注决赛公告！\n      好了，邀请函我已经附在信中，我会在红玫瑰酒馆的门口等你，有没有种来参加，看你自己了~！\n\n                                                         -托尼·崔",
+  ["id"]= 2301,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2301",
+  ["titleLocalized"]= "争霸赛邀请函"
+},
+[2302] = {
+  ["content"]= "MailContent_2302",
+  ["contentLocalized"]= "嘿！冒险者\n\n     我听说最近你依然表现的很活跃啊。那么我要恭喜你了，你有获得了'王牌争霸赛'的入选资格了。不管上次结果如何，现在你又有一次证明自己的机会了，是不是很兴奋？哈哈，我会期待你的到来的~\n\n     赛程还是老规矩：\n     初赛报名时间：21:00~21:03\n     初赛入场时间：21:03~21:05\n\n     我们将会开设30个场次的初赛同时进行，决赛将会在初赛全部完成的2分钟后正式开始。届时，我们会用公告的方式提醒所有人，如果你有幸晋级了决赛，别忘记关注决赛公告！\n     好了，该传达的内容我已经说完，我会等你来找我的，哈哈哈！\n\n                                                          -托尼·崔 ",
+  ["id"]= 2302,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2302",
+  ["titleLocalized"]= "争霸赛邀请函"
+},
+[2401] = {
+  ["content"]= "MailContent_2401",
+  ["contentLocalized"]= "亲爱的冒险者，\n您在米德加尔特大陆的冒险旅程中结交到了不少知心好友。\n\n您的好友<color=#ec8a5a>%s</color>为您送上了一份<color=#ec8a5a>情人节礼包</color>，聊表心意！愿你们的友谊天长地久，冒险之旅精彩无限！",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 2401,
+  ["title"]= "MailTitle_2401",
+  ["titleLocalized"]= "情人节赠礼"
+},
+[2501] = {
+  ["content"]= "MailContent_2501",
+  ["contentLocalized"]= "亲爱的冒险者，\n本期活动已经结束，您未使用的<color=#ffe788>%s</color>已经转化为以下奖励，请您查收。",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 2501,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2501",
+  ["titleLocalized"]= "活动道具回收通知"
+},
+[2503] = {
+  ["content"]= "MailContent_2503",
+  ["contentLocalized"]= "亲爱的冒险者，\n本期活动已经结束，您未使用的<color=#ffe788>端午抽奖券 ,礼粽，香袋，葫芦，五彩绳，端午材料礼包</color>已经转化为以下奖励，请您查收。",
+  ["id"]= 2503,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2503",
+  ["titleLocalized"]= "活动道具回收通知"
+},
+[2504] = {
+  ["content"]= "MailContent_2504",
+  ["contentLocalized"]= "亲爱的冒险者，\n本期活动已经结束，您未使用的<color=#ffe788>%s</color>已经转化为以下奖励，请您查收。",
+  ["ContentParamType"]= {
+    13
+  },
+  ["id"]= 2504,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2504",
+  ["titleLocalized"]= "活动道具回收通知"
+},
+[2601] = {
+  ["content"]= "MailContent_2601",
+  ["contentLocalized"]= "亲爱的冒险者，\n新一期的通行证已更新，以下是您上月通行证中已达成但未领取的等级奖励。\n现为您进行补发，请您查收。",
+  ["id"]= 2601,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2601",
+  ["titleLocalized"]= "通行证奖励补发"
+},
+[3001] = {
+  ["content"]= "MailContent_3001",
+  ["ContentForDynamicActivity"]= {
+    "300101",
+    "300102",
+    "300103"
+  },
+  ["contentLocalized"]= "当收到这封信时，请不要怀疑您已经被大陆最强大脑云集的组织所认可！\n\n没错，我们就是来自<color=#d44f62>修发兹发德共和国</color>的<color=#d44f62>雷根贝勒研究所</color>，我们只研发精品，就像我们只与最优秀的人对话一样！\n\n在此声明—此信件绝非广告传单，请尽快<color=#d44f62>打开信封</color>确认内容！",
+  ["id"]= 3001,
+  ["lifetime"]= 30,
+  ["MailType"]= 2,
+  ["title"]= "MailTitle_3001",
+  ["titleLocalized"]= "紧急求援"
+},
+[3002] = {
+  ["content"]= "MailContent_3002",
+  ["contentLocalized"]= "亲爱的冒险者，恭喜您在上期的王国竞猜中猜中了幸运数字,现将您暂未领取的奖励发放给您,要在来哦~",
+  ["id"]= 3002,
+  ["title"]= "MailTitle_3002",
+  ["titleLocalized"]= "王国竞猜幸运数字奖励"
+},
+[3003] = {
+  ["content"]= "MailContent_3003",
+  ["contentLocalized"]= "亲爱的冒险者，恭喜您猜对上期王国竞猜的全部幸运数字,幸运女神瞩目，您就是真正的天命之子~",
+  ["id"]= 3003,
+  ["title"]= "MailTitle_3003",
+  ["titleLocalized"]= "寻找王国天命之子"
+},
+[3004] = {
+  ["content"]= "MailContent_3004",
+  ["contentLocalized"]= "你真的太棒了！在昨日收到的鱼拓中你制作的鱼拓排名第%s！这是我为你准备的小小心意，请收下吧~\n期待你继续给我带来新的惊喜！",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 3004,
+  ["title"]= "MailTitle_3004",
+  ["titleLocalized"]= "来自哈维尔的感谢信"
+},
+[3005] = {
+  ["content"]= "MailContent_3005",
+  ["contentLocalized"]= "哇~!\n幽灵密码的奥秘居然被你<color=#d14d75>率先</color>发现啦！\n为了赞赏你无与伦比的智慧，米德加兹密码研究所特意为你准备了<color=#d14d75>特殊的奖励</color>哦~!\n嘘~！小声点~！南瓜先生可不希望自己精心准备的奥秘被破解和分享~！\n毕竟他认为自己才是米德加兹大陆的最强大脑呢~！",
+  ["id"]= 3005,
+  ["title"]= "MailTitle_3005",
+  ["titleLocalized"]= "来自南瓜先生的礼物"
+},
+[3006] = {
+  ["content"]= "MailContent_3006",
+  ["contentLocalized"]= "哇~！\n你居然发现了南瓜先生精心准备的小秘密，成功解开了今日的幽灵密码！你真的太棒啦~！\n在今后的冒险之旅中也记得要多多发挥自己的聪明才智哦！",
+  ["id"]= 3006,
+  ["title"]= "MailTitle_3006",
+  ["titleLocalized"]= "来自南瓜先生的礼物"
+},
+[3007] = {
+  ["content"]= "MailContent_3007",
+  ["contentLocalized"]= "啊~ 你居然已经多次率先破解了幽灵密码~！真是太让我惊讶啦~！\n你已经获得过大奖啦~！也展现出了超凡的智慧~！\n相信你已经得到了世界上所有人的认可~  \n所以，今天的大奖我们会用于鼓励其他和你一样拥有超凡智慧的冒险家~\n智慧可以是超凡的，但不可以是孤独的，孤独就没有了智慧的相互碰撞~\n感谢您的谅解~ ",
+  ["id"]= 3007,
+  ["title"]= "MailTitle_3007",
+  ["titleLocalized"]= "来自南瓜先生的礼物"
+},
+[3008] = {
+  ["content"]= "MailContent_3008",
+  ["contentLocalized"]= "亲爱的冒险者：\n\n感谢您在感恩节活动期间对交易行的支持，由于您在活动结束前未领取退税，现将您的退税共计：<color=#ec8a5a>%s</color>水晶补发给您，请查收。\n\n感谢您在感恩节退税活动中的热情参与！",
+  ["id"]= 3008,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_3008",
+  ["titleLocalized"]= "感恩节活动补发"
+},
+[3009] = {
+  ["content"]= "MailContent_3009",
+  ["ContentForDynamicActivity"]= {
+    "300901",
+    "300902",
+    "300903"
+  },
+  ["contentLocalized"]= "当您收到这封信件时，不用怀疑，您的实力已经被<color=#d44f62>卢恩米德加兹王国</color>最坚不可摧的<color=#d44f62>王国护卫军</color>所认可\n\n在此声明—此信件绝非广告传单，请尽快<color=#d44f62>打开信封</color>确认内容！\n\n请注意，信函内容为核心机密，切勿外泄！",
+  ["id"]= 3009,
+  ["lifetime"]= 10,
+  ["MailType"]= 2,
+  ["title"]= "MailTitle_3009",
+  ["titleLocalized"]= "紧急求援"
+},
+[3010] = {
+  ["content"]= "MailContent_3010",
+  ["contentLocalized"]= "亲爱的冒险者，您的回流挑战即将结束，希望您能尽早完成挑战，领取全部大奖！",
+  ["id"]= 3010,
+  ["lifetime"]= 3,
+  ["title"]= "MailTitle_3010",
+  ["titleLocalized"]= "回流挑战结束"
+},
+[3011] = {
+  ["content"]= "MailContent_3011",
+  ["contentLocalized"]= "亲爱的冒险者们：\n《RO仙境传说：新世代的诞生》全体工作人员向各位冒险者送上最诚挚的祝福！\n\n在除夕之夜预祝大家新春快乐~\n\n不知道今夜大家已经到达温暖的家，\n还是仍在路途，\n无论如何，在这里，有RO新世代培宁，一同守岁。\n在过去的一年里，与冒险者们并肩战斗，我们收获满满~\n在烟火鞭炮声中，我们对冒险者们长久不懈的支持，表示诚挚的谢意！\n冒险者，新的一年请多关照哦！\n\n让我们一起奔向2021，奔向新世代！\n\n《RO仙境传说：新世代的诞生》感谢您的爱与支持",
+  ["id"]= 3011,
+  ["MailType"]= 5,
+  ["title"]= "MailTitle_3011",
+  ["titleLocalized"]= "2021与你一起奔向新世代"
+},
+[3012] = {
+  ["content"]= "MailContent_3012",
+  ["contentLocalized"]= "亲爱的冒险者们：\n又到了浪漫的二月，\n这是属于恋人们的浪漫季节。\n还记得第一次在屏幕另一侧偷偷脸红心跳吗？\n或是第一次在旋转木马旁告白的场景？\n\n米德加尔特大陆的少男少女们，勇敢告白吧！\n祝福你们，在RO新世代中都能找到属于自己的幸福~\n\n情人节快乐！\n\n特此奉上恋爱礼包，助力你告白成功~\n\n《RO仙境传说：新世代的诞生》感谢您的爱与支持",
+  ["id"]= 3012,
+  ["MailType"]= 5,
+  ["title"]= "MailTitle_3012",
+  ["titleLocalized"]= "浪漫情人节，我们结婚吧！"
+},
+[3013] = {
+  ["content"]= "MailContent_3013",
+  ["contentLocalized"]= "亲爱的冒险者们：\n尽管才正月初五，但相信很多冒险者也和我们一样在今天投入了紧张的工作中。\n\n初五开工不Blue，RO与您一起旺！\n\n全服发送开工红包，祝大家：\n吉祥如意、诸事顺心、财源广进、开工大吉！\n\n同时FB的春节活动还在进行当中，\n更多精彩内容请关注官方粉丝页，<color=#6495ED>{a href=https://www.facebook.com/ROXNextGeneration}点我前往！{/a}</color> \n\n祝每一位冒险者在新的一年会有好的事业运和财运，新的一年也要一起加油哦~\n\n《RO仙境传说：新世代的诞生》感谢您的爱与支持",
+  ["id"]= 3013,
+  ["MailType"]= 5,
+  ["title"]= "MailTitle_3013",
+  ["titleLocalized"]= "初五不Blue，RO与您一起旺"
+},
+[3014] = {
+  ["content"]= "MailContent_3014",
+  ["ContentForDynamicActivity"]= {
+    "301401",
+    "301402"
+  },
+  ["contentLocalized"]= "当收到这封信时，请不要怀疑，您已经被大陆最资深的考古团体所认可！没错，我们就是最了解古城的研究者——<color=#d44f62>乐园团</color>！这一次，我们的研究终于要被载入史册了！（信封的页脚画了两个歪歪扭扭的火柴人，似乎是在撒花庆祝）",
+  ["id"]= 3014,
+  ["lifetime"]= 15,
+  ["MailType"]= 2,
+  ["title"]= "MailTitle_3014",
+  ["titleLocalized"]= "紧急求援"
+},
+[4000] = {
+  ["content"]= "MailContent_4000",
+  ["contentLocalized"]= "在你踏上新的冒险征途之前，我们为你准备了探索新旅程的贺礼【萌新入学礼包】，相信一定能帮助你在这片大陆上发现新的乐趣，赶快来点击领取吧~",
+  ["id"]= 4000,
+  ["title"]= "MailTitle_4000",
+  ["titleLocalized"]= "萌新入学礼"
+},
+[4001] = {
+  ["content"]= "MailContent_4001",
+  ["contentLocalized"]= "感谢你参与南门打卡分享活动，希望这份独一无二的回忆能时刻陪伴在你与小伙伴的左右。新出炉的【南门打卡奖励】也随信附上了哟~快来查收一下吧~",
+  ["id"]= 4001,
+  ["title"]= "MailTitle_4001",
+  ["titleLocalized"]= "南门打卡福利"
+},
+[4002] = {
+  ["content"]= "MailContent_4002",
+  ["contentLocalized"]= "为了即将展开的学院生活，我们为你准备了一份【学前准备奖励】~快点击领取吧，激动人心的学院生活即将展开啦~",
+  ["id"]= 4002,
+  ["title"]= "MailTitle_4002",
+  ["titleLocalized"]= "学前准备福利"
+},
+[4003] = {
+  ["content"]= "MailContent_4003",
+  ["contentLocalized"]= "尊敬的冒险家，这是来自卡普拉公司的奥丁馈赠，奥丁之神的祝福会让你的仙境之旅拥更多的动力与惊喜~",
+  ["id"]= 4003,
+  ["title"]= "MailTitle_4003",
+  ["titleLocalized"]= "卡普拉奥丁馈赠"
+},
+[4004] = {
+  ["content"]= "MailContent_4004",
+  ["contentLocalized"]= "尊敬的冒险家，这是来自卡普拉公司的奥丁馈赠，奥丁之神的祝福会让你的仙境之旅拥更多的动力与惊喜~",
+  ["id"]= 4004,
+  ["lifetime"]= 15,
+  ["title"]= "MailTitle_4004",
+  ["titleLocalized"]= "卡普拉奥丁馈赠"
+},
+[5001] = {
+  ["content"]= "MailContent_5001",
+  ["contentLocalized"]= "尊敬的冒险家，您在交易行的瞩目表现已经引起了中央交易行高层的注意，我们有意将您发展为核心客户，为您提供优质的服务，如有意向了解详情，请去普隆德拉找到交易行工作人员杰克达尔，他会为您解答一切疑惑。",
+  ["id"]= 5001,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_5001",
+  ["titleLocalized"]= "中央交易行信函"
+},
+[6001] = {
+  ["content"]= "MailContent_6001",
+  ["contentLocalized"]= "亲爱的冒险者，您向<color=#d14d75>%s</color>申请的师徒关系请求已被同意，为了彼此的羁绊加油吧！",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 6001,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_6001",
+  ["titleLocalized"]= "关系建立成功通知"
+},
+[6002] = {
+  ["content"]= "MailContent_6002",
+  ["contentLocalized"]= "亲爱的冒险者，<color=#d14d75>%s</color>已经选择与您解除师徒关系。",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 6002,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_6002",
+  ["titleLocalized"]= "关系解除通知"
+},
+[6003] = {
+  ["content"]= "MailContent_6003",
+  ["contentLocalized"]= "亲爱的冒险者，根据您今天完成学院每日任务的次数，学院对您的今天的评价是<color=#d14d75>%s</color>分，以下是学院对你的鼓励，请查收！",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 6003,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_6003",
+  ["titleLocalized"]= "学院考核通知"
+},
+[6004] = {
+  ["content"]= "MailContent_6004",
+  ["contentLocalized"]= "亲爱的冒险者，您的学员<color=#d14d75>%s</color>在毕业后给了您<color=#d14d75>%s</color>的评价，希望您在之后的导师生涯继续努力！",
+  ["ContentParamType"]= {
+    5,
+    5
+  },
+  ["id"]= 6004,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_6004",
+  ["titleLocalized"]= "毕业生反馈通知"
+},
+[6005] = {
+  ["content"]= "MailContent_6005",
+  ["contentLocalized"]= "亲爱的冒险者，您上个月在学院中表现出色，排名达到了<color=#d14d75>%s</color>，以下是学院对你的奖励。",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 6005,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_6005",
+  ["titleLocalized"]= "学院排行榜奖励"
+},
+[9001] = {
+  ["content"]= "MailContent_9001",
+  ["id"]= 9001,
+  ["MailType"]= 3,
+  ["title"]= "MailTitle_9001"
+},
+[9002] = {
+  ["content"]= "MailContent_9002",
+  ["contentLocalized"]= "尊敬的冒险家，由于制造类短剑强化所消耗的材料在每1级都多消耗1个，在本次修复后将您多消耗的材料进行补偿返还。为您造成的不便，望您见谅！",
+  ["id"]= 9002,
+  ["title"]= "MailTitle_9002",
+  ["titleLocalized"]= "补偿邮件"
+},
+[11001] = {
+  ["content"]= "WeddingMailContent001",
+  ["contentLocalized"]= "亲爱的%s,\n首先，恭喜您找到了在米德加尔特大陆与您携手相伴的挚爱，您已成功预定了 %s 位于%s地点的%s风格婚礼派对，芙蕾雅之心婚礼定制公司将竭诚为您服务，请在附件种查收婚礼所需要的相关道具。\n另外，随邮件附上了亲友团邀请函与宾客邀请函，请尽快邀请您的亲朋好友共同见证你们爱情的甜蜜时刻吧~\n您的宾客将在对邀请函做出反馈后第一时间收到您婚礼套餐中的道具，我们也将及时将宾客的反馈发送给您哦~\n预祝您的婚礼圆满成功~您的爱情天长地久！\n                                                                                                                       芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5,
+    1,
+    12
+  },
+  ["id"]= 11001,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle001",
+  ["titleLocalized"]= "%s婚礼预约确认函",
+  ["TitleParamType"]= {
+    12
+  }
+},
+[11002] = {
+  ["content"]= "WeddingMailContent002",
+  ["contentLocalized"]= "亲爱的%s,\n您的好友%s正诚挚邀请您作为亲友团参加他的婚礼，见证他的幸福瞬间，婚礼详情请查看请柬，记得尽快给予反馈哦~\n本公司将在第一时间将您的反馈传达给您的好友，祝您生活愉快~\n                                              芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11002,
+  ["lifetime"]= 14,
+  ["MailType"]= 4,
+  ["title"]= "WeddingMailTitle002",
+  ["titleLocalized"]= "%s婚礼亲友团邀请函",
+  ["TitleParamType"]= {
+    5
+  }
+},
+[11003] = {
+  ["content"]= "WeddingMailContent003",
+  ["contentLocalized"]= "亲爱的%s,\n您已接受您的好友%s的婚礼邀约，您将作为他的亲友团亲眼见证他的甜蜜时刻，感谢您的及时反馈~\n请您届时穿着随邮件附上的礼服，盛装出席，并使用附件中浪漫有趣的婚礼道具为朋友的婚礼增添浪漫的色彩，炒热气氛吧~\n预祝您观礼愉快~\n                                                                                                      芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11003,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle003",
+  ["titleLocalized"]= "亲友团出席确认通知"
+},
+[11004] = {
+  ["content"]= "WeddingMailContent004",
+  ["contentLocalized"]= "亲爱的%s,\n您的好友%s已接受您的婚礼邀约，届时他将作为您的亲友团出席，亲眼见证您的甜蜜时刻~您在我司预定的婚礼道具也已发送至您的亲友团手中，敬请期待您的浪漫婚礼降临吧~\n预祝您的婚礼圆满成功~您的爱情天长地久！\n                                                                                                                   芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11004,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle004",
+  ["titleLocalized"]= "亲友团确认出席反馈通知"
+},
+[11005] = {
+  ["content"]= "WeddingMailContent005",
+  ["contentLocalized"]= "亲爱的%s,\n您已拒绝您的好友%s的婚礼邀约，非常遗憾您不能亲自见证好友的甜蜜时刻~但依然感谢您的及时反馈，我们将第一时间将您的反馈转达给您的好友。\n祝您生活愉快，冒险顺利~\n                                                                                                                   芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11005,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle005",
+  ["titleLocalized"]= "亲友团拒绝邀请确认通知"
+},
+[11006] = {
+  ["content"]= "WeddingMailContent006",
+  ["contentLocalized"]= "亲爱的%s,\n非常遗憾，您的好友%s已拒绝您的婚礼亲友团邀约，现将邀请卡退还给您~请及时邀请您的其他好友作为亲友团参加您的婚礼吧~\n预祝您的婚礼圆满成功~您的爱情天长地久！\n                                                                                                                   芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11006,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle006",
+  ["titleLocalized"]= "亲友团出席拒绝反馈通知"
+},
+[11007] = {
+  ["content"]= "WeddingMailContent007",
+  ["contentLocalized"]= "亲爱的%s,\n您的好友%s正诚挚邀请您作为宾客团参加他的婚礼，见证他的幸福瞬间，婚礼详情请查看请柬，记得尽快给予反馈哦~\n本公司将在第一时间将您的反馈传达给您的好友，祝您生活愉快~\n芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11007,
+  ["lifetime"]= 14,
+  ["MailType"]= 4,
+  ["title"]= "WeddingMailTitle007",
+  ["titleLocalized"]= "%s婚礼宾客团邀请函",
+  ["TitleParamType"]= {
+    5
+  }
+},
+[11008] = {
+  ["content"]= "WeddingMailContent008",
+  ["contentLocalized"]= "亲爱的%s,\n您已接受您的好友%s的宾客团婚礼邀约，您将作为他的婚礼宾客团亲眼见证他的甜蜜时刻，感谢您的及时反馈~\n请您根据邀请函中的婚礼日期及地点，准时莅临观礼，并使用附件中浪漫有趣的婚礼道具为朋友的婚礼增添浪漫的色彩，炒热气氛吧~\n预祝您观礼愉快~\n                                                                                                      芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11008,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle008",
+  ["titleLocalized"]= "宾客团出席确认通知"
+},
+[11009] = {
+  ["content"]= "WeddingMailContent009",
+  ["contentLocalized"]= "亲爱的%s,\n您的好友%s已经接受您的宾客团婚礼邀约，他将作为您的婚礼宾客团亲眼见证您的甜蜜时刻~\n您在我司预定的互动道具也已发送至您的亲友团手中，敬请期待您的浪漫婚礼降临吧~\n预祝您的婚礼圆满成功~您的爱情天长地久！\n                                                                                                                \n预祝您观礼愉快~\n                                                                                                      芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11009,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle009",
+  ["titleLocalized"]= "宾客团确认出席反馈通知"
+},
+[11010] = {
+  ["content"]= "WeddingMailContent010",
+  ["contentLocalized"]= "亲爱的%s,\n您已拒绝您的好友%s的婚礼宾客团邀约，非常遗憾您不能亲自见证好友的甜蜜时刻~但依然感谢您的及时反馈，我们将第一时间将您的反馈转达给您的好友。\n祝您生活愉快，冒险顺利~\n                                                                                                                   芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11010,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle010",
+  ["titleLocalized"]= "宾客团拒绝邀请确认通知"
+},
+[11011] = {
+  ["content"]= "WeddingMailContent011",
+  ["contentLocalized"]= "亲爱的%s,\n非常遗憾，您的好友%s已拒绝您的婚礼宾客团邀约，现将邀请卡退还给您~请及时邀请您的其他好友作为宾客团参加您的婚礼吧~\n预祝您的婚礼圆满成功~您的爱情天长地久！\n                                                                                                                   芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11011,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle011",
+  ["titleLocalized"]= "宾客团出席拒绝反馈通知"
+},
+[11012] = {
+  ["content"]= "WeddingMailContent012",
+  ["contentLocalized"]= "亲爱的%s,\n首先，恭喜您找到了在米德加尔特大陆与您携手相伴的挚爱%s。\n芙蕾雅之心婚礼定制公司将竭诚为您服务,本公司提供全大陆最精美，最华丽的婚礼定制服务。\n我们深刻的坚信您对于婚礼一定会有独一无二的需求，而我们会为您实现它。我们在普隆德拉期待您的到来。\n预祝您的婚礼圆满成功~您的爱情天长地久！\n                                                                                                                       芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11012,
+  ["title"]= "WeddingMailTitle012",
+  ["titleLocalized"]= "来定制属于你的婚礼吧！"
+},
+[11013] = {
+  ["content"]= "WeddingMailContent013",
+  ["contentLocalized"]= "亲爱的%s,\n经过您与情侣的不懈努力，您的情侣等级提升至%s，现将该等级对应的奖励发放如下，请注意查收",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11013,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle013",
+  ["titleLocalized"]= "情侣等级特权奖励"
+},
+[11014] = {
+  ["content"]= "WeddingMailContent014",
+  ["contentLocalized"]= "亲爱的%s，\n您预订的 %s 的%s婚礼因特殊原因未能成功举行，现将您的定金%s水晶退还给您，给您带来的不变敬请谅解，请注意查收",
+  ["ContentParamType"]= {
+    9,
+    5,
+    12,
+    5
+  },
+  ["id"]= 11014,
+  ["lifetime"]= 30,
+  ["title"]= "WeddingMailTitle014",
+  ["titleLocalized"]= "婚礼意外未能举行退还通知"
+},
+[11015] = {
+  ["content"]= "WeddingMailContent015",
+  ["contentLocalized"]= "亲爱的%s,\n欢迎使用我司的婚礼定制服务，我们已经收到了您的婚礼预约及相关款项，至此，我们将竭力为您呈现最完美的结婚仪式。\n同时，为了感谢您的信任，将随信附赠 %s，该券可用于任意婚礼的预约业务中。如您希望体验不同风格的婚礼仪式，我们衷心期待您的再次到来。\n预祝您的婚礼圆满成功~您的爱情天长地久！\n                                                                                                                       芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    2
+  },
+  ["id"]= 11015,
+  ["title"]= "WeddingMailTitle015",
+  ["titleLocalized"]= " 芙蕾雅之心婚礼定制公司回馈礼"
+},
+[11016] = {
+  ["content"]= "WeddingMailContent001",
+  ["contentLocalized"]= "亲爱的%s,\n首先，恭喜您找到了在米德加尔特大陆与您携手相伴的挚爱，您已成功预定了 %s 位于%s地点的%s风格婚礼派对，芙蕾雅之心婚礼定制公司将竭诚为您服务，请在附件种查收婚礼所需要的相关道具。\n另外，随邮件附上了亲友团邀请函与宾客邀请函，请尽快邀请您的亲朋好友共同见证你们爱情的甜蜜时刻吧~\n您的宾客将在对邀请函做出反馈后第一时间收到您婚礼套餐中的道具，我们也将及时将宾客的反馈发送给您哦~\n预祝您的婚礼圆满成功~您的爱情天长地久！\n                                                                                                                       芙蕾雅之心婚礼定制公司",
+  ["ContentParamType"]= {
+    9,
+    8,
+    1,
+    12
+  },
+  ["id"]= 11016,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle001",
+  ["titleLocalized"]= "%s婚礼预约确认函",
+  ["TitleParamType"]= {
+    12
+  }
+},
+[11017] = {
+  ["content"]= "WeddingMailContent014",
+  ["contentLocalized"]= "亲爱的%s，\n您预订的 %s 的%s婚礼因特殊原因未能成功举行，现将您的定金%s水晶退还给您，给您带来的不变敬请谅解，请注意查收",
+  ["ContentParamType"]= {
+    9,
+    8,
+    12,
+    5
+  },
+  ["id"]= 11017,
+  ["lifetime"]= 30,
+  ["title"]= "WeddingMailTitle014",
+  ["titleLocalized"]= "婚礼意外未能举行退还通知"
+},
+[12001] = {
+  ["content"]= "MailContent_12001",
+  ["contentLocalized"]= "亲爱的冒险者，您发出的红包未能于24h内领取完毕，现将红包内余额返还给您，请注意查收~",
+  ["id"]= 12001,
+  ["lifetime"]= 14,
+  ["title"]= "MailTitle_12001",
+  ["titleLocalized"]= "红包过期退还通知"
+},
+[12002] = {
+  ["content"]= "MailContent_12002",
+  ["contentLocalized"]= "亲爱的冒险者，由于领取红包的冒险者可领取额度不足，您发放的红包产生部分余额，现通过邮件返还给您，请注意查收~",
+  ["id"]= 12002,
+  ["lifetime"]= 14,
+  ["title"]= "MailTitle_12002",
+  ["titleLocalized"]= "未领完红包返还通知"
+},
+[13001] = {
+  ["content"]= "MailContent_5002",
+  ["contentLocalized"]= "亲爱的%s，\n你的前伴侣%s已背弃了你们曾经的诺言，选择了单方面解除契约，吾以奥丁主神的名义对他进行了惩罚，你们的婚姻契约也在此刻正式宣告结束，解除了情侣关系。请你也不要沉浸于过去的伤痛，勇敢向前，去追寻属于自己的幸福吧~\n奥丁主神将永远护佑你！\n\n                                                                                                               大主教 沃尔玛斯",
+  ["ContentParamType"]= {
+    9,
+    10
+  },
+  ["id"]= 13001,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_5002",
+  ["titleLocalized"]= "情侣关系解除告知书"
+},
+[13002] = {
+  ["content"]= "MailContent_5003",
+  ["contentLocalized"]= "亲爱的%s， \n你的伴侣%s已经%s天未回到米德加尔特大陆，你们之间的感情是否也在时间的无情考验下发生了变化？如果你想要放下这段感情，重新开始，请来到我的面前，进行单方解除契约的手续办理。由于结束契约的代价与双方对感情的忠诚度息息相关，鉴于长时间的不知所踪，你的伴侣已经在忠诚度上背离了契约，因此单方面结束契约，解除情侣关系时，你也将不必支付任何代价。\n奥丁主神将永远护佑你！\n\n                                                                                                               大主教 沃尔玛斯",
+  ["ContentParamType"]= {
+    9,
+    10,
+    5
+  },
+  ["id"]= 13002,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_5003",
+  ["titleLocalized"]= "情侣长期未登录告知书"
+},
+[14001] = {
+  ["content"]= "MailContent_14001",
+  ["contentLocalized"]= "亲爱的%s,很抱歉让你久等了.为了表达对您的歉意,卡普拉小姐姐特意为您准备了一份小礼物,请注意查收哦~",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14001,
+  ["title"]= "MailTitle_14001",
+  ["titleLocalized"]= "来自卡普拉的道歉信"
+},
+[14002] = {
+  ["content"]= "MailContent_14002",
+  ["contentLocalized"]= "亲爱的%s,您今日通过排队等待可领取的神秘礼物已达上限哦~",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14002,
+  ["title"]= "MailTitle_14002",
+  ["titleLocalized"]= "神秘礼物上限通知"
+},
+[14003] = {
+  ["content"]= "MailContent_14003",
+  ["contentLocalized"]= "亲爱的%s,恭喜您在%s的幸运大乐透中猜中了幸运数字,您的竞猜中奖情况如下:一等奖%s注；二等奖%s注；三等奖%s注；四等奖%s注及五等奖%s注。奖励发放如下,请及时查收哦~",
+  ["ContentParamType"]= {
+    9,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  },
+  ["id"]= 14003,
+  ["title"]= "MailTitle_14003",
+  ["titleLocalized"]= "幸运大乐透奖励发放通知"
+},
+[14004] = {
+  ["content"]= "MailContent_14004",
+  ["contentLocalized"]= "亲爱的%s,恭喜您在%s的幸运大乐透中第一位猜中全部幸运数字,现将幸运大奖发放如下,请注意查收~",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 14004,
+  ["title"]= "MailTitle_14004",
+  ["titleLocalized"]= "幸运大乐透幸运大奖发放通知"
+},
+[14005] = {
+  ["content"]= "MailContent_14005",
+  ["contentLocalized"]= "亲爱的%s, 祝您生日快乐~在这个特殊的日子里，W代表卡普拉物流全体成员向您献上最诚挚的祝福！随信附上一份小小的礼物，希望今后的每一个生日，W都能陪伴您度过(*╹▽╹*) 您最可爱的，W",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14005,
+  ["title"]= "MailTitle_14005",
+  ["titleLocalized"]= "来自W的惊喜小礼物"
+},
+[14006] = {
+  ["content"]= "MailContent_14006",
+  ["contentLocalized"]= "亲爱的%s, 根据W的备忘录，今天您的公会好友%s的生日哦！作为一同奋斗至今伙伴，请不要忘记为TA献上温暖的生日祝福！另外，W还准备了一份可口的蛋糕，希望您能和挚友一同分享这甜蜜的喜悦~ 您最可爱的，W",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 14006,
+  ["title"]= "MailTitle_14006",
+  ["titleLocalized"]= "来自W的惊喜小礼物"
+},
+[14007] = {
+  ["content"]= "MailContent_14007",
+  ["contentLocalized"]= "亲爱的%s,恭喜您成功绑定邮箱。感谢您的配合，W为您准备了一份小小礼物，请注意查收哦~",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14007,
+  ["title"]= "MailTitle_14007",
+  ["titleLocalized"]= "绑定成功通知"
+},
+[14008] = {
+  ["content"]= "MailContent_14008",
+  ["contentLocalized"]= "亲爱的%s,恭喜您成功绑定手机。感谢您的配合，W为您准备了一份小小礼物，请注意查收哦~",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14008,
+  ["title"]= "MailTitle_14007",
+  ["titleLocalized"]= "绑定成功通知"
+},
+[14009] = {
+  ["content"]= "MailContent_14009",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14009,
+  ["title"]= "MailTitle_14009"
+},
+[14010] = {
+  ["content"]= "MailContent_14010",
+  ["contentLocalized"]= "亲爱的冒险家，欢迎来到米德加尔特大陆！您是否已经准备好开启一段精彩绝伦的冒险旅程了呢？为帮助您更好地探索这片大陆，我们特地为您准备了一份丰厚的初心者礼包，希望您能尽情享受在仙境传说RO：新时代的诞生中度过的每一刻，并期待在卢恩王国的英雄事迹中见到您的名字！",
+  ["id"]= 14010,
+  ["title"]= "MailTitle_14010",
+  ["titleLocalized"]= "来自卢恩王国的赠礼"
+},
+[14011] = {
+  ["content"]= "MailContent_14011",
+  ["contentLocalized"]= "亲爱的%s！本次评选活动中您获得了%s名的好成绩，大家都为您的神仙颜值疯狂啦！为了奖励我们新生的偶像新星，现在为您发放专属奖励，请注意查收~",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 14011,
+  ["title"]= "MailTitle_14011",
+  ["titleLocalized"]= "偶像新星活动奖励发放"
+},
+[14012] = {
+  ["content"]= "MailContent_14012",
+  ["contentLocalized"]= "亲爱的%s,本次活动评选已圆满结束，活动的顺利举行离不开您的支持，您是王国中最闪亮的那颗星星！为表感谢，我们特地为您准备了一份奖励，请注意查收哦~",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14012,
+  ["title"]= "MailTitle_14012",
+  ["titleLocalized"]= "偶像新星参与奖励发放"
+},
+[14013] = {
+  ["content"]= "MailContent_14013",
+  ["contentLocalized"]= "亲爱的奇境行者,利姆露大人已经成功回到了原来的世界,朱菜的集结礼包也已停止发放。最终集结等级为%s,礼包的价格最终为%s。您领取时价格为%s， 现为您返还%s钻石,由衷地感谢您对魔国联合军的支持~",
+  ["ContentParamType"]= {
+    5,
+    14,
+    14,
+    5
+  },
+  ["id"]= 14013,
+  ["title"]= "MailTitle_14013",
+  ["titleLocalized"]= "异界集结礼包退款通知"
+},
+[14014] = {
+  ["content"]= "MailContent_14014",
+  ["contentLocalized"]= "亲爱的%s,恭喜您在本次奇境异想世界试炼中活动第%s名的好成绩,现将奖励下发如下,请注意查收哦~",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 14014,
+  ["title"]= "MailTitle_14014",
+  ["titleLocalized"]= "希兹优秀学员奖励"
+},
+[14015] = {
+  ["content"]= "MailContent_14015",
+  ["contentLocalized"]= "亲爱的冒险者,奇境异想活动已结束。现将您尚未领取的奖励下发,请注意查收哦~",
+  ["id"]= 14015,
+  ["title"]= "MailTitle_14015",
+  ["titleLocalized"]= "奇境异想奖励发放通知"
+},
+[15001] = {
+  ["content"]= "MailContent_15001",
+  ["contentLocalized"]= "亲爱的冒险者：\n恭喜您，在本轮准它社的积分抽奖中成为最终的幸运玩家，您的奖励道具随邮件发送给您，请查收。",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 15001,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_15001",
+  ["titleLocalized"]= "准它社"
+},
+[15002] = {
+  ["content"]= "MailContent_15002",
+  ["contentLocalized"]= "亲爱的冒险者：\n您所关注的道具：<color=#FF6F76>%s</color>已经开始进入准它社的积分抽奖，还请尽快前往普隆德拉扭蛋机处参与活动！",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 15002,
+  ["title"]= "MailTitle_15002",
+  ["titleLocalized"]= "准它社"
+},
+[15003] = {
+  ["content"]= "MailContent_15003",
+  ["contentLocalized"]= "亲爱的冒险者：\n恭喜您，在本轮卡普拉商团的积分抽奖中成为最终的幸运玩家，您的奖励道具随邮件发送给您，请查收。",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 15003,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_15003",
+  ["titleLocalized"]= "卡普拉商团"
+},
+[15004] = {
+  ["content"]= "MailContent_15004",
+  ["contentLocalized"]= "亲爱的冒险者：\n您所关注的道具：<color=#FF6F76>%s</color>已经开始进入卡普拉商团的积分抽奖，还请尽快前往普隆德拉扭蛋机处参与活动！",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 15004,
+  ["title"]= "MailTitle_15004",
+  ["titleLocalized"]= "卡普拉商团"
+},
+[15005] = {
+  ["content"]= "MailContent_15005",
+  ["contentLocalized"]= "亲爱的冒险者：\n恭喜您，在本轮喵手商团的积分抽奖中成为最终的幸运玩家，您的奖励道具随邮件发送给您，请查收。",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 15005,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_15005",
+  ["titleLocalized"]= "喵手商团"
+},
+[15006] = {
+  ["content"]= "MailContent_15006",
+  ["contentLocalized"]= "亲爱的冒险者：\n您所关注的道具：<color=#FF6F76>%s</color>已经开始进入喵手商团的积分抽奖，还请尽快前往普隆德拉扭蛋机处参与活动！",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 15006,
+  ["title"]= "MailTitle_15006",
+  ["titleLocalized"]= "喵手商团"
+},
+[15007] = {
+  ["content"]= "MailContent_15007",
+  ["contentLocalized"]= "亲爱的%s！本次评选活动中您获得了%s名的好成绩，大家都为您的神仙颜值疯狂啦！为了奖励我们新生的偶像新星，现在为您发放专属奖励，请注意查收~",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 15007,
+  ["title"]= "MailTitle_15007",
+  ["titleLocalized"]= "周年大咖秀活动奖励发放"
+},
+[15008] = {
+  ["content"]= "MailContent_15008",
+  ["contentLocalized"]= "亲爱的%s,本次活动评选已圆满结束，活动的顺利举行离不开您的支持，您是王国中最闪亮的那颗星星！为表感谢，我们特地为您准备了一份奖励，请注意查收哦~",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 15008,
+  ["title"]= "MailTitle_15008",
+  ["titleLocalized"]= "周年大咖秀参与奖励发放"
+},
+[15009] = {
+  ["content"]= "MailContent_15009",
+  ["contentLocalized"]= "系统已将你未扔出的漂流瓶自动扔出，这是相应的奖励，感谢参与活动。",
+  ["id"]= 15009,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_15009",
+  ["titleLocalized"]= "漂流瓶遗漏奖励发放"
+},
+[15010] = {
+  ["content"]= "MailContent_15010",
+  ["contentLocalized"]= "这是你未领取的新年抽奖礼物。感谢参与活动。",
+  ["id"]= 15010,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_15010",
+  ["titleLocalized"]= "新年抽奖遗漏奖励发放"
+},
+[16001] = {
+  ["content"]= "MailContent_16001",
+  ["contentLocalized"]= "亲爱的%s，您在活动期间的KVM个人总积分排名为%s，您是王国中最闪亮的那颗星星！现在为您发放专属奖励，请注意查收~",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 16001,
+  ["title"]= "MailTitle_16001",
+  ["titleLocalized"]= "神选战备排名奖励"
+},
+[16002] = {
+  ["content"]= "MailContent_16002",
+  ["contentLocalized"]= "亲爱的%s，您在活动期间的KVM个人总积分为%s，感谢您的支持！为表感谢，我们特地为您准备了一份奖励，请注意查收哦~",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 16002,
+  ["title"]= "MailTitle_16002",
+  ["titleLocalized"]= "神选战备积分奖励"
+},
+[16003] = {
+  ["content"]= "MailContent_16003",
+  ["contentLocalized"]= "亲爱的冒险者，您创建的神选者队伍已经成立，期待您在比赛中获得好成绩，您的队伍如下：%s",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 16003,
+  ["title"]= "MailTitle_16003",
+  ["titleLocalized"]= "神选者队伍成立通知"
+},
+[16004] = {
+  ["content"]= "MailContent_16004",
+  ["contentLocalized"]= "亲爱的冒险者，非常遗憾，您创建的神选者队伍由于队员人数不足已经被解散，期待您的下次参与，感谢您的支持~",
+  ["id"]= 16004,
+  ["title"]= "MailTitle_16004",
+  ["titleLocalized"]= "神选者队伍解散通知"
+},
+[16005] = {
+  ["content"]= "MailContent_16005",
+  ["contentLocalized"]= "亲爱的冒险者，\n本期活动已经结束，您未使用的<color=#ffe788>%s</color>已经转化为以下奖励，请您查收。",
+  ["id"]= 16005,
+  ["title"]= "MailTitle_16005",
+  ["titleLocalized"]= "神选投票回收通知"
+},
+[16006] = {
+  ["content"]= "MailContent_16006",
+  ["contentLocalized"]= "亲爱的冒险者，感谢您参与本届神选者之战，您的队伍实力强劲，表现闪耀王国，现在为您发放专属奖励，请注意查收~",
+  ["id"]= 16006,
+  ["title"]= "MailTitle_16006",
+  ["titleLocalized"]= "神选之战资格赛荣耀奖励"
+},
+[16007] = {
+  ["content"]= "MailContent_16007",
+  ["contentLocalized"]= "亲爱的冒险者，感谢您参与本届神选者之战，您的队伍表现出了绝对的统治力，登顶王国，获得本服资格赛冠军，现在为您发放专属荣耀奖励，请注意查收~",
+  ["id"]= 16007,
+  ["title"]= "MailTitle_16007",
+  ["titleLocalized"]= "神选之战资格赛冠军奖励"
+},
+[16008] = {
+  ["content"]= "MailContent_16008",
+  ["contentLocalized"]= "亲爱的冒险者，恭喜您所在服务器的队伍获得本次神选者之战总冠军，这是属于你们的荣耀，现在为您发放专属全服奖励，请注意查收",
+  ["id"]= 16008,
+  ["title"]= "MailTitle_16008",
+  ["titleLocalized"]= "神选之战冠军全服奖励"
+},
+[16009] = {
+  ["content"]= "MailContent_16009",
+  ["contentLocalized"]= "亲爱的冒险者：初岁元祚，佳节吉祥。衷心感谢您一年以来的陪伴，这些冒险故事将永远铭刻于米德加尔特大陆的历史，成为吟游诗人口耳相传的乐章。请收下这份饱含心意的礼物，它既是主神奥丁的嘉奖，更是人世间所有美好祝福的汇聚。愿，事事皆顺意，年年常相见！ROX 于除夕佳节",
+  ["id"]= 16009,
+  ["lifetime"]= 14,
+  ["title"]= "MailTitle_16009",
+  ["titleLocalized"]= "除夕感恩活动奖励"
+},
+[16010] = {
+  ["content"]= "MailContent_16010",
+  ["contentLocalized"]= "新春签到未领取奖励发放",
+  ["id"]= 16010,
+  ["lifetime"]= 14,
+  ["title"]= "MailTitle_16010",
+  ["titleLocalized"]= "新春签到未领取奖励发放"
+}
+}
+local baseTable={
+  ["content"]= "MailContent_1102",
+  ["ContentForDynamicActivity"]= {},
+  ["contentLocalized"]= "",
+  ["ContentParamType"]= {},
+  ["id"]= 1,
+  ["lifetime"]= 7,
+  ["MailType"]= 1,
+  ["title"]= "MailTitle_1102",
+  ["titleLocalized"]= "",
+  ["TitleParamType"]= {}
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

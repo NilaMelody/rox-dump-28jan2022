@@ -1,0 +1,50 @@
+local table= {
+[1] = {
+  ["currencyValue"]= 500
+},
+[2] = {
+  ["quality"]= 2
+},
+[3] = {
+  ["currencyValue"]= 2000,
+  ["quality"]= 3
+},
+[4] = {
+  ["currencyValue"]= 5000,
+  ["quality"]= 4
+},
+[5] = {
+  ["extraHole"]= 1,
+  ["id"]= 5
+},
+[6] = {
+  ["currencyValue"]= 2000,
+  ["extraHole"]= 1,
+  ["id"]= 6,
+  ["quality"]= 2
+},
+[7] = {
+  ["currencyValue"]= 4000,
+  ["extraHole"]= 1,
+  ["id"]= 7,
+  ["quality"]= 3
+},
+[8] = {
+  ["currencyValue"]= 10000,
+  ["extraHole"]= 1,
+  ["id"]= 8,
+  ["quality"]= 4
+}
+}
+local baseTable={
+  ["currencyType"]= 3,
+  ["currencyValue"]= 1000,
+  ["extraHole"]= 0,
+  ["id"]= 0,
+  ["material"]= {},
+  ["quality"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

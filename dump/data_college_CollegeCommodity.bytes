@@ -1,0 +1,200 @@
+local table= {
+[1] = {
+  ["Price"]= 100
+},
+[2] = {
+  ["CommodityDes"]= "ItemDes_10406435",
+  ["CommodityName"]= "ItemName_10406435",
+  ["GoodsId"]= 10406435,
+  ["ID"]= 2,
+  ["Order"]= 2,
+  ["Price"]= 300
+},
+[3] = {
+  ["CommodityDes"]= "ItemDes_10406436",
+  ["CommodityName"]= "ItemName_10406436",
+  ["GoodsId"]= 10406436,
+  ["ID"]= 3,
+  ["Order"]= 3,
+  ["Price"]= 150
+},
+[4] = {
+  ["CommodityDes"]= "ItemDes_10406437",
+  ["CommodityName"]= "ItemName_10406437",
+  ["GoodsId"]= 10406437,
+  ["ID"]= 4,
+  ["Order"]= 4,
+  ["Price"]= 50
+},
+[5] = {
+  ["CommodityDes"]= "ItemDes_1025",
+  ["CommodityName"]= "ItemName_1025",
+  ["GoodsId"]= 1025,
+  ["GoodsNum"]= 10,
+  ["ID"]= 5,
+  ["Order"]= 5
+},
+[6] = {
+  ["CommodityDes"]= "ItemDes_1026",
+  ["CommodityName"]= "ItemName_1026",
+  ["GoodsId"]= 1026,
+  ["GoodsNum"]= 10,
+  ["ID"]= 6,
+  ["Order"]= 6
+},
+[7] = {
+  ["CommodityDes"]= "ItemDes_10202136",
+  ["CommodityName"]= "ItemName_10202136",
+  ["GoodsId"]= 10202136,
+  ["GoodsNum"]= 2,
+  ["ID"]= 7,
+  ["Order"]= 7,
+  ["Price"]= 30
+},
+[8] = {
+  ["CommodityDes"]= "ItemDes_10219033",
+  ["CommodityName"]= "ItemName_10219033",
+  ["GoodsId"]= 10219033,
+  ["ID"]= 8,
+  ["Order"]= 8,
+  ["Price"]= 270
+},
+[9] = {
+  ["CommodityDes"]= "ItemDes_10219034",
+  ["CommodityName"]= "ItemName_10219034",
+  ["GoodsId"]= 10219034,
+  ["ID"]= 9,
+  ["Order"]= 9,
+  ["Price"]= 70
+},
+[10] = {
+  ["CommodityDes"]= "ItemDes_10219035",
+  ["CommodityName"]= "ItemName_10219035",
+  ["GoodsId"]= 10219035,
+  ["ID"]= 10,
+  ["Order"]= 10,
+  ["Price"]= 80
+},
+[11] = {
+  ["CommodityDes"]= "ItemDes_10219036",
+  ["CommodityName"]= "ItemName_10219036",
+  ["GoodsId"]= 10219036,
+  ["ID"]= 11,
+  ["Order"]= 11,
+  ["Price"]= 70
+},
+[12] = {
+  ["CommodityDes"]= "ItemDes_10219037",
+  ["CommodityName"]= "ItemName_10219037",
+  ["GoodsId"]= 10219037,
+  ["ID"]= 12,
+  ["Order"]= 12,
+  ["Price"]= 80
+},
+[13] = {
+  ["CommodityDes"]= "ItemDes_10204058",
+  ["CommodityName"]= "ItemName_10204058",
+  ["GoodsId"]= 10204058,
+  ["ID"]= 13,
+  ["Order"]= 13,
+  ["Price"]= 24
+},
+[14] = {
+  ["CommodityDes"]= "ItemDes_10204059",
+  ["CommodityName"]= "ItemName_10204059",
+  ["GoodsId"]= 10204059,
+  ["ID"]= 14,
+  ["Order"]= 14,
+  ["Price"]= 8
+},
+[15] = {
+  ["CommodityDes"]= "ItemDes_10204060",
+  ["CommodityName"]= "ItemName_10204060",
+  ["GoodsId"]= 10204060,
+  ["ID"]= 15,
+  ["Order"]= 15,
+  ["Price"]= 18
+},
+[16] = {
+  ["CommodityDes"]= "ItemDes_10204061",
+  ["CommodityName"]= "ItemName_10204061",
+  ["GoodsId"]= 10204061,
+  ["ID"]= 16,
+  ["Order"]= 16,
+  ["Price"]= 30
+},
+[17] = {
+  ["CommodityDes"]= "ItemDes_10204112",
+  ["CommodityName"]= "ItemName_10204112",
+  ["GoodsId"]= 10204112,
+  ["ID"]= 17,
+  ["Order"]= 17,
+  ["Price"]= 108
+},
+[18] = {
+  ["CommodityDes"]= "ItemDes_10204108",
+  ["CommodityName"]= "ItemName_10204108",
+  ["GoodsId"]= 10204108,
+  ["ID"]= 18,
+  ["Order"]= 18,
+  ["Price"]= 250
+},
+[19] = {
+  ["CommodityDes"]= "ItemDes_10204129",
+  ["CommodityName"]= "ItemName_10204129",
+  ["GoodsId"]= 10204129,
+  ["GoodsNum"]= 5,
+  ["ID"]= 19,
+  ["Order"]= 19,
+  ["Price"]= 5
+},
+[20] = {
+  ["CommodityDes"]= "ItemDes_10204133",
+  ["CommodityName"]= "ItemName_10204133",
+  ["GoodsId"]= 10204133,
+  ["ID"]= 20,
+  ["Order"]= 20,
+  ["Price"]= 50
+},
+[21] = {
+  ["CommodityDes"]= "ItemDes_10204043",
+  ["CommodityName"]= "ItemName_10204043",
+  ["GoodsId"]= 10204043,
+  ["GoodsNum"]= 100,
+  ["ID"]= 21,
+  ["Order"]= 21
+},
+[22] = {
+  ["CommodityDes"]= "ItemDes_10204044",
+  ["CommodityName"]= "ItemName_10204044",
+  ["GoodsId"]= 10204044,
+  ["GoodsNum"]= 100,
+  ["ID"]= 22,
+  ["Order"]= 22
+},
+[23] = {
+  ["CommodityDes"]= "ItemDes_10204045",
+  ["CommodityName"]= "ItemName_10204045",
+  ["GoodsId"]= 10204045,
+  ["GoodsNum"]= 100,
+  ["ID"]= 23,
+  ["Order"]= 23
+}
+}
+local baseTable={
+  ["CommodityDes"]= "ItemDes_10406434",
+  ["CommodityName"]= "ItemName_10406434",
+  ["Condition"]= {
+    0
+  },
+  ["GoodsId"]= 10406434,
+  ["GoodsNum"]= 1,
+  ["ID"]= 1,
+  ["IsBlind"]= 1,
+  ["Order"]= 1,
+  ["Price"]= 10
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

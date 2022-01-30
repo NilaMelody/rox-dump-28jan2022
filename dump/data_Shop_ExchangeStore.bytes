@@ -1,0 +1,328 @@
+local table= {
+[1] = {
+  ["ResetText"]= "ExchangeStoreReset_1",
+  ["StoreLabel"]= {
+    1,
+    2,
+    3,
+    4,
+    5
+  }
+},
+[2] = {
+  ["GoodsId"]= {
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279
+  },
+  ["id"]= 2,
+  ["name"]= "ExchangeStoreName_2",
+  ["needChannelSkin"]= 1
+},
+[3] = {
+  ["GoodsId"]= {
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    309,
+    310,
+    311
+  },
+  ["id"]= 3,
+  ["name"]= "ExchangeStoreName_3",
+  ["ResetText"]= "ExchangeStoreReset_3",
+  ["StoreLabel"]= {
+    1,
+    2,
+    3
+  }
+},
+[4] = {
+  ["GoodsId"]= {
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331
+  },
+  ["id"]= 4,
+  ["isAllActivityTime"]= 1,
+  ["name"]= "ExchangeStoreName_4",
+  ["typeId"]= 6
+},
+[5] = {
+  ["GoodsId"]= {
+    119,
+    120,
+    121,
+    122,
+    123,
+    124
+  },
+  ["id"]= 5,
+  ["name"]= "ExchangeStoreName_5",
+  ["ResetText"]= "ExchangeStoreReset_5",
+  ["StoreLabel"]= {
+    1,
+    2
+  }
+},
+[6] = {
+  ["GoodsId"]= {
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208
+  },
+  ["id"]= 6,
+  ["name"]= "ExchangeStoreName_6",
+  ["StoreLabel"]= {
+    1,
+    2
+  }
+},
+[7] = {
+  ["GoodsId"]= {
+    209,
+    210,
+    211,
+    212
+  },
+  ["id"]= 7,
+  ["name"]= "ExchangeStoreName_7",
+  ["ResetText"]= "ExchangeStoreReset_7"
+},
+[8] = {
+  ["GoodsId"]= {
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222
+  },
+  ["id"]= 8,
+  ["name"]= "ExchangeStoreName_8",
+  ["StoreLabel"]= {
+    1,
+    2
+  }
+},
+[9] = {
+  ["GoodsId"]= {
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234
+  },
+  ["id"]= 9,
+  ["name"]= "ExchangeStoreName_9"
+},
+[10] = {
+  ["GoodsId"]= {
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246
+  },
+  ["id"]= 10,
+  ["name"]= "ExchangeStoreName_10",
+  ["StoreLabel"]= {
+    1,
+    2
+  }
+},
+[11] = {
+  ["GoodsId"]= {
+    247,
+    248,
+    249,
+    250,
+    251
+  },
+  ["id"]= 11,
+  ["name"]= "ExchangeStoreName_11",
+  ["ResetText"]= 0
+},
+[12] = {
+  ["GoodsId"]= {
+    252
+  },
+  ["id"]= 12,
+  ["name"]= "ExchangeStoreName_12"
+},
+[13] = {
+  ["GoodsId"]= {
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264
+  },
+  ["id"]= 13,
+  ["name"]= "ExchangeStoreName_13"
+},
+[14] = {
+  ["GoodsId"]= {
+    312,
+    313,
+    314
+  },
+  ["id"]= 14,
+  ["name"]= "ExchangeStoreName_14"
+}
+}
+local baseTable={
+  ["GoodsId"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  },
+  ["id"]= 1,
+  ["isAllActivityTime"]= 0,
+  ["name"]= "ExchangeStoreName_1",
+  ["needChannelSkin"]= 0,
+  ["ResetText"]= "",
+  ["StoreLabel"]= {
+    1
+  },
+  ["typeId"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

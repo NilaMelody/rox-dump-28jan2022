@@ -1,0 +1,242 @@
+local table= {
+[1] = {
+  ["GridType"]= 1,
+  ["ItemId"]= 10219023,
+  ["ItemNum"]= 1
+},
+[2] = {
+  ["Id"]= 2,
+  ["ItemId"]= 10217045,
+  ["ItemNum"]= 5
+},
+[3] = {
+  ["Id"]= 3,
+  ["ItemId"]= 10217047
+},
+[4] = {
+  ["Id"]= 4,
+  ["ItemId"]= 10217046,
+  ["ItemNum"]= 5
+},
+[5] = {
+  ["Id"]= 5,
+  ["ItemId"]= 10217048,
+  ["ItemNum"]= 1
+},
+[6] = {
+  ["ForwardNum"]= 1,
+  ["GridType"]= 4,
+  ["Id"]= 6,
+  ["ItemId"]= 0,
+  ["ItemNum"]= 1
+},
+[7] = {
+  ["GridType"]= 3,
+  ["Id"]= 7,
+  ["ItemNum"]= 1
+},
+[8] = {
+  ["Id"]= 8,
+  ["ItemId"]= 10217046,
+  ["ItemNum"]= 8
+},
+[9] = {
+  ["Id"]= 9,
+  ["ItemId"]= 10217045,
+  ["ItemNum"]= 8
+},
+[10] = {
+  ["Id"]= 10,
+  ["ItemId"]= 10217047,
+  ["ItemNum"]= 4
+},
+[11] = {
+  ["GridType"]= 3,
+  ["Id"]= 11
+},
+[12] = {
+  ["Id"]= 12,
+  ["ItemId"]= 10217048
+},
+[13] = {
+  ["Id"]= 13,
+  ["ItemId"]= 10217045,
+  ["ItemNum"]= 9
+},
+[14] = {
+  ["GridType"]= 3,
+  ["Id"]= 14
+},
+[15] = {
+  ["Id"]= 15,
+  ["ItemId"]= 10217048
+},
+[16] = {
+  ["Id"]= 16,
+  ["ItemId"]= 10217047,
+  ["ItemNum"]= 4
+},
+[17] = {
+  ["Id"]= 17,
+  ["ItemId"]= 10217046,
+  ["ItemNum"]= 9
+},
+[18] = {
+  ["Id"]= 18,
+  ["ItemId"]= 10217048,
+  ["ItemNum"]= 3
+},
+[19] = {
+  ["ForwardNum"]= 3,
+  ["GridType"]= 4,
+  ["Id"]= 19,
+  ["ItemId"]= 0,
+  ["ItemNum"]= 3
+},
+[20] = {
+  ["Id"]= 20,
+  ["ItemId"]= 10217045,
+  ["ItemNum"]= 10
+},
+[21] = {
+  ["Id"]= 21,
+  ["ItemId"]= 10217047,
+  ["ItemNum"]= 6
+},
+[22] = {
+  ["GridType"]= 3,
+  ["Id"]= 22,
+  ["ItemNum"]= 3
+},
+[23] = {
+  ["Id"]= 23,
+  ["ItemId"]= 10217046,
+  ["ItemNum"]= 10
+},
+[24] = {
+  ["GridType"]= 1,
+  ["Id"]= 24,
+  ["ItemId"]= 10219046,
+  ["ItemNum"]= 1
+},
+[25] = {
+  ["Id"]= 25,
+  ["ItemId"]= 10217053,
+  ["ItemNum"]= 5
+},
+[26] = {
+  ["Id"]= 26,
+  ["ItemId"]= 10217055
+},
+[27] = {
+  ["Id"]= 27,
+  ["ItemId"]= 10217054,
+  ["ItemNum"]= 5
+},
+[28] = {
+  ["Id"]= 28,
+  ["ItemId"]= 10217056,
+  ["ItemNum"]= 1
+},
+[29] = {
+  ["ForwardNum"]= 1,
+  ["GridType"]= 4,
+  ["Id"]= 29,
+  ["ItemId"]= 0,
+  ["ItemNum"]= 1
+},
+[30] = {
+  ["GridType"]= 3,
+  ["Id"]= 30,
+  ["ItemNum"]= 1
+},
+[31] = {
+  ["Id"]= 31,
+  ["ItemId"]= 10217054,
+  ["ItemNum"]= 8
+},
+[32] = {
+  ["Id"]= 32,
+  ["ItemId"]= 10217053,
+  ["ItemNum"]= 8
+},
+[33] = {
+  ["Id"]= 33,
+  ["ItemId"]= 10217055,
+  ["ItemNum"]= 4
+},
+[34] = {
+  ["GridType"]= 3,
+  ["Id"]= 34
+},
+[35] = {
+  ["Id"]= 35,
+  ["ItemId"]= 10217056
+},
+[36] = {
+  ["Id"]= 36,
+  ["ItemId"]= 10217053,
+  ["ItemNum"]= 9
+},
+[37] = {
+  ["GridType"]= 3,
+  ["Id"]= 37
+},
+[38] = {
+  ["Id"]= 38,
+  ["ItemId"]= 10217056
+},
+[39] = {
+  ["Id"]= 39,
+  ["ItemId"]= 10217055,
+  ["ItemNum"]= 4
+},
+[40] = {
+  ["Id"]= 40,
+  ["ItemId"]= 10217054,
+  ["ItemNum"]= 9
+},
+[41] = {
+  ["Id"]= 41,
+  ["ItemId"]= 10217056,
+  ["ItemNum"]= 3
+},
+[42] = {
+  ["ForwardNum"]= 3,
+  ["GridType"]= 4,
+  ["Id"]= 42,
+  ["ItemId"]= 0,
+  ["ItemNum"]= 3
+},
+[43] = {
+  ["Id"]= 43,
+  ["ItemId"]= 10217053,
+  ["ItemNum"]= 10
+},
+[44] = {
+  ["Id"]= 44,
+  ["ItemId"]= 10217055,
+  ["ItemNum"]= 6
+},
+[45] = {
+  ["GridType"]= 3,
+  ["Id"]= 45,
+  ["ItemNum"]= 3
+},
+[46] = {
+  ["Id"]= 46,
+  ["ItemId"]= 10217054,
+  ["ItemNum"]= 10
+}
+}
+local baseTable={
+  ["ForwardNum"]= 0,
+  ["GridType"]= 2,
+  ["Id"]= 1,
+  ["ItemId"]= 10204129,
+  ["ItemNum"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

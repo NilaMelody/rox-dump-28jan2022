@@ -1,0 +1,260 @@
+local table= {
+[1] = {},
+[2] = {
+  ["activityDrop"]= {
+    {
+      ["activityId"]= 17,
+      ["condition"]= 0,
+      ["dropId"]= {
+        10648
+      },
+      ["prizeId"]= {
+        10202137
+      }
+    },
+    {
+      ["activityId"]= 18,
+      ["condition"]= 0,
+      ["dropId"]= {
+        1105011113
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 8,
+      ["condition"]= 0,
+      ["dropId"]= {
+        5520005
+      },
+      ["prizeId"]= {
+        10202051
+      }
+    }
+  },
+  ["box_id"]= 10003,
+  ["id"]= 2,
+  ["prize_num"]= {
+    200
+  },
+  ["vitality"]= 40
+},
+[3] = {
+  ["activityDrop"]= {
+    {
+      ["activityId"]= 17,
+      ["condition"]= 0,
+      ["dropId"]= {
+        10648
+      },
+      ["prizeId"]= {
+        10202137
+      }
+    },
+    {
+      ["activityId"]= 18,
+      ["condition"]= 0,
+      ["dropId"]= {
+        1105011109
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 22,
+      ["condition"]= 0,
+      ["dropId"]= {
+        1106011153
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 26,
+      ["condition"]= 1055,
+      ["dropId"]= {
+        1106011332
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 8,
+      ["condition"]= 0,
+      ["dropId"]= {
+        5520005
+      },
+      ["prizeId"]= {
+        10202051
+      }
+    }
+  },
+  ["box_id"]= 10004,
+  ["id"]= 3,
+  ["prize_num"]= {
+    300
+  },
+  ["vitality"]= 60
+},
+[4] = {
+  ["activityDrop"]= {
+    {
+      ["activityId"]= 17,
+      ["condition"]= 0,
+      ["dropId"]= {
+        10649
+      },
+      ["prizeId"]= {
+        10202137
+      }
+    },
+    {
+      ["activityId"]= 18,
+      ["condition"]= 0,
+      ["dropId"]= {
+        1105011110
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 22,
+      ["condition"]= 1055,
+      ["dropId"]= {
+        1106011154
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 26,
+      ["condition"]= 1055,
+      ["dropId"]= {
+        1106011333
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 8,
+      ["condition"]= 0,
+      ["dropId"]= {
+        5520005
+      },
+      ["prizeId"]= {
+        10202051
+      }
+    }
+  },
+  ["box_id"]= 10005,
+  ["id"]= 4,
+  ["prize_num"]= {
+    400
+  },
+  ["vitality"]= 80
+},
+[5] = {
+  ["activityDrop"]= {
+    {
+      ["activityId"]= 17,
+      ["condition"]= 0,
+      ["dropId"]= {
+        10650
+      },
+      ["prizeId"]= {
+        10202137
+      }
+    },
+    {
+      ["activityId"]= 18,
+      ["condition"]= 0,
+      ["dropId"]= {
+        1105011111
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 22,
+      ["condition"]= 1055,
+      ["dropId"]= {
+        1106011155
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 26,
+      ["condition"]= 1055,
+      ["dropId"]= {
+        1106011334
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 8,
+      ["condition"]= 0,
+      ["dropId"]= {
+        5520005
+      },
+      ["prizeId"]= {
+        10202051
+      }
+    }
+  },
+  ["box_id"]= 10006,
+  ["id"]= 5,
+  ["prize_num"]= {
+    500
+  },
+  ["vitality"]= 100
+}
+}
+local baseTable={
+  ["activityDrop"]= {
+    {
+      ["activityId"]= 18,
+      ["condition"]= 0,
+      ["dropId"]= {
+        1105011112
+      },
+      ["prizeId"]= {
+        10202148
+      }
+    },
+    {
+      ["activityId"]= 8,
+      ["condition"]= 0,
+      ["dropId"]= {
+        5520005
+      },
+      ["prizeId"]= {
+        10202051
+      }
+    }
+  },
+  ["box_id"]= 10002,
+  ["id"]= 1,
+  ["prize_id"]= {
+    1003
+  },
+  ["prize_num"]= {
+    100
+  },
+  ["vitality"]= 20
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

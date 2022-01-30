@@ -1,0 +1,82 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Number"]= {
+    5
+  },
+  ["SkillLevel"]= 2
+},
+[3] = {
+  ["Number"]= {
+    10
+  },
+  ["SkillLevel"]= 3
+},
+[4] = {
+  ["Number"]= {
+    20
+  },
+  ["SkillLevel"]= 4
+},
+[5] = {
+  ["Number"]= {
+    30
+  },
+  ["SkillLevel"]= 5
+},
+[6] = {
+  ["Number"]= {
+    60
+  },
+  ["SkillLevel"]= 6
+},
+[7] = {
+  ["Number"]= {
+    120
+  },
+  ["SkillLevel"]= 7
+},
+[8] = {
+  ["Number"]= {
+    240
+  },
+  ["SkillLevel"]= 8
+},
+[9] = {
+  ["Number"]= {
+    360
+  },
+  ["SkillLevel"]= 9
+},
+[10] = {
+  ["Number"]= {
+    600
+  },
+  ["SkillLevel"]= 10
+},
+[11] = {
+  ["Number"]= {
+    1200
+  },
+  ["SkillLevel"]= 11
+},
+[12] = {
+  ["Number"]= {
+    2400
+  },
+  ["SkillLevel"]= 12
+}
+}
+local baseTable={
+  ["Item"]= {
+    10219030
+  },
+  ["Number"]= {
+    1
+  },
+  ["SkillLevel"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

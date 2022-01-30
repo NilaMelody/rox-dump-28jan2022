@@ -1,0 +1,4140 @@
+local table= {
+[1] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000
+},
+[2] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["Id"]= 2,
+  ["SkillLevel"]= 2
+},
+[3] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 3,
+  ["SkillLevel"]= 3
+},
+[4] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 4,
+  ["SkillLevel"]= 4
+},
+[5] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 5,
+  ["SkillLevel"]= 5
+},
+[6] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 6,
+  ["SkillLevel"]= 6
+},
+[7] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 7,
+  ["SkillLevel"]= 7
+},
+[8] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 8,
+  ["SkillLevel"]= 8
+},
+[9] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 9,
+  ["SkillLevel"]= 9
+},
+[10] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 10,
+  ["SkillLevel"]= 10
+},
+[11] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 11,
+  ["SkillLevel"]= 11
+},
+[12] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 12,
+  ["SkillLevel"]= 12
+},
+[13] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 13,
+  ["PetId"]= 82002
+},
+[14] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["Id"]= 14,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 2
+},
+[15] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 15,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 3
+},
+[16] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 16,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 4
+},
+[17] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 17,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 5
+},
+[18] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 18,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 6
+},
+[19] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 19,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 7
+},
+[20] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 20,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 8
+},
+[21] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 21,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 9
+},
+[22] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 22,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 10
+},
+[23] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 23,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 11
+},
+[24] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 24,
+  ["PetId"]= 82002,
+  ["SkillLevel"]= 12
+},
+[25] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 25,
+  ["PetId"]= 82003
+},
+[26] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["Id"]= 26,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 2
+},
+[27] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 27,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 3
+},
+[28] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 28,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 4
+},
+[29] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 29,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 5
+},
+[30] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 30,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 6
+},
+[31] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 31,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 7
+},
+[32] = {
+  ["CostNum"]= 100000,
+  ["Id"]= 32,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 8
+},
+[33] = {
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 33,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 9
+},
+[34] = {
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 34,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 10
+},
+[35] = {
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 35,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 11
+},
+[36] = {
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 36,
+  ["PetId"]= 82003,
+  ["SkillLevel"]= 12
+},
+[37] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 37,
+  ["PetId"]= 82004
+},
+[38] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["Id"]= 38,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 2
+},
+[39] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 39,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 3
+},
+[40] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 40,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 4
+},
+[41] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 41,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 5
+},
+[42] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 42,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 6
+},
+[43] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 43,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 7
+},
+[44] = {
+  ["CostNum"]= 100000,
+  ["Id"]= 44,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 8
+},
+[45] = {
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 45,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 9
+},
+[46] = {
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 46,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 10
+},
+[47] = {
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 47,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 11
+},
+[48] = {
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 48,
+  ["PetId"]= 82004,
+  ["SkillLevel"]= 12
+},
+[49] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 49,
+  ["PetId"]= 82005
+},
+[50] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["Id"]= 50,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 2
+},
+[51] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 51,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 3
+},
+[52] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 52,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 4
+},
+[53] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 53,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 5
+},
+[54] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 54,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 6
+},
+[55] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 55,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 7
+},
+[56] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 56,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 8
+},
+[57] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 57,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 9
+},
+[58] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 58,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 10
+},
+[59] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 59,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 11
+},
+[60] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 60,
+  ["PetId"]= 82005,
+  ["SkillLevel"]= 12
+},
+[61] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 61,
+  ["PetId"]= 82006
+},
+[62] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["Id"]= 62,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 2
+},
+[63] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 63,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 3
+},
+[64] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 64,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 4
+},
+[65] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 65,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 5
+},
+[66] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 66,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 6
+},
+[67] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 67,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 7
+},
+[68] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 68,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 8
+},
+[69] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 69,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 9
+},
+[70] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 70,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 10
+},
+[71] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 71,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 11
+},
+[72] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 72,
+  ["PetId"]= 82006,
+  ["SkillLevel"]= 12
+},
+[73] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 73,
+  ["PetId"]= 82007
+},
+[74] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["Id"]= 74,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 2
+},
+[75] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 75,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 3
+},
+[76] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 76,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 4
+},
+[77] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 77,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 5
+},
+[78] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 78,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 6
+},
+[79] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 79,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 7
+},
+[80] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 80,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 8
+},
+[81] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 81,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 9
+},
+[82] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 82,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 10
+},
+[83] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 83,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 11
+},
+[84] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 84,
+  ["PetId"]= 82007,
+  ["SkillLevel"]= 12
+},
+[85] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 85,
+  ["PetId"]= 82008
+},
+[86] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["Id"]= 86,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 2
+},
+[87] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 87,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 3
+},
+[88] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 88,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 4
+},
+[89] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 89,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 5
+},
+[90] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 90,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 6
+},
+[91] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 91,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 7
+},
+[92] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 92,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 8
+},
+[93] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 93,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 9
+},
+[94] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 94,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 10
+},
+[95] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 95,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 11
+},
+[96] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 96,
+  ["PetId"]= 82008,
+  ["SkillLevel"]= 12
+},
+[97] = {
+  ["CostItemId"]= {
+    10409206
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 97,
+  ["PetId"]= 82009
+},
+[98] = {
+  ["CostItemId"]= {
+    10409206
+  },
+  ["Id"]= 98,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 2
+},
+[99] = {
+  ["CostItemId"]= {
+    10409206
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 99,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 3
+},
+[100] = {
+  ["CostItemId"]= {
+    10409216
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 100,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 4
+},
+[101] = {
+  ["CostItemId"]= {
+    10409216
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 101,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 5
+},
+[102] = {
+  ["CostItemId"]= {
+    10409216
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 102,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 6
+},
+[103] = {
+  ["CostItemId"]= {
+    10409216
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 103,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 7
+},
+[104] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 104,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 8
+},
+[105] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 105,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 9
+},
+[106] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 106,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 10
+},
+[107] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 107,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 11
+},
+[108] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 108,
+  ["PetId"]= 82009,
+  ["SkillLevel"]= 12
+},
+[109] = {
+  ["CostItemId"]= {
+    10409206
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 109,
+  ["PetId"]= 82010
+},
+[110] = {
+  ["CostItemId"]= {
+    10409206
+  },
+  ["Id"]= 110,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 2
+},
+[111] = {
+  ["CostItemId"]= {
+    10409206
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 111,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 3
+},
+[112] = {
+  ["CostItemId"]= {
+    10409216
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 112,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 4
+},
+[113] = {
+  ["CostItemId"]= {
+    10409216
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 113,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 5
+},
+[114] = {
+  ["CostItemId"]= {
+    10409216
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 114,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 6
+},
+[115] = {
+  ["CostItemId"]= {
+    10409216
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 115,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 7
+},
+[116] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 116,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 8
+},
+[117] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 117,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 9
+},
+[118] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 118,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 10
+},
+[119] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 119,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 11
+},
+[120] = {
+  ["CostItemId"]= {
+    10409226
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 120,
+  ["PetId"]= 82010,
+  ["SkillLevel"]= 12
+},
+[121] = {
+  ["CostItemId"]= {
+    10409202
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 121,
+  ["PetId"]= 82011
+},
+[122] = {
+  ["CostItemId"]= {
+    10409202
+  },
+  ["Id"]= 122,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 2
+},
+[123] = {
+  ["CostItemId"]= {
+    10409202
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 123,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 3
+},
+[124] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 124,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 4
+},
+[125] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 125,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 5
+},
+[126] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 126,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 6
+},
+[127] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 127,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 7
+},
+[128] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 128,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 8
+},
+[129] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 129,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 9
+},
+[130] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 130,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 10
+},
+[131] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 131,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 11
+},
+[132] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 132,
+  ["PetId"]= 82011,
+  ["SkillLevel"]= 12
+},
+[133] = {
+  ["CostItemId"]= {
+    10409202
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 133,
+  ["PetId"]= 82012
+},
+[134] = {
+  ["CostItemId"]= {
+    10409202
+  },
+  ["Id"]= 134,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 2
+},
+[135] = {
+  ["CostItemId"]= {
+    10409202
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 135,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 3
+},
+[136] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 136,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 4
+},
+[137] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 137,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 5
+},
+[138] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 138,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 6
+},
+[139] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 139,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 7
+},
+[140] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 140,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 8
+},
+[141] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 141,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 9
+},
+[142] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 142,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 10
+},
+[143] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 143,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 11
+},
+[144] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 144,
+  ["PetId"]= 82012,
+  ["SkillLevel"]= 12
+},
+[145] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 145,
+  ["PetId"]= 82013
+},
+[146] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["Id"]= 146,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 2
+},
+[147] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 147,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 3
+},
+[148] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 148,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 4
+},
+[149] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 149,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 5
+},
+[150] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 150,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 6
+},
+[151] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 151,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 7
+},
+[152] = {
+  ["CostNum"]= 100000,
+  ["Id"]= 152,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 8
+},
+[153] = {
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 153,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 9
+},
+[154] = {
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 154,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 10
+},
+[155] = {
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 155,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 11
+},
+[156] = {
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 156,
+  ["PetId"]= 82013,
+  ["SkillLevel"]= 12
+},
+[157] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 157,
+  ["PetId"]= 82014
+},
+[158] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["Id"]= 158,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 2
+},
+[159] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 159,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 3
+},
+[160] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 160,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 4
+},
+[161] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 161,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 5
+},
+[162] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 162,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 6
+},
+[163] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 163,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 7
+},
+[164] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 164,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 8
+},
+[165] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 165,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 9
+},
+[166] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 166,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 10
+},
+[167] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 167,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 11
+},
+[168] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 168,
+  ["PetId"]= 82014,
+  ["SkillLevel"]= 12
+},
+[169] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 169,
+  ["PetId"]= 82015
+},
+[170] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["Id"]= 170,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 2
+},
+[171] = {
+  ["CostItemId"]= {
+    10409201
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 171,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 3
+},
+[172] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 172,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 4
+},
+[173] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 173,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 5
+},
+[174] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 174,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 6
+},
+[175] = {
+  ["CostItemId"]= {
+    10409211
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 175,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 7
+},
+[176] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 176,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 8
+},
+[177] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 177,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 9
+},
+[178] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 178,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 10
+},
+[179] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 179,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 11
+},
+[180] = {
+  ["CostItemId"]= {
+    10409221
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 180,
+  ["PetId"]= 82015,
+  ["SkillLevel"]= 12
+},
+[181] = {
+  ["CostItemId"]= {
+    10409207
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 181,
+  ["PetId"]= 82016
+},
+[182] = {
+  ["CostItemId"]= {
+    10409207
+  },
+  ["Id"]= 182,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 2
+},
+[183] = {
+  ["CostItemId"]= {
+    10409207
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 183,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 3
+},
+[184] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 184,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 4
+},
+[185] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 185,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 5
+},
+[186] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 186,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 6
+},
+[187] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 187,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 7
+},
+[188] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 188,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 8
+},
+[189] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 189,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 9
+},
+[190] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 190,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 10
+},
+[191] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 191,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 11
+},
+[192] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 192,
+  ["PetId"]= 82016,
+  ["SkillLevel"]= 12
+},
+[193] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 193,
+  ["PetId"]= 82017
+},
+[194] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["Id"]= 194,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 2
+},
+[195] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 195,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 3
+},
+[196] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 196,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 4
+},
+[197] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 197,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 5
+},
+[198] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 198,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 6
+},
+[199] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 199,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 7
+},
+[200] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 200,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 8
+},
+[201] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 201,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 9
+},
+[202] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 202,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 10
+},
+[203] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 203,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 11
+},
+[204] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 204,
+  ["PetId"]= 82017,
+  ["SkillLevel"]= 12
+},
+[205] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 205,
+  ["PetId"]= 82018
+},
+[206] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["Id"]= 206,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 2
+},
+[207] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 207,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 3
+},
+[208] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 208,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 4
+},
+[209] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 209,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 5
+},
+[210] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 210,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 6
+},
+[211] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 211,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 7
+},
+[212] = {
+  ["CostNum"]= 100000,
+  ["Id"]= 212,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 8
+},
+[213] = {
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 213,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 9
+},
+[214] = {
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 214,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 10
+},
+[215] = {
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 215,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 11
+},
+[216] = {
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 216,
+  ["PetId"]= 82018,
+  ["SkillLevel"]= 12
+},
+[217] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 217,
+  ["PetId"]= 82019
+},
+[218] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["Id"]= 218,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 2
+},
+[219] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 219,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 3
+},
+[220] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 220,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 4
+},
+[221] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 221,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 5
+},
+[222] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 222,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 6
+},
+[223] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 223,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 7
+},
+[224] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 224,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 8
+},
+[225] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 225,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 9
+},
+[226] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 226,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 10
+},
+[227] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 227,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 11
+},
+[228] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 228,
+  ["PetId"]= 82019,
+  ["SkillLevel"]= 12
+},
+[229] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 229,
+  ["PetId"]= 82020
+},
+[230] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["Id"]= 230,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 2
+},
+[231] = {
+  ["CostItemId"]= {
+    10409204
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 231,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 3
+},
+[232] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 232,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 4
+},
+[233] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 233,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 5
+},
+[234] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 234,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 6
+},
+[235] = {
+  ["CostItemId"]= {
+    10409214
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 235,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 7
+},
+[236] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 236,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 8
+},
+[237] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 237,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 9
+},
+[238] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 238,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 10
+},
+[239] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 239,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 11
+},
+[240] = {
+  ["CostItemId"]= {
+    10409224
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 240,
+  ["PetId"]= 82020,
+  ["SkillLevel"]= 12
+},
+[241] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 241,
+  ["PetId"]= 82021
+},
+[242] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["Id"]= 242,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 2
+},
+[243] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 243,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 3
+},
+[244] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 244,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 4
+},
+[245] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 245,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 5
+},
+[246] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 246,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 6
+},
+[247] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 247,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 7
+},
+[248] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 248,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 8
+},
+[249] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 249,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 9
+},
+[250] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 250,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 10
+},
+[251] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 251,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 11
+},
+[252] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 252,
+  ["PetId"]= 82021,
+  ["SkillLevel"]= 12
+},
+[253] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 253,
+  ["PetId"]= 82022
+},
+[254] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["Id"]= 254,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 2
+},
+[255] = {
+  ["CostItemId"]= {
+    10409203
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 255,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 3
+},
+[256] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 256,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 4
+},
+[257] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 257,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 5
+},
+[258] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 258,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 6
+},
+[259] = {
+  ["CostItemId"]= {
+    10409213
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 259,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 7
+},
+[260] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 260,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 8
+},
+[261] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 261,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 9
+},
+[262] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 262,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 10
+},
+[263] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 263,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 11
+},
+[264] = {
+  ["CostItemId"]= {
+    10409223
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 264,
+  ["PetId"]= 82022,
+  ["SkillLevel"]= 12
+},
+[265] = {
+  ["CostItemId"]= {
+    10409210
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 265,
+  ["PetId"]= 82023
+},
+[266] = {
+  ["CostItemId"]= {
+    10409210
+  },
+  ["Id"]= 266,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 2
+},
+[267] = {
+  ["CostItemId"]= {
+    10409210
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 267,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 3
+},
+[268] = {
+  ["CostItemId"]= {
+    10409220
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 268,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 4
+},
+[269] = {
+  ["CostItemId"]= {
+    10409220
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 269,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 5
+},
+[270] = {
+  ["CostItemId"]= {
+    10409220
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 270,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 6
+},
+[271] = {
+  ["CostItemId"]= {
+    10409220
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 271,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 7
+},
+[272] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 272,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 8
+},
+[273] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 273,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 9
+},
+[274] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 274,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 10
+},
+[275] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 275,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 11
+},
+[276] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 276,
+  ["PetId"]= 82023,
+  ["SkillLevel"]= 12
+},
+[277] = {
+  ["CostItemId"]= {
+    10409210
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 277,
+  ["PetId"]= 82024
+},
+[278] = {
+  ["CostItemId"]= {
+    10409210
+  },
+  ["Id"]= 278,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 2
+},
+[279] = {
+  ["CostItemId"]= {
+    10409210
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 279,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 3
+},
+[280] = {
+  ["CostItemId"]= {
+    10409220
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 280,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 4
+},
+[281] = {
+  ["CostItemId"]= {
+    10409220
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 281,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 5
+},
+[282] = {
+  ["CostItemId"]= {
+    10409220
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 282,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 6
+},
+[283] = {
+  ["CostItemId"]= {
+    10409220
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 283,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 7
+},
+[284] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 284,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 8
+},
+[285] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 285,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 9
+},
+[286] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 286,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 10
+},
+[287] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 287,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 11
+},
+[288] = {
+  ["CostItemId"]= {
+    10409230
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 288,
+  ["PetId"]= 82024,
+  ["SkillLevel"]= 12
+},
+[289] = {
+  ["CostItemId"]= {
+    10409208
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 289,
+  ["PetId"]= 82025
+},
+[290] = {
+  ["CostItemId"]= {
+    10409208
+  },
+  ["Id"]= 290,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 2
+},
+[291] = {
+  ["CostItemId"]= {
+    10409208
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 291,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 3
+},
+[292] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 292,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 4
+},
+[293] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 293,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 5
+},
+[294] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 294,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 6
+},
+[295] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 295,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 7
+},
+[296] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 296,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 8
+},
+[297] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 297,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 9
+},
+[298] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 298,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 10
+},
+[299] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 299,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 11
+},
+[300] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 300,
+  ["PetId"]= 82025,
+  ["SkillLevel"]= 12
+},
+[301] = {
+  ["CostItemId"]= {
+    10409208
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 301,
+  ["PetId"]= 82026
+},
+[302] = {
+  ["CostItemId"]= {
+    10409208
+  },
+  ["Id"]= 302,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 2
+},
+[303] = {
+  ["CostItemId"]= {
+    10409208
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 303,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 3
+},
+[304] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 304,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 4
+},
+[305] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 305,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 5
+},
+[306] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 306,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 6
+},
+[307] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 307,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 7
+},
+[308] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 308,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 8
+},
+[309] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 309,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 9
+},
+[310] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 310,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 10
+},
+[311] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 311,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 11
+},
+[312] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 312,
+  ["PetId"]= 82026,
+  ["SkillLevel"]= 12
+},
+[313] = {
+  ["CostItemId"]= {
+    10409207
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 313,
+  ["PetId"]= 82027
+},
+[314] = {
+  ["CostItemId"]= {
+    10409207
+  },
+  ["Id"]= 314,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 2
+},
+[315] = {
+  ["CostItemId"]= {
+    10409207
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 315,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 3
+},
+[316] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 316,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 4
+},
+[317] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 317,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 5
+},
+[318] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 318,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 6
+},
+[319] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 319,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 7
+},
+[320] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 320,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 8
+},
+[321] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 321,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 9
+},
+[322] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 322,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 10
+},
+[323] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 323,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 11
+},
+[324] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 324,
+  ["PetId"]= 82027,
+  ["SkillLevel"]= 12
+},
+[325] = {
+  ["CostItemId"]= {
+    10409207
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 325,
+  ["PetId"]= 82028
+},
+[326] = {
+  ["CostItemId"]= {
+    10409207
+  },
+  ["Id"]= 326,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 2
+},
+[327] = {
+  ["CostItemId"]= {
+    10409207
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 327,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 3
+},
+[328] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 328,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 4
+},
+[329] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 329,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 5
+},
+[330] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 330,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 6
+},
+[331] = {
+  ["CostItemId"]= {
+    10409217
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 331,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 7
+},
+[332] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 332,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 8
+},
+[333] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 333,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 9
+},
+[334] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 334,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 10
+},
+[335] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 335,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 11
+},
+[336] = {
+  ["CostItemId"]= {
+    10409227
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 336,
+  ["PetId"]= 82028,
+  ["SkillLevel"]= 12
+},
+[337] = {
+  ["CostItemId"]= {
+    10409202
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 337,
+  ["PetId"]= 82029
+},
+[338] = {
+  ["CostItemId"]= {
+    10409202
+  },
+  ["Id"]= 338,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 2
+},
+[339] = {
+  ["CostItemId"]= {
+    10409202
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 339,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 3
+},
+[340] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 340,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 4
+},
+[341] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 341,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 5
+},
+[342] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 342,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 6
+},
+[343] = {
+  ["CostItemId"]= {
+    10409212
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 343,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 7
+},
+[344] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 344,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 8
+},
+[345] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 345,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 9
+},
+[346] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 346,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 10
+},
+[347] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 347,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 11
+},
+[348] = {
+  ["CostItemId"]= {
+    10409222
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 348,
+  ["PetId"]= 82029,
+  ["SkillLevel"]= 12
+},
+[349] = {
+  ["CostItemId"]= {
+    10409208
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 349,
+  ["PetId"]= 82030
+},
+[350] = {
+  ["CostItemId"]= {
+    10409208
+  },
+  ["Id"]= 350,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 2
+},
+[351] = {
+  ["CostItemId"]= {
+    10409208
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 351,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 3
+},
+[352] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 352,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 4
+},
+[353] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 353,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 5
+},
+[354] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 354,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 6
+},
+[355] = {
+  ["CostItemId"]= {
+    10409218
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 355,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 7
+},
+[356] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 356,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 8
+},
+[357] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 357,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 9
+},
+[358] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 358,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 10
+},
+[359] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 359,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 11
+},
+[360] = {
+  ["CostItemId"]= {
+    10409228
+  },
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 360,
+  ["PetId"]= 82030,
+  ["SkillLevel"]= 12
+},
+[361] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 361,
+  ["PetId"]= 82031
+},
+[362] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["Id"]= 362,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 2
+},
+[363] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 363,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 3
+},
+[364] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 364,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 4
+},
+[365] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 365,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 5
+},
+[366] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 366,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 6
+},
+[367] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 367,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 7
+},
+[368] = {
+  ["CostNum"]= 100000,
+  ["Id"]= 368,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 8
+},
+[369] = {
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 369,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 9
+},
+[370] = {
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 370,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 10
+},
+[371] = {
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 371,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 11
+},
+[372] = {
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 372,
+  ["PetId"]= 82031,
+  ["SkillLevel"]= 12
+},
+[373] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 5000,
+  ["Id"]= 373,
+  ["PetId"]= 82032
+},
+[374] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["Id"]= 374,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 2
+},
+[375] = {
+  ["CostItemId"]= {
+    10409205
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["Id"]= 375,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 3
+},
+[376] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    3
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 376,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 4
+},
+[377] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostNum"]= 20000,
+  ["Id"]= 377,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 5
+},
+[378] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 378,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 6
+},
+[379] = {
+  ["CostItemId"]= {
+    10409215
+  },
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 50000,
+  ["Id"]= 379,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 7
+},
+[380] = {
+  ["CostNum"]= 100000,
+  ["Id"]= 380,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 8
+},
+[381] = {
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 100000,
+  ["Id"]= 381,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 9
+},
+[382] = {
+  ["CostItemNum"]= {
+    6
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 382,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 10
+},
+[383] = {
+  ["CostItemNum"]= {
+    7
+  },
+  ["CostNum"]= 200000,
+  ["Id"]= 383,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 11
+},
+[384] = {
+  ["CostItemNum"]= {
+    8
+  },
+  ["CostNum"]= 500000,
+  ["Id"]= 384,
+  ["PetId"]= 82032,
+  ["SkillLevel"]= 12
+}
+}
+local baseTable={
+  ["CostItemId"]= {
+    10409225
+  },
+  ["CostItemNum"]= {
+    4
+  },
+  ["CostNum"]= 10000,
+  ["Currency"]= 1,
+  ["Id"]= 1,
+  ["PetId"]= 82001,
+  ["SkillLevel"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

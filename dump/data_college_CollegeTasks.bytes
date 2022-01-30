@@ -1,0 +1,788 @@
+local table= {
+[1] = {
+  ["CollegeExp"]= 20,
+  ["Name"]= "与导师参与MINI次数",
+  ["RenovateType"]= 1,
+  ["TargetType"]= 106,
+  ["TaskDesc"]= "CollegeTasksDes_0001",
+  ["WayValue"]= "UI_MVPBoss"
+},
+[2] = {
+  ["CollegeExp"]= 20,
+  ["id"]= 2,
+  ["Name"]= "与导师参与MVP次数",
+  ["RenovateType"]= 1,
+  ["TargetType"]= 105,
+  ["TaskDesc"]= "CollegeTasksDes_0002",
+  ["WayValue"]= "UI_MVPBoss"
+},
+[3] = {
+  ["CollegeExp"]= 20,
+  ["id"]= 3,
+  ["Name"]= "与导师完成任意副本次数",
+  ["RenovateType"]= 1,
+  ["TaskDesc"]= "CollegeTasksDes_0003",
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[4] = {
+  ["id"]= 4,
+  ["Name"]= "击杀怪物",
+  ["RenovateType"]= 1,
+  ["TargetType"]= 74,
+  ["TaskDesc"]= "CollegeTasksDes_0004",
+  ["Times"]= 2000
+},
+[5] = {
+  ["id"]= 5,
+  ["Name"]= "委托板任务次数",
+  ["RenovateType"]= 1,
+  ["TargetType"]= 5,
+  ["TaskDesc"]= "CollegeTasksDes_0005",
+  ["Times"]= 10,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[6] = {
+  ["id"]= 6,
+  ["Name"]= "消耗活力",
+  ["RenovateType"]= 1,
+  ["TargetType"]= 97,
+  ["TaskDesc"]= "CollegeTasksDes_0006",
+  ["Times"]= 1500,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[7] = {
+  ["id"]= 7,
+  ["Name"]= "消耗奥丁",
+  ["RenovateType"]= 1,
+  ["TargetType"]= 15,
+  ["TaskDesc"]= "CollegeTasksDes_0007",
+  ["Times"]= 1500
+},
+[8] = {
+  ["id"]= 8,
+  ["Name"]= "强化次数",
+  ["RenovateType"]= 1,
+  ["TargetType"]= 36,
+  ["TaskDesc"]= "CollegeTasksDes_0008",
+  ["Times"]= 3,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[9] = {
+  ["id"]= 9,
+  ["Name"]= "精炼次数",
+  ["RenovateType"]= 1,
+  ["TargetType"]= 38,
+  ["TaskDesc"]= "CollegeTasksDes_0009",
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[10] = {
+  ["id"]= 10,
+  ["Name"]= "附魔次数",
+  ["RenovateType"]= 1,
+  ["TargetType"]= 37,
+  ["TaskDesc"]= "CollegeTasksDes_0010",
+  ["Times"]= 2,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[11] = {
+  ["CollegeExp"]= 750,
+  ["Drop"]= 1106011000,
+  ["id"]= 11,
+  ["Name"]= "与学员组队击杀怪物",
+  ["TargetType"]= 104,
+  ["TaskDesc"]= "CollegeTasksDes_1001",
+  ["Times"]= 10000
+},
+[12] = {
+  ["CollegeExp"]= 750,
+  ["Drop"]= 1106011000,
+  ["id"]= 12,
+  ["Name"]= "与学员组队完成副本",
+  ["TaskDesc"]= "CollegeTasksDes_1002",
+  ["Times"]= 40,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[13] = {
+  ["CollegeExp"]= 750,
+  ["Drop"]= 1106011000,
+  ["id"]= 13,
+  ["Name"]= "与学员爬塔达到x层",
+  ["TargetParameter"]= {
+    22
+  },
+  ["TargetType"]= 107,
+  ["TaskDesc"]= "CollegeTasksDes_1003",
+  ["WayType"]= 2,
+  ["WayValue"]= 11401001
+},
+[14] = {
+  ["CollegeExp"]= 750,
+  ["Drop"]= 1106011000,
+  ["id"]= 14,
+  ["Name"]= "与学员组队挑战MVP",
+  ["TargetType"]= 105,
+  ["TaskDesc"]= "CollegeTasksDes_1004",
+  ["Times"]= 40,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[15] = {
+  ["CollegeExp"]= 750,
+  ["Drop"]= 1106011000,
+  ["id"]= 15,
+  ["Name"]= "与学员组队挑战Mini",
+  ["TargetType"]= 106,
+  ["TaskDesc"]= "CollegeTasksDes_1005",
+  ["Times"]= 40,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[16] = {
+  ["CollegeExp"]= 1600,
+  ["Drop"]= 1106011001,
+  ["id"]= 16,
+  ["Name"]= "指导学员毕业",
+  ["TargetType"]= 110,
+  ["TaskDesc"]= "CollegeTasksDes_1006",
+  ["Times"]= 2,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[17] = {
+  ["CollegeExp"]= 1100,
+  ["Drop"]= 1106011002,
+  ["id"]= 17,
+  ["Name"]= "与学员组队击杀怪物",
+  ["TargetType"]= 104,
+  ["TaskDesc"]= "CollegeTasksDes_1001",
+  ["Times"]= 20000
+},
+[18] = {
+  ["CollegeExp"]= 1100,
+  ["Drop"]= 1106011002,
+  ["id"]= 18,
+  ["Name"]= "与学员组队完成副本",
+  ["TaskDesc"]= "CollegeTasksDes_1002",
+  ["Times"]= 80,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[19] = {
+  ["CollegeExp"]= 1100,
+  ["Drop"]= 1106011002,
+  ["id"]= 19,
+  ["Name"]= "与学员爬塔达到x层",
+  ["TargetParameter"]= {
+    42
+  },
+  ["TargetType"]= 107,
+  ["TaskDesc"]= "CollegeTasksDes_1003",
+  ["WayType"]= 2,
+  ["WayValue"]= 11401001
+},
+[20] = {
+  ["CollegeExp"]= 1100,
+  ["Drop"]= 1106011002,
+  ["id"]= 20,
+  ["Name"]= "与学员组队挑战MVP",
+  ["TargetType"]= 105,
+  ["TaskDesc"]= "CollegeTasksDes_1004",
+  ["Times"]= 80,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[21] = {
+  ["CollegeExp"]= 1100,
+  ["Drop"]= 1106011002,
+  ["id"]= 21,
+  ["Name"]= "与学员组队挑战Mini",
+  ["TargetType"]= 106,
+  ["TaskDesc"]= "CollegeTasksDes_1005",
+  ["Times"]= 80,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[22] = {
+  ["CollegeExp"]= 2400,
+  ["Drop"]= 1106011003,
+  ["id"]= 22,
+  ["Name"]= "指导学员毕业",
+  ["TargetType"]= 110,
+  ["TaskDesc"]= "CollegeTasksDes_1006",
+  ["Times"]= 4,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[23] = {
+  ["CollegeExp"]= 1470,
+  ["Drop"]= 1106011004,
+  ["id"]= 23,
+  ["Name"]= "与学员组队击杀怪物",
+  ["TargetType"]= 104,
+  ["TaskDesc"]= "CollegeTasksDes_1001",
+  ["Times"]= 30000
+},
+[24] = {
+  ["CollegeExp"]= 1470,
+  ["Drop"]= 1106011004,
+  ["id"]= 24,
+  ["Name"]= "与学员组队完成副本",
+  ["TaskDesc"]= "CollegeTasksDes_1002",
+  ["Times"]= 120,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[25] = {
+  ["CollegeExp"]= 1470,
+  ["Drop"]= 1106011004,
+  ["id"]= 25,
+  ["Name"]= "与学员爬塔达到x层",
+  ["TargetParameter"]= {
+    62
+  },
+  ["TargetType"]= 107,
+  ["TaskDesc"]= "CollegeTasksDes_1003",
+  ["WayType"]= 2,
+  ["WayValue"]= 11401001
+},
+[26] = {
+  ["CollegeExp"]= 1470,
+  ["Drop"]= 1106011004,
+  ["id"]= 26,
+  ["Name"]= "与学员组队挑战MVP",
+  ["TargetType"]= 105,
+  ["TaskDesc"]= "CollegeTasksDes_1004",
+  ["Times"]= 120,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[27] = {
+  ["CollegeExp"]= 1470,
+  ["Drop"]= 1106011004,
+  ["id"]= 27,
+  ["Name"]= "与学员组队挑战Mini",
+  ["TargetType"]= 106,
+  ["TaskDesc"]= "CollegeTasksDes_1005",
+  ["Times"]= 120,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[28] = {
+  ["CollegeExp"]= 3100,
+  ["Drop"]= 1106011005,
+  ["id"]= 28,
+  ["Name"]= "指导学员毕业",
+  ["TargetType"]= 110,
+  ["TaskDesc"]= "CollegeTasksDes_1006",
+  ["Times"]= 6,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[29] = {
+  ["CollegeExp"]= 1840,
+  ["Drop"]= 1106011006,
+  ["id"]= 29,
+  ["Name"]= "与学员组队击杀怪物",
+  ["TargetType"]= 104,
+  ["TaskDesc"]= "CollegeTasksDes_1001",
+  ["Times"]= 40000
+},
+[30] = {
+  ["CollegeExp"]= 1840,
+  ["Drop"]= 1106011006,
+  ["id"]= 30,
+  ["Name"]= "与学员组队完成副本",
+  ["TaskDesc"]= "CollegeTasksDes_1002",
+  ["Times"]= 160,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[31] = {
+  ["CollegeExp"]= 1840,
+  ["Drop"]= 1106011006,
+  ["id"]= 31,
+  ["Name"]= "与学员爬塔达到x层",
+  ["TargetParameter"]= {
+    82
+  },
+  ["TargetType"]= 107,
+  ["TaskDesc"]= "CollegeTasksDes_1003",
+  ["WayType"]= 2,
+  ["WayValue"]= 11401001
+},
+[32] = {
+  ["CollegeExp"]= 1840,
+  ["Drop"]= 1106011006,
+  ["id"]= 32,
+  ["Name"]= "与学员组队挑战MVP",
+  ["TargetType"]= 105,
+  ["TaskDesc"]= "CollegeTasksDes_1004",
+  ["Times"]= 160,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[33] = {
+  ["CollegeExp"]= 1840,
+  ["Drop"]= 1106011006,
+  ["id"]= 33,
+  ["Name"]= "与学员组队挑战Mini",
+  ["TargetType"]= 106,
+  ["TaskDesc"]= "CollegeTasksDes_1005",
+  ["Times"]= 160,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[34] = {
+  ["CollegeExp"]= 4000,
+  ["Drop"]= 1106011007,
+  ["id"]= 34,
+  ["Name"]= "指导学员毕业",
+  ["TargetType"]= 110,
+  ["TaskDesc"]= "CollegeTasksDes_1006",
+  ["Times"]= 8,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[35] = {
+  ["CollegeExp"]= 2200,
+  ["Drop"]= 1106011008,
+  ["id"]= 35,
+  ["Name"]= "与学员组队击杀怪物",
+  ["TargetType"]= 104,
+  ["TaskDesc"]= "CollegeTasksDes_1001",
+  ["Times"]= 50000
+},
+[36] = {
+  ["CollegeExp"]= 2200,
+  ["Drop"]= 1106011008,
+  ["id"]= 36,
+  ["Name"]= "与学员组队完成副本",
+  ["TaskDesc"]= "CollegeTasksDes_1002",
+  ["Times"]= 200,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[37] = {
+  ["CollegeExp"]= 2200,
+  ["Drop"]= 1106011008,
+  ["id"]= 37,
+  ["Name"]= "与学员爬塔达到x层",
+  ["TargetParameter"]= {
+    102
+  },
+  ["TargetType"]= 107,
+  ["TaskDesc"]= "CollegeTasksDes_1003",
+  ["WayType"]= 2,
+  ["WayValue"]= 11401001
+},
+[38] = {
+  ["CollegeExp"]= 2200,
+  ["Drop"]= 1106011008,
+  ["id"]= 38,
+  ["Name"]= "与学员组队挑战MVP",
+  ["TargetType"]= 105,
+  ["TaskDesc"]= "CollegeTasksDes_1004",
+  ["Times"]= 200,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[39] = {
+  ["CollegeExp"]= 2200,
+  ["Drop"]= 1106011008,
+  ["id"]= 39,
+  ["Name"]= "与学员组队挑战Mini",
+  ["TargetType"]= 106,
+  ["TaskDesc"]= "CollegeTasksDes_1005",
+  ["Times"]= 200,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[40] = {
+  ["CollegeExp"]= 4700,
+  ["Drop"]= 1106011009,
+  ["id"]= 40,
+  ["Name"]= "指导学员毕业",
+  ["TargetType"]= 110,
+  ["TaskDesc"]= "CollegeTasksDes_1006",
+  ["Times"]= 10,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[41] = {
+  ["CollegeExp"]= 55,
+  ["Drop"]= 1106011017,
+  ["id"]= 41,
+  ["TargetType"]= 29,
+  ["Times"]= 30
+},
+[42] = {
+  ["CollegeExp"]= 40,
+  ["Drop"]= 1106011016,
+  ["id"]= 42,
+  ["Name"]= "与导师击杀怪物",
+  ["TargetType"]= 104,
+  ["TaskDesc"]= "CollegeTasksDes_2002",
+  ["Times"]= 2000
+},
+[43] = {
+  ["CollegeExp"]= 40,
+  ["Drop"]= 1106011016,
+  ["id"]= 43,
+  ["Name"]= "强化次数",
+  ["TargetType"]= 36,
+  ["TaskDesc"]= "CollegeTasksDes_0008",
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[44] = {
+  ["CollegeExp"]= 40,
+  ["Drop"]= 1106011016,
+  ["id"]= 44,
+  ["Name"]= "与导师组队通关指定副本",
+  ["TargetParameter"]= {
+    1
+  },
+  ["TaskDesc"]= "CollegeTasksDes_2004",
+  ["Times"]= 6,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[45] = {
+  ["CollegeExp"]= 40,
+  ["Drop"]= 1106011016,
+  ["id"]= 45,
+  ["Name"]= "委托板任务次数",
+  ["TargetType"]= 5,
+  ["TaskDesc"]= "CollegeTasksDes_0005",
+  ["Times"]= 20,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[46] = {
+  ["CollegeExp"]= 40,
+  ["Drop"]= 1106011016,
+  ["id"]= 46,
+  ["Name"]= "消耗奥丁",
+  ["TargetType"]= 15,
+  ["TaskDesc"]= "CollegeTasksDes_0007",
+  ["Times"]= 2000
+},
+[47] = {
+  ["CollegeExp"]= 75,
+  ["Drop"]= 1106011019,
+  ["id"]= 47,
+  ["TargetType"]= 29,
+  ["Times"]= 35
+},
+[48] = {
+  ["CollegeExp"]= 50,
+  ["Drop"]= 1106011018,
+  ["id"]= 48,
+  ["Name"]= "与导师组队通关指定副本",
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskDesc"]= "CollegeTasksDes_2004",
+  ["Times"]= 6,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[49] = {
+  ["CollegeExp"]= 50,
+  ["Drop"]= 1106011018,
+  ["id"]= 49,
+  ["Name"]= "与导师组队爬塔",
+  ["TargetParameter"]= {
+    13
+  },
+  ["TargetType"]= 107,
+  ["TaskDesc"]= "CollegeTasksDes_2003",
+  ["WayType"]= 2,
+  ["WayValue"]= 11401001
+},
+[50] = {
+  ["CollegeExp"]= 50,
+  ["Drop"]= 1106011018,
+  ["id"]= 50,
+  ["Name"]= "委托板任务次数",
+  ["TargetType"]= 5,
+  ["TaskDesc"]= "CollegeTasksDes_0005",
+  ["Times"]= 50,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[51] = {
+  ["CollegeExp"]= 50,
+  ["Drop"]= 1106011018,
+  ["id"]= 51,
+  ["Name"]= "消耗奥丁",
+  ["TargetType"]= 15,
+  ["TaskDesc"]= "CollegeTasksDes_0007",
+  ["Times"]= 5000
+},
+[52] = {
+  ["CollegeExp"]= 50,
+  ["Drop"]= 1106011018,
+  ["id"]= 52,
+  ["Name"]= "与导师参与MINI次数",
+  ["TargetType"]= 106,
+  ["TaskDesc"]= "CollegeTasksDes_0001",
+  ["Times"]= 3,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[53] = {
+  ["CollegeExp"]= 90,
+  ["Drop"]= 1106011021,
+  ["id"]= 53,
+  ["TargetType"]= 29,
+  ["Times"]= 40
+},
+[54] = {
+  ["CollegeExp"]= 60,
+  ["Drop"]= 1106011020,
+  ["id"]= 54,
+  ["Name"]= "与导师完成任意副本次数",
+  ["TaskDesc"]= "CollegeTasksDes_0003",
+  ["Times"]= 20,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[55] = {
+  ["CollegeExp"]= 60,
+  ["Drop"]= 1106011020,
+  ["id"]= 55,
+  ["Name"]= "与导师参与MVP次数",
+  ["TargetType"]= 105,
+  ["TaskDesc"]= "CollegeTasksDes_0002",
+  ["Times"]= 3,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[56] = {
+  ["CollegeExp"]= 60,
+  ["Drop"]= 1106011020,
+  ["id"]= 56,
+  ["Name"]= "委托板任务次数",
+  ["TargetType"]= 5,
+  ["TaskDesc"]= "CollegeTasksDes_0005",
+  ["Times"]= 70,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[57] = {
+  ["CollegeExp"]= 60,
+  ["Drop"]= 1106011020,
+  ["id"]= 57,
+  ["Name"]= "消耗奥丁",
+  ["TargetType"]= 15,
+  ["TaskDesc"]= "CollegeTasksDes_0007",
+  ["Times"]= 7000
+},
+[58] = {
+  ["CollegeExp"]= 60,
+  ["Drop"]= 1106011020,
+  ["id"]= 58,
+  ["Name"]= "消耗活力",
+  ["TargetType"]= 97,
+  ["TaskDesc"]= "CollegeTasksDes_0006",
+  ["Times"]= 2000,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[59] = {
+  ["CollegeExp"]= 100,
+  ["Drop"]= 1106011023,
+  ["id"]= 59,
+  ["TargetType"]= 29,
+  ["Times"]= 45
+},
+[60] = {
+  ["CollegeExp"]= 70,
+  ["Drop"]= 1106011022,
+  ["id"]= 60,
+  ["Name"]= "与导师完成任意副本次数",
+  ["TaskDesc"]= "CollegeTasksDes_0003",
+  ["Times"]= 30,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[61] = {
+  ["CollegeExp"]= 70,
+  ["Drop"]= 1106011022,
+  ["id"]= 61,
+  ["Name"]= "与导师参与MVP次数",
+  ["TargetType"]= 105,
+  ["TaskDesc"]= "CollegeTasksDes_0002",
+  ["Times"]= 6,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[62] = {
+  ["CollegeExp"]= 70,
+  ["Drop"]= 1106011022,
+  ["id"]= 62,
+  ["Name"]= "与导师参与MINI次数",
+  ["TargetType"]= 106,
+  ["TaskDesc"]= "CollegeTasksDes_0001",
+  ["Times"]= 6,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[63] = {
+  ["CollegeExp"]= 70,
+  ["Drop"]= 1106011022,
+  ["id"]= 63,
+  ["Name"]= "与导师击杀怪物",
+  ["TargetType"]= 104,
+  ["TaskDesc"]= "CollegeTasksDes_2002",
+  ["Times"]= 4000
+},
+[64] = {
+  ["CollegeExp"]= 70,
+  ["Drop"]= 1106011022,
+  ["id"]= 64,
+  ["Name"]= "卡片镶嵌",
+  ["TargetType"]= 13,
+  ["TaskDesc"]= "CollegeTasksDes_2005",
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[65] = {
+  ["CollegeExp"]= 110,
+  ["Drop"]= 1106011025,
+  ["id"]= 65,
+  ["TargetType"]= 29,
+  ["Times"]= 50
+},
+[66] = {
+  ["CollegeExp"]= 80,
+  ["Drop"]= 1106011024,
+  ["id"]= 66,
+  ["Name"]= "与导师完成任意副本次数",
+  ["TaskDesc"]= "CollegeTasksDes_0003",
+  ["Times"]= 40,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[67] = {
+  ["CollegeExp"]= 80,
+  ["Drop"]= 1106011024,
+  ["id"]= 67,
+  ["Name"]= "消耗活力",
+  ["TargetType"]= 97,
+  ["TaskDesc"]= "CollegeTasksDes_0006",
+  ["Times"]= 3000,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[68] = {
+  ["CollegeExp"]= 80,
+  ["Drop"]= 1106011024,
+  ["id"]= 68,
+  ["Name"]= "消耗奥丁",
+  ["TargetType"]= 15,
+  ["TaskDesc"]= "CollegeTasksDes_0007",
+  ["Times"]= 10000
+},
+[69] = {
+  ["CollegeExp"]= 80,
+  ["Drop"]= 1106011024,
+  ["id"]= 69,
+  ["Name"]= "卡片镶嵌",
+  ["TargetType"]= 13,
+  ["TaskDesc"]= "CollegeTasksDes_2005",
+  ["Times"]= 2,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[70] = {
+  ["CollegeExp"]= 80,
+  ["Drop"]= 1106011024,
+  ["id"]= 70,
+  ["Name"]= "与导师组队爬塔",
+  ["TargetParameter"]= {
+    52
+  },
+  ["TargetType"]= 107,
+  ["TaskDesc"]= "CollegeTasksDes_2003",
+  ["WayType"]= 2,
+  ["WayValue"]= 11401001
+},
+[71] = {
+  ["CollegeExp"]= 120,
+  ["Drop"]= 1106011027,
+  ["id"]= 71,
+  ["TargetType"]= 29,
+  ["Times"]= 60
+},
+[72] = {
+  ["CollegeExp"]= 90,
+  ["Drop"]= 1106011026,
+  ["id"]= 72,
+  ["Name"]= "消耗活力",
+  ["TargetType"]= 97,
+  ["TaskDesc"]= "CollegeTasksDes_0006",
+  ["Times"]= 4000,
+  ["WayType"]= 0,
+  ["WayValue"]= 0
+},
+[73] = {
+  ["CollegeExp"]= 90,
+  ["Drop"]= 1106011026,
+  ["id"]= 73,
+  ["Name"]= "与导师参与MVP次数",
+  ["TargetType"]= 105,
+  ["TaskDesc"]= "CollegeTasksDes_0002",
+  ["Times"]= 10,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[74] = {
+  ["CollegeExp"]= 90,
+  ["Drop"]= 1106011026,
+  ["id"]= 74,
+  ["Name"]= "与导师参与MINI次数",
+  ["TargetType"]= 106,
+  ["TaskDesc"]= "CollegeTasksDes_0001",
+  ["Times"]= 10,
+  ["WayValue"]= "UI_MVPBoss"
+},
+[75] = {
+  ["CollegeExp"]= 90,
+  ["Drop"]= 1106011026,
+  ["id"]= 75,
+  ["Name"]= "与导师组队通关指定副本",
+  ["TargetParameter"]= {
+    3
+  },
+  ["TaskDesc"]= "CollegeTasksDes_2004",
+  ["Times"]= 6,
+  ["WayType"]= 2,
+  ["WayValue"]= 11709999
+},
+[76] = {
+  ["CollegeExp"]= 90,
+  ["Drop"]= 1106011026,
+  ["id"]= 76,
+  ["Name"]= "与导师组队爬塔",
+  ["TargetParameter"]= {
+    95
+  },
+  ["TargetType"]= 107,
+  ["TaskDesc"]= "CollegeTasksDes_2003",
+  ["WayType"]= 2,
+  ["WayValue"]= 11401001
+}
+}
+local baseTable={
+  ["CollegeExp"]= 15,
+  ["Drop"]= 10000,
+  ["id"]= 1,
+  ["Name"]= "达到BASE等级",
+  ["RenovateType"]= 0,
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 103,
+  ["TaskDesc"]= "CollegeTasksDes_2001",
+  ["Times"]= 1,
+  ["WayType"]= 1,
+  ["WayValue"]= "UI_OdinRecommend"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

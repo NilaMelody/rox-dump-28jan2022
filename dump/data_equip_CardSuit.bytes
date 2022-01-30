@@ -1,0 +1,44 @@
+local table= {
+[10107022] = {},
+[10107023] = {
+  ["component"]= {
+    10101103,
+    10106060,
+    10105042
+  },
+  ["staticId"]= 10107023
+},
+[10107024] = {
+  ["component"]= {
+    10101109,
+    10106064,
+    10105046
+  },
+  ["staticId"]= 10107024
+},
+[10107025] = {
+  ["component"]= {
+    10101108,
+    10106063,
+    10105045
+  },
+  ["staticId"]= 10107025
+}
+}
+local baseTable={
+  ["component"]= {
+    10101104,
+    10106061,
+    10105043
+  },
+  ["num"]= {
+    1,
+    1,
+    1
+  },
+  ["staticId"]= 10107022
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

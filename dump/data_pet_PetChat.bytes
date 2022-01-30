@@ -1,0 +1,90 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Condition"]= 10,
+  ["Id"]= 2,
+  ["List"]= {
+    15,
+    17
+  }
+},
+[3] = {
+  ["Condition"]= 20,
+  ["Id"]= 3,
+  ["List"]= {
+    13,
+    25
+  }
+},
+[4] = {
+  ["Condition"]= 30,
+  ["Id"]= 4,
+  ["List"]= {
+    14,
+    26
+  }
+},
+[5] = {
+  ["Condition"]= 40,
+  ["Id"]= 5,
+  ["List"]= {
+    9,
+    20
+  }
+},
+[6] = {
+  ["Id"]= 6,
+  ["List"]= {
+    4,
+    5
+  },
+  ["Type"]= 2
+},
+[7] = {
+  ["Condition"]= 2,
+  ["Id"]= 7,
+  ["List"]= {
+    3,
+    31
+  },
+  ["Type"]= 2
+},
+[8] = {
+  ["Condition"]= 3,
+  ["Id"]= 8,
+  ["List"]= {
+    29,
+    30
+  },
+  ["Type"]= 2
+},
+[9] = {
+  ["Id"]= 9,
+  ["List"]= {
+    12
+  },
+  ["Type"]= 3
+},
+[10] = {
+  ["Condition"]= 2,
+  ["Id"]= 10,
+  ["List"]= {
+    10,
+    16
+  },
+  ["Type"]= 3
+}
+}
+local baseTable={
+  ["Condition"]= 1,
+  ["Id"]= 1,
+  ["List"]= {
+    1,
+    18
+  },
+  ["Type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

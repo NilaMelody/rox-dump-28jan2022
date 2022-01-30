@@ -1,0 +1,41 @@
+local table= {
+[1] = {
+  ["StarRange"]= {
+    1,
+    2,
+    3,
+    4,
+    5
+  }
+},
+[2] = {
+  ["Quality"]= 2,
+  ["StarRange"]= {
+    3,
+    4,
+    5,
+    6,
+    7
+  }
+},
+[3] = {
+  ["Quality"]= 3
+},
+[4] = {
+  ["Quality"]= 4
+}
+}
+local baseTable={
+  ["Quality"]= 1,
+  ["StarRange"]= {
+    5,
+    6,
+    7,
+    8,
+    9
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

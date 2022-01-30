@@ -1,0 +1,334 @@
+local table= {
+[1] = {
+  ["drop_id"]= 10550,
+  ["recharge_id"]= 31
+},
+[2] = {
+  ["currency_type"]= 3,
+  ["currency_value"]= 288888,
+  ["drop_id"]= 10551,
+  ["id"]= 2,
+  ["name"]= "GitBox_Name_005",
+  ["type"]= 2
+},
+[3] = {
+  ["drop_id"]= 10552,
+  ["id"]= 3,
+  ["name"]= "GitBox_Name_006",
+  ["type"]= 3
+},
+[4] = {
+  ["drop_id"]= 20006,
+  ["id"]= 4,
+  ["name"]= "GitBox_Name_007",
+  ["recharge_id"]= 37,
+  ["type_id"]= 2
+},
+[5] = {
+  ["drop_id"]= 20004,
+  ["id"]= 5,
+  ["name"]= "GitBox_Name_008",
+  ["recharge_id"]= 35,
+  ["type_id"]= 2
+},
+[6] = {
+  ["drop_id"]= 20005,
+  ["id"]= 6,
+  ["name"]= "GitBox_Name_009",
+  ["recharge_id"]= 36,
+  ["type_id"]= 2
+},
+[7] = {
+  ["currency_type"]= 3,
+  ["currency_value"]= 288888,
+  ["drop_id"]= 20007,
+  ["id"]= 7,
+  ["type"]= 2,
+  ["type_id"]= 3
+},
+[8] = {
+  ["currency_type"]= 3,
+  ["currency_value"]= 288888,
+  ["id"]= 8,
+  ["name"]= "GitBox_Name_005",
+  ["type"]= 2,
+  ["type_id"]= 3
+},
+[9] = {
+  ["currency_type"]= 3,
+  ["currency_value"]= 288888,
+  ["drop_id"]= 20009,
+  ["id"]= 9,
+  ["name"]= "GitBox_Name_006",
+  ["type"]= 2,
+  ["type_id"]= 3
+},
+[10] = {
+  ["drop_id"]= 20056,
+  ["id"]= 10,
+  ["name"]= "GitBox_Name_034",
+  ["recharge_id"]= 620,
+  ["type"]= 4,
+  ["type_id"]= 4
+},
+[11] = {
+  ["drop_id"]= 20057,
+  ["id"]= 11,
+  ["name"]= "GitBox_Name_035",
+  ["recharge_id"]= 621,
+  ["type"]= 4,
+  ["type_id"]= 4
+},
+[12] = {
+  ["drop_id"]= 20058,
+  ["id"]= 12,
+  ["name"]= "GitBox_Name_036",
+  ["recharge_id"]= 622,
+  ["type"]= 4,
+  ["type_id"]= 4
+},
+[13] = {
+  ["drop_id"]= 20010,
+  ["id"]= 13,
+  ["recharge_id"]= 41,
+  ["type_id"]= 5
+},
+[14] = {
+  ["drop_id"]= 20011,
+  ["id"]= 14,
+  ["name"]= "GitBox_Name_005",
+  ["recharge_id"]= 42,
+  ["type_id"]= 5
+},
+[15] = {
+  ["drop_id"]= 20012,
+  ["id"]= 15,
+  ["name"]= "GitBox_Name_006",
+  ["recharge_id"]= 43,
+  ["type_id"]= 5
+},
+[16] = {
+  ["drop_id"]= 20007,
+  ["id"]= 16,
+  ["name"]= "GitBox_Name_007",
+  ["recharge_id"]= 38,
+  ["type_id"]= 6
+},
+[17] = {
+  ["id"]= 17,
+  ["name"]= "GitBox_Name_008",
+  ["recharge_id"]= 39,
+  ["type_id"]= 6
+},
+[18] = {
+  ["drop_id"]= 20009,
+  ["id"]= 18,
+  ["name"]= "GitBox_Name_009",
+  ["recharge_id"]= 40,
+  ["type_id"]= 6
+},
+[19] = {
+  ["drop_id"]= 20011,
+  ["id"]= 19,
+  ["recharge_id"]= 42,
+  ["type_id"]= 7
+},
+[20] = {
+  ["id"]= 20,
+  ["name"]= "GitBox_Name_005",
+  ["recharge_id"]= 39,
+  ["type_id"]= 7
+},
+[21] = {
+  ["drop_id"]= 20009,
+  ["id"]= 21,
+  ["name"]= "GitBox_Name_006",
+  ["recharge_id"]= 40,
+  ["type_id"]= 7
+},
+[22] = {
+  ["drop_id"]= 20016,
+  ["id"]= 22,
+  ["name"]= "GitBox_Name_010",
+  ["recharge_id"]= 45,
+  ["type_id"]= 8
+},
+[23] = {
+  ["drop_id"]= 20017,
+  ["id"]= 23,
+  ["name"]= "GitBox_Name_011",
+  ["recharge_id"]= 46,
+  ["type_id"]= 8
+},
+[24] = {
+  ["drop_id"]= 20018,
+  ["id"]= 24,
+  ["name"]= "GitBox_Name_012",
+  ["recharge_id"]= 47,
+  ["type_id"]= 8
+},
+[25] = {
+  ["drop_id"]= 20019,
+  ["id"]= 25,
+  ["name"]= "GitBox_Name_013",
+  ["recharge_id"]= 16,
+  ["type_id"]= 9
+},
+[26] = {
+  ["drop_id"]= 20020,
+  ["id"]= 26,
+  ["name"]= "GitBox_Name_014",
+  ["recharge_id"]= 17,
+  ["type_id"]= 9
+},
+[27] = {
+  ["drop_id"]= 20021,
+  ["id"]= 27,
+  ["name"]= "GitBox_Name_015",
+  ["recharge_id"]= 18,
+  ["type_id"]= 9
+},
+[28] = {
+  ["drop_id"]= 10506,
+  ["id"]= 28,
+  ["name"]= "GitBox_Name_001",
+  ["recharge_id"]= 15,
+  ["type_id"]= 10
+},
+[29] = {
+  ["currency_type"]= 2,
+  ["currency_value"]= 2500,
+  ["drop_id"]= 10507,
+  ["id"]= 29,
+  ["name"]= "GitBox_Name_002",
+  ["type"]= 2,
+  ["type_id"]= 10
+},
+[30] = {
+  ["drop_id"]= 10508,
+  ["id"]= 30,
+  ["name"]= "GitBox_Name_003",
+  ["type"]= 3,
+  ["type_id"]= 10
+},
+[31] = {
+  ["drop_id"]= 20022,
+  ["id"]= 31,
+  ["name"]= "GitBox_Name_016",
+  ["recharge_id"]= 48,
+  ["type_id"]= 11
+},
+[32] = {
+  ["drop_id"]= 20023,
+  ["id"]= 32,
+  ["name"]= "GitBox_Name_017",
+  ["recharge_id"]= 49,
+  ["type_id"]= 11
+},
+[33] = {
+  ["drop_id"]= 20024,
+  ["id"]= 33,
+  ["name"]= "GitBox_Name_018",
+  ["recharge_id"]= 50,
+  ["type_id"]= 11
+},
+[34] = {
+  ["drop_id"]= 20035,
+  ["id"]= 34,
+  ["name"]= "GitBox_Name_019",
+  ["recharge_id"]= 605,
+  ["type_id"]= 12
+},
+[35] = {
+  ["drop_id"]= 20036,
+  ["id"]= 35,
+  ["name"]= "GitBox_Name_020",
+  ["recharge_id"]= 606,
+  ["type_id"]= 12
+},
+[36] = {
+  ["drop_id"]= 20037,
+  ["id"]= 36,
+  ["name"]= "GitBox_Name_021",
+  ["recharge_id"]= 607,
+  ["type_id"]= 12
+},
+[37] = {
+  ["drop_id"]= 20038,
+  ["id"]= 37,
+  ["name"]= "GitBox_Name_022",
+  ["recharge_id"]= 608,
+  ["type_id"]= 13
+},
+[38] = {
+  ["drop_id"]= 20039,
+  ["id"]= 38,
+  ["name"]= "GitBox_Name_023",
+  ["recharge_id"]= 609,
+  ["type_id"]= 13
+},
+[39] = {
+  ["drop_id"]= 20040,
+  ["id"]= 39,
+  ["name"]= "GitBox_Name_024",
+  ["recharge_id"]= 610,
+  ["type_id"]= 13
+},
+[40] = {
+  ["drop_id"]= 20041,
+  ["id"]= 40,
+  ["name"]= "GitBox_Name_025",
+  ["recharge_id"]= 611,
+  ["type_id"]= 14
+},
+[41] = {
+  ["drop_id"]= 20042,
+  ["id"]= 41,
+  ["name"]= "GitBox_Name_026",
+  ["recharge_id"]= 612,
+  ["type_id"]= 14
+},
+[42] = {
+  ["drop_id"]= 20043,
+  ["id"]= 42,
+  ["name"]= "GitBox_Name_027",
+  ["recharge_id"]= 613,
+  ["type_id"]= 14
+},
+[43] = {
+  ["drop_id"]= 20050,
+  ["id"]= 43,
+  ["name"]= "GitBox_Name_028",
+  ["recharge_id"]= 614,
+  ["type_id"]= 15
+},
+[44] = {
+  ["drop_id"]= 20051,
+  ["id"]= 44,
+  ["name"]= "GitBox_Name_029",
+  ["recharge_id"]= 615,
+  ["type_id"]= 15
+},
+[45] = {
+  ["drop_id"]= 20052,
+  ["id"]= 45,
+  ["name"]= "GitBox_Name_030",
+  ["recharge_id"]= 616,
+  ["type_id"]= 15
+}
+}
+local baseTable={
+  ["currency_type"]= 0,
+  ["currency_value"]= 0,
+  ["drop_id"]= 20008,
+  ["id"]= 1,
+  ["item_id"]= 0,
+  ["name"]= "GitBox_Name_004",
+  ["recharge_id"]= 0,
+  ["type"]= 1,
+  ["type_id"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

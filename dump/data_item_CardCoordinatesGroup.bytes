@@ -1,0 +1,10 @@
+return {
+[1] = {
+  ["coordinateId"]= {
+    1
+  },
+  ["IconRoute"]= "Attr_0",
+  ["name"]= "羁绊组测试1",
+  ["staticId"]= 1
+}
+}

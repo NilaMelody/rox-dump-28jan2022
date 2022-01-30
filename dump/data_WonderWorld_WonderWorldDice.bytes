@@ -1,0 +1,80 @@
+local table= {
+[1] = {},
+[2] = {
+  ["DiceItem"]= 10912002,
+  ["Id"]= 2,
+  ["LocalName"]= "遥控骰子",
+  ["Type"]= 2
+},
+[3] = {
+  ["DiceItem"]= 10912003,
+  ["DiceNum"]= {
+    4,
+    5,
+    6
+  },
+  ["Id"]= 3,
+  ["LocalName"]= "天使骰子"
+},
+[4] = {
+  ["DiceItem"]= 10912004,
+  ["DiceNum"]= {
+    1,
+    2,
+    3
+  },
+  ["Id"]= 4,
+  ["LocalName"]= "恶魔骰子"
+},
+[5] = {
+  ["DiceItem"]= 10912005,
+  ["DiceNum"]= {
+    1
+  },
+  ["Id"]= 5,
+  ["LocalName"]= "归一骰子",
+  ["Type"]= 3
+},
+[6] = {
+  ["DiceItem"]= 10912006,
+  ["DiceNum"]= {
+    6
+  },
+  ["Id"]= 6,
+  ["LocalName"]= "鸿运骰子",
+  ["Type"]= 3
+},
+[7] = {
+  ["DiceItem"]= 10912007,
+  ["DropId"]= 10912007,
+  ["Id"]= 7,
+  ["LocalName"]= "星星骰子",
+  ["Type"]= 4
+},
+[8] = {
+  ["DiceItem"]= 10912008,
+  ["DropId"]= 10912008,
+  ["Id"]= 8,
+  ["LocalName"]= "盲盒骰子",
+  ["Type"]= 4
+}
+}
+local baseTable={
+  ["DiceItem"]= 10912001,
+  ["DiceNum"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  },
+  ["DropId"]= 0,
+  ["Id"]= 1,
+  ["LocalName"]= "普通骰子",
+  ["Type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

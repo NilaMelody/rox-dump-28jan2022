@@ -1,0 +1,98 @@
+local table= {
+[1] = {},
+[2] = {
+  ["id"]= 2,
+  ["Text"]= "HalfYearDriftBottleBlessing_002"
+},
+[3] = {
+  ["id"]= 3,
+  ["Text"]= "HalfYearDriftBottleBlessing_003"
+},
+[4] = {
+  ["id"]= 4,
+  ["Text"]= "HalfYearDriftBottleBlessing_004"
+},
+[5] = {
+  ["id"]= 5,
+  ["Text"]= "HalfYearDriftBottleBlessing_005"
+},
+[6] = {
+  ["id"]= 6,
+  ["Text"]= "HalfYearDriftBottleBlessing_006"
+},
+[7] = {
+  ["id"]= 7,
+  ["Text"]= "HalfYearDriftBottleBlessing_007"
+},
+[8] = {
+  ["id"]= 8,
+  ["Text"]= "HalfYearDriftBottleBlessing_008"
+},
+[9] = {
+  ["id"]= 9,
+  ["Text"]= "HalfYearDriftBottleBlessing_009"
+},
+[10] = {
+  ["id"]= 10,
+  ["Text"]= "HalfYearDriftBottleBlessing_010"
+},
+[11] = {
+  ["id"]= 11,
+  ["Text"]= "HalfYearDriftBottleBlessing_011",
+  ["Type"]= 2
+},
+[12] = {
+  ["id"]= 12,
+  ["Text"]= "HalfYearDriftBottleBlessing_012",
+  ["Type"]= 2
+},
+[13] = {
+  ["id"]= 13,
+  ["Text"]= "HalfYearDriftBottleBlessing_013",
+  ["Type"]= 2
+},
+[14] = {
+  ["id"]= 14,
+  ["Text"]= "HalfYearDriftBottleBlessing_014",
+  ["Type"]= 2
+},
+[15] = {
+  ["id"]= 15,
+  ["Text"]= "HalfYearDriftBottleBlessing_015",
+  ["Type"]= 2
+},
+[16] = {
+  ["id"]= 16,
+  ["Text"]= "HalfYearDriftBottleBlessing_016",
+  ["Type"]= 2
+},
+[17] = {
+  ["id"]= 17,
+  ["Text"]= "HalfYearDriftBottleBlessing_017",
+  ["Type"]= 2
+},
+[18] = {
+  ["id"]= 18,
+  ["Text"]= "HalfYearDriftBottleBlessing_018",
+  ["Type"]= 2
+},
+[19] = {
+  ["id"]= 19,
+  ["Text"]= "HalfYearDriftBottleBlessing_019",
+  ["Type"]= 2
+},
+[20] = {
+  ["id"]= 20,
+  ["Text"]= "HalfYearDriftBottleBlessing_020",
+  ["Type"]= 2
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["Text"]= "HalfYearDriftBottleBlessing_001",
+  ["Type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,1662 @@
+local table= {
+[1] = {
+  ["AttrID"]= 10,
+  ["AttrRatio"]= 1
+},
+[2] = {
+  ["AttrID"]= 12,
+  ["AttrRatio"]= 1,
+  ["Id"]= 2
+},
+[3] = {
+  ["AttrID"]= 301,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 3
+},
+[4] = {
+  ["AttrID"]= 32,
+  ["AttrRatio"]= 0.0125,
+  ["Id"]= 4
+},
+[5] = {
+  ["AttrID"]= 23,
+  ["AttrRatio"]= 1,
+  ["Id"]= 5
+},
+[6] = {
+  ["AttrID"]= 303,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 6
+},
+[7] = {
+  ["AttrID"]= 49,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 7,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82002
+},
+[8] = {
+  ["AttrID"]= 314,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 8,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82002
+},
+[9] = {
+  ["AttrID"]= 71,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 9,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82002
+},
+[10] = {
+  ["AttrID"]= 38,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 10,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82002
+},
+[11] = {
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 11,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82002
+},
+[12] = {
+  ["AttrID"]= 312,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 12,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82002
+},
+[13] = {
+  ["AttrID"]= 10,
+  ["AttrRatio"]= 1,
+  ["Id"]= 13,
+  ["PetId"]= 82003
+},
+[14] = {
+  ["AttrID"]= 21,
+  ["AttrRatio"]= 1,
+  ["Id"]= 14,
+  ["PetId"]= 82003
+},
+[15] = {
+  ["AttrID"]= 301,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 15,
+  ["PetId"]= 82003
+},
+[16] = {
+  ["AttrID"]= 32,
+  ["AttrRatio"]= 0.0125,
+  ["Id"]= 16,
+  ["PetId"]= 82003
+},
+[17] = {
+  ["AttrID"]= 23,
+  ["AttrRatio"]= 1,
+  ["Id"]= 17,
+  ["PetId"]= 82003
+},
+[18] = {
+  ["AttrID"]= 303,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 18,
+  ["PetId"]= 82003
+},
+[19] = {
+  ["AttrID"]= 49,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 19,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82004
+},
+[20] = {
+  ["AttrID"]= 20,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 20,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82004
+},
+[21] = {
+  ["AttrID"]= 71,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 21,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82004
+},
+[22] = {
+  ["AttrID"]= 38,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 22,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82004
+},
+[23] = {
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 23,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82004
+},
+[24] = {
+  ["AttrID"]= 312,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 24,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82004
+},
+[25] = {
+  ["AttrID"]= 11,
+  ["AttrRatio"]= 1,
+  ["Id"]= 25,
+  ["PetId"]= 82005
+},
+[26] = {
+  ["AttrID"]= 13,
+  ["AttrRatio"]= 1,
+  ["Id"]= 26,
+  ["PetId"]= 82005
+},
+[27] = {
+  ["AttrID"]= 302,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 27,
+  ["PetId"]= 82005
+},
+[28] = {
+  ["AttrID"]= 32,
+  ["AttrRatio"]= 0.0125,
+  ["Id"]= 28,
+  ["PetId"]= 82005
+},
+[29] = {
+  ["AttrID"]= 24,
+  ["AttrRatio"]= 1,
+  ["Id"]= 29,
+  ["PetId"]= 82005
+},
+[30] = {
+  ["AttrID"]= 304,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 30,
+  ["PetId"]= 82005
+},
+[31] = {
+  ["AttrID"]= 50,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 31,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82006
+},
+[32] = {
+  ["AttrID"]= 315,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 32,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82006
+},
+[33] = {
+  ["AttrID"]= 72,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 33,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82006
+},
+[34] = {
+  ["AttrID"]= 316,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 34,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82006
+},
+[35] = {
+  ["AttrID"]= 59,
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 35,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82006
+},
+[36] = {
+  ["AttrID"]= 313,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 36,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82006
+},
+[37] = {
+  ["AttrID"]= 10,
+  ["AttrRatio"]= 1,
+  ["Id"]= 37,
+  ["PetId"]= 82007
+},
+[38] = {
+  ["AttrID"]= 21,
+  ["AttrRatio"]= 1,
+  ["Id"]= 38,
+  ["PetId"]= 82007
+},
+[39] = {
+  ["AttrID"]= 301,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 39,
+  ["PetId"]= 82007
+},
+[40] = {
+  ["AttrID"]= 14,
+  ["AttrRatio"]= 1,
+  ["Id"]= 40,
+  ["PetId"]= 82007
+},
+[41] = {
+  ["AttrID"]= 23,
+  ["AttrRatio"]= 1,
+  ["Id"]= 41,
+  ["PetId"]= 82007
+},
+[42] = {
+  ["AttrID"]= 303,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 42,
+  ["PetId"]= 82007
+},
+[43] = {
+  ["AttrID"]= 49,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 43,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82008
+},
+[44] = {
+  ["AttrID"]= 20,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 44,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82008
+},
+[45] = {
+  ["AttrID"]= 71,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 45,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82008
+},
+[46] = {
+  ["AttrID"]= 15,
+  ["AttrRatio"]= 600,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 46,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82008
+},
+[47] = {
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 47,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82008
+},
+[48] = {
+  ["AttrID"]= 312,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 48,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82008
+},
+[49] = {
+  ["AttrID"]= 11,
+  ["AttrRatio"]= 1,
+  ["Id"]= 49,
+  ["PetId"]= 82009
+},
+[50] = {
+  ["AttrID"]= 13,
+  ["AttrRatio"]= 1,
+  ["Id"]= 50,
+  ["PetId"]= 82009
+},
+[51] = {
+  ["AttrID"]= 302,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 51,
+  ["PetId"]= 82009
+},
+[52] = {
+  ["AttrID"]= 16,
+  ["AttrRatio"]= 1,
+  ["Id"]= 52,
+  ["PetId"]= 82009
+},
+[53] = {
+  ["AttrID"]= 24,
+  ["AttrRatio"]= 1,
+  ["Id"]= 53,
+  ["PetId"]= 82009
+},
+[54] = {
+  ["AttrID"]= 304,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 54,
+  ["PetId"]= 82009
+},
+[55] = {
+  ["AttrID"]= 50,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 55,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82010
+},
+[56] = {
+  ["AttrID"]= 315,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 56,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82010
+},
+[57] = {
+  ["AttrID"]= 72,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 57,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82010
+},
+[58] = {
+  ["AttrID"]= 17,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 58,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82010
+},
+[59] = {
+  ["AttrID"]= 59,
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 59,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82010
+},
+[60] = {
+  ["AttrID"]= 313,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 60,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82010
+},
+[61] = {
+  ["AttrID"]= 10,
+  ["AttrRatio"]= 1,
+  ["Id"]= 61,
+  ["PetId"]= 82011
+},
+[62] = {
+  ["AttrID"]= 12,
+  ["AttrRatio"]= 1,
+  ["Id"]= 62,
+  ["PetId"]= 82011
+},
+[63] = {
+  ["AttrID"]= 301,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 63,
+  ["PetId"]= 82011
+},
+[64] = {
+  ["AttrID"]= 16,
+  ["AttrRatio"]= 1,
+  ["Id"]= 64,
+  ["PetId"]= 82011
+},
+[65] = {
+  ["AttrID"]= 23,
+  ["AttrRatio"]= 1,
+  ["Id"]= 65,
+  ["PetId"]= 82011
+},
+[66] = {
+  ["AttrID"]= 303,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 66,
+  ["PetId"]= 82011
+},
+[67] = {
+  ["AttrID"]= 49,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 67,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82012
+},
+[68] = {
+  ["AttrID"]= 314,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 68,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82012
+},
+[69] = {
+  ["AttrID"]= 71,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 69,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82012
+},
+[70] = {
+  ["AttrID"]= 17,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 70,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82012
+},
+[71] = {
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 71,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82012
+},
+[72] = {
+  ["AttrID"]= 312,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 72,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82012
+},
+[73] = {
+  ["AttrID"]= 312,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 73,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82013
+},
+[74] = {
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 74,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82013
+},
+[75] = {
+  ["AttrID"]= 313,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 75,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82013
+},
+[76] = {
+  ["AttrID"]= 59,
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 76,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82013
+},
+[77] = {
+  ["AttrID"]= 43,
+  ["AttrRatio"]= 1500,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 77,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82013
+},
+[78] = {
+  ["AttrID"]= 328,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 78,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82013
+},
+[79] = {
+  ["AttrID"]= 49,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 79,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82014
+},
+[80] = {
+  ["AttrID"]= 22,
+  ["AttrRatio"]= 1500,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 80,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82014
+},
+[81] = {
+  ["AttrID"]= 71,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 81,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82014
+},
+[82] = {
+  ["AttrID"]= 15,
+  ["AttrRatio"]= 600,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 82,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82014
+},
+[83] = {
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 83,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82014
+},
+[84] = {
+  ["AttrID"]= 312,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 84,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82014
+},
+[85] = {
+  ["AttrID"]= 50,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 85,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82015
+},
+[86] = {
+  ["AttrID"]= 22,
+  ["AttrRatio"]= 1500,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 86,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82015
+},
+[87] = {
+  ["AttrID"]= 72,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 87,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82015
+},
+[88] = {
+  ["AttrID"]= 17,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 88,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82015
+},
+[89] = {
+  ["AttrID"]= 59,
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 89,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82015
+},
+[90] = {
+  ["AttrID"]= 313,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 90,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82015
+},
+[91] = {
+  ["AttrID"]= 312,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 91,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82016
+},
+[92] = {
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 92,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82016
+},
+[93] = {
+  ["AttrID"]= 313,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 93,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82016
+},
+[94] = {
+  ["AttrID"]= 59,
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 94,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82016
+},
+[95] = {
+  ["AttrID"]= 327,
+  ["AttrRatio"]= 2400,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 95,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82016
+},
+[96] = {
+  ["AttrID"]= 326,
+  ["AttrRatio"]= 2400,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 96,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82016
+},
+[97] = {
+  ["AttrID"]= 320,
+  ["AttrRatio"]= 1,
+  ["Id"]= 97,
+  ["PetId"]= 82017
+},
+[98] = {
+  ["AttrID"]= 321,
+  ["AttrRatio"]= 1,
+  ["Id"]= 98,
+  ["PetId"]= 82017
+},
+[99] = {
+  ["AttrID"]= 322,
+  ["AttrRatio"]= 6000,
+  ["Id"]= 99,
+  ["PetId"]= 82017
+},
+[100] = {
+  ["AttrID"]= 323,
+  ["AttrRatio"]= 6000,
+  ["Id"]= 100,
+  ["PetId"]= 82017
+},
+[101] = {
+  ["AttrID"]= 43,
+  ["AttrRatio"]= 1500,
+  ["Id"]= 101,
+  ["PetId"]= 82017
+},
+[102] = {
+  ["AttrID"]= 328,
+  ["AttrRatio"]= 6000,
+  ["Id"]= 102,
+  ["PetId"]= 82017
+},
+[103] = {
+  ["AttrID"]= 23,
+  ["AttrRatio"]= 1,
+  ["Id"]= 103,
+  ["PetId"]= 82018
+},
+[104] = {
+  ["AttrID"]= 303,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 104,
+  ["PetId"]= 82018
+},
+[105] = {
+  ["AttrID"]= 24,
+  ["AttrRatio"]= 1,
+  ["Id"]= 105,
+  ["PetId"]= 82018
+},
+[106] = {
+  ["AttrID"]= 304,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 106,
+  ["PetId"]= 82018
+},
+[107] = {
+  ["AttrID"]= 320,
+  ["AttrRatio"]= 1,
+  ["Id"]= 107,
+  ["PetId"]= 82018
+},
+[108] = {
+  ["AttrID"]= 321,
+  ["AttrRatio"]= 1,
+  ["Id"]= 108,
+  ["PetId"]= 82018
+},
+[109] = {
+  ["AttrID"]= 10,
+  ["AttrRatio"]= 1,
+  ["Id"]= 109,
+  ["PetId"]= 82019
+},
+[110] = {
+  ["AttrID"]= 21,
+  ["AttrRatio"]= 1,
+  ["Id"]= 110,
+  ["PetId"]= 82019
+},
+[111] = {
+  ["AttrID"]= 301,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 111,
+  ["PetId"]= 82019
+},
+[112] = {
+  ["AttrID"]= 32,
+  ["AttrRatio"]= 0.0125,
+  ["Id"]= 112,
+  ["PetId"]= 82019
+},
+[113] = {
+  ["AttrID"]= 332,
+  ["AttrRatio"]= 1,
+  ["Id"]= 113,
+  ["PetId"]= 82019
+},
+[114] = {
+  ["AttrID"]= 320,
+  ["AttrRatio"]= 1,
+  ["Id"]= 114,
+  ["PetId"]= 82019
+},
+[115] = {
+  ["AttrID"]= 49,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 115,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82020
+},
+[116] = {
+  ["AttrID"]= 22,
+  ["AttrRatio"]= 1500,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 116,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82020
+},
+[117] = {
+  ["AttrID"]= 71,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 117,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82020
+},
+[118] = {
+  ["AttrID"]= 38,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 118,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82020
+},
+[119] = {
+  ["AttrID"]= 334,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 119,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82020
+},
+[120] = {
+  ["AttrID"]= 322,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 120,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82020
+},
+[121] = {
+  ["AttrID"]= 10,
+  ["AttrRatio"]= 1,
+  ["Id"]= 121,
+  ["PetId"]= 82021
+},
+[122] = {
+  ["AttrID"]= 12,
+  ["AttrRatio"]= 1,
+  ["Id"]= 122,
+  ["PetId"]= 82021
+},
+[123] = {
+  ["AttrID"]= 301,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 123,
+  ["PetId"]= 82021
+},
+[124] = {
+  ["AttrID"]= 32,
+  ["AttrRatio"]= 0.0125,
+  ["Id"]= 124,
+  ["PetId"]= 82021
+},
+[125] = {
+  ["AttrID"]= 332,
+  ["AttrRatio"]= 1,
+  ["Id"]= 125,
+  ["PetId"]= 82021
+},
+[126] = {
+  ["AttrID"]= 320,
+  ["AttrRatio"]= 1,
+  ["Id"]= 126,
+  ["PetId"]= 82021
+},
+[127] = {
+  ["AttrID"]= 49,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 127,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82022
+},
+[128] = {
+  ["AttrID"]= 314,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 128,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82022
+},
+[129] = {
+  ["AttrID"]= 71,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 129,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82022
+},
+[130] = {
+  ["AttrID"]= 38,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 130,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82022
+},
+[131] = {
+  ["AttrID"]= 334,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 131,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82022
+},
+[132] = {
+  ["AttrID"]= 322,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 132,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82022
+},
+[133] = {
+  ["AttrID"]= 11,
+  ["AttrRatio"]= 1,
+  ["Id"]= 133,
+  ["PetId"]= 82023
+},
+[134] = {
+  ["AttrID"]= 13,
+  ["AttrRatio"]= 1,
+  ["Id"]= 134,
+  ["PetId"]= 82023
+},
+[135] = {
+  ["AttrID"]= 302,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 135,
+  ["PetId"]= 82023
+},
+[136] = {
+  ["AttrID"]= 32,
+  ["AttrRatio"]= 0.0125,
+  ["Id"]= 136,
+  ["PetId"]= 82023
+},
+[137] = {
+  ["AttrID"]= 333,
+  ["AttrRatio"]= 1,
+  ["Id"]= 137,
+  ["PetId"]= 82023
+},
+[138] = {
+  ["AttrID"]= 321,
+  ["AttrRatio"]= 1,
+  ["Id"]= 138,
+  ["PetId"]= 82023
+},
+[139] = {
+  ["AttrID"]= 50,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 139,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82024
+},
+[140] = {
+  ["AttrID"]= 315,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 140,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82024
+},
+[141] = {
+  ["AttrID"]= 72,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 141,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82024
+},
+[142] = {
+  ["AttrID"]= 316,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 142,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82024
+},
+[143] = {
+  ["AttrID"]= 335,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 143,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82024
+},
+[144] = {
+  ["AttrID"]= 323,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 144,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82024
+},
+[145] = {
+  ["AttrID"]= 10,
+  ["AttrRatio"]= 1,
+  ["Id"]= 145,
+  ["PetId"]= 82025
+},
+[146] = {
+  ["AttrID"]= 21,
+  ["AttrRatio"]= 1,
+  ["Id"]= 146,
+  ["PetId"]= 82025
+},
+[147] = {
+  ["AttrID"]= 301,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 147,
+  ["PetId"]= 82025
+},
+[148] = {
+  ["AttrID"]= 14,
+  ["AttrRatio"]= 1,
+  ["Id"]= 148,
+  ["PetId"]= 82025
+},
+[149] = {
+  ["AttrID"]= 332,
+  ["AttrRatio"]= 1,
+  ["Id"]= 149,
+  ["PetId"]= 82025
+},
+[150] = {
+  ["AttrID"]= 320,
+  ["AttrRatio"]= 1,
+  ["Id"]= 150,
+  ["PetId"]= 82025
+},
+[151] = {
+  ["AttrID"]= 49,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 151,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82026
+},
+[152] = {
+  ["AttrID"]= 20,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 152,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82026
+},
+[153] = {
+  ["AttrID"]= 71,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 153,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82026
+},
+[154] = {
+  ["AttrID"]= 15,
+  ["AttrRatio"]= 600,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 154,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82026
+},
+[155] = {
+  ["AttrID"]= 334,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 155,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82026
+},
+[156] = {
+  ["AttrID"]= 322,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 156,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82026
+},
+[157] = {
+  ["AttrID"]= 11,
+  ["AttrRatio"]= 1,
+  ["Id"]= 157,
+  ["PetId"]= 82027
+},
+[158] = {
+  ["AttrID"]= 13,
+  ["AttrRatio"]= 1,
+  ["Id"]= 158,
+  ["PetId"]= 82027
+},
+[159] = {
+  ["AttrID"]= 302,
+  ["AttrRatio"]= 0.25,
+  ["Id"]= 159,
+  ["PetId"]= 82027
+},
+[160] = {
+  ["AttrID"]= 16,
+  ["AttrRatio"]= 1,
+  ["Id"]= 160,
+  ["PetId"]= 82027
+},
+[161] = {
+  ["AttrID"]= 333,
+  ["AttrRatio"]= 1,
+  ["Id"]= 161,
+  ["PetId"]= 82027
+},
+[162] = {
+  ["AttrID"]= 321,
+  ["AttrRatio"]= 1,
+  ["Id"]= 162,
+  ["PetId"]= 82027
+},
+[163] = {
+  ["AttrID"]= 50,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 163,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82028
+},
+[164] = {
+  ["AttrID"]= 315,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 164,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82028
+},
+[165] = {
+  ["AttrID"]= 72,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 165,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82028
+},
+[166] = {
+  ["AttrID"]= 17,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 166,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82028
+},
+[167] = {
+  ["AttrID"]= 335,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 167,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82028
+},
+[168] = {
+  ["AttrID"]= 323,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 168,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82028
+},
+[169] = {
+  ["AttrID"]= 320,
+  ["AttrRatio"]= 1,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 169,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82029
+},
+[170] = {
+  ["AttrID"]= 321,
+  ["AttrRatio"]= 1,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 170,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82029
+},
+[171] = {
+  ["AttrID"]= 322,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 171,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82029
+},
+[172] = {
+  ["AttrID"]= 323,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 172,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82029
+},
+[173] = {
+  ["AttrID"]= 325,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 173,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82029
+},
+[174] = {
+  ["AttrID"]= 324,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 156,
+  ["Id"]= 174,
+  ["InitialEndowment"]= {
+    12,
+    84
+  },
+  ["PetId"]= 82029
+},
+[175] = {
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 175,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82030
+},
+[176] = {
+  ["AttrID"]= 312,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 176,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82030
+},
+[177] = {
+  ["AttrID"]= 59,
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 177,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82030
+},
+[178] = {
+  ["AttrID"]= 313,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 178,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82030
+},
+[179] = {
+  ["AttrID"]= 85,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 179,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82030
+},
+[180] = {
+  ["AttrID"]= 317,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 180,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82030
+},
+[181] = {
+  ["AttrID"]= 43,
+  ["AttrRatio"]= 1500,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 181,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82031
+},
+[182] = {
+  ["AttrID"]= 328,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 182,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82031
+},
+[183] = {
+  ["AttrID"]= 312,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 183,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82031
+},
+[184] = {
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 184,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82031
+},
+[185] = {
+  ["AttrID"]= 85,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 185,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82031
+},
+[186] = {
+  ["AttrID"]= 322,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 186,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82031
+},
+[187] = {
+  ["AttrID"]= 43,
+  ["AttrRatio"]= 1500,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 187,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82032
+},
+[188] = {
+  ["AttrID"]= 328,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 188,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82032
+},
+[189] = {
+  ["AttrID"]= 313,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 189,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82032
+},
+[190] = {
+  ["AttrID"]= 59,
+  ["AttrRatio"]= -3000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 190,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82032
+},
+[191] = {
+  ["AttrID"]= 317,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 191,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82032
+},
+[192] = {
+  ["AttrID"]= 323,
+  ["AttrRatio"]= 6000,
+  ["EndowmentCeil"]= 96,
+  ["Id"]= 192,
+  ["InitialEndowment"]= {
+    6,
+    42
+  },
+  ["PetId"]= 82032
+}
+}
+local baseTable={
+  ["AttrID"]= 58,
+  ["AttrRatio"]= 3000,
+  ["AttrValue"]= 0,
+  ["EndowmentCeil"]= 50,
+  ["Id"]= 1,
+  ["InitialEndowment"]= {
+    2,
+    14
+  },
+  ["PetId"]= 82001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

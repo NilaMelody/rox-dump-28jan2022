@@ -1,0 +1,65 @@
+local table= {
+[1] = {},
+[2] = {
+  ["AttrValue"]= {
+    0.4
+  },
+  ["SkillLevel"]= 2
+},
+[3] = {
+  ["AttrValue"]= {
+    0.46
+  },
+  ["SkillLevel"]= 3
+},
+[4] = {
+  ["AttrValue"]= {
+    0.52
+  },
+  ["SkillLevel"]= 4
+},
+[5] = {
+  ["AttrValue"]= {
+    0.58
+  },
+  ["SkillLevel"]= 5
+},
+[6] = {
+  ["AttrValue"]= {
+    0.64
+  },
+  ["SkillLevel"]= 6
+},
+[7] = {
+  ["AttrValue"]= {
+    0.7
+  },
+  ["SkillLevel"]= 7
+},
+[8] = {
+  ["AttrValue"]= {
+    0.76
+  },
+  ["SkillLevel"]= 8
+},
+[9] = {
+  ["AttrValue"]= {
+    0.82
+  },
+  ["SkillLevel"]= 9
+}
+}
+local baseTable={
+  ["AttrID"]= {
+    340
+  },
+  ["AttrValue"]= {
+    0.34
+  },
+  ["SkillId"]= 5500212,
+  ["SkillLevel"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,67 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Name"]= "DynamicActivityDesc_2",
+  ["TypeId"]= 2
+},
+[3] = {
+  ["Name"]= "DynamicActivityDesc_3",
+  ["TypeId"]= 3
+},
+[4] = {
+  ["Name"]= "DynamicActivityDesc_4",
+  ["TypeId"]= 4
+},
+[5] = {
+  ["Name"]= "DynamicActivityDesc_5",
+  ["TypeId"]= 5
+},
+[6] = {
+  ["Name"]= "NewDynamicActivityDesc_6",
+  ["TypeId"]= 6
+},
+[8] = {
+  ["Name"]= "DynamicActivityDesc_9",
+  ["TypeId"]= 8
+},
+[15] = {
+  ["Name"]= "DynamicActivityDesc_15",
+  ["TypeId"]= 15
+},
+[18] = {
+  ["Name"]= "DynamicActivityDesc_18",
+  ["TypeId"]= 18
+},
+[19] = {
+  ["Name"]= "NewDynamicActivityDesc_19",
+  ["TypeId"]= 19
+},
+[20] = {
+  ["Name"]= "DynamicActivityDesc_20",
+  ["TypeId"]= 20
+},
+[22] = {
+  ["Name"]= "DynamicActivityDesc_22",
+  ["TypeId"]= 22
+},
+[24] = {
+  ["Name"]= "DynamicActivityDesc_24",
+  ["TypeId"]= 24
+},
+[26] = {
+  ["Name"]= "DynamicActivityDesc_26",
+  ["TypeId"]= 26
+},
+[35] = {
+  ["Name"]= "DynamicActivityDesc_35",
+  ["TypeId"]= 35
+}
+}
+local baseTable={
+  ["Name"]= "DynamicActivityDesc_1",
+  ["TypeId"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

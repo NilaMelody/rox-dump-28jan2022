@@ -1,0 +1,64 @@
+local table= {
+[1] = {},
+[2] = {
+  ["Number"]= {
+    4
+  },
+  ["Star"]= 2
+},
+[3] = {
+  ["Number"]= {
+    12
+  },
+  ["Star"]= 3
+},
+[4] = {
+  ["Number"]= {
+    42
+  },
+  ["Star"]= 4
+},
+[5] = {
+  ["Number"]= {
+    102
+  },
+  ["Star"]= 5
+},
+[6] = {
+  ["Number"]= {
+    262
+  },
+  ["Star"]= 6
+},
+[7] = {
+  ["Number"]= {
+    662
+  },
+  ["Star"]= 7
+},
+[8] = {
+  ["Number"]= {
+    1662
+  },
+  ["Star"]= 8
+},
+[9] = {
+  ["Number"]= {
+    3662
+  },
+  ["Star"]= 9
+}
+}
+local baseTable={
+  ["Item"]= {
+    10219029
+  },
+  ["Number"]= {
+    2
+  },
+  ["Star"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

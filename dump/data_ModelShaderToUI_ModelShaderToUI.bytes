@@ -1,0 +1,58 @@
+local table= {
+[1] = {},
+[2] = {
+  ["id"]= 2,
+  ["SrcShader"]= "Particles/Additive"
+},
+[3] = {
+  ["id"]= 3,
+  ["SrcShader"]= "Particles/Alpha Blended",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIEffect Particles Alpha Blended.shader"
+},
+[4] = {
+  ["id"]= 4,
+  ["SrcShader"]= "Custom/Particles/AlphaBlendedNoTop",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIEffect Particles Alpha Blended.shader"
+},
+[5] = {
+  ["id"]= 5,
+  ["SrcShader"]= "Shader Forge/YY_DistortPanner",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIYY_DistortPanner.shader"
+},
+[6] = {
+  ["id"]= 6,
+  ["SrcShader"]= "Shader Forge/Avatar_Toon_blusher",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIAvatar_Toon_blusher.shader"
+},
+[7] = {
+  ["id"]= 7,
+  ["SrcShader"]= "Shader Forge/transparent_Ani",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIAvatar_Transparent_Ani.shader"
+},
+[8] = {
+  ["id"]= 8,
+  ["SrcShader"]= "Shader Forge/Ghost_01",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIGhost_01.shader"
+},
+[9] = {
+  ["HaveUICameraPos"]= 1,
+  ["id"]= 9,
+  ["SrcShader"]= "Shader Forge/Avatar_Toon_Outline_SSS",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/Avatar_Toon_Outline_SSS_UI.shader"
+},
+[10] = {
+  ["id"]= 10,
+  ["SrcShader"]= "Shader Forge/Avatar_Holographic",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/Avatar_Holographic_UI.shader"
+}
+}
+local baseTable={
+  ["HaveUICameraPos"]= 0,
+  ["id"]= 1,
+  ["SrcShader"]= "Custom/Particles/AdditiveNoTop",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIEffect Particles Add.shader"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;
